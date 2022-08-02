@@ -45,6 +45,11 @@ public class DrillAnimator : BaseGameObject
         PermanentSmoke.transform.position = transform.position +
                                             new Vector3((SpriteRenderer.flipX ? -1 : 1) * PermanentSmokePositionReference.localPosition.x,
                                                 PermanentSmokePositionReference.localPosition.y);
+        PermanentSmoke.transform.rotation = transform.rotation * PermanentSmokePositionReference.rotation;
+        if (SpriteRenderer.flipX)
+        {
+            PermanentSmoke.transform.rotation = Quaternion.Inverse(PermanentSmoke.transform.rotation);
+        }
     }
 
     private void CharacterController_OnStopMoving(Vector2Int obj)
@@ -61,11 +66,23 @@ public class DrillAnimator : BaseGameObject
 
     private void CharacterController_OnTurn(DrillCharacterController.DirectionEventArgs obj)
     {
-        Animator.SetTrigger("Turn");
-        if (obj.CurrentDirection != Vector2Int.zero)
+        if (obj.CurrentDirection.x != 0)
         {
-            _facingRight = obj.CurrentDirection.x > 0;
-            Animator.SetBool("FacingRight", _facingRight);
+            Animator.SetTrigger("Turn");
+
+            if (obj.CurrentDirection != Vector2Int.zero)
+            {
+                _facingRight = obj.CurrentDirection.x > 0;
+                Animator.SetBool("FacingRight", _facingRight);
+            }
+
+            return;
+        }
+
+        // turning down
+        if (obj.CurrentDirection.y == -1)
+        {
+            Animator.SetTrigger("TurnDown");
         }
     }
 
