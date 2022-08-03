@@ -24,15 +24,23 @@ public class DrillAnimator : BaseGameObject
 
     public SpriteRenderer PermanentSmoke;
     public Transform PermanentSmokePositionReference;
-    
+
+    // JetpackSmoke
+    [Header("Jetpack")]
+    public Vector3 JetpackSmokeOffset;
+
+    public SpriteRenderer JetpackSmoke;
+
     private bool _enabled;
     private bool _isMoving;
     private bool _facingRight;
+    private Vector3 _jetpackSmokeLocalPosition;
 
     private void OnEnable()
     {
         _enabled = true;
         _facingRight = true;
+        _jetpackSmokeLocalPosition = JetpackSmoke.transform.localPosition;
         CharacterController.OnTurn += CharacterController_OnTurn;
         CharacterController.OnStartMoving += CharacterController_OnStartMoving;
         CharacterController.OnStopMoving += CharacterController_OnStopMoving;
@@ -50,6 +58,9 @@ public class DrillAnimator : BaseGameObject
         {
             PermanentSmoke.transform.rotation = Quaternion.Inverse(PermanentSmoke.transform.rotation);
         }
+
+        JetpackSmoke.transform.localPosition =
+            _jetpackSmokeLocalPosition + new Vector3(JetpackSmokeOffset.x * (SpriteRenderer.flipX ? -1 : 1), JetpackSmokeOffset.y);
     }
 
     private void CharacterController_OnStopMoving(Vector2Int obj)
@@ -99,7 +110,7 @@ public class DrillAnimator : BaseGameObject
             if (SmokeBurst.Pool.TryGetFromPool(out var effect))
             {
                 effect.Component.transform.position = new Vector3(
-                    transform.position.x + (_facingRight ? 1 : -1) * SmokeBurstPositionReference.transform.localPosition.x + SmokeBurstOffset.x, 
+                    transform.position.x + (_facingRight ? 1 : -1) * SmokeBurstPositionReference.transform.localPosition.x + SmokeBurstOffset.x,
                     transform.position.y + SmokeBurstPositionReference.transform.localPosition.y + SmokeBurstOffset.y, 0);
 
                 effect.Component.GetComponent<SpriteRenderer>().flipX = !_facingRight;
