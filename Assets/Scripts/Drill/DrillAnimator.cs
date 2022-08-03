@@ -84,6 +84,12 @@ public class DrillAnimator : BaseGameObject
         {
             Animator.SetTrigger("TurnDown");
         }
+
+        // turning up
+        if (obj.CurrentDirection.y == 1)
+        {
+            Animator.SetTrigger("TurnUp");
+        }
     }
 
     private IEnumerable<IEnumerable<Action>> HandleSmoke()

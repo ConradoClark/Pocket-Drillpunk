@@ -226,8 +226,8 @@ TextureImporter:
       name: Drill_Drilling_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 36
+        x: 60
+        y: 48
         width: 12
         height: 12
       alignment: 0
@@ -247,7 +247,7 @@ TextureImporter:
       name: Drill_Drilling_2
       rect:
         serializedVersion: 2
-        x: 12
+        x: 0
         y: 36
         width: 12
         height: 12
@@ -268,7 +268,7 @@ TextureImporter:
       name: Drill_Drilling_3
       rect:
         serializedVersion: 2
-        x: 24
+        x: 12
         y: 36
         width: 12
         height: 12
@@ -289,7 +289,7 @@ TextureImporter:
       name: Drill_Turning_H_0
       rect:
         serializedVersion: 2
-        x: 36
+        x: 24
         y: 36
         width: 12
         height: 12
@@ -310,7 +310,7 @@ TextureImporter:
       name: Drill_Turning_H_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 36
         y: 36
         width: 12
         height: 12
@@ -331,8 +331,8 @@ TextureImporter:
       name: Drill_Turning_H_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 24
+        x: 48
+        y: 36
         width: 12
         height: 12
       alignment: 0
@@ -352,8 +352,8 @@ TextureImporter:
       name: Drill_Stand_1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 24
+        x: 60
+        y: 36
         width: 12
         height: 12
       alignment: 0
@@ -373,7 +373,7 @@ TextureImporter:
       name: Drill_Stand_2
       rect:
         serializedVersion: 2
-        x: 24
+        x: 0
         y: 24
         width: 12
         height: 12
@@ -394,7 +394,7 @@ TextureImporter:
       name: Drill_Stand_3
       rect:
         serializedVersion: 2
-        x: 36
+        x: 12
         y: 24
         width: 12
         height: 12
@@ -415,12 +415,12 @@ TextureImporter:
       name: Drill_TurningDown_0
       rect:
         serializedVersion: 2
-        x: 48
+        x: 24
         y: 24
         width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: Drill_TurningDown_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 12
+        x: 36
+        y: 24
         width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: Drill_TurningDown_2
       rect:
         serializedVersion: 2
-        x: 12
-        y: 12
+        x: 48
+        y: 24
         width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,12 +478,12 @@ TextureImporter:
       name: Drill_TurningDown_3
       rect:
         serializedVersion: 2
-        x: 24
-        y: 12
+        x: 60
+        y: 24
         width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,12 +499,12 @@ TextureImporter:
       name: Drill_DrillingDown_0
       rect:
         serializedVersion: 2
-        x: 36
+        x: 0
         y: 12
         width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -520,12 +520,12 @@ TextureImporter:
       name: Drill_DrillingDown_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 12
         y: 12
         width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,6 +541,90 @@ TextureImporter:
       name: Drill_DrillingDown_2
       rect:
         serializedVersion: 2
+        x: 24
+        y: 12
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4f02ef0eae38b4a85b2376ce349c7d
+      internalID: -1953395654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_TurningUp_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 12
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54a9b8e0a7e83f45b1511464455d2a1
+      internalID: 1253580682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_TurningUp_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 12
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b45273c4c628d4fac513461d4672ff
+      internalID: -26254993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_TurningUp_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 12
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3bd0c990b0ea2439833fbde6409c91
+      internalID: -225398644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_DrillingUp_0
+      rect:
+        serializedVersion: 2
         x: 0
         y: 0
         width: 12
@@ -552,8 +636,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a4f02ef0eae38b4a85b2376ce349c7d
-      internalID: -1953395654
+      spriteID: 08262d24fbbf0c449921892f338786ea
+      internalID: -1545014511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_DrillingUp_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec7b302cc7b0da46b553844e8ecf54e
+      internalID: -1415437804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill_DrillingUp_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c240b7fb014882478f55f1724d7ad1e
+      internalID: 2100824870
       vertices: []
       indices: 
       edges: []
@@ -574,6 +700,7 @@ TextureImporter:
       Drill_DrillingDown_2: -1953395654
       Drill_Drilling_3: 1156443651
       Drill_Walking_3: 1731848853
+      Drill_DrillingUp_0: -1545014511
       Drill_Turning_H_2: -1178583269
       Drill_Stand_0: 966903387
       Drill_Walking_2: -1388468522
@@ -581,15 +708,20 @@ TextureImporter:
       Drill_Stand_2: -296282896
       Drill_Drilling_0: 1705732075
       Drill_DrillingDown_0: 1091907577
+      Drill_TurningUp_2: -225398644
       Drill_Stand_3: -1244205647
       Drill_Turning_H_0: -735055699
+      Drill_DrillingUp_2: 2100824870
       Drill_Stand_1: -2123257949
+      Drill_DrillingUp_1: -1415437804
       Drill_Turning_H_1: -1937785557
+      Drill_TurningUp_0: 1253580682
       Drill_TurningDown_2: -853529719
       Drill_DrillingDown_1: -318938596
       Drill_Drilling_2: 1182245146
       Drill_Drilling_1: -1140239596
       Drill_TurningDown_0: 767995642
+      Drill_TurningUp_1: -26254993
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
