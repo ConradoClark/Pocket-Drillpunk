@@ -15,6 +15,8 @@ public class DrillCharacterController : LichtMovementController
     public ScriptIdentifier GroundedIdentifier;
     public LichtPlatformerJumpController JumpController;
     public LichtPhysicsObject PhysicsObject;
+    public ScriptIdentifier LeftDrillIdentifier;
+    public ScriptIdentifier RightDrillIdentifier;
 
     [Header("Movement")]
     public float MaxSpeed;
@@ -139,7 +141,9 @@ public class DrillCharacterController : LichtMovementController
                 var prevDirection = CurrentDirection;
                 CurrentDirection = direction;
                 OnTurn?.Invoke(new DirectionEventArgs { PreviousDirection = prevDirection, CurrentDirection = direction });
-                if (PhysicsObject.GetPhysicsTrigger(GroundedIdentifier))
+                if (PhysicsObject.GetPhysicsTrigger(GroundedIdentifier)
+                    && (direction.x > 0 && !PhysicsObject.GetPhysicsTrigger(RightDrillIdentifier)
+                        || direction.x < 0 && !PhysicsObject.GetPhysicsTrigger(LeftDrillIdentifier)))
                 {
                     yield return TimeYields.WaitSeconds(GameTimer, DecelerationTime * (PhysicsObject.LatestNonZeroSpeed.magnitude / MaxSpeed));
                 }
@@ -160,7 +164,7 @@ public class DrillCharacterController : LichtMovementController
 
     private IEnumerable<IEnumerable<Action>> Move(Vector2Int direction)
     {
-        var targetSpeed = (Vector2)direction * MaxSpeed;
+        var targetSpeed = (Vector2)direction * GetMovementMultiplier(MaxSpeed, direction);
         var directionChanged = false;
         var newDirection = direction;
 
@@ -190,6 +194,7 @@ public class DrillCharacterController : LichtMovementController
         while (!directionChanged)
         {
             yield return TimeYields.WaitOneFrameX;
+            targetSpeed = (Vector2)direction * GetMovementMultiplier(MaxSpeed, direction);
             PhysicsObject.ApplySpeed(targetSpeed);
             (directionChanged, newDirection) = CheckDirectionChanged(direction);
         }
@@ -198,6 +203,7 @@ public class DrillCharacterController : LichtMovementController
             .ToSpeed(Vector2.zero)
             .Over(DecelerationTime)
             .Easing(DecelerationEasing)
+            .BreakIf(()=> PhysicsObject.GetPhysicsTrigger(RightDrillIdentifier) || PhysicsObject.GetPhysicsTrigger(LeftDrillIdentifier))
             .UsingTimer(GameTimer)
             .Build();
 

@@ -777,6 +777,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4785354124378487750, guid: a6c2e014302ee98459001323dba3d3dc, type: 3}
   m_PrefabInstance: {fileID: 165648685}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &167487374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3654241304336666706, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+  m_PrefabInstance: {fileID: 3654241304293077374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &167487377 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 92201262, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+  m_PrefabInstance: {fileID: 3654241304293077374}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167487374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe01dba74c33334191c51751653b1f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &167487378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167487374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9fa37dba29b93449e989cf998d3e29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterController: {fileID: 167487377}
+  DrillInput: {fileID: 11400000, guid: a709a4039ca811e4082f956abff0fff6, type: 2}
+  DrillDirections: []
+  MovementDampFactorWhenDrilling: 0.5
+  DrillImpactInMs: 300
 --- !u!1001 &197387162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2158,7 +2191,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.012831882, y: -0.04708564}
+  m_Offset: {x: -0.008174472, y: -0.04708564}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2169,7 +2202,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.06571534, y: 0.0162977}
+  m_Size: {x: 0.040637, y: 0.016297698}
   m_EdgeRadius: 0
 --- !u!1001 &618760849
 PrefabInstance:
@@ -2805,7 +2838,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.08529806, y: -0.016053084}
+  m_Offset: {x: 0.08529806, y: -0.011216547}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2816,7 +2849,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.017069727, y: 0.078362815}
+  m_Size: {x: 0.017069727, y: 0.051493175}
   m_EdgeRadius: 0
 --- !u!1001 &759048692
 PrefabInstance:
@@ -3554,7 +3587,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016186744, y: 0.03375826}
+  m_Offset: {x: -0.0054388903, y: 0.03375826}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3565,7 +3598,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.06571534, y: 0.016297698}
+  m_Size: {x: 0.040637024, y: 0.016297698}
   m_EdgeRadius: 0
 --- !u!4 &913076307 stripped
 Transform:
@@ -4254,7 +4287,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.042523474, y: -0.016053084}
+  m_Offset: {x: 0.042523474, y: -0.011216544}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4265,7 +4298,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.017069727, y: 0.078362815}
+  m_Size: {x: 0.017069727, y: 0.05077666}
   m_EdgeRadius: 0
 --- !u!1001 &1145264593
 PrefabInstance:
@@ -7887,6 +7920,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 602662313}
     m_Modifications:
+    - target: {fileID: 92201262, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: LeftDrillIdentifier
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c5acabc78e93454f813c7410e1d8fef, type: 2}
+    - target: {fileID: 92201262, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: RightDrillIdentifier
+      value: 
+      objectReference: {fileID: 11400000, guid: a345d1dc2dc0cbd47a4a2548bc0382ce, type: 2}
     - target: {fileID: 3654241303408235996, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
       propertyPath: m_FlipX
       value: 1
