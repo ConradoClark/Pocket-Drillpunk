@@ -36,6 +36,9 @@ public class DrillAnimator : BaseGameObject
     public Vector3 JetpackSmokeOffset;
     public SpriteRenderer JetpackSmoke;
 
+    // Drill Impact
+    [Header("Drill Impact")] public ScriptPrefab DrillImpactBurst;
+
     private bool _enabled;
     private bool _isMoving;
     private bool _facingRight;
@@ -52,8 +55,17 @@ public class DrillAnimator : BaseGameObject
 
         DrillController.OnStartDrilling += DrillController_OnStartDrilling;
         DrillController.OnStopDrilling += DrillController_OnStopDrilling;
+        DrillController.OnDrillImpact += DrillController_OnDrillImpact;
 
         DefaultMachinery.AddBasicMachine(HandleSmoke());
+    }
+
+    private void DrillController_OnDrillImpact(Vector2Int obj)
+    {
+        if (DrillImpactBurst.Pool.TryGetFromPool(out var effect))
+        {
+            effect.Component.transform.position = transform.position;
+        }
     }
 
     private void DrillController_OnStopDrilling(Vector2Int obj)
@@ -155,5 +167,9 @@ public class DrillAnimator : BaseGameObject
         CharacterController.OnTurn -= CharacterController_OnTurn;
         CharacterController.OnStartMoving -= CharacterController_OnStartMoving;
         CharacterController.OnStopMoving -= CharacterController_OnStopMoving;
+
+        DrillController.OnStartDrilling -= DrillController_OnStartDrilling;
+        DrillController.OnStopDrilling -= DrillController_OnStopDrilling;
+        DrillController.OnDrillImpact -= DrillController_OnDrillImpact;
     }
 }

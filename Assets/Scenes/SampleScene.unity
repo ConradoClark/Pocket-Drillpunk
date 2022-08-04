@@ -6811,6 +6811,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0ce79321071132d418b5a6c47c846677, type: 2}
   - {fileID: 11400000, guid: b73a3cd06e5de9c45a5c271883393258, type: 2}
   - {fileID: 11400000, guid: 6b72d0cee3cadf04495828009768bcf6, type: 2}
+  - {fileID: 11400000, guid: e94fe8ac810d75a41a192fcb9e966620, type: 2}
 --- !u!4 &1898768883
 Transform:
   m_ObjectHideFlags: 0
@@ -7568,13 +7569,61 @@ PrefabInstance:
     m_TransformParent: {fileID: 602662313}
     m_Modifications:
     - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DrillDirections.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
       propertyPath: MovementDampFactorWhenDrilling
       value: 0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DrillDirections.Array.data[0].Direction.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DrillDirections.Array.data[1].Direction.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DrillDirections.Array.data[2].Direction.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DrillDirections.Array.data[3].Direction.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DrillDirections.Array.data[0].CollisionTrigger
+      value: 
+      objectReference: {fileID: 11400000, guid: a345d1dc2dc0cbd47a4a2548bc0382ce, type: 2}
+    - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DrillDirections.Array.data[1].CollisionTrigger
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c5acabc78e93454f813c7410e1d8fef, type: 2}
+    - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DrillDirections.Array.data[2].CollisionTrigger
+      value: 
+      objectReference: {fileID: 11400000, guid: 320712bc010dbfd409af7a602f2baf46, type: 2}
+    - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DrillDirections.Array.data[3].CollisionTrigger
+      value: 
+      objectReference: {fileID: 11400000, guid: f9c45e8da98a0324eaedb844831b702e, type: 2}
+    - target: {fileID: 611668647, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0023
+      objectReference: {fileID: 0}
+    - target: {fileID: 888166835, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.021
       objectReference: {fileID: 0}
     - target: {fileID: 1288152228, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
       propertyPath: DrillController
       value: 
       objectReference: {fileID: 167487378}
+    - target: {fileID: 1288152228, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DrillImpactBurst
+      value: 
+      objectReference: {fileID: 11400000, guid: e94fe8ac810d75a41a192fcb9e966620, type: 2}
     - target: {fileID: 1288152228, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
       propertyPath: DrillingSmokeBurst
       value: 

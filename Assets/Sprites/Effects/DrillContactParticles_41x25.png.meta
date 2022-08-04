@@ -1,0 +1,1917 @@
+fileFormatVersion: 2
+guid: 93ba3987372af1845984862ebe801445
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f935be663ff4e547a75fd797fe662ef
+      internalID: 569852923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 200
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecb4dcb131e77346a384ef8b8dbff2d
+      internalID: -2018794891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 200
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb056d3b877e8f34f90347c1a1305fa3
+      internalID: -2142780946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 200
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6d7b55ee21a3749bea27ad2d05555a
+      internalID: 1685460070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 200
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb273d11dec9ec84fab30d961f768143
+      internalID: 103107985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 200
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97565bafb8782954e8f6a73c4b36ed02
+      internalID: -1421303732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 200
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2730c29a029fdf048ad35fb6392789fb
+      internalID: -88065711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 200
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c3adbaebe1ec544b8d82b32659e5f4
+      internalID: 120109969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 200
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec3c186c1023eb41ba3b643f98cd791
+      internalID: -386466767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7248a0efd74cfb542a424118864a8bf8
+      internalID: -870168940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 175
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b0d6fc9e213bb448f847dd9be6d7ef
+      internalID: -1346178295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 175
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2b23f361c779540a336b7c837a1b85
+      internalID: -1644574476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_12
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 175
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005ef1dbd33682140b0ec900670edee4
+      internalID: -258648093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 175
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dfcece3513ffa4ebea0a3900436f71
+      internalID: 1107614454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_14
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 175
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78994e7821d5884d9730e183516bf68
+      internalID: 210039120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_15
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 175
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fb2dae0722b5640a4942489ad5760e
+      internalID: -1919404059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 175
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e547bcd8caf89aa408d597a6f4fb4553
+      internalID: 380752437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_17
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 175
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacb5654e4651f0438b0c7dace3f9aeb
+      internalID: -1073931014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13fe742337cc454dabf0f374b996755
+      internalID: -2069579304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 150
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9213e3b44810e5347a6b3605596f51d3
+      internalID: 1866183207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 150
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c80e88f3ca8fa4bb2ce4ffb8712259
+      internalID: 136614444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_21
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 150
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3d9722565706246a22ebbe6bd4e6cb
+      internalID: -1099156979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 150
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c306c323f4d21947bccf715fbaca9e8
+      internalID: 105142732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_23
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 150
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfebdb60aaf11914fb80462d38019d57
+      internalID: 164897877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_24
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 150
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f006746f59ecb6543ae61dde551208d9
+      internalID: -423287156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_25
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 150
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc12f97b94101ed46b8c7e846fa33848
+      internalID: 1036177902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_26
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 150
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e1c9505ef3d864db91744a3f7f4af7
+      internalID: 1642480798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6029c925f37ddf141ac21f13e742a10f
+      internalID: 1319039122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 125
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7c7926b48ba2448b51c185d54401f6
+      internalID: 212851122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 125
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60dc44b790a3804a86fb4bd74f19547
+      internalID: -800904613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_30
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 125
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ea6cbf7dda2a843ad661111596b526
+      internalID: -1903241596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_31
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 125
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc69abb8323b12459d0769fbdfd4d1a
+      internalID: -1386504766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 125
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed4794912345774f9a8b8d6c253dc8c
+      internalID: 1209213933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_33
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 125
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3653c8636ad455746ac86c9eba3ca0f5
+      internalID: -156552668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_34
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 125
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b462b2762e1864478583e239176112c
+      internalID: 1221793632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_35
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 125
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b773f6a4f126d4082f64cb9a5d965d
+      internalID: -1037391932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1b52e3663da454c85b08710a6ee46e
+      internalID: -1535488428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 100
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc5a6c4391aff447951ad9696e2fcc1
+      internalID: 1220936710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_38
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 100
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ee7e433deb7f34588966dcd98ffa98
+      internalID: -142684338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_39
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 100
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43569a15c87a2c042a758601a927b077
+      internalID: 1515496504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_40
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 100
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825b7cf0dd073e546b0a29ac3330f512
+      internalID: 847985672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_41
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 100
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60435ca852909b64fa8b9bee7b349032
+      internalID: -942574601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_42
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 100
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be10086e97e98ec48a9333ffc76d50bc
+      internalID: 602503234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_43
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 100
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5739b077a40ebe428b6596f4f474cd0
+      internalID: -850791587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_44
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 100
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e4cf38dc1814c4aba8a8f6f64180c4
+      internalID: -1262246064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb0bb998076af04b9c60bc789876f83
+      internalID: -659477390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_46
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 75
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7b27f407a1b3445b109eccbe5db26d
+      internalID: 25906511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_47
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 75
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c8ec5b2b89630458de33d619e4a5b2
+      internalID: 1064255474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_48
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 75
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b3d06ed1e2b3d4cbb8288461ea302e
+      internalID: -2057925760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_49
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 75
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431db916ba15d32419f536a81352cc4f
+      internalID: -1693600613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_50
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 75
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537fbf9e91fc8e64189e8048308071c3
+      internalID: 320514422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 75
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11869d42b2ef94c45bc881649b823165
+      internalID: 1583604470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_52
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 75
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e1808d84a99ca4da41923c054c1772
+      internalID: 1476468599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_53
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 75
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5936d179e6ae4645991bb9f79ffd758
+      internalID: 177481388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54017303d016eb14a822525d1e814b4f
+      internalID: -1584142081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_55
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 50
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5d623683ef25a47960b58673d2ff67
+      internalID: -1004548025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_56
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 50
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cd743e94da6b84498a136aafb76281
+      internalID: 1027238290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_57
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 50
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db43e2afcb5d7604081bbbc48163219a
+      internalID: 1261411957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_58
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 50
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5360ac2ec780c41b4a1632437e038a
+      internalID: 120873060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_59
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 50
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba5b982d433bb94691c1c46b06a8ccb
+      internalID: -1989388848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_60
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 50
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e476883fde3ddf4f97dfd817af2e72e
+      internalID: -1379788797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_61
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 50
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2bc7f70d4c1fb48a7b40f115fae4ac
+      internalID: 521087174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_62
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 50
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d5c408a0055e343a403557643e3110
+      internalID: 860585099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418ac3be5e3e51b499e44d676cca9596
+      internalID: -986639070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_64
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 25
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b962d69ef35603949be8b962b9d54e78
+      internalID: -431825250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_65
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 25
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fb34bb4a150be46baf7799a43e8d0f
+      internalID: 765486736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_66
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 25
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b0f50e3eaa2b249b504b3da19a360c
+      internalID: -1463462411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_67
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 25
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9786e3f7c1c12c74cac31e90d14f162e
+      internalID: 861892136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_68
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 25
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8a182613b408c4ab3afcb557bd54fb
+      internalID: -774384155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_69
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 25
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de4053b08f46ed4aa7765c0af46446e
+      internalID: 1532629436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_70
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 25
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4496a61944c4f4d43a7010cc03e89c38
+      internalID: -1591660537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_71
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 25
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7803306cfc84ea49948052d8f6d775b
+      internalID: -1733738518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab53389644e75e4486ff813197d9d0b
+      internalID: 1189409327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_73
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e690ad218187385479bcecd8298fa752
+      internalID: -1748181697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_74
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19ed45f0a4c44c49b28cc2ba187ec1c
+      internalID: -1969164584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_75
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acec1a9e86f9c642ae0ceec0b688de4
+      internalID: -613025381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_76
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b449bde1979acb44397a49e4929f8e6c
+      internalID: 1681705440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_77
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8eaf16cd729e2498d6ec15a160f593
+      internalID: -1303368533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_78
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8838699f2f6d42d41b70e5e42545d080
+      internalID: 906143829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_79
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6d4685b8256064c9f1b5eaad017575
+      internalID: 1844835159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillContactParticles_41x25_80
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85f7ff3335d29142aaee42c5e875929
+      internalID: 1950390568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DrillContactParticles_41x25_5: -1421303732
+      DrillContactParticles_41x25_78: 906143829
+      DrillContactParticles_41x25_37: 1220936710
+      DrillContactParticles_41x25_50: 320514422
+      DrillContactParticles_41x25_63: -986639070
+      DrillContactParticles_41x25_52: 1476468599
+      DrillContactParticles_41x25_79: 1844835159
+      DrillContactParticles_41x25_48: -2057925760
+      DrillContactParticles_41x25_75: -613025381
+      DrillContactParticles_41x25_40: 847985672
+      DrillContactParticles_41x25_73: -1748181697
+      DrillContactParticles_41x25_80: 1950390568
+      DrillContactParticles_41x25_74: -1969164584
+      DrillContactParticles_41x25_25: 1036177902
+      DrillContactParticles_41x25_41: -942574601
+      DrillContactParticles_41x25_46: 25906511
+      DrillContactParticles_41x25_66: -1463462411
+      DrillContactParticles_41x25_56: 1027238290
+      DrillContactParticles_41x25_67: 861892136
+      DrillContactParticles_41x25_0: 569852923
+      DrillContactParticles_41x25_6: -88065711
+      DrillContactParticles_41x25_20: 136614444
+      DrillContactParticles_41x25_15: -1919404059
+      DrillContactParticles_41x25_11: -1644574476
+      DrillContactParticles_41x25_51: 1583604470
+      DrillContactParticles_41x25_9: -870168940
+      DrillContactParticles_41x25_54: -1584142081
+      DrillContactParticles_41x25_7: 120109969
+      DrillContactParticles_41x25_16: 380752437
+      DrillContactParticles_41x25_29: -800904613
+      DrillContactParticles_41x25_8: -386466767
+      DrillContactParticles_41x25_72: 1189409327
+      DrillContactParticles_41x25_27: 1319039122
+      DrillContactParticles_41x25_19: 1866183207
+      DrillContactParticles_41x25_4: 103107985
+      DrillContactParticles_41x25_49: -1693600613
+      DrillContactParticles_41x25_57: 1261411957
+      DrillContactParticles_41x25_60: -1379788797
+      DrillContactParticles_41x25_23: 164897877
+      DrillContactParticles_41x25_42: 602503234
+      DrillContactParticles_41x25_14: 210039120
+      DrillContactParticles_41x25_32: 1209213933
+      DrillContactParticles_41x25_38: -142684338
+      DrillContactParticles_41x25_1: -2018794891
+      DrillContactParticles_41x25_22: 105142732
+      DrillContactParticles_41x25_55: -1004548025
+      DrillContactParticles_41x25_47: 1064255474
+      DrillContactParticles_41x25_64: -431825250
+      DrillContactParticles_41x25_58: 120873060
+      DrillContactParticles_41x25_33: -156552668
+      DrillContactParticles_41x25_17: -1073931014
+      DrillContactParticles_41x25_76: 1681705440
+      DrillContactParticles_41x25_35: -1037391932
+      DrillContactParticles_41x25_71: -1733738518
+      DrillContactParticles_41x25_13: 1107614454
+      DrillContactParticles_41x25_65: 765486736
+      DrillContactParticles_41x25_2: -2142780946
+      DrillContactParticles_41x25_3: 1685460070
+      DrillContactParticles_41x25_18: -2069579304
+      DrillContactParticles_41x25_28: 212851122
+      DrillContactParticles_41x25_21: -1099156979
+      DrillContactParticles_41x25_45: -659477390
+      DrillContactParticles_41x25_77: -1303368533
+      DrillContactParticles_41x25_44: -1262246064
+      DrillContactParticles_41x25_34: 1221793632
+      DrillContactParticles_41x25_30: -1903241596
+      DrillContactParticles_41x25_24: -423287156
+      DrillContactParticles_41x25_69: 1532629436
+      DrillContactParticles_41x25_36: -1535488428
+      DrillContactParticles_41x25_10: -1346178295
+      DrillContactParticles_41x25_12: -258648093
+      DrillContactParticles_41x25_68: -774384155
+      DrillContactParticles_41x25_70: -1591660537
+      DrillContactParticles_41x25_62: 860585099
+      DrillContactParticles_41x25_39: 1515496504
+      DrillContactParticles_41x25_31: -1386504766
+      DrillContactParticles_41x25_61: 521087174
+      DrillContactParticles_41x25_43: -850791587
+      DrillContactParticles_41x25_26: 1642480798
+      DrillContactParticles_41x25_53: 177481388
+      DrillContactParticles_41x25_59: -1989388848
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

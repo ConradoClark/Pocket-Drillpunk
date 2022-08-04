@@ -4,7 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Licht.Impl.Orchestration;
 using Licht.Unity.CharacterControllers;
+using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
+using Licht.Unity.Physics;
+using Licht.Unity.Physics.CollisionDetection;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -26,10 +29,12 @@ public class DrillingController : LichtMovementController
 
     private InputAction _drillAction;
     private bool _enabled;
-    private bool _grid;
+    private Grid _grid;
+    private LichtPhysics _physics;
 
     public event Action<Vector2Int> OnStartDrilling;
     public event Action<Vector2Int> OnStopDrilling;
+    public event Action<Vector2Int> OnDrillImpact;
 
     protected override void OnAwake()
     {
@@ -37,6 +42,7 @@ public class DrillingController : LichtMovementController
         var playerInput = PlayerInput.GetPlayerByIndex(0);
         _drillAction = playerInput.actions[DrillInput.ActionName];
         _grid = SceneObject<Grid>.Instance();
+        _physics = this.GetLichtPhysics();
     }
 
     private void OnEnable()
@@ -69,7 +75,25 @@ public class DrillingController : LichtMovementController
 
                 while (_drillAction.IsPressed())
                 {
-                    yield return TimeYields.WaitMilliseconds(GameTimer, DrillImpactInMs);
+                    var drillDirection = DrillDirections.FirstOrDefault(d => d.Direction == direction);
+
+                    Collider2D tileCollider;
+                    if (CharacterController.PhysicsObject.GetPhysicsTriggerWithSource(drillDirection.CollisionTrigger,
+                            out var source) && source is LichtPhysicsCollisionDetector collisionDetector &&
+                        (tileCollider = collisionDetector.Triggers.FirstOrDefault(t => t.TriggeredHit).Collider) != null &&
+                        _physics.TryGetPhysicsObjectByCollider(tileCollider, out var targetTile) &&
+                        targetTile.TryGetCustomObject(out BaseTile tile))
+                    {
+
+                        tile.Hit(1, direction);
+                        Debug.Log($"Hit Tile: {tile.gameObject.name} in position {_grid.WorldToCell(tile.transform.position)}");
+
+                        OnDrillImpact?.Invoke(direction);
+
+                        yield return TimeYields.WaitMilliseconds(GameTimer, DrillImpactInMs);
+                    }
+
+                    yield return TimeYields.WaitOneFrameX;
                 }
 
                 IsDrilling = false;

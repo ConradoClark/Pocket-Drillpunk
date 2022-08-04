@@ -95,6 +95,8 @@ GameObject:
   - component: {fileID: 4785354124378487750}
   - component: {fileID: 4785354124378487749}
   - component: {fileID: 7818803339692794427}
+  - component: {fileID: 2139523492}
+  - component: {fileID: 2139523493}
   m_Layer: 6
   m_Name: DirtBlock
   m_TagString: Untagged
@@ -138,7 +140,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 647bd42f14b2aff4a8c4275961905aa5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -196,3 +198,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.12, y: 0.12}
   m_EdgeRadius: 0
+--- !u!114 &2139523492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785354124378487748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a70111515dceb046abdfd01035ed5cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActiveOnInitialization: 0
+  PhysicsObject: {fileID: 2139523493}
+  Position: {x: 0, y: 0}
+  Durability: 5
+  SpriteRenderer: {fileID: 4785354124378487749}
+--- !u!114 &2139523493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785354124378487748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 155473475, guid: afcd0d74df61bb5419a8bc14b0abcd9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Debug: 0
+  Static: 1
+  Ghost: 0
+  PhysicsTriggers: []
+  CollisionDetectors: []
+  AdditionalColliders:
+  - {fileID: 7818803339692794427}
+  CalculatedSpeed: {x: 0, y: 0}
