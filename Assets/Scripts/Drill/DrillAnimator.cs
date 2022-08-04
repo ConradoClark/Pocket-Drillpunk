@@ -59,11 +59,13 @@ public class DrillAnimator : BaseGameObject
     private void DrillController_OnStopDrilling(Vector2Int obj)
     {
         PermanentSmokeAnimator.SetBool("Drilling", false);
+        Animator.SetBool("Drilling", false);
     }
 
     private void DrillController_OnStartDrilling(Vector2Int obj)
     {
         PermanentSmokeAnimator.SetBool("Drilling", true);
+        Animator.SetBool("Drilling", true);
     }
 
     private void Update()

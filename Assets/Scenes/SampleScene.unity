@@ -7569,7 +7569,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 167487378, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
       propertyPath: MovementDampFactorWhenDrilling
-      value: 0.4
+      value: 0.375
       objectReference: {fileID: 0}
     - target: {fileID: 1288152228, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
       propertyPath: DrillController
@@ -7587,6 +7587,10 @@ PrefabInstance:
       propertyPath: SmokeBurstFrequencyDrillingInMs
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 3654241303408235996, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1545014511, guid: 1e0b7f0da12ce364bba71bca3eece4e7, type: 3}
     - target: {fileID: 3654241303787557188, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
       propertyPath: m_RootOrder
       value: -1
