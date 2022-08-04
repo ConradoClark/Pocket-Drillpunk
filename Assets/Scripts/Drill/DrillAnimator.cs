@@ -10,25 +10,30 @@ public class DrillAnimator : BaseGameObject
     // Basic 
     [Header("Basic")]
     public DrillCharacterController CharacterController;
+
+    public DrillingController DrillController;
     public Animator Animator;
     public SpriteRenderer SpriteRenderer;
 
     // Smoke Burst
     [Header("Smoke Burst")]
     public ScriptPrefab SmokeBurst;
+    public ScriptPrefab DrillingSmokeBurst;
     public Transform SmokeBurstPositionReference;
     public float SmokeBurstFrequencyStandingInMs;
     public float SmokeBurstFrequencyWalkingInMs;
     public float SmokeBurstFrequencyDrillingInMs;
     public Vector2 SmokeBurstOffset;
 
+    // Permanent Smoke
+    [Header("Perma Smoke")]
     public SpriteRenderer PermanentSmoke;
     public Transform PermanentSmokePositionReference;
+    public Animator PermanentSmokeAnimator;
 
     // JetpackSmoke
     [Header("Jetpack")]
     public Vector3 JetpackSmokeOffset;
-
     public SpriteRenderer JetpackSmoke;
 
     private bool _enabled;
@@ -44,7 +49,21 @@ public class DrillAnimator : BaseGameObject
         CharacterController.OnTurn += CharacterController_OnTurn;
         CharacterController.OnStartMoving += CharacterController_OnStartMoving;
         CharacterController.OnStopMoving += CharacterController_OnStopMoving;
+
+        DrillController.OnStartDrilling += DrillController_OnStartDrilling;
+        DrillController.OnStopDrilling += DrillController_OnStopDrilling;
+
         DefaultMachinery.AddBasicMachine(HandleSmoke());
+    }
+
+    private void DrillController_OnStopDrilling(Vector2Int obj)
+    {
+        PermanentSmokeAnimator.SetBool("Drilling", false);
+    }
+
+    private void DrillController_OnStartDrilling(Vector2Int obj)
+    {
+        PermanentSmokeAnimator.SetBool("Drilling", true);
     }
 
     private void Update()
@@ -107,7 +126,8 @@ public class DrillAnimator : BaseGameObject
     {
         while (_enabled)
         {
-            if (SmokeBurst.Pool.TryGetFromPool(out var effect))
+            var burst = DrillController.IsDrilling ? DrillingSmokeBurst : SmokeBurst;
+            if (burst.Pool.TryGetFromPool(out var effect))
             {
                 effect.Component.transform.position = new Vector3(
                     transform.position.x + (_facingRight ? 1 : -1) * SmokeBurstPositionReference.transform.localPosition.x + SmokeBurstOffset.x,
@@ -116,9 +136,14 @@ public class DrillAnimator : BaseGameObject
                 effect.Component.GetComponent<SpriteRenderer>().flipX = !_facingRight;
             }
 
-            yield return TimeYields.WaitMilliseconds(GameTimer,
-                _isMoving ? SmokeBurstFrequencyWalkingInMs : SmokeBurstFrequencyStandingInMs);
+            yield return TimeYields.WaitMilliseconds(GameTimer, GetSmokeBurstFrequency());
         }
+    }
+
+    private float GetSmokeBurstFrequency()
+    {
+        return DrillController.IsDrilling ? SmokeBurstFrequencyDrillingInMs :
+            _isMoving ? SmokeBurstFrequencyWalkingInMs : SmokeBurstFrequencyStandingInMs;
     }
 
 

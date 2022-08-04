@@ -72,6 +72,7 @@ public class DrillingController : LichtMovementController
                     yield return TimeYields.WaitMilliseconds(GameTimer, DrillImpactInMs);
                 }
 
+                IsDrilling = false;
                 CharacterController.RemoveMovementMultipliers(this, dampeners);
                 OnStopDrilling?.Invoke(CharacterController.CurrentDirection);
             }
