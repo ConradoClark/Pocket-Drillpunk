@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using Licht.Impl.Orchestration;
+using Licht.Unity.Objects;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class DirtTile : BaseTile
 {
+    public ScriptPrefab ExplosionEffect;
     public SpriteRenderer SpriteRenderer;
     private Vector2 _crackDirection;
-
 
     protected override void OnAwake()
     {
@@ -26,7 +27,6 @@ public class DirtTile : BaseTile
 
     protected override IEnumerable<IEnumerable<Action>> OnHitEffect(int damage, Vector2Int direction)
     {
-
         if (_crackDirection == Vector2.zero)
         {
             _crackDirection = direction;
@@ -38,6 +38,10 @@ public class DirtTile : BaseTile
 
     protected override IEnumerable<IEnumerable<Action>> OnBreakEffect()
     {
+        if (ExplosionEffect.Pool.TryGetFromPool(out var effect))
+        {
+            effect.Component.transform.position = transform.position;
+        }
         yield return TimeYields.WaitOneFrameX;
     }
 }
