@@ -75,6 +75,7 @@ public class DrillingController : LichtMovementController
 
                 while (_drillAction.IsPressed())
                 {
+                    direction = CharacterController.CurrentDirection;
                     var drillDirection = DrillDirections.FirstOrDefault(d => d.Direction == direction);
 
                     Collider2D tileCollider;
@@ -86,8 +87,6 @@ public class DrillingController : LichtMovementController
                     {
 
                         tile.Hit(1, direction);
-                        Debug.Log($"Hit Tile: {tile.gameObject.name} in position {_grid.WorldToCell(tile.transform.position)}");
-
                         OnDrillImpact?.Invoke(direction);
 
                         yield return TimeYields.WaitMilliseconds(GameTimer, DrillImpactInMs);
