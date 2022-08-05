@@ -10,6 +10,8 @@ namespace Assets.Scripts.UI
 {
     public class UINumberUpdater : MonoBehaviour
     {
+        public static Dictionary<Counter, UINumberUpdater> Counters = new();
+
         public UINumberRenderer NumberRenderer;
         public Counter Counter;
 
@@ -20,11 +22,13 @@ namespace Assets.Scripts.UI
 
         private void OnEnable()
         {
+            Counters[Counter] = this;
             Counter.OnChange += Counter_OnChange;
         }
 
         private void OnDisable()
         {
+            Counters.Remove(Counter);
             Counter.OnChange -= Counter_OnChange;
         }
         private void Counter_OnChange(Counter.CounterChangeArgs obj)

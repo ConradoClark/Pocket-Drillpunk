@@ -214,8 +214,8 @@ MonoBehaviour:
   PhysicsObject: {fileID: 2139523493}
   Position: {x: 0, y: 0}
   Durability: 3
-  Counter: {fileID: 11400000, guid: d63f0c823a265404fa25c928906690f0, type: 2}
   ExplosionEffect: {fileID: 11400000, guid: 37db7cd8d2b62b0408a896bb5d12d823, type: 2}
+  ScrapPrefab: {fileID: 11400000, guid: 759618e3795451343a8925ea00bd0515, type: 2}
   SpriteRenderer: {fileID: 4785354124378487749}
 --- !u!114 &2139523493
 MonoBehaviour:

@@ -8,8 +8,8 @@ using Random = UnityEngine.Random;
 
 public class DirtTile : BaseTile
 {
-    public Counter Counter;
     public ScriptPrefab ExplosionEffect;
+    public ScriptPrefab ScrapPrefab;
     public SpriteRenderer SpriteRenderer;
     private Vector2 _crackDirection;
     protected override void OnAwake()
@@ -44,7 +44,14 @@ public class DirtTile : BaseTile
             effect.Component.transform.position = transform.position;
         }
 
-        Counter.Count++;
+        if (ScrapPrefab.Pool.TryGetManyFromPool(Random.Range(1,4), out var scraps))
+        {
+            foreach (var scrap in scraps)
+            {
+                scrap.Component.transform.position = transform.position;
+            }
+        }
+
         yield return TimeYields.WaitOneFrameX;
     }
 }
