@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Assets.Scripts.Inventory;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Objects;
 using UnityEngine;
@@ -7,10 +8,10 @@ using Random = UnityEngine.Random;
 
 public class DirtTile : BaseTile
 {
+    public Counter Counter;
     public ScriptPrefab ExplosionEffect;
     public SpriteRenderer SpriteRenderer;
     private Vector2 _crackDirection;
-
     protected override void OnAwake()
     {
         base.OnAwake();
@@ -42,6 +43,8 @@ public class DirtTile : BaseTile
         {
             effect.Component.transform.position = transform.position;
         }
+
+        Counter.Count++;
         yield return TimeYields.WaitOneFrameX;
     }
 }
