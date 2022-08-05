@@ -213,7 +213,7 @@ MonoBehaviour:
   ActiveOnInitialization: 0
   PhysicsObject: {fileID: 2139523493}
   Position: {x: 0, y: 0}
-  Durability: 5
+  Durability: 3
   SpriteRenderer: {fileID: 4785354124378487749}
 --- !u!114 &2139523493
 MonoBehaviour:

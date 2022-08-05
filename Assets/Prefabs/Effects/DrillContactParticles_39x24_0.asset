@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -972327683, guid: afcd0d74df61bb5419a8bc14b0abcd9a, type: 3}
-  m_Name: DrillContactParticles_41x25_0
+  m_Name: DrillContactParticles_39x24_0
   m_EditorClassIdentifier: 
-  Prefab: {fileID: 4174101959885101922, guid: 88b5e12df56304040a328f6a0b440c5f, type: 3}
-  DefaultPoolSize: 30
+  Prefab: {fileID: 1985747949189323177, guid: 3d28c3100d5cd3a4f8c0fb7aa543094e, type: 3}
+  DefaultPoolSize: 50
   Type: 1

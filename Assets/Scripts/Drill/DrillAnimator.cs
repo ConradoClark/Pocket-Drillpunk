@@ -38,6 +38,8 @@ public class DrillAnimator : BaseGameObject
 
     // Drill Impact
     [Header("Drill Impact")] public ScriptPrefab DrillImpactBurst;
+    public Transform DrillContactReference;
+    public Vector3 DrillContactBurstOffset;
 
     private bool _enabled;
     private bool _isMoving;
@@ -62,10 +64,14 @@ public class DrillAnimator : BaseGameObject
 
     private void DrillController_OnDrillImpact(Vector2Int obj)
     {
-        if (DrillImpactBurst.Pool.TryGetFromPool(out var effect))
-        {
-            effect.Component.transform.position = transform.position;
-        }
+        if (!DrillImpactBurst.Pool.TryGetFromPool(out var effect)) return;
+        
+        var flip = new Vector3(SpriteRenderer.flipX ? -1 : 1, SpriteRenderer.flipX ? -1 : 1, 1);
+        var rotation = SpriteRenderer.flipX ? Quaternion.Inverse(transform.rotation * DrillContactReference.rotation)
+            : transform.rotation * DrillContactReference.rotation;
+
+        effect.Component.transform.SetPositionAndRotation(transform.position 
+                                                          + DrillContactBurstOffset + Vector3.Scale(flip, DrillContactReference.localPosition), rotation);
     }
 
     private void DrillController_OnStopDrilling(Vector2Int obj)
