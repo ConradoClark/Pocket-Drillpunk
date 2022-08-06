@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: 2a1d1c262e78d4c41957bf3b387a0796
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 6
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 406
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47799c36b524dd74fb1e4f419ea322fb
+      internalID: 809758965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 406
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ead92668c3745448a86bb17428283f0
+      internalID: -503237910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 406
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea486d117ef0334396d1e21e35f6605
+      internalID: -604507850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 406
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cbeae45ac26d14fbcd879376132754
+      internalID: 886635964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 406
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571f79df3ff39ec48b4ff5cbe57d9372
+      internalID: -48261660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 406
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4f79f60f5701f43b9a3a11d2a7e0e3
+      internalID: -977594012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 406
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d7437d68980e44cb2759146dd71423
+      internalID: 1443346246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 406
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea180c1ffbed59843aaae0288e2f6cce
+      internalID: -419352554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f6b299c9c0c4f4a8299d6a6ac0ce9c
+      internalID: 698443367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 348
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083b344ccfd7f2043ab19c7aed11b645
+      internalID: 1798971517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 348
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d7605754f030d498fbf2f463433435
+      internalID: -7426307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 348
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56a23e826dc6cd49a6ae30b2acd4039
+      internalID: 685172892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_12
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 348
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8767adb9e159c47bed16f1eed02e69
+      internalID: 967012770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 348
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720158449eb8bbd46ad330ae1da3eb6a
+      internalID: 1127417485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_14
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 348
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42b63e3542a5b741b97ecee8749f9c5
+      internalID: 1226572438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_15
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 348
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225b86e781a747144b593b471bd2ffc5
+      internalID: 1395496583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ae62c070099674290afc6cc79caf22
+      internalID: -1728415761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 290
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d678fd9712f9d904f87d43f1b64cc90e
+      internalID: 2023970608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 290
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5761d6aabd56e429f8bcd5ad1736e4
+      internalID: -1375559642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 290
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90121cb11af460449c6be51abcdf9ae
+      internalID: -1193152429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 290
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dff9508f7300264b8375e50f3c3c67b
+      internalID: -1489995731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_21
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 290
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a8a7821c6468c46b491dcb06b29da7
+      internalID: 998150147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_22
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 290
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5c1717b23b8ad46bfce1b0f28ef732
+      internalID: 419952283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_23
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 290
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430e3d1e9191dd94fa82e8602f96b1fe
+      internalID: -1135972916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8e8ab70adea374ba6551e33e696b23
+      internalID: -1561059607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 232
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b80bd131de30849a694283c66c6892
+      internalID: 261419489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 232
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe4203a1ab605c42bedb00e5cea0658
+      internalID: 202333968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 232
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ccf4a5a87f1554db38c4dccde4239e
+      internalID: 107459742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 232
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56c36993f2308745bc169c4ee0d8530
+      internalID: 1799550810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_29
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 232
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f88a09cbf1d9ea43a8e78d9bf8d0723
+      internalID: -1338618150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_30
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 232
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdc029164fded044b327895b5a597dd
+      internalID: -628796950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_31
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 232
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24515a5c5c06425419dd567d1fbf89b2
+      internalID: 1300444395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b8960ae73e4e24b8adb32f0d442d23
+      internalID: -840882000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_33
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 174
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f210703baacc164ca24147263ed32cb
+      internalID: -710331191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_34
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 174
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa09fb0717665e41a82b6f847505fca
+      internalID: 1062444313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_35
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 174
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf08ee9533d95e4c8c7f0a624d89045
+      internalID: 488251128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_36
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 174
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fecffdb57799541aa1add00f1b119c
+      internalID: -1153552620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_37
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 174
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371893b43b63e184cb0989158cf1c787
+      internalID: -500378688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_38
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 174
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b0c334c8954a944883259eecefa06c
+      internalID: 30566384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_39
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 174
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c0dddf3832aba4c9e9126d8183e8c7
+      internalID: 1268516723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e884ca8e24fdd314ca9af24fef0784b0
+      internalID: -385327530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 116
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1316e662b066c4b9c4b0d9b4e8b2da
+      internalID: 1122868998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_42
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 116
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48612a1994098a8488e64123572da1a4
+      internalID: 806541928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_43
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 116
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6938e9d5437bce498521c819430049a
+      internalID: 369586584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_44
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 116
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0188f96f21d2cba40a1461938b4f1f5e
+      internalID: 1677464970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_45
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 116
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb26945aa8304b84b927d2ac361a07e6
+      internalID: -1680307963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_46
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 116
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a240f6af7376484588779cdf38431fb
+      internalID: 1111860484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_47
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 116
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c360c500fde584bbd9f9ea01dc97a9
+      internalID: 143253634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7253ee267808834686330329be3d88c
+      internalID: 112868760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 58
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e825c4bdd0172f44be49df27fea3896
+      internalID: 85515892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_50
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 58
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c29829697fdcf4593025b0cbf109cd
+      internalID: 1945253974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_51
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 58
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c258b1260a9439c4ebaa9aa506196bb9
+      internalID: -1977734326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 58
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede3677fa207e494b99965b6486c066e
+      internalID: -218981185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_53
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 58
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf0295f80e84fa4ca5981e753f2ab41
+      internalID: -325930130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_54
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 58
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7888b193afeae764eb986cd778846fc8
+      internalID: 69578480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_55
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 58
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90906673a67769047bfb34eb9b677d1b
+      internalID: 1140414829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f6befece696524db720fadae856532
+      internalID: -1169897746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_57
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460f1e26d9ead38499b719acabafd1a4
+      internalID: 705878342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558ad8a189e32084997a231d42479563
+      internalID: 5095320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoverSmoke_69x58_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65d2b02d6a280b4d8f31f0eea5d82d7
+      internalID: 1670725393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CoverSmoke_69x58_17: 2023970608
+      CoverSmoke_69x58_10: -7426307
+      CoverSmoke_69x58_35: 488251128
+      CoverSmoke_69x58_16: -1728415761
+      CoverSmoke_69x58_52: -218981185
+      CoverSmoke_69x58_1: -503237910
+      CoverSmoke_69x58_55: 1140414829
+      CoverSmoke_69x58_3: 886635964
+      CoverSmoke_69x58_15: 1395496583
+      CoverSmoke_69x58_19: -1193152429
+      CoverSmoke_69x58_41: 1122868998
+      CoverSmoke_69x58_0: 809758965
+      CoverSmoke_69x58_7: -419352554
+      CoverSmoke_69x58_27: 107459742
+      CoverSmoke_69x58_31: 1300444395
+      CoverSmoke_69x58_13: 1127417485
+      CoverSmoke_69x58_32: -840882000
+      CoverSmoke_69x58_25: 261419489
+      CoverSmoke_69x58_38: 30566384
+      CoverSmoke_69x58_33: -710331191
+      CoverSmoke_69x58_45: -1680307963
+      CoverSmoke_69x58_14: 1226572438
+      CoverSmoke_69x58_49: 85515892
+      CoverSmoke_69x58_22: 419952283
+      CoverSmoke_69x58_42: 806541928
+      CoverSmoke_69x58_58: 5095320
+      CoverSmoke_69x58_56: -1169897746
+      CoverSmoke_69x58_8: 698443367
+      CoverSmoke_69x58_46: 1111860484
+      CoverSmoke_69x58_37: -500378688
+      CoverSmoke_69x58_21: 998150147
+      CoverSmoke_69x58_59: 1670725393
+      CoverSmoke_69x58_6: 1443346246
+      CoverSmoke_69x58_53: -325930130
+      CoverSmoke_69x58_20: -1489995731
+      CoverSmoke_69x58_40: -385327530
+      CoverSmoke_69x58_12: 967012770
+      CoverSmoke_69x58_23: -1135972916
+      CoverSmoke_69x58_47: 143253634
+      CoverSmoke_69x58_24: -1561059607
+      CoverSmoke_69x58_9: 1798971517
+      CoverSmoke_69x58_44: 1677464970
+      CoverSmoke_69x58_51: -1977734326
+      CoverSmoke_69x58_30: -628796950
+      CoverSmoke_69x58_26: 202333968
+      CoverSmoke_69x58_5: -977594012
+      CoverSmoke_69x58_39: 1268516723
+      CoverSmoke_69x58_48: 112868760
+      CoverSmoke_69x58_29: -1338618150
+      CoverSmoke_69x58_4: -48261660
+      CoverSmoke_69x58_36: -1153552620
+      CoverSmoke_69x58_2: -604507850
+      CoverSmoke_69x58_50: 1945253974
+      CoverSmoke_69x58_54: 69578480
+      CoverSmoke_69x58_28: 1799550810
+      CoverSmoke_69x58_34: 1062444313
+      CoverSmoke_69x58_18: -1375559642
+      CoverSmoke_69x58_11: 685172892
+      CoverSmoke_69x58_57: 705878342
+      CoverSmoke_69x58_43: 369586584
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
