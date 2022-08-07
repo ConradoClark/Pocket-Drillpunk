@@ -13,6 +13,7 @@ public class MapGenerator : BaseGameObject
     private Grid _grid;
     private Vector3Int _referencePosition;
 
+    public event Action OnPopulate;
     protected override void OnAwake()
     {
         base.OnAwake();
@@ -32,6 +33,8 @@ public class MapGenerator : BaseGameObject
         Populate(new Vector2Int(9, -9));
         Populate(new Vector2Int(0, -9));
         Populate(new Vector2Int(0, 9));
+
+        OnPopulate?.Invoke();
     }
     private void Update()
     {
@@ -58,12 +61,13 @@ public class MapGenerator : BaseGameObject
                 Populate(popPos - new Vector2Int(9, 0));
             }
 
+            OnPopulate?.Invoke();
+
             _referencePosition = playerPos;
         }
     }
     public void Populate(Vector2Int pos)
     {
         MainReference.Populate("XXX2", pos);
-
     }
 }

@@ -15,11 +15,13 @@ public class MapManager : BaseGameObject
     }
 
     public Dictionary<Vector2Int, TileChange> TileChanges;
+    public Dictionary<Vector2Int, BaseTile> ActiveTiles;
 
     protected override void OnAwake()
     {
         base.OnAwake();
         TileChanges = new Dictionary<Vector2Int, TileChange>(10000);
+        ActiveTiles = new Dictionary<Vector2Int, BaseTile>(1000);
     }
 
     public void SetTileChange(Vector2Int pos, TileChange change)

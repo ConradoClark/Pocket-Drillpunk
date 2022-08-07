@@ -38,7 +38,8 @@ public class ProcGenGroupMapReference : ProcGenMapReference
         {
             for (var j = 0; j < Size.y; j++)
             {
-                Seed = $"{seed}_group_X{position.x+i}_Y{position.y+j}".GetHashCode();
+                var newSeed = $"{seed}_group_X{position.x + i}_Y{position.y + j}";
+                Seed = newSeed.GetHashCode();
                 var reference = forcedTile != null
                     ? GameTilemap.TileDefinitionsDictionary[forcedTile].Reference
                     : GetReference();
@@ -55,7 +56,7 @@ public class ProcGenGroupMapReference : ProcGenMapReference
 
                 if (i % reference.RefSize.x != 0 || j % reference.RefSize.y != 0) continue;
 
-                reference.Populate(seed, position+ new Vector2Int(i,j));
+                reference.Populate(newSeed, position+ new Vector2Int(i,j));
             }
         }
     }

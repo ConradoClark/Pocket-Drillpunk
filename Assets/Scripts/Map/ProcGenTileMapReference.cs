@@ -38,6 +38,8 @@ namespace Assets.Scripts.Map
             {
                 tile.Component.transform.position = Grid.GetCellCenterWorld((Vector3Int) position);
                 tile.Position = position;
+                tile.GeneratedBySeed = seed;
+                tile.ApplyTileChanges();
             }
         }
     }

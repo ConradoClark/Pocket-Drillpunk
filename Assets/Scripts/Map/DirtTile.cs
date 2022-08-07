@@ -45,6 +45,13 @@ public class DirtTile : BaseTile
         SpriteRenderer.material.SetFloat("_CrackSize", 3f * ((Durability - CurrentDurability) / (float)Durability));
     }
 
+    protected override void ApplyDefaultTileSettings()
+    {
+        _crackDirection = Vector2.zero;
+        SpriteRenderer.material.SetVector("_Direction", Vector2.zero);
+        SpriteRenderer.material.SetFloat("_CrackSize", 0);
+    }
+
     public override bool Breakable => true;
 
     protected override IEnumerable<IEnumerable<Action>> OnHitEffect(int damage, Vector2Int direction)
