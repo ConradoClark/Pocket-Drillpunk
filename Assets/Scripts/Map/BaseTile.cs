@@ -16,7 +16,8 @@ public abstract class BaseTile : EffectPoolable
     public int Durability;
     protected Player Player;
     protected Grid Grid;
-
+    protected bool Dirty;
+    public Dictionary<string, object> CustomProperties;
 
     protected abstract IEnumerable<IEnumerable<Action>> OnHitEffect(int damage, Vector2Int direction);
 
@@ -30,14 +31,19 @@ public abstract class BaseTile : EffectPoolable
     protected IEnumerable<IEnumerable<Action>> Break()
     {
         yield return OnBreakEffect().AsCoroutine();
+        SaveTileChanges();
         EndEffect();
     }
+
+    private MapManager _mapManager;
 
     protected override void OnAwake()
     {
         base.OnAwake();
         Player = SceneObject<Player>.Instance();
         Grid = SceneObject<Grid>.Instance();
+        CustomProperties = new Dictionary<string, object>();
+        _mapManager = SceneObject<MapManager>.Instance();
     }
 
     private void Update()
@@ -49,6 +55,7 @@ public abstract class BaseTile : EffectPoolable
 
         if (reachedX || Math.Abs(player.y - cell.y) > 1)
         {
+            SaveTileChanges();
             EndEffect();
         }
     }
@@ -66,12 +73,41 @@ public abstract class BaseTile : EffectPoolable
 
     public override void OnActivation()
     {
+        ApplyTileChanges();
+    }
+
+    public virtual TileChange GetTileChange()
+    {
+        return new TileChange
+        {
+            Destroyed = CurrentDurability <= 0,
+            Durability = CurrentDurability
+        };
+    }
+
+    public virtual void ApplyTileChanges()
+    {
+        if (_mapManager == null || _mapManager.TileChanges == null || !_mapManager.TileChanges.ContainsKey(Position)) return;
+        var tileChanges = _mapManager.TileChanges[Position];
+        CurrentDurability = tileChanges.Durability;
+        CustomProperties = tileChanges.CustomProperties;
+        ApplyCustomTileChanges(tileChanges);
+    }
+
+    protected abstract void ApplyCustomTileChanges(TileChange tileChange);
+
+    private void SaveTileChanges()
+    {
+        if (!Dirty) return;
+        var tileChange = GetTileChange();
+        _mapManager.SetTileChange(Position, tileChange);
     }
 
     public void Hit(int damage, Vector2Int direction)
     {
         if (Breakable)
         {
+            Dirty = true;
             CurrentDurability -= damage;
             if (CurrentDurability <= 0)
             {

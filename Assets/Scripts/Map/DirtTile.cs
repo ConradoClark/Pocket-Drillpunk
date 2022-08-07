@@ -20,8 +20,29 @@ public class DirtTile : BaseTile
 
     public override void OnActivation()
     {
+        _crackDirection = CustomProperties.ContainsKey("CrackDirection")
+            ? (Vector2)CustomProperties["CrackDirection"] : Vector2.zero;
         base.OnActivation();
-        _crackDirection = Vector2.zero;
+    }
+
+    public override TileChange GetTileChange()
+    {
+        var @base = base.GetTileChange();
+        return new TileChange
+        {
+            Destroyed = @base.Destroyed,
+            Durability = @base.Durability,
+            CustomProperties = new Dictionary<string, object>
+            {
+                {"CrackDirection", _crackDirection}
+            }
+        };
+    }
+
+    protected override void ApplyCustomTileChanges(TileChange tileChange)
+    {
+        SpriteRenderer.material.SetVector("_Direction", new Vector2(_crackDirection.x * 0.5f, _crackDirection.y * 0.5f));
+        SpriteRenderer.material.SetFloat("_CrackSize", 3f * ((Durability - CurrentDurability) / (float)Durability));
     }
 
     public override bool Breakable => true;
@@ -44,7 +65,7 @@ public class DirtTile : BaseTile
             effect.Component.transform.position = transform.position;
         }
 
-        if (ScrapPrefab.Pool.TryGetManyFromPool(Random.Range(1,4), out var scraps))
+        if (ScrapPrefab.Pool.TryGetManyFromPool(Random.Range(1, 4), out var scraps))
         {
             foreach (var scrap in scraps)
             {

@@ -8,6 +8,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Map
 {
+    [DefaultExecutionOrder(-10000)]
     public class GameTilemap : MonoBehaviour
     {
         [Serializable]

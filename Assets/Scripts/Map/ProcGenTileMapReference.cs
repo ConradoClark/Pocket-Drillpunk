@@ -28,6 +28,12 @@ namespace Assets.Scripts.Map
             PopulatedPositions.Add(position);
 
             if (BaseTile == null) return;
+
+            if (MapManager.TileChanges.ContainsKey(position) && MapManager.TileChanges[position].Destroyed)
+            {
+                return;
+            }
+
             if (_tilePool.TryGetFromPool(out var tile))
             {
                 tile.Component.transform.position = Grid.GetCellCenterWorld((Vector3Int) position);

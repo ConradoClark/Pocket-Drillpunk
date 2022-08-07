@@ -13,4 +13,17 @@ public class MapManager : BaseGameObject
         return (pos + new Vector3Int(pos.x < 0 ? +1 : 0, pos.y < 0 ? +1 : 0)) / 9
                + new Vector3Int(pos.x < 0 ? -1 : 0, pos.y < 0 ? -1 : 0);
     }
+
+    public Dictionary<Vector2Int, TileChange> TileChanges;
+
+    protected override void OnAwake()
+    {
+        base.OnAwake();
+        TileChanges = new Dictionary<Vector2Int, TileChange>(10000);
+    }
+
+    public void SetTileChange(Vector2Int pos, TileChange change)
+    {
+        TileChanges[pos] = change;
+    }
 }

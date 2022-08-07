@@ -1,10 +1,10 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
-using Licht.Interfaces.Generation;
+using Licht.Impl.Orchestration;
 using Licht.Unity.Objects;
 using UnityEngine;
 
-public class MapGenerator : MonoBehaviour
+public class MapGenerator : BaseGameObject
 {
     public ProcGenMapReference MainReference;
     public MapRules[] GlobalRules;
@@ -13,14 +13,19 @@ public class MapGenerator : MonoBehaviour
     private Grid _grid;
     private Vector3Int _referencePosition;
 
-    private void Awake()
+    protected override void OnAwake()
     {
+        base.OnAwake();
         _player = SceneObject<Player>.Instance();
         _grid = SceneObject<Grid>.Instance();
     }
-
     private void OnEnable()
     {
+        DefaultMachinery.AddBasicMachine(Initialize());
+    }
+    private IEnumerable<IEnumerable<Action>> Initialize()
+    {
+        yield return TimeYields.WaitOneFrameX;
         Populate(new Vector2Int(-9, 0));
         Populate(new Vector2Int(-9, -9));
         Populate(new Vector2Int(9, 0));

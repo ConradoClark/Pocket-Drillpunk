@@ -15,17 +15,24 @@ public abstract class ProcGenMapReference : BaseGameObject, IWeighted<float>, IG
 {
     public Color GizmoColor;
     public virtual Vector2Int RefSize { get; }
-    protected List<Vector2Int> PopulatedPositions;
+    private List<Vector2Int> _populatedPositions;
+
+    protected List<Vector2Int> PopulatedPositions
+    {
+        get { return _populatedPositions ??= new List<Vector2Int>(); }
+        set => _populatedPositions = value;
+    }
 
     protected Grid Grid;
     protected MapGenerator MapGenerator;
+    protected MapManager MapManager;
     protected GameTilemap GameTilemap;
     protected override void OnAwake()
     {
         base.OnAwake();
         Grid = SceneObject<Grid>.Instance();
-        PopulatedPositions = new List<Vector2Int>();
         MapGenerator = SceneObject<MapGenerator>.Instance();
+        MapManager = SceneObject<MapManager>.Instance();
         GameTilemap = SceneObject<GameTilemap>.Instance();
     }
 
