@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Licht.Impl.Orchestration;
+using Licht.Unity.Memory;
+using Licht.Unity.Objects;
 using Licht.Unity.Physics;
 using Licht.Unity.Pooling;
 using UnityEngine;
@@ -12,6 +14,9 @@ public abstract class BaseTile : EffectPoolable
     public Vector2Int Position;
     public abstract bool Breakable { get; }
     public int Durability;
+    protected Player Player;
+    protected Grid Grid;
+
 
     protected abstract IEnumerable<IEnumerable<Action>> OnHitEffect(int damage, Vector2Int direction);
 
@@ -28,13 +33,30 @@ public abstract class BaseTile : EffectPoolable
         EndEffect();
     }
 
+    protected override void OnAwake()
+    {
+        base.OnAwake();
+        Player = SceneObject<Player>.Instance();
+        Grid = SceneObject<Grid>.Instance();
+    }
+
+    private void Update()
+    {
+        var player = MapManager.Get9X9Position(Grid.WorldToCell(Player.transform.position));
+        var cell = MapManager.Get9X9Position((Vector3Int)Position);
+
+        var reachedX = Math.Abs(player.x - cell.x) > 1;
+
+        if (reachedX || Math.Abs(player.y - cell.y) > 1)
+        {
+            EndEffect();
+        }
+    }
+
     private void OnEnable()
     {
         CurrentDurability = Durability;
         PhysicsObject.AddCustomObject(this);
-
-        // REMOVE THIS AFTER POOLING
-        OnActivation();
     }
 
     private void OnDisable()
