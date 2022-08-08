@@ -14,11 +14,13 @@ public class MoveToCounterEffect : EffectPoolable
 {
     public Counter Counter;
     private Camera _uiCamera;
+    private Camera _gameCamera;
     private ITimer _uiTimer;
     protected override void OnAwake()
     {
         base.OnAwake();
         _uiCamera = SceneObject<UICamera>.Instance().Camera;
+        _gameCamera = SceneObject<GameCamera>.Instance().Camera;
         _uiTimer = SceneObject<DefaultUITimer>.Instance().TimerRef.Timer;
     }
 
@@ -26,7 +28,7 @@ public class MoveToCounterEffect : EffectPoolable
     {
         yield return TimeYields.WaitOneFrameX;
 
-        transform.position = _uiCamera.ScreenToWorldPoint(Camera.main.WorldToScreenPoint(transform.parent.position));
+        transform.position = _uiCamera.ViewportToWorldPoint(_gameCamera.WorldToViewportPoint(transform.parent.position));
         transform.SetParent(null);
 
         if (UINumberUpdater.Counters.ContainsKey(Counter))

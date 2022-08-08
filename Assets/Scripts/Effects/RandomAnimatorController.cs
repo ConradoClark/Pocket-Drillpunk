@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using Assets.Scripts.Map;
-using UnityEditor.Animations;
 using UnityEngine;
 
 public class RandomAnimatorController : MonoBehaviour

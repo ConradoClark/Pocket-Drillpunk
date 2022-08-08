@@ -44,8 +44,8 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
-  spriteMeshType: 1
+  spriteExtrude: 32
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -68,7 +68,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -122,9 +122,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 24
-        width: 4
-        height: 6
+        y: 28
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,10 +142,10 @@ TextureImporter:
       name: Numbers_Yellow_1
       rect:
         serializedVersion: 2
-        x: 4
-        y: 24
-        width: 4
-        height: 6
+        x: 5
+        y: 28
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,10 +163,10 @@ TextureImporter:
       name: Numbers_Yellow_2
       rect:
         serializedVersion: 2
-        x: 8
-        y: 24
-        width: 4
-        height: 6
+        x: 10
+        y: 28
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +184,10 @@ TextureImporter:
       name: Numbers_Yellow_3
       rect:
         serializedVersion: 2
-        x: 12
-        y: 24
-        width: 4
-        height: 6
+        x: 15
+        y: 28
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +205,10 @@ TextureImporter:
       name: Numbers_Yellow_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 24
-        width: 4
-        height: 6
+        x: 20
+        y: 28
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: Numbers_Yellow_5
       rect:
         serializedVersion: 2
-        x: 20
-        y: 24
-        width: 4
-        height: 6
+        x: 25
+        y: 28
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Numbers_Yellow_6
       rect:
         serializedVersion: 2
-        x: 24
-        y: 24
-        width: 4
-        height: 6
+        x: 30
+        y: 28
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +268,10 @@ TextureImporter:
       name: Numbers_Yellow_7
       rect:
         serializedVersion: 2
-        x: 28
-        y: 24
-        width: 4
-        height: 6
+        x: 35
+        y: 28
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +289,10 @@ TextureImporter:
       name: Numbers_Yellow_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 24
-        width: 4
-        height: 6
+        x: 40
+        y: 28
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +310,10 @@ TextureImporter:
       name: Numbers_Yellow_9
       rect:
         serializedVersion: 2
-        x: 36
-        y: 24
-        width: 4
-        height: 6
+        x: 45
+        y: 28
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,9 +332,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 18
-        width: 4
-        height: 6
+        y: 21
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +352,10 @@ TextureImporter:
       name: Numbers_Red_1
       rect:
         serializedVersion: 2
-        x: 4
-        y: 18
-        width: 4
-        height: 6
+        x: 5
+        y: 21
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,10 +373,10 @@ TextureImporter:
       name: Numbers_Red_2
       rect:
         serializedVersion: 2
-        x: 8
-        y: 18
-        width: 4
-        height: 6
+        x: 10
+        y: 21
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +394,10 @@ TextureImporter:
       name: Numbers_Red_3
       rect:
         serializedVersion: 2
-        x: 12
-        y: 18
-        width: 4
-        height: 6
+        x: 15
+        y: 21
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: Numbers_Red_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 18
-        width: 4
-        height: 6
+        x: 20
+        y: 21
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: Numbers_Red_5
       rect:
         serializedVersion: 2
-        x: 20
-        y: 18
-        width: 4
-        height: 6
+        x: 25
+        y: 21
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,10 +457,10 @@ TextureImporter:
       name: Numbers_Red_6
       rect:
         serializedVersion: 2
-        x: 24
-        y: 18
-        width: 4
-        height: 6
+        x: 30
+        y: 21
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +478,10 @@ TextureImporter:
       name: Numbers_Red_7
       rect:
         serializedVersion: 2
-        x: 28
-        y: 18
-        width: 4
-        height: 6
+        x: 35
+        y: 21
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,10 +499,10 @@ TextureImporter:
       name: Numbers_Red_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 18
-        width: 4
-        height: 6
+        x: 40
+        y: 21
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,10 +520,10 @@ TextureImporter:
       name: Numbers_Red_9
       rect:
         serializedVersion: 2
-        x: 36
-        y: 18
-        width: 4
-        height: 6
+        x: 45
+        y: 21
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,9 +542,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 12
-        width: 4
-        height: 6
+        y: 14
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +562,10 @@ TextureImporter:
       name: Numbers_Blue_1
       rect:
         serializedVersion: 2
-        x: 4
-        y: 12
-        width: 4
-        height: 6
+        x: 5
+        y: 14
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,10 +583,10 @@ TextureImporter:
       name: Numbers_Blue_2
       rect:
         serializedVersion: 2
-        x: 8
-        y: 12
-        width: 4
-        height: 6
+        x: 10
+        y: 14
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +604,10 @@ TextureImporter:
       name: Numbers_Blue_3
       rect:
         serializedVersion: 2
-        x: 12
-        y: 12
-        width: 4
-        height: 6
+        x: 15
+        y: 14
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,10 +625,10 @@ TextureImporter:
       name: Numbers_Blue_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 12
-        width: 4
-        height: 6
+        x: 20
+        y: 14
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +646,10 @@ TextureImporter:
       name: Numbers_Blue_5
       rect:
         serializedVersion: 2
-        x: 20
-        y: 12
-        width: 4
-        height: 6
+        x: 25
+        y: 14
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -667,10 +667,10 @@ TextureImporter:
       name: Numbers_Blue_6
       rect:
         serializedVersion: 2
-        x: 24
-        y: 12
-        width: 4
-        height: 6
+        x: 30
+        y: 14
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +688,10 @@ TextureImporter:
       name: Numbers_Blue_7
       rect:
         serializedVersion: 2
-        x: 28
-        y: 12
-        width: 4
-        height: 6
+        x: 35
+        y: 14
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -709,10 +709,10 @@ TextureImporter:
       name: Numbers_Blue_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 12
-        width: 4
-        height: 6
+        x: 40
+        y: 14
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -730,10 +730,10 @@ TextureImporter:
       name: Numbers_Blue_9
       rect:
         serializedVersion: 2
-        x: 36
-        y: 12
-        width: 4
-        height: 6
+        x: 45
+        y: 14
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,9 +752,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6
-        width: 4
-        height: 6
+        y: 7
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,10 +772,10 @@ TextureImporter:
       name: Numbers_Green_1
       rect:
         serializedVersion: 2
-        x: 4
-        y: 6
-        width: 4
-        height: 6
+        x: 5
+        y: 7
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -793,10 +793,10 @@ TextureImporter:
       name: Numbers_Green_2
       rect:
         serializedVersion: 2
-        x: 8
-        y: 6
-        width: 4
-        height: 6
+        x: 10
+        y: 7
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -814,10 +814,10 @@ TextureImporter:
       name: Numbers_Green_3
       rect:
         serializedVersion: 2
-        x: 12
-        y: 6
-        width: 4
-        height: 6
+        x: 15
+        y: 7
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -835,10 +835,10 @@ TextureImporter:
       name: Numbers_Green_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 6
-        width: 4
-        height: 6
+        x: 20
+        y: 7
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -856,10 +856,10 @@ TextureImporter:
       name: Numbers_Green_5
       rect:
         serializedVersion: 2
-        x: 20
-        y: 6
-        width: 4
-        height: 6
+        x: 25
+        y: 7
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,10 +877,10 @@ TextureImporter:
       name: Numbers_Green_6
       rect:
         serializedVersion: 2
-        x: 24
-        y: 6
-        width: 4
-        height: 6
+        x: 30
+        y: 7
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,10 +898,10 @@ TextureImporter:
       name: Numbers_Green_7
       rect:
         serializedVersion: 2
-        x: 28
-        y: 6
-        width: 4
-        height: 6
+        x: 35
+        y: 7
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -919,10 +919,10 @@ TextureImporter:
       name: Numbers_Green_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 6
-        width: 4
-        height: 6
+        x: 40
+        y: 7
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -940,10 +940,10 @@ TextureImporter:
       name: Numbers_Green_9
       rect:
         serializedVersion: 2
-        x: 36
-        y: 6
-        width: 4
-        height: 6
+        x: 45
+        y: 7
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -963,8 +963,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 4
-        height: 6
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -982,10 +982,10 @@ TextureImporter:
       name: Numbers_White_1
       rect:
         serializedVersion: 2
-        x: 4
+        x: 5
         y: 0
-        width: 4
-        height: 6
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1003,10 +1003,10 @@ TextureImporter:
       name: Numbers_White_2
       rect:
         serializedVersion: 2
-        x: 8
+        x: 10
         y: 0
-        width: 4
-        height: 6
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1024,10 +1024,10 @@ TextureImporter:
       name: Numbers_White_3
       rect:
         serializedVersion: 2
-        x: 12
+        x: 15
         y: 0
-        width: 4
-        height: 6
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1045,10 +1045,10 @@ TextureImporter:
       name: Numbers_White_4
       rect:
         serializedVersion: 2
-        x: 16
+        x: 20
         y: 0
-        width: 4
-        height: 6
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1066,10 +1066,10 @@ TextureImporter:
       name: Numbers_White_5
       rect:
         serializedVersion: 2
-        x: 20
+        x: 25
         y: 0
-        width: 4
-        height: 6
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1087,10 +1087,10 @@ TextureImporter:
       name: Numbers_White_6
       rect:
         serializedVersion: 2
-        x: 24
+        x: 30
         y: 0
-        width: 4
-        height: 6
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1108,10 +1108,10 @@ TextureImporter:
       name: Numbers_White_7
       rect:
         serializedVersion: 2
-        x: 28
+        x: 35
         y: 0
-        width: 4
-        height: 6
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1129,10 +1129,10 @@ TextureImporter:
       name: Numbers_White_8
       rect:
         serializedVersion: 2
-        x: 32
+        x: 40
         y: 0
-        width: 4
-        height: 6
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1150,10 +1150,10 @@ TextureImporter:
       name: Numbers_White_9
       rect:
         serializedVersion: 2
-        x: 36
+        x: 45
         y: 0
-        width: 4
-        height: 6
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

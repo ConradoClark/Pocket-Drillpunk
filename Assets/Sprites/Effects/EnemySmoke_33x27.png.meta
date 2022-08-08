@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: cc14550c2c8971743bc1c0edf6823f75
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24339e1ad2a37a649af93f23a8bcb97e
+      internalID: 130014000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 189
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41df523530eafbb4a939ba6c00faef0b
+      internalID: -1725461299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 189
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701f4f53e0052494f9b6b650455249ca
+      internalID: 1925767202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 189
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334171f74840de24dab153532b4cb840
+      internalID: 2115901472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 189
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f463e4144bb103242b7d2afd0baa2cc0
+      internalID: -2089452651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 189
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f8d75097d0f364a8d6a453c39db3f7
+      internalID: -597676773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 189
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648427a06003644409c2bed165c5bbee
+      internalID: -465379250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 189
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4041d984606aca44e99f845b84253ed7
+      internalID: 961289548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3377fa01b2d6c742b411afd082829f8
+      internalID: 2054203055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 162
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab76ca131baed9459dc9efde7ebe106
+      internalID: 71880448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 162
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef6a27e16c9384b9a31fe76979f4fd
+      internalID: -833939790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 162
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1131348a19148f4dac7dc35a2a373eb
+      internalID: 1401554407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 162
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b07cad12784c74dbe2013c36cec191
+      internalID: -1508113753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 162
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e75f67f4d99bcb42a3d9705fc7981c3
+      internalID: 534725561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 162
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46d358f692283c42907eb28282fad25
+      internalID: -431053476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 162
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a41707056073b94a8ba04df2c198562
+      internalID: 424116530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69f21ab63874a64ab42d57b4053b175
+      internalID: -1760879134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 135
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58751301b2c9c5f44805447b7f5c7e81
+      internalID: 744812633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 135
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832c0e4746e1bd74cbe58ac85ac748e3
+      internalID: 796309973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 135
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cac50d16244db446a2a6d9fcac9602d
+      internalID: 1090247491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 135
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6119db167f7fb5f46b7d1ff56dfeb697
+      internalID: -266124847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_21
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 135
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dc294f31a0fdf44ad092e3f6527225
+      internalID: 1899060002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 135
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f28c111a44d89c418dea2cc47996b38
+      internalID: -667135467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_23
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 135
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8753a49b13db73149848d9f525003dfb
+      internalID: 1846603838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e6567ec82033c4b8b0b033c2d8f643
+      internalID: -320503544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 108
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb120b8eb8cb834d8e98f24418505ad
+      internalID: -1050898897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 108
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a468677922e1e4299aa956732dc136
+      internalID: 335882055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 108
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edce19809b479b2499628ac7ae0a1919
+      internalID: 10498824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 108
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bf1349f082328419d94aae79abf42a
+      internalID: -1397443923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 108
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab46adb5f2961c0488359c6f9e8281ab
+      internalID: -1422275436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_30
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 108
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d32eac84e0a9f54985a288d7887489b
+      internalID: -385862600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_31
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 108
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc371bcfd3dc3bb41aa3cf46ec21c262
+      internalID: 243479919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3415d98a2fc62214296cd2cce9ce2b37
+      internalID: -112052679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_33
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 81
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abff5c77bb519c34cb366b4f9c665838
+      internalID: 141581628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 81
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb5386ab2005064e9fc20f3b657a7f1
+      internalID: -1884865332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_35
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 81
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941b87826377f7f41a67668103f469c5
+      internalID: -70257794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 81
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf3f6b0e7e71f44f982d2483ec6495e
+      internalID: -1523118804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_37
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 81
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9003b2033eb87fe41baf9fd8f3438235
+      internalID: -1662610084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_38
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 81
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c29ce95e0bc884cae74ea69b33f95c
+      internalID: 1355508968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_39
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 81
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17156ac939b47e34388bd9590fb81a9c
+      internalID: 1383471137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b8ce73596adfd43833a550e8295e7c
+      internalID: 1369962388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 54
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bfb929f53de054598fec5961f40ca5
+      internalID: 378211550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_42
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 54
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c98e38f8b2f08446b7a7917bf566880
+      internalID: 1872203565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_43
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 54
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6efad5ee651584f9ba3757885e334d
+      internalID: 2116050315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 54
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f192f1b3baab3564d8ba15fedf44518a
+      internalID: -198701652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_45
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 54
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9d2abb77beb6d43ab4a652e4176bca
+      internalID: 224335520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_46
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 54
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b102503326c2ce44cbfe476acb329d96
+      internalID: -657180835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_47
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 54
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464bfefad0ef5384bbcc6a66b050a713
+      internalID: 1393914733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9561405062b0c48986126d12ac09e9
+      internalID: -1861475416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_49
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 27
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb7eaa712ae55346b1149b6996fe5f4
+      internalID: 961752553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_50
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 27
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0097a5250575be34481a81fbef374f83
+      internalID: 1544409978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_51
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 27
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb20121d1ab0f847ac63bb37c411bda
+      internalID: 1723224779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_52
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 27
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba614245bca97347919f03d12ad8288
+      internalID: 971350951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_53
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 27
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b170f6005bb4a4e82299f9302da9dd
+      internalID: -209975571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_54
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 27
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d45fb13ce3fb449b5b70f192d9ede3
+      internalID: -1793974300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_55
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 27
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f7c5dcceb7f4d4ab24d2f153d30f57
+      internalID: -435035884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4c8b24865380d47b2c1120ba2406b8
+      internalID: -2110463687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_57
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7109c06c93d0dc54a9bc88854f1a3542
+      internalID: 1167932100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_58
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a92a0ec6384044bb8d01f6040c1a5d
+      internalID: -1948899053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySmoke_33x27_59
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8404a85a4dc83a4b88227f966b6b690
+      internalID: 2035399421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemySmoke_33x27_48: -1861475416
+      EnemySmoke_33x27_54: -1793974300
+      EnemySmoke_33x27_10: -833939790
+      EnemySmoke_33x27_11: 1401554407
+      EnemySmoke_33x27_27: 10498824
+      EnemySmoke_33x27_34: -1884865332
+      EnemySmoke_33x27_23: 1846603838
+      EnemySmoke_33x27_16: -1760879134
+      EnemySmoke_33x27_3: 2115901472
+      EnemySmoke_33x27_20: -266124847
+      EnemySmoke_33x27_21: 1899060002
+      EnemySmoke_33x27_26: 335882055
+      EnemySmoke_33x27_59: 2035399421
+      EnemySmoke_33x27_15: 424116530
+      EnemySmoke_33x27_49: 961752553
+      EnemySmoke_33x27_19: 1090247491
+      EnemySmoke_33x27_40: 1369962388
+      EnemySmoke_33x27_45: 224335520
+      EnemySmoke_33x27_51: 1723224779
+      EnemySmoke_33x27_43: 2116050315
+      EnemySmoke_33x27_13: 534725561
+      EnemySmoke_33x27_6: -465379250
+      EnemySmoke_33x27_9: 71880448
+      EnemySmoke_33x27_44: -198701652
+      EnemySmoke_33x27_0: 130014000
+      EnemySmoke_33x27_33: 141581628
+      EnemySmoke_33x27_18: 796309973
+      EnemySmoke_33x27_31: 243479919
+      EnemySmoke_33x27_41: 378211550
+      EnemySmoke_33x27_57: 1167932100
+      EnemySmoke_33x27_8: 2054203055
+      EnemySmoke_33x27_58: -1948899053
+      EnemySmoke_33x27_42: 1872203565
+      EnemySmoke_33x27_38: 1355508968
+      EnemySmoke_33x27_25: -1050898897
+      EnemySmoke_33x27_22: -667135467
+      EnemySmoke_33x27_2: 1925767202
+      EnemySmoke_33x27_36: -1523118804
+      EnemySmoke_33x27_39: 1383471137
+      EnemySmoke_33x27_24: -320503544
+      EnemySmoke_33x27_46: -657180835
+      EnemySmoke_33x27_53: -209975571
+      EnemySmoke_33x27_52: 971350951
+      EnemySmoke_33x27_56: -2110463687
+      EnemySmoke_33x27_30: -385862600
+      EnemySmoke_33x27_55: -435035884
+      EnemySmoke_33x27_14: -431053476
+      EnemySmoke_33x27_47: 1393914733
+      EnemySmoke_33x27_50: 1544409978
+      EnemySmoke_33x27_32: -112052679
+      EnemySmoke_33x27_29: -1422275436
+      EnemySmoke_33x27_35: -70257794
+      EnemySmoke_33x27_5: -597676773
+      EnemySmoke_33x27_12: -1508113753
+      EnemySmoke_33x27_1: -1725461299
+      EnemySmoke_33x27_17: 744812633
+      EnemySmoke_33x27_4: -2089452651
+      EnemySmoke_33x27_37: -1662610084
+      EnemySmoke_33x27_28: -1397443923
+      EnemySmoke_33x27_7: 961289548
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
