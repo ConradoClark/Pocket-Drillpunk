@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Objects;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class DrillAnimator : BaseGameObject
 {
@@ -35,6 +36,7 @@ public class DrillAnimator : BaseGameObject
     [Header("Jetpack")]
     public Vector3 JetpackSmokeOffset;
     public SpriteRenderer JetpackSmoke;
+    public Light2D JetpackLight;
 
     // Drill Impact
     [Header("Drill Impact")] public ScriptPrefab DrillImpactBurst;
@@ -100,6 +102,8 @@ public class DrillAnimator : BaseGameObject
 
         JetpackSmoke.transform.localPosition =
             _jetpackSmokeLocalPosition + new Vector3(JetpackSmokeOffset.x * (SpriteRenderer.flipX ? -1 : 1), JetpackSmokeOffset.y);
+
+        JetpackLight.enabled = CharacterController.IsHovering;
     }
 
     private void CharacterController_OnStopMoving(Vector2Int obj)

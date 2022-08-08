@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1985747949189323177
+--- !u!1 &7274316281597282159
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5438561389410906080}
-  - component: {fileID: 3839038176128903537}
-  - component: {fileID: 691990670619909605}
-  - component: {fileID: -7596779813206052561}
-  - component: {fileID: 1992432789204510342}
+  - component: {fileID: 9091449421233001429}
+  - component: {fileID: 472059309651030513}
+  - component: {fileID: 5489111697047880938}
+  - component: {fileID: 7792271147692549342}
   m_Layer: 0
-  m_Name: DrillContactParticles_39x24_0
+  m_Name: Torch1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5438561389410906080
+--- !u!4 &9091449421233001429
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985747949189323177}
+  m_GameObject: {fileID: 7274316281597282159}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.9341892, y: -0.094412066, z: 0}
+  m_LocalPosition: {x: 1.4225165, y: -3.6648715, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2674780962536856866}
+  - {fileID: 2177042496657904587}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3839038176128903537
+--- !u!212 &472059309651030513
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985747949189323177}
+  m_GameObject: {fileID: 7274316281597282159}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -76,29 +75,29 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: -1687823321, guid: 5afbf3fa85a24f54ebf87de6d6e80604, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 199849766, guid: 4df5de65d77e0244fa842fd7da0e4689, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.39, y: 0.24}
+  m_Size: {x: 0.08, y: 0.08}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &691990670619909605
+--- !u!95 &5489111697047880938
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985747949189323177}
+  m_GameObject: {fileID: 7274316281597282159}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d8bfe99adf7a6e84691657bef3817541, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6d9a586d9e838e04db5023d3d61a68db, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -108,40 +107,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-7596779813206052561
+--- !u!114 &7792271147692549342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985747949189323177}
+  m_GameObject: {fileID: 7274316281597282159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1635546891, guid: afcd0d74df61bb5419a8bc14b0abcd9a, type: 3}
+  m_Script: {fileID: 11500000, guid: d3cc6356c6ffb414982a843467468ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
-  Animator: {fileID: 691990670619909605}
-  State: DrillContact_Burst
---- !u!114 &1992432789204510342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985747949189323177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 965b82de77e88b84db02b33908c62771, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  Offset: {x: 0.04, y: 0.04, z: 0}
   Tile: {fileID: 0}
-  Definitions:
-  - MinValue: -30
-    MaxValue: 30
-    Axis: 1
-    Step: 0
---- !u!1 &8956288087487815771
+--- !u!1 &8779799596664877231
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,37 +130,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2674780962536856866}
-  - component: {fileID: 5624191871708498457}
+  - component: {fileID: 2177042496657904587}
+  - component: {fileID: 8683656471501510464}
   m_Layer: 0
-  m_Name: li
+  m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2674780962536856866
+--- !u!4 &2177042496657904587
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8956288087487815771}
+  m_GameObject: {fileID: 8779799596664877231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -0.06, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5438561389410906080}
+  m_Father: {fileID: 9091449421233001429}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5624191871708498457
+--- !u!114 &8683656471501510464
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8956288087487815771}
+  m_GameObject: {fileID: 8779799596664877231}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
@@ -188,9 +169,9 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.64
-  m_Color: {r: 0.7104397, g: 0.9716981, b: 0.96167433, a: 1}
-  m_Intensity: 2
+  m_FalloffIntensity: 0.145
+  m_Color: {r: 1, g: 0.89918447, b: 0, a: 1}
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -241,7 +222,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 0.08
+  m_PointLightOuterRadius: 0.1
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1

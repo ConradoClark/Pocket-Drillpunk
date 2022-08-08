@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f11e774367078b468a21f9cbe27d7d8, type: 3}
+  m_Name: Numbers_Red
+  m_EditorClassIdentifier: 
+  Number0: {fileID: 1293210277, guid: f9a280ac73688f7469b12529ec38404b, type: 3}
+  Number1: {fileID: 167664569, guid: f9a280ac73688f7469b12529ec38404b, type: 3}
+  Number2: {fileID: -1163434774, guid: f9a280ac73688f7469b12529ec38404b, type: 3}
+  Number3: {fileID: 497818747, guid: f9a280ac73688f7469b12529ec38404b, type: 3}
+  Number4: {fileID: 1008819476, guid: f9a280ac73688f7469b12529ec38404b, type: 3}
+  Number5: {fileID: -358540608, guid: f9a280ac73688f7469b12529ec38404b, type: 3}
+  Number6: {fileID: 96915586, guid: f9a280ac73688f7469b12529ec38404b, type: 3}
+  Number7: {fileID: 1824522895, guid: f9a280ac73688f7469b12529ec38404b, type: 3}
+  Number8: {fileID: 1691661911, guid: f9a280ac73688f7469b12529ec38404b, type: 3}
+  Number9: {fileID: -549620949, guid: f9a280ac73688f7469b12529ec38404b, type: 3}

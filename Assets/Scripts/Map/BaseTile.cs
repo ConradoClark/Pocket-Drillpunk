@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Assets.Scripts.Map;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Memory;
 using Licht.Unity.Objects;
@@ -22,6 +24,10 @@ public abstract class BaseTile : EffectPoolable
     public Dictionary<string, object> CustomProperties;
 
     private string _generatedBySeed;
+    private List<ITileStateExtension> _extensions;
+    private ITilePropGenerator[] _tileProps;
+    private MapGenerator _mapGenerator;
+    private Vector2Int[] _occupiedPropPositions = new Vector2Int[4];
 
     public string GeneratedBySeed
     {
@@ -35,6 +41,7 @@ public abstract class BaseTile : EffectPoolable
 
     public event Action<string> OnSeedChanged;
     public event Action OnBreak;
+    public event Action OnRelease;
 
     protected abstract IEnumerable<IEnumerable<Action>> OnHitEffect(int damage, Vector2Int direction);
 
@@ -49,8 +56,7 @@ public abstract class BaseTile : EffectPoolable
     {
         OnBreak?.Invoke();
         yield return OnBreakEffect().AsCoroutine();
-        SaveTileChanges();
-        EndEffect();
+        ReleaseTile();
     }
 
     private MapManager _mapManager;
@@ -62,6 +68,9 @@ public abstract class BaseTile : EffectPoolable
         Grid = SceneObject<Grid>.Instance();
         CustomProperties = new Dictionary<string, object>();
         _mapManager = SceneObject<MapManager>.Instance();
+        _extensions = new List<ITileStateExtension>();
+        _tileProps = GetComponentsInChildren<ITilePropGenerator>();
+        _mapGenerator = SceneObject<MapGenerator>.Instance();
     }
 
     private void Update()
@@ -73,8 +82,7 @@ public abstract class BaseTile : EffectPoolable
 
         if (reachedX || Math.Abs(player.y - cell.y) > 1)
         {
-            SaveTileChanges();
-            EndEffect();
+            ReleaseTile();
         }
     }
 
@@ -82,6 +90,24 @@ public abstract class BaseTile : EffectPoolable
     {
         CurrentDurability = Durability;
         PhysicsObject.AddCustomObject(this);
+        _mapGenerator.OnPopulate += OnPopulate;
+    }
+
+    private void OnPopulate()
+    {
+        foreach (var tile in _tileProps)
+        {
+            tile.Populate(GeneratedBySeed);
+        }
+
+        if (CustomProperties != null)
+        {
+            foreach (var extension in _extensions)
+            {
+                extension.LoadState(CustomProperties);
+            }
+        }
+        _mapGenerator.OnPopulate -= OnPopulate;
     }
 
     private void OnDisable()
@@ -95,18 +121,48 @@ public abstract class BaseTile : EffectPoolable
     {
     }
 
+    private void ReleaseTile()
+    {
+        for (var index = 0; index < _occupiedPropPositions.Length; index++)
+        {
+            _occupiedPropPositions[index] = Vector2Int.zero;
+        }
+
+        SaveTileChanges();
+        _extensions.Clear();
+        OnRelease?.Invoke();
+        OnRelease = null;
+        EndEffect();
+    }
+
+    public bool IsOccupiedByProp(Vector2Int pos)
+    {
+        return _occupiedPropPositions.Contains(pos);
+    }
+
+    public void AddTileExtension(ITileStateExtension extension, Vector2Int direction)
+    {
+        if (direction == Vector2Int.up) _occupiedPropPositions[0] = Vector2Int.up;
+        if (direction == Vector2Int.right) _occupiedPropPositions[0] = Vector2Int.right;
+        if (direction == Vector2Int.left) _occupiedPropPositions[0] = Vector2Int.left;
+        if (direction == Vector2Int.down) _occupiedPropPositions[0] = Vector2Int.down;
+        _extensions.Add(extension);
+    }
+
     public virtual TileChange GetTileChange()
     {
         return new TileChange
         {
             Destroyed = CurrentDurability <= 0,
-            Durability = CurrentDurability
+            Durability = CurrentDurability,
+            CustomProperties = CustomProperties.ToDictionary(k=>k.Key, v=>v.Value)
         };
     }
 
     public virtual void ApplyTileChanges()
     {
         _mapManager.ActiveTiles[Position] = this;
+
         if (_mapManager == null || _mapManager.TileChanges == null || !_mapManager.TileChanges.ContainsKey(Position))
         {
             CurrentDurability = Durability;
@@ -125,8 +181,15 @@ public abstract class BaseTile : EffectPoolable
 
     private void SaveTileChanges()
     {
-        if (!Dirty) return;
         var tileChange = GetTileChange();
+        var anyExtensionsDirty = false;
+        foreach (var extension in _extensions)
+        {
+            if (!extension.Dirty) continue;
+            extension.SaveState(tileChange.CustomProperties);
+            anyExtensionsDirty = true;
+        }
+        if (!Dirty && !anyExtensionsDirty) return;
         _mapManager.SetTileChange(Position, tileChange);
     }
 
