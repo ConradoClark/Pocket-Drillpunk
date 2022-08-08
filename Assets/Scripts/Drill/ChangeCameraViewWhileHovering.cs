@@ -23,7 +23,7 @@ public class ChangeCameraViewWhileHovering : MonoBehaviour
     {
         if (_drillCharacterController != null)
         {
-            _framingTransposer.m_ScreenY = _drillCharacterController.IsHovering ? 0.55f : _originalScreenY;
+            _framingTransposer.m_ScreenY = _drillCharacterController.IsHovering ? 0.6f : _originalScreenY;
         }
     }
 }

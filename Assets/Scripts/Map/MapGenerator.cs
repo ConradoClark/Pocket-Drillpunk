@@ -42,30 +42,39 @@ public class MapGenerator : BaseGameObject
 
         if (_referencePosition != playerPos)
         {
-            var popPos = (Vector2Int)playerPos * 9;
-            if (playerPos.x != _referencePosition.x)
-            {
-                if (playerPos.x > _referencePosition.x) popPos += new Vector2Int(9, 0);
-                if (playerPos.x < _referencePosition.x) popPos += new Vector2Int(-9, 0);
-                Populate(popPos);
-                Populate(popPos - new Vector2Int(0, -9));
-                Populate(popPos - new Vector2Int(0, 9));
-            }
-
-            if (playerPos.y != _referencePosition.y)
-            {
-                if (playerPos.y > _referencePosition.y) popPos += new Vector2Int(0, 9);
-                if (playerPos.y < _referencePosition.y) popPos += new Vector2Int(0, -9);
-                Populate(popPos);
-                Populate(popPos - new Vector2Int(-9, 0));
-                Populate(popPos - new Vector2Int(9, 0));
-            }
-
-            OnPopulate?.Invoke();
-
+            DefaultMachinery.AddBasicMachine(PopulateOnPlayerPos(_referencePosition, playerPos));
             _referencePosition = playerPos;
         }
     }
+
+    private IEnumerable<IEnumerable<Action>> PopulateOnPlayerPos(Vector3Int referencePosition, Vector3Int playerPos)
+    {
+        var popPos = (Vector2Int)playerPos * 9;
+        if (playerPos.x != referencePosition.x)
+        {
+            if (playerPos.x > referencePosition.x) popPos += new Vector2Int(9, 0);
+            if (playerPos.x < referencePosition.x) popPos += new Vector2Int(-9, 0);
+            Populate(popPos);
+            yield return TimeYields.WaitOneFrameX;
+            Populate(popPos - new Vector2Int(0, -9));
+            yield return TimeYields.WaitOneFrameX;
+            Populate(popPos - new Vector2Int(0, 9));
+        }
+
+        if (playerPos.y != referencePosition.y)
+        {
+            if (playerPos.y > referencePosition.y) popPos += new Vector2Int(0, 9);
+            if (playerPos.y < referencePosition.y) popPos += new Vector2Int(0, -9);
+            Populate(popPos);
+            yield return TimeYields.WaitOneFrameX;
+            Populate(popPos - new Vector2Int(-9, 0));
+            yield return TimeYields.WaitOneFrameX;
+            Populate(popPos - new Vector2Int(9, 0));
+        }
+
+        OnPopulate?.Invoke();
+    }
+
     public void Populate(Vector2Int pos)
     {
         MainReference.Populate("XXX2", pos);
