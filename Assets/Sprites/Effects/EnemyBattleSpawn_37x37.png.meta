@@ -1,0 +1,2159 @@
+fileFormatVersion: 2
+guid: cba4bd3fcdc94d545baea30d14a1135e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd481289028a4424bb11fd413006d55b
+      internalID: -1585003285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99c1692586631f44872c00b8e12ec1f
+      internalID: 1538289099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b400ea82c9151b49a8745b0e22c6aeb
+      internalID: 1140478863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb9874d89155794c8a2c54b1785c28b
+      internalID: 823346190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079219a56dea5c546b39587b628f68de
+      internalID: -1466754914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a11e798eb45ca842986cea79c7da925
+      internalID: -1966999175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d20d2b534295664b952ac767752153e
+      internalID: -640204672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52270eab91c554d4fbf05561df7e310f
+      internalID: -37815546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb33ba6d746cb4ea1ea91b44634900
+      internalID: 164572648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7798a55280de72b488e91b6953f89acc
+      internalID: 191442774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87c59986f0b08b4cbfe6055a3ab59c8
+      internalID: -1192381188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d9543b00f251248812881c55c5d626
+      internalID: 967178837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59157b5f388d0f04d99bc430354887cb
+      internalID: 1515605592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a365ebbc7c71e0f42b13543cf51fcb74
+      internalID: 275268472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d800ab8568adad47b7299c703a0f59d
+      internalID: -1668658078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_15
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0334232c363b64d8c2ca59a219efd4
+      internalID: 968567184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bce346765a2cba40ab3a0e3efdafdf6
+      internalID: -1733052805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_17
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c570569e038cc424b8d4e7bb743710f5
+      internalID: -1105549828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49701d7284466548886aee80c696710
+      internalID: 1277082934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_19
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5fbb46b5d9dfe41a884d3d64e6ee06
+      internalID: 2132727099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1a39ee02c9230489e45f1a995f9f25
+      internalID: -752715144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd621af0b7e99c149bae95949611f523
+      internalID: 1535099203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116d0fe4965268747b234f11af7ba447
+      internalID: 1501899661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_23
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f68ed1d2fbc9245ae0a265c5ef5885
+      internalID: 1421663137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_24
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373a46eab9682bc4586287da089af1c3
+      internalID: -2070189051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c91ca239e633564b9f65966899556fb
+      internalID: -1703767653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_26
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682f1feb568e02445a0c05e0540c8eca
+      internalID: -1222777785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1144d2de684b11046baca307fc46335d
+      internalID: -1264228774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_28
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb60d8456426404aae85394cac66c6f
+      internalID: 1402502075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_29
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4dad542d7ea354fb0d9b1eb68adf5c
+      internalID: -524824072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5279a839744229441b250ea8fcbbaff2
+      internalID: 1713971356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24d28e00fef00b43987f0f0c6843f2b
+      internalID: 894637074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_32
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14cc947bd455604194e6b8af19ee850
+      internalID: -351694953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_33
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3114d288cf9183e42b46327d2444034c
+      internalID: 1442768091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c4e482384b2444fb1667ef4fbc23bb
+      internalID: -1115017819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_35
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84035ea8b1e86324381b9da59d3a0b23
+      internalID: 1965712861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_36
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989a5e22261fc4741a3a38a53d007eb8
+      internalID: 592226129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_37
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69070ab7073f08942be71e83bb821a96
+      internalID: 316321007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_38
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b69473b3399cab46af6d7fd9d17934a
+      internalID: 746082497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_39
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce0fd0d439bc484d97c6c53dade5cb9
+      internalID: 764607307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e7dda930725b145b573f9b88f2ee4a
+      internalID: 1222128182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f48b669371136408fa1af37c1d2aa2
+      internalID: -1553370479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_42
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12e28c813505cf49a0a110479c4f786
+      internalID: 496192922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_43
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f857b074ead6aed4b817d7d56ae61099
+      internalID: -1814185924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_44
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec35295854d2eb439c561b9f90f429a
+      internalID: 1739456976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_45
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c81e7e2a801cc44bbc72c6bccd26b67
+      internalID: -189919345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_46
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc313c719a5336439eba285c06eae71
+      internalID: -1433957155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_47
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97510ff249f0e344881f703aa90b342f
+      internalID: -1475826453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_48
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68242ac457fd0f4f8b8ff01152e9fc2
+      internalID: -192247798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_49
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907dbc5f38b1d0f4eb48b2071088a319
+      internalID: -76431295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b093b1bf56ef142b7bf9904eae2b83
+      internalID: -1757514063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_51
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a7cb74b26643a4c89feb483cb0d6a2
+      internalID: -161898024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_52
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfd87f7249cc3f48b24c6fb5d83561f
+      internalID: -1212970039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_53
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4443b733461e942a419878cc17c1ed
+      internalID: 2048230122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_54
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942d2d7c840ee9b469cd4fa82107d3bc
+      internalID: -1776232815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_55
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b8ace41ef6d8b4e8e6593edad17031
+      internalID: -714597492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_56
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54007bfc1ecdf174b8d696e0dea08de3
+      internalID: 763736450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_57
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cdcde743dc4db40bf87daa4d39e61b
+      internalID: 1520926592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_58
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fd345fe3cb9f64c87c78a6259e5797
+      internalID: -1801776499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_59
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c07258897d8d2d4fbe9c879bb37de63
+      internalID: 1219135397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890eaed9439a5cf498be663734b6d0c7
+      internalID: -591702958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_61
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbabd4c7348f9943a4ec1b2c35e6e9c
+      internalID: 1693873865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_62
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8e83667047db74d8e8e6c845aa51ed
+      internalID: -1536175122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_63
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b940c9194f518a84b85e8ed4d19b4059
+      internalID: 2031205449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_64
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efc46f56ad73b24c82ba54ce47e7292
+      internalID: -806768815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_65
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0088aabe76111694aa7db471c3ce63bd
+      internalID: 10714465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_66
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec0b2937276d624da2f72209fd15f59
+      internalID: -658027340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_67
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbeda91ab9eeb9419936207bd18d8fc
+      internalID: -21177597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_68
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5786d0e09c624e044ac998621d3963b7
+      internalID: -917719779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_69
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6986739a09d7bbc489748e62adf9d3c8
+      internalID: -1546898548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509f1fb0ad6dc094fa4f2e245fd02ecf
+      internalID: -343696059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_71
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87424cb7c839bdb49987742e28833d9b
+      internalID: 2066195067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_72
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19893272b576454388104b1ccda6485
+      internalID: -1769049397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_73
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4e715e559e6b74b8dc24adcf9b426e
+      internalID: -1684437148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_74
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cb96078cb854948988433cf615c748
+      internalID: 1264223746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_75
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12eba98f229d99348be2fad2746103dd
+      internalID: -184288136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_76
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4090b260481c6ec4b810c68d6e517bbb
+      internalID: 1353019481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_77
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347c12047e9b0d24f8ed810e2ac1d057
+      internalID: 323360353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_78
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb0806d17997744db5096ba8678a531
+      internalID: -1598481240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_79
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e325780e8efc0944dba98243c39513d9
+      internalID: 126883315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832b0d38deb8e014593c77c2575dd23f
+      internalID: -863711967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_81
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a33ccb33c43a754bb0e2bef293f6ff0
+      internalID: 840174808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_82
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa1886cf86bf064cb17ecd713d21db7
+      internalID: -224921473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_83
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7f2872c4e32494abb562286eea7301
+      internalID: 1010227315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_84
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea61eabdecd1e4a41af33797faa0a352
+      internalID: 1684345834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_85
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c670efb0b3f904bb16d88df2eb0be3
+      internalID: 186943116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_86
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53039342de10004a8f95de6f949c096
+      internalID: -410099101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_87
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c62bd0111340e4c94f42bbec4f4e46
+      internalID: 2098432354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_88
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9e09f91ead13841a018be780dd734e
+      internalID: -2130831968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_89
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a348b47fe1818084faba3e6a7f0b5723
+      internalID: 317186368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154832e87f3113345865aee9fa48b957
+      internalID: 1757563540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBattleSpawn_37x37_91
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7076795afc3af4dacc4971642a8895
+      internalID: 317718560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemyBattleSpawn_37x37_50: -1757514063
+      EnemyBattleSpawn_37x37_91: 317718560
+      EnemyBattleSpawn_37x37_18: 1277082934
+      EnemyBattleSpawn_37x37_43: -1814185924
+      EnemyBattleSpawn_37x37_22: 1501899661
+      EnemyBattleSpawn_37x37_39: 764607307
+      EnemyBattleSpawn_37x37_70: -343696059
+      EnemyBattleSpawn_37x37_79: 126883315
+      EnemyBattleSpawn_37x37_66: -658027340
+      EnemyBattleSpawn_37x37_74: 1264223746
+      EnemyBattleSpawn_37x37_49: -76431295
+      EnemyBattleSpawn_37x37_83: 1010227315
+      EnemyBattleSpawn_37x37_55: -714597492
+      EnemyBattleSpawn_37x37_0: -1585003285
+      EnemyBattleSpawn_37x37_5: -1966999175
+      EnemyBattleSpawn_37x37_75: -184288136
+      EnemyBattleSpawn_37x37_68: -917719779
+      EnemyBattleSpawn_37x37_11: 967178837
+      EnemyBattleSpawn_37x37_12: 1515605592
+      EnemyBattleSpawn_37x37_24: -2070189051
+      EnemyBattleSpawn_37x37_78: -1598481240
+      EnemyBattleSpawn_37x37_9: 191442774
+      EnemyBattleSpawn_37x37_58: -1801776499
+      EnemyBattleSpawn_37x37_16: -1733052805
+      EnemyBattleSpawn_37x37_34: -1115017819
+      EnemyBattleSpawn_37x37_14: -1668658078
+      EnemyBattleSpawn_37x37_29: -524824072
+      EnemyBattleSpawn_37x37_52: -1212970039
+      EnemyBattleSpawn_37x37_63: 2031205449
+      EnemyBattleSpawn_37x37_56: 763736450
+      EnemyBattleSpawn_37x37_17: -1105549828
+      EnemyBattleSpawn_37x37_35: 1965712861
+      EnemyBattleSpawn_37x37_53: 2048230122
+      EnemyBattleSpawn_37x37_42: 496192922
+      EnemyBattleSpawn_37x37_41: -1553370479
+      EnemyBattleSpawn_37x37_1: 1538289099
+      EnemyBattleSpawn_37x37_48: -192247798
+      EnemyBattleSpawn_37x37_72: -1769049397
+      EnemyBattleSpawn_37x37_86: -410099101
+      EnemyBattleSpawn_37x37_6: -640204672
+      EnemyBattleSpawn_37x37_47: -1475826453
+      EnemyBattleSpawn_37x37_84: 1684345834
+      EnemyBattleSpawn_37x37_10: -1192381188
+      EnemyBattleSpawn_37x37_23: 1421663137
+      EnemyBattleSpawn_37x37_57: 1520926592
+      EnemyBattleSpawn_37x37_59: 1219135397
+      EnemyBattleSpawn_37x37_69: -1546898548
+      EnemyBattleSpawn_37x37_73: -1684437148
+      EnemyBattleSpawn_37x37_8: 164572648
+      EnemyBattleSpawn_37x37_32: -351694953
+      EnemyBattleSpawn_37x37_2: 1140478863
+      EnemyBattleSpawn_37x37_62: -1536175122
+      EnemyBattleSpawn_37x37_45: -189919345
+      EnemyBattleSpawn_37x37_33: 1442768091
+      EnemyBattleSpawn_37x37_51: -161898024
+      EnemyBattleSpawn_37x37_7: -37815546
+      EnemyBattleSpawn_37x37_87: 2098432354
+      EnemyBattleSpawn_37x37_30: 1713971356
+      EnemyBattleSpawn_37x37_28: 1402502075
+      EnemyBattleSpawn_37x37_37: 316321007
+      EnemyBattleSpawn_37x37_76: 1353019481
+      EnemyBattleSpawn_37x37_80: -863711967
+      EnemyBattleSpawn_37x37_64: -806768815
+      EnemyBattleSpawn_37x37_44: 1739456976
+      EnemyBattleSpawn_37x37_31: 894637074
+      EnemyBattleSpawn_37x37_81: 840174808
+      EnemyBattleSpawn_37x37_25: -1703767653
+      EnemyBattleSpawn_37x37_40: 1222128182
+      EnemyBattleSpawn_37x37_38: 746082497
+      EnemyBattleSpawn_37x37_19: 2132727099
+      EnemyBattleSpawn_37x37_85: 186943116
+      EnemyBattleSpawn_37x37_71: 2066195067
+      EnemyBattleSpawn_37x37_61: 1693873865
+      EnemyBattleSpawn_37x37_4: -1466754914
+      EnemyBattleSpawn_37x37_46: -1433957155
+      EnemyBattleSpawn_37x37_26: -1222777785
+      EnemyBattleSpawn_37x37_67: -21177597
+      EnemyBattleSpawn_37x37_82: -224921473
+      EnemyBattleSpawn_37x37_54: -1776232815
+      EnemyBattleSpawn_37x37_60: -591702958
+      EnemyBattleSpawn_37x37_20: -752715144
+      EnemyBattleSpawn_37x37_3: 823346190
+      EnemyBattleSpawn_37x37_90: 1757563540
+      EnemyBattleSpawn_37x37_77: 323360353
+      EnemyBattleSpawn_37x37_27: -1264228774
+      EnemyBattleSpawn_37x37_65: 10714465
+      EnemyBattleSpawn_37x37_21: 1535099203
+      EnemyBattleSpawn_37x37_15: 968567184
+      EnemyBattleSpawn_37x37_89: 317186368
+      EnemyBattleSpawn_37x37_36: 592226129
+      EnemyBattleSpawn_37x37_13: 275268472
+      EnemyBattleSpawn_37x37_88: -2130831968
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

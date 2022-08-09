@@ -8,6 +8,7 @@ namespace Assets.Scripts.Map.Enemies
 {
     public class TileEnemy : EffectPoolable, ITileStateExtension
     {
+        public ScriptPrefab EnemyBattler;
         public BaseTile Tile;
         private BattleIntro _battleIntro;
 
@@ -46,7 +47,7 @@ namespace Assets.Scripts.Map.Enemies
         private void Tile_OnBreak()
         {
             Debug.Log($"Tile with enemy broken! {Tile.gameObject.name}");
-            _battleIntro.EnterBattle();
+            _battleIntro.EnterBattle(EnemyBattler);
 
             Tile.OnBreak -= Tile_OnBreak;
         }

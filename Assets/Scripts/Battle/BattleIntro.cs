@@ -14,6 +14,8 @@ namespace Assets.Scripts.Battle
         public Material WhiteMaterial;
         public Color BattleColor;
 
+        public Vector3 EnemyPosition;
+
         public Transform TopFrame;
         public Vector3 TopFrameTargetPosition;
         public Transform BattleFrame;
@@ -39,14 +41,14 @@ namespace Assets.Scripts.Battle
             BattleFrame.transform.position = BattleFrameInitialPosition;
         }
 
-        public void EnterBattle()
+        public void EnterBattle(ScriptPrefab enemyBattler)
         {
             _player.gameObject.SetActive(false); // disables the player
             DefaultMachinery.AddBasicMachine(_drillBattler.ActivateAndMoveToPosition());
-            DefaultMachinery.AddBasicMachine(ShowBattleIntro());
+            DefaultMachinery.AddBasicMachine(ShowBattleIntro(enemyBattler));
         }
 
-        private IEnumerable<IEnumerable<Action>> ShowBattleIntro()
+        private IEnumerable<IEnumerable<Action>> ShowBattleIntro(ScriptPrefab enemyBattler)
         {
             // spawn intro
             EnemyIntro.Pool.TryGetFromPool(out _);
@@ -59,6 +61,11 @@ namespace Assets.Scripts.Battle
             //yield return TimeYields.WaitSeconds(UITimer, 1f); // wait intro
             yield return ShowBattleFrame().AsCoroutine();
             GameRenderer.material = WhiteMaterial;
+
+            if (enemyBattler.Pool.TryGetFromPool(out var enemy))
+            {
+                enemy.Component.transform.position = EnemyPosition;
+            }
         }
 
         private IEnumerable<IEnumerable<Action>> ShowBattleFrame()

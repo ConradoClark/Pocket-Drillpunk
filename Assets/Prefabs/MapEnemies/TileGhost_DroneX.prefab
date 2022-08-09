@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1206090200149518822}
   - component: {fileID: 1206090200149518823}
   m_Layer: 0
-  m_Name: TileGhost
+  m_Name: TileGhost_DroneX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,6 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
+  EnemyBattler: {fileID: 11400000, guid: 5b6b15b08bc76ad4896707617925b191, type: 2}
   Tile: {fileID: 0}
 --- !u!1 &1206090201301515827
 GameObject:
