@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 2139523493}
   - component: {fileID: 3879980348688806011}
   - component: {fileID: 6672731400442182310}
+  - component: {fileID: 1554150823515498960}
   m_Layer: 6
   m_Name: DirtBlock
   m_TagString: Untagged
@@ -353,3 +354,21 @@ MonoBehaviour:
   - {x: 1, y: 0}
   - {x: -1, y: 0}
   - {x: 0, y: -1}
+--- !u!114 &1554150823515498960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785354124378487748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df15719cae1196419ed79a2d59496bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tile: {fileID: 2139523492}
+  Name: DirtTileEnemies
+  OriginalWeight: 0.01
+  SpawnRates:
+  - Enemy: {fileID: 11400000, guid: ef0932e2b792ec94199e1ff078ecd243, type: 2}
+    SpawnWeight: 1
