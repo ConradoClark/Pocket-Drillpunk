@@ -81,7 +81,9 @@ public class DrillingController : LichtMovementController
                     Collider2D tileCollider;
                     if (CharacterController.PhysicsObject.GetPhysicsTriggerWithSource(drillDirection.CollisionTrigger,
                             out var source) && source is LichtPhysicsCollisionDetector collisionDetector &&
-                        (tileCollider = collisionDetector.Triggers.FirstOrDefault(t => t.TriggeredHit).Collider) != null &&
+                        (tileCollider = collisionDetector.Triggers
+                            .OrderBy(t=>t.Collider?.Distance(collisionDetector.Collider).distance ?? 999)
+                            .FirstOrDefault(t => t.TriggeredHit).Collider) != null &&
                         _physics.TryGetPhysicsObjectByCollider(tileCollider, out var targetTile) &&
                         targetTile.TryGetCustomObject(out BaseTile tile))
                     {

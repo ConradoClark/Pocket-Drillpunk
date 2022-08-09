@@ -1,13 +1,21 @@
 ﻿using System.Collections.Generic;
-using Licht.Impl.Debug;
+using Assets.Scripts.Battle;
+using Licht.Unity.Objects;
 using Licht.Unity.Pooling;
 using UnityEngine;
 
-namespace Assets.Scripts.Map
+namespace Assets.Scripts.Map.Enemies
 {
     public class TileEnemy : EffectPoolable, ITileStateExtension
     {
         public BaseTile Tile;
+        private BattleIntro _battleIntro;
+
+        protected override void OnAwake()
+        {
+            base.OnAwake();
+            _battleIntro = SceneObject<BattleIntro>.Instance();
+        }
 
         private void OnDisable()
         {
@@ -38,6 +46,8 @@ namespace Assets.Scripts.Map
         private void Tile_OnBreak()
         {
             Debug.Log($"Tile with enemy broken! {Tile.gameObject.name}");
+            _battleIntro.EnterBattle();
+
             Tile.OnBreak -= Tile_OnBreak;
         }
 
