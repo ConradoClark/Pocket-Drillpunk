@@ -11,9 +11,13 @@ namespace Assets.Scripts.Battle
 {
     public class EnemyBattler : EffectPoolable
     {
+        public int HP;
         public Color HitColor;
         public SpriteRenderer SpriteRenderer;
         public ScriptPrefab SpawnEffect;
+
+        public event Action<int> OnHit;
+
         private BattleSequence _battleSequence;
         private ITimer _uiTimer;
 
@@ -53,6 +57,7 @@ namespace Assets.Scripts.Battle
 
         public void Hit(int damage)
         {
+            OnHit?.Invoke(damage);
             DefaultMachinery.AddBasicMachine(OnHitEffect(damage));
         }
 
@@ -103,7 +108,6 @@ namespace Assets.Scripts.Battle
                 .Easing(EasingYields.EasingFunction.QuadraticEaseIn)
                 .UsingTimer(_uiTimer)
                 .Build();
-
 
             yield return blink.Combine(damageNumberAnim).Combine(damageNumberAnimScale1.Then(damageNumberAnimScale2));
 

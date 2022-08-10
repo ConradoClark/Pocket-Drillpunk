@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Assets.Scripts.Inventory;
 using Assets.Scripts.UI;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Objects;
@@ -12,6 +13,8 @@ namespace Assets.Scripts.Battle
         public UITextRenderer ActionNameCaption;
         public UINumberRenderer DamageNumberRenderer;
         public Vector3 DamageNumberOriginalPosition;
+
+        public Counter EnemyHPCounter;
 
         private bool _battleOver;
         private UIActionSelectorBar _actionSelectorBar;
@@ -30,8 +33,16 @@ namespace Assets.Scripts.Battle
         public void StartBattle(EnemyBattler enemy)
         {
             _enemy = enemy;
+            EnemyHPCounter.Count = _enemy.HP;
+            _enemy.OnHit += Enemy_OnHit;
+
             _battleOver = false;
             DefaultMachinery.AddBasicMachine(Battle());
+        }
+
+        private void Enemy_OnHit(int damage)
+        {
+            EnemyHPCounter.Count -= damage;
         }
 
         private IEnumerable<IEnumerable<Action>> Battle()

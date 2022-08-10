@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
+  HP: 3
   HitColor: {r: 0.8039216, g: 0.8352941, b: 0.64705884, a: 1}
   SpriteRenderer: {fileID: 7638883952403532745}
   SpawnEffect: {fileID: 11400000, guid: 11af720e5d7e4ea4687e287de9b93da8, type: 2}

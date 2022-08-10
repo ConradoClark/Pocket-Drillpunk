@@ -100,7 +100,7 @@ public class UINumberRenderer : BaseUIObject
 
     private void RenderNumber()
     {
-        var value = GetStringValue(_currentNumber);
+        var value = GetStringValue(Math.Clamp(_currentNumber, 0, _currentNumber));
 
         for (var i = 0; i < Digits; i++)
         {

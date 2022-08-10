@@ -40,6 +40,14 @@ namespace Assets.Scripts.UI
         public SpriteRenderer UpArrow;
         public SpriteRenderer DownArrow;
 
+        public UINumberRenderer ActionValueRenderer;
+        public SpriteRenderer ExtraEffectIndicator;
+        public SpriteRenderer ActionType;
+        public Sprite AttackIcon;
+        public Sprite ShieldIcon;
+        public Sprite StunIcon;
+        public Sprite MinusOneIcon;
+
         public DrillSkill SelectedAction { get; private set; }
         private int _selectedActionIndex;
         private PlayerStats _playerStats;
@@ -72,13 +80,36 @@ namespace Assets.Scripts.UI
             }
         }
 
-        public IEnumerable<IEnumerable<Action>> Show()
+        private void UpdateBar()
         {
-            UpArrow.gameObject.SetActive(_selectedActionIndex != 0);
-            DownArrow.gameObject.SetActive(_selectedActionIndex != _playerStats.Moves.Count - 1);
-
             ActionText.Text = SelectedAction.Name;
             ActionText.DefaultMaterial = GetActionMaterial();
+            UpArrow.gameObject.SetActive(_selectedActionIndex != 0);
+            DownArrow.gameObject.SetActive(_selectedActionIndex != _playerStats.Moves.Count - 1);
+            ExtraEffectIndicator.enabled = false;
+
+            if (SelectedAction.SelfDamage > 0)
+            {
+                ExtraEffectIndicator.enabled = true;
+                ExtraEffectIndicator.sprite = MinusOneIcon;
+            }
+
+            if (SelectedAction.Stun && (SelectedAction.Power != 0 || SelectedAction.Shield != 0))
+            {
+                ExtraEffectIndicator.enabled = true;
+                ExtraEffectIndicator.sprite = StunIcon;
+            }
+
+            ActionType.sprite = SelectedAction.Power > 0 ? AttackIcon :
+                SelectedAction.Shield > 0 ? ShieldIcon : StunIcon;
+
+            ActionValueRenderer.enabled = SelectedAction.Power > 0 || SelectedAction.Shield > 0;
+            ActionValueRenderer.Number = SelectedAction.Power > 0 ? SelectedAction.Power : SelectedAction.Shield;
+        }
+
+        public IEnumerable<IEnumerable<Action>> Show()
+        {
+            UpdateBar();
 
             var main = transform.GetAccessor()
                 .Position
@@ -139,10 +170,7 @@ namespace Assets.Scripts.UI
                             break;
                     }
 
-                    ActionText.Text = SelectedAction.Name;
-                    ActionText.DefaultMaterial = GetActionMaterial();
-                    UpArrow.gameObject.SetActive(_selectedActionIndex != 0);
-                    DownArrow.gameObject.SetActive(_selectedActionIndex != _playerStats.Moves.Count - 1);
+                    UpdateBar();
                 }
 
                 yield return TimeYields.WaitOneFrameX;
