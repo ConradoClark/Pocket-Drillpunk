@@ -35,7 +35,14 @@ namespace Assets.Scripts.Inventory
 
         private void Awake()
         {
-            Count = 0;
+            if (Count == 0)
+            {
+                OnChange?.Invoke(new CounterChangeArgs()
+                {
+                    OldCount = _count,
+                    NewCount = 0
+                });
+            }
         }
     }
 }

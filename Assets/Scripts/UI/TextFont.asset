@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47a2131c4aeb8643baf6264ce23d13b, type: 3}
+  m_Name: TextFont
+  m_EditorClassIdentifier: 
+  LetterA: {fileID: -408667180, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterB: {fileID: 949069894, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterC: {fileID: 2072572436, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterD: {fileID: 685163651, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterE: {fileID: -1168673384, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterF: {fileID: -1032284984, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterG: {fileID: 1259153488, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterH: {fileID: 809795364, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterI: {fileID: 686242397, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterJ: {fileID: -275561483, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterK: {fileID: 1576512472, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterL: {fileID: 533319229, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterM: {fileID: -2055782654, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterN: {fileID: 730348790, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterO: {fileID: -2038798411, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterP: {fileID: 1905916927, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterQ: {fileID: -392526665, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterR: {fileID: -509197054, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterS: {fileID: -1365422337, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterT: {fileID: 499021325, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterU: {fileID: -1673399420, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterV: {fileID: 343194695, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterW: {fileID: -1631915940, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterX: {fileID: 266375701, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterY: {fileID: -1191046950, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterZ: {fileID: 206624626, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterColon: {fileID: 189024346, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterExclamation: {fileID: 778797721, guid: ec8ca610b46324e4388113846139526a, type: 3}
+  LetterQuestion: {fileID: 788735802, guid: ec8ca610b46324e4388113846139526a, type: 3}

@@ -39,6 +39,7 @@ namespace Assets.Scripts.Map.Enemies
 
         public void Populate(string seed)
         {
+            if (Tile.IsOccupiedByProp(Vector2Int.one)) return;
             if (_pools.Count == 0) return;
 
             Seed = $"{seed}_{Name}".GetHashCode();
@@ -64,7 +65,7 @@ namespace Assets.Scripts.Map.Enemies
                 enemy.Tile = Tile;
                 enemy.HookOnTileRelease();
                 enemy.Setup();
-                Tile.AddTileExtension(enemy, Vector2Int.zero);
+                Tile.AddTileExtension(enemy, Vector2Int.one);
             }
         }
 

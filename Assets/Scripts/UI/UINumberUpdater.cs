@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Assets.Scripts.Inventory;
 using UnityEngine;
 
@@ -17,7 +13,11 @@ namespace Assets.Scripts.UI
 
         private void Awake()
         {
-            Counter.Count = 0;
+            Counter_OnChange(new Counter.CounterChangeArgs
+            {
+                OldCount = 0,
+                NewCount= Counter.Count
+            });
         }
 
         private void OnEnable()

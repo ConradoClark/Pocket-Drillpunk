@@ -27,7 +27,7 @@ public abstract class BaseTile : EffectPoolable
     private List<ITileStateExtension> _extensions;
     private ITilePropGenerator[] _tileProps;
     private MapGenerator _mapGenerator;
-    private Vector2Int[] _occupiedPropPositions = new Vector2Int[4];
+    private Vector2Int[] _occupiedPropPositions = new Vector2Int[5];
 
     public string GeneratedBySeed
     {
@@ -143,9 +143,10 @@ public abstract class BaseTile : EffectPoolable
     public void AddTileExtension(ITileStateExtension extension, Vector2Int direction)
     {
         if (direction == Vector2Int.up) _occupiedPropPositions[0] = Vector2Int.up;
-        if (direction == Vector2Int.right) _occupiedPropPositions[0] = Vector2Int.right;
-        if (direction == Vector2Int.left) _occupiedPropPositions[0] = Vector2Int.left;
-        if (direction == Vector2Int.down) _occupiedPropPositions[0] = Vector2Int.down;
+        if (direction == Vector2Int.right) _occupiedPropPositions[1] = Vector2Int.right;
+        if (direction == Vector2Int.left) _occupiedPropPositions[2] = Vector2Int.left;
+        if (direction == Vector2Int.down) _occupiedPropPositions[3] = Vector2Int.down;
+        if (direction == Vector2Int.one) _occupiedPropPositions[4] = Vector2Int.one;
         _extensions.Add(extension);
     }
 

@@ -29,6 +29,8 @@ namespace Assets.Scripts.Battle
         private GlobalSceneLight _sceneLight;
         private Color _originalSceneLightColor;
 
+        private BattleSequence _battleSequence;
+
         protected override void OnAwake()
         {
             base.OnAwake();
@@ -38,6 +40,7 @@ namespace Assets.Scripts.Battle
             _drillBattler = SceneObject<DrillBattler>.Instance(true);
             _sceneLight = SceneObject<GlobalSceneLight>.Instance();
             _originalSceneLightColor = _sceneLight.Light.color;
+            _battleSequence = SceneObject<BattleSequence>.Instance();
             BattleFrame.transform.position = BattleFrameInitialPosition;
         }
 
@@ -54,7 +57,6 @@ namespace Assets.Scripts.Battle
             EnemyIntro.Pool.TryGetFromPool(out _);
             // spawn spinning player, enemy outline, then enemy
 
-            var targetPos= TopFrame.transform.position;
             yield return HideTopFrame().AsCoroutine();
 
             _sceneLight.Light.color = BattleColor;
@@ -66,6 +68,9 @@ namespace Assets.Scripts.Battle
             {
                 enemy.Component.transform.position = EnemyPosition;
             }
+
+            yield return TimeYields.WaitSeconds(UITimer, 2f);
+            _battleSequence.StartBattle();
         }
 
         private IEnumerable<IEnumerable<Action>> ShowBattleFrame()
