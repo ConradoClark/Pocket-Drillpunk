@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b972382fc10fc7444890eb085a8bd67d, type: 3}
   m_Name: Drill
   m_EditorClassIdentifier: 
-  SkillEffect: {fileID: 0}
+  SkillEffect: {fileID: 11400000, guid: 6dc93e46218b2be4ca4193146b752e40, type: 2}
+  EffectDelayInSeconds: 1
   Element: 0
   Power: 1
   Shield: 0
@@ -27,3 +28,5 @@ MonoBehaviour:
   ScalesWithDrillPower: 1
   ScalesWithJetpackPower: 0
   ScalesWithMaxHP: 0
+  Animation: DrillBattler_Drill
+  DurationInSeconds: 2

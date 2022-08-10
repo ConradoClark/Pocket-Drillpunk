@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Assets.Scripts.UI;
 using Licht.Impl.Orchestration;
+using Licht.Interfaces.Time;
 using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
 using UnityEngine;
@@ -14,10 +15,12 @@ namespace Assets.Scripts.Battle
     public class DrillBattler : BaseUIObject
     {
         public Vector3 BattlerPosition;
+        public Animator Animator;
 
         private Player _player;
         private Camera _gameCamera;
         private Camera _uiCamera;
+        private ITimer _gameTimer;
 
         protected override void OnAwake()
         {
@@ -25,6 +28,7 @@ namespace Assets.Scripts.Battle
             _player = SceneObject<Player>.Instance(true);
             _gameCamera = SceneObject<GameCamera>.Instance().Camera;
             _uiCamera = SceneObject<UICamera>.Instance().Camera;
+            _gameTimer = SceneObject<DefaultGameTimer>.Instance().TimerRef.Timer;
         }
 
         public IEnumerable<IEnumerable<Action>> ActivateAndMoveToPosition()
@@ -43,6 +47,16 @@ namespace Assets.Scripts.Battle
                 .UsingTimer(UITimer)
                 .Build();
 
+        }
+
+        public void PlayAnim(string anim)
+        {
+            Animator.Play(anim);
+        }
+
+        private void Update()
+        {
+            Animator.speed = (float)_gameTimer.Multiplier;
         }
     }
 }

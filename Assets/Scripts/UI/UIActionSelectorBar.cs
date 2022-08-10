@@ -40,7 +40,7 @@ namespace Assets.Scripts.UI
         public SpriteRenderer UpArrow;
         public SpriteRenderer DownArrow;
 
-        private DrillSkill _selectedAction;
+        public DrillSkill SelectedAction { get; private set; }
         private int _selectedActionIndex;
         private PlayerStats _playerStats;
 
@@ -51,7 +51,7 @@ namespace Assets.Scripts.UI
         {
             base.OnAwake();
             _playerStats = SceneObject<PlayerStats>.Instance(true);
-            _selectedAction = _playerStats.Moves[1];
+            SelectedAction = _playerStats.Moves[1];
             _selectedActionIndex = 1;
 
             var playerInput = PlayerInput.GetPlayerByIndex(0);
@@ -59,9 +59,9 @@ namespace Assets.Scripts.UI
             _confirmAction = playerInput.actions[ConfirmInput.ActionName];
         }
 
-        private Material GetActionMaterial()
+        public Material GetActionMaterial()
         {
-            switch (_selectedAction.Element)
+            switch (SelectedAction.Element)
             {
                 case BattleElement.Neutral: return NeutralActionMaterial;
                 case BattleElement.Fire: return FireActionMaterial;
@@ -77,7 +77,7 @@ namespace Assets.Scripts.UI
             UpArrow.gameObject.SetActive(_selectedActionIndex != 0);
             DownArrow.gameObject.SetActive(_selectedActionIndex != _playerStats.Moves.Count - 1);
 
-            ActionText.Text = _selectedAction.Name;
+            ActionText.Text = SelectedAction.Name;
             ActionText.DefaultMaterial = GetActionMaterial();
 
             var main = transform.GetAccessor()
@@ -90,14 +90,16 @@ namespace Assets.Scripts.UI
                 .Build();
 
 
-            DefaultMachinery.AddUniqueMachine("costs", UniqueMachine.UniqueMachineBehaviour.Replace, ReloadCosts(false));
+            DefaultMachinery.AddUniqueMachine("costs", UniqueMachine.UniqueMachineBehaviour.Wait, ReloadCosts(false));
 
             yield return main;
             yield return HandleInputs().AsCoroutine();
+            yield return Hide().AsCoroutine();
         }
 
         private IEnumerable<IEnumerable<Action>> ReloadCosts(bool quick)
         {
+            yield return TimeYields.WaitOneFrameX;
             var costs = GetCosts();
 
             if (costs.Count == 0)
@@ -127,17 +129,17 @@ namespace Assets.Scripts.UI
                     {
                         case > 0 when _selectedActionIndex != 0:
                             _selectedActionIndex--;
-                            _selectedAction = _playerStats.Moves[_selectedActionIndex];
-                            DefaultMachinery.AddUniqueMachine("costs", UniqueMachine.UniqueMachineBehaviour.Replace, ReloadCosts(true));
+                            SelectedAction = _playerStats.Moves[_selectedActionIndex];
+                            DefaultMachinery.AddUniqueMachine("costs", UniqueMachine.UniqueMachineBehaviour.Wait, ReloadCosts(true));
                             break;
                         case < 0 when _selectedActionIndex != _playerStats.Moves.Count - 1:
                             _selectedActionIndex++;
-                            _selectedAction = _playerStats.Moves[_selectedActionIndex];
-                            DefaultMachinery.AddUniqueMachine("costs", UniqueMachine.UniqueMachineBehaviour.Replace, ReloadCosts(true));
+                            SelectedAction = _playerStats.Moves[_selectedActionIndex];
+                            DefaultMachinery.AddUniqueMachine("costs", UniqueMachine.UniqueMachineBehaviour.Wait, ReloadCosts(true));
                             break;
                     }
 
-                    ActionText.Text = _selectedAction.Name;
+                    ActionText.Text = SelectedAction.Name;
                     ActionText.DefaultMaterial = GetActionMaterial();
                     UpArrow.gameObject.SetActive(_selectedActionIndex != 0);
                     DownArrow.gameObject.SetActive(_selectedActionIndex != _playerStats.Moves.Count - 1);
@@ -145,6 +147,8 @@ namespace Assets.Scripts.UI
 
                 yield return TimeYields.WaitOneFrameX;
             }
+
+
         }
 
         private List<(BattleElement element, int cost)> GetCosts()
@@ -152,11 +156,11 @@ namespace Assets.Scripts.UI
             var result = new List<(BattleElement element, int cost)>();
             var costs = new[]
             {
-                _selectedAction.NeutralCost,
-                _selectedAction.FireCost,
-                _selectedAction.IceCost,
-                _selectedAction.BioCost,
-                _selectedAction.CrystalCost
+                SelectedAction.NeutralCost,
+                SelectedAction.FireCost,
+                SelectedAction.IceCost,
+                SelectedAction.BioCost,
+                SelectedAction.CrystalCost
             };
 
             for (var i = 0; i < costs.Length; i++)
@@ -187,7 +191,7 @@ namespace Assets.Scripts.UI
 
         public IEnumerable<IEnumerable<Action>> Hide()
         {
-            yield return transform.GetAccessor()
+           var hideBar = transform.GetAccessor()
                 .Position
                 .X
                 .SetTarget(HiddenPosition)
@@ -195,6 +199,12 @@ namespace Assets.Scripts.UI
                 .Easing(EasingYields.EasingFunction.QuadraticEaseIn)
                 .UsingTimer(UITimer)
                 .Build();
+
+           var hideCosts = Cost1.Hide(false).AsCoroutine()
+               .Combine(Cost2.Hide(false).AsCoroutine())
+               .Combine(Cost3.Hide(false).AsCoroutine());
+
+           yield return hideBar.Combine(hideCosts);
         }
 
     }

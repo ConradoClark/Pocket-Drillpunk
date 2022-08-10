@@ -7,6 +7,7 @@ namespace Assets.Scripts.Battle
     public class DrillSkill : ScriptableObject
     {
         public ScriptPrefab SkillEffect;
+        public float EffectDelayInSeconds;
 
         public BattleElement Element;
         public int Power;
@@ -24,5 +25,8 @@ namespace Assets.Scripts.Battle
         public bool ScalesWithDrillPower;
         public bool ScalesWithJetpackPower;
         public bool ScalesWithMaxHP;
+
+        public string Animation;
+        public float DurationInSeconds;
     }
 }

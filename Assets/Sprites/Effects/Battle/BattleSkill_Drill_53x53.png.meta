@@ -1,0 +1,4051 @@
+fileFormatVersion: 2
+guid: c74b74e696041454b8618bc2c0ebb67a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5dd185fa6c6664bbcb3aa16ecb080c
+      internalID: -569711259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7032e5feb9b4bc74abd645b69bbe31d2
+      internalID: -170356725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644d749608ed8154a9e3d228cb81e351
+      internalID: 776916352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6a9244939a07c4589822408fed4c61
+      internalID: 1070065982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b96eda0dde1a2046bb41c8549ccc6dc
+      internalID: -2057729526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7339260c4dcb64e4b939d043cac7bfb2
+      internalID: -834420284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef1c9329949c5540b68395b681c6b56
+      internalID: 318939345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2326307a8e6684799b36e64f368011
+      internalID: 2068866353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d8db11bd889214294cbf888ddde999
+      internalID: 1565234351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_9
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1d342b146b2fb479d3e5e0b9122362
+      internalID: -1549689352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e61acf4bf60f954f9fc18eef3184503
+      internalID: -1534725070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbefcd1a3fb7c464d8852c4703c5d3aa
+      internalID: 854326614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fad9da6ed39e70478713035b1c89673
+      internalID: 1533382171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_13
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 689
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4ba3ae856144e4d943208b7cd04a79
+      internalID: 1335476735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007d0efe8e9134c45bff6369811865e7
+      internalID: -277825855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_15
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185053930d5e7c541842b5eb1f31dc2d
+      internalID: 2130954025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_16
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e420479b2f158c40870cd2b4cec1d89
+      internalID: 520431263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2360a5861d212428dcc4449d5c67a3
+      internalID: -1753184231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf7ac9626fb14c409080622663827fa
+      internalID: -1588755501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_19
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024725b6747ef4a48aaab50bc4c094c6
+      internalID: 261503419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fb6f071dc31a5478934ef4ebb0e8ec
+      internalID: -1597726116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_21
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a6e855e58d5af44bcdb4d238f049ce
+      internalID: 575203953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_22
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f8e22ad05684f419bc59fd47d13ef5
+      internalID: -2107479985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_23
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e6e909d1f2e6444b175b2e45947a3e
+      internalID: 1806895303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_24
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaa515b61e41d74a98ca0e1d738d68a
+      internalID: 1484045862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_25
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba8ac3ece9626d418eb0365ab45b4f5
+      internalID: 1953480388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_26
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628ebae780bc1fe408ced39d93ebe7e3
+      internalID: -948926865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_27
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 636
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa5b20081220064ea9115293e4ccc19
+      internalID: -1439864881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c664ce1ab0eb4e9fc53e1a822c3e0
+      internalID: 1859851532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_29
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579db447abedb234ba1610170be2b22b
+      internalID: 638898340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_30
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f385884ff6749b448932dba60815e1b0
+      internalID: 1221033636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_31
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c1f87dc6b7ce143bb43bda064cbaa2
+      internalID: -374851208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_32
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b030a7f291990654ea15d764eb80d6c5
+      internalID: -1840865714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_33
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d2e97dc56fa184b90c2599a4f8164b
+      internalID: -1245338947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_34
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72ec0ba4904b06498310233954a3958
+      internalID: 449380964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_35
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e357d8da2aa4b8046ae90891dbf883d5
+      internalID: -422952105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_36
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cdc90d8ce22ae4ab9826c63804a09e
+      internalID: 1800615897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_37
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90763945b44fceb449f5edae8ae51271
+      internalID: 1488848930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_38
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356ae780b0ef36d4e8405e3022dd23a0
+      internalID: -1137323208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_39
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfe1abee89e7c6458d29160895ee6dd
+      internalID: -1965441047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_40
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dffed416cf79354fbef8284c22d88c2
+      internalID: 1250730124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_41
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 583
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d315f6816dc55b547a8ad0e9f3cef2b8
+      internalID: 1974738155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf566beb2be72142a706774860b6eaf
+      internalID: 1993820263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_43
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcb1d9832bff7a468347f59c67cbb19
+      internalID: -578086315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_44
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60d9d8527e8c974ebba5a3a25067b07
+      internalID: -263890487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_45
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364c9080370567e43a76df09c4e104c3
+      internalID: 1049454295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_46
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d928dd30c1d2e04a814ad520a3ee117
+      internalID: -1702292917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_47
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f257d43e6b25c49bc2e1373592e9f5
+      internalID: -784170412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_48
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b80f6b427eb38045b14c759e0872151
+      internalID: -1909154067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_49
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206ff1ef2fdbfc74487d0c06f46b2086
+      internalID: 2134474643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_50
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6613d154048ea42aeecf88d0db0272
+      internalID: -1789348464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_51
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef1edc3ec42d4941ac9a801ecdfa9b0
+      internalID: -552982943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_52
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e29dfcf0a2b3349a76bdc8b3d96551
+      internalID: -1999047027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_53
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8776341624668940a0ac02d19824053
+      internalID: 62194549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_54
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64572dfb67ddc848a9ac98e8aac742d
+      internalID: 1059788815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_55
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 530
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81304fb6fe18c14fbecf2cfd3ac1f12
+      internalID: 1091170753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40e518248159bb4f9f944dc6a34c01d
+      internalID: 765796280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_57
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b3ff94fe356d549b53b41bb3b7de25
+      internalID: -1010269520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_58
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb020c8b880736488c63e4238585f0b
+      internalID: -431803835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_59
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a98d37048cba741a90a1f09e7292e6
+      internalID: 1170134214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_60
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e24613c371a06542a254b5a7e6c7a35
+      internalID: -2146406129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_61
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1778bb2e4d704b3439fb2f9c9979b1ef
+      internalID: 698444695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_62
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7042e3ce59cc294f91afda9c5f4706a
+      internalID: -294470355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_63
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e875fc1d745fbe3418bab83b65567be3
+      internalID: 1776609498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_64
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc97bf736e108b4691af4413a1dc791
+      internalID: -315155053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_65
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05ddba495ed6a24bacc15912c1f895c
+      internalID: -1591425741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_66
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41550b0e81c38a44fae86ad13df86689
+      internalID: -510743372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_67
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf026c22ac1c324e8a619ece7b50f2d
+      internalID: -509479077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_68
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d951aede8b44048ba43f2219406e9b
+      internalID: -1806288242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_69
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ce37bb4c917bb47b47b7fa800cd212
+      internalID: -1788763083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7e641615e6abb4ab0c2b080d008b84
+      internalID: 961163569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_71
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a5802efe6292b40bd10ea99c9c5726
+      internalID: 1678128495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_72
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a756a8a0f4478874bb4946af4ae1efb6
+      internalID: 1147092062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_73
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f754a6994f0724583a4713875d12ca
+      internalID: 1378223264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_74
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d84b566214aff941b7384726146a462
+      internalID: -1501537377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_75
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d0939942bf04345bf2e1a6f437cf3b
+      internalID: -1059478042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_76
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0a1e13df675fd4ca99a075050e3565
+      internalID: 763477086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_77
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1de1edc26d3e8a4a8524bf1cb12a4a7
+      internalID: 2027396410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_78
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2811f5b7511098f4da2bab85098aca0d
+      internalID: -639032314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_79
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3dbb1d5b35b6742b5ba626d9c41bcb
+      internalID: 1276365647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_80
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7944f22eefd534fadd2e5ebb95d3ec
+      internalID: 196518499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_81
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b72d48f0eafd364fb10de50853716a5
+      internalID: -20265091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_82
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcf4954e09319e4a9e9968c76144a31
+      internalID: -2044314937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_83
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fa313d30e4d9145af391e089ef4de1
+      internalID: -450781711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b1f7879ca2161468cb2297fada3afe
+      internalID: -1783833971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_85
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b38f849c89baa48ba510219b0a543b
+      internalID: -1073943252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_86
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e4fbe14dae8fa4db564829e643efd4
+      internalID: -923434372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_87
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1adbcf7b8ed16143a4d442d2e54bcac
+      internalID: -1830563017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_88
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27259447e7501c94997be77d7af1b774
+      internalID: 1295598014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_89
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eee51cf12d8934281100421e53873b
+      internalID: 621317272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_90
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a609af42075bd514ba5dd16c1857cf36
+      internalID: -1846835124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_91
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96ae07dd2b01d740a9108e7db15d6c1
+      internalID: -1698436311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_92
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e163e5dfb0f8bdf418fc78639b49795b
+      internalID: -244154191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_93
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709ae307b7ece3542945e8b250bae251
+      internalID: -1455666673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_94
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af79adb20b00fd14d83296c236454a0c
+      internalID: -721500088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_95
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a9f6abfada5e244bb7620eec50975d
+      internalID: 1333446929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_96
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23928afe6ebfe2b4896c8d7173b4006f
+      internalID: 1063078051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_97
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc945d5d29a163742b9871d1d0ad6d6c
+      internalID: 1225912569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f5ede2d4b8d11429de091e296a2515
+      internalID: -449933929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_99
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35641b471235c9419677ba014cd03d0
+      internalID: 1657102788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_100
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407d5fbd70f5ac3498e423d5035c18c5
+      internalID: 1647550774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_101
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f400f5f2b00af4f8802786e0bc7208
+      internalID: 1578404160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_102
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c19829fc48f9a7438599da668fc4e69
+      internalID: 1346679469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_103
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec091132a8047bb4bb7a9a024c7d0f5c
+      internalID: -1910384305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_104
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b9bc650ee68e24e8f37009736c1e65
+      internalID: 475131011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_105
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d104d43cb5651f9428b37349e809891c
+      internalID: -338138154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_106
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172aaaed271b10a479fac4c94771a555
+      internalID: -1674424464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_107
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62987aa45f0e1e849bfd5ed5b19c0cac
+      internalID: 1361263669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_108
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad9dbb39185c8b478048b960cd4b8fc
+      internalID: 1784024177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_109
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2ce00ae2aae2f47add67f34a402c78
+      internalID: 775152212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_110
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731da84d2bbf44649a2abdb3dce16c9d
+      internalID: 1978578129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_111
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecfd6045adba6d4fa9d6c6ef6d9d82b
+      internalID: -1536716108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102932441b8e3654eaa02d507b6074bd
+      internalID: 1802975117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_113
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2401d69f7478c334f8b55516fd083296
+      internalID: 1296203809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_114
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a583c28701dcc640a9c41207bd845ad
+      internalID: -835968046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_115
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367212b9f4885f4448f545ed24e9776b
+      internalID: -484737538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_116
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f73e06bc4f2c34c931758fe1ae9c56
+      internalID: 1816692430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_117
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33ab2852157e3d4189432f5fa322820
+      internalID: -310649278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_118
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762c683632ad14a4fa44008fd48582b6
+      internalID: 1284045286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_119
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90124cf407094bd4683891346aa8987e
+      internalID: 1017217341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_120
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac150abf6fe3fe84999d66a11ce0a088
+      internalID: -1686405672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_121
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b3013f77455c442bd0d91aadba9811
+      internalID: -1525570138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_122
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdf46c528e5f7f41b64f7f80acc217b
+      internalID: -1181310911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_123
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5327767d636f1f048aa9b383bf4a5e95
+      internalID: 1464472748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_124
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3289c0b1a6c7803459cf57e4bb645686
+      internalID: -1133247721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_125
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bd2f9bc9b15f1429738f2308e39a0a
+      internalID: -1025003539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3b05eaa9d3ce04784d6989eba13d0c
+      internalID: 1596515530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_127
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8590d36df3316f46bf0eef56de1d7dc
+      internalID: -1137893734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_128
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f773e74fb5eab34da3a1c496d4a4aae
+      internalID: -107959288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_129
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b378129004ee102418b900167e6521fc
+      internalID: 1857548653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_130
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4880c7ecc1d5a47a4d6e61a895b866
+      internalID: 309891711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_131
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701ffa262c3dba34ebd3895ff207e7b6
+      internalID: 809769360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_132
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e56e66a9c106464a8cdd5dec1090d23
+      internalID: -666075428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_133
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73aac127046f754ba331cce8841a586
+      internalID: -2004607716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_134
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c64431330777c940bd4360f5794909a
+      internalID: -224835280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_135
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb6c41cacfb20f49a9325c285cf5e97
+      internalID: 504929690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_136
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a730eb546364d54419e9968ca6ca5eca
+      internalID: 483682699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_137
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fcabb428a8f7f468c8e590cce931fd
+      internalID: 1068834263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_138
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cc9215552f91445a56a88b0310511a
+      internalID: 65680633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_139
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53f007c93f9d514ea82ad4e2743c020
+      internalID: -112080693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73fa15cd722e084a8f543c694254144
+      internalID: -2096212391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_141
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd4cf39662eb9a48b0b1ee32d57f109
+      internalID: -42191627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_142
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4899b63cc30c5f4992caff71f30e0d9
+      internalID: 287220055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_143
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7a97b35565f1e44b4960c157101e55
+      internalID: 1927205064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_144
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3041e3c9ed7942e48827661dfee60b60
+      internalID: -439927002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_145
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9d627dc57224b418fc7b7a19ef09eb
+      internalID: 2130886370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_146
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678588abea40ae24789d0efbbd3b5e3e
+      internalID: -1538607376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_147
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab42950972222248a742edff0a2266c
+      internalID: -756174659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_148
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5417f7b3d204dcf4d8075b1c114e270a
+      internalID: -1718240660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_149
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46afb70c689c6e64584953f601ba14bf
+      internalID: -1507711053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_150
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987382c5ac0140b4fbc1ca8137ac53d8
+      internalID: 657632879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_151
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7fed8dfe470594091f971d3ca24863
+      internalID: -1312670863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_152
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52dc2666bec0a04f909a3eebb936ae0
+      internalID: -707018158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_153
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2f12634772cb649a1a9657921cbfac
+      internalID: -310407288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7db3d398af1fad41870988578e41688
+      internalID: -1101388266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_155
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9474065e618d4854e987cd48a3bb2dd0
+      internalID: -1527852609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_156
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b32ca01ccc20bf42871b700138d8eff
+      internalID: -60966669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_157
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4ec12e8ed18ad45b24b3692f361a7e
+      internalID: -888415095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_158
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252d238994cdc5149b96a2c1917f15bc
+      internalID: -1589931969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_159
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958adceb8afdd0a4cb9a9f2f44cf6a3a
+      internalID: 112909237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_160
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec4dbdace03ff14684e89d5a1fcda3d
+      internalID: -962520137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_161
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8407c12705f9846a78e1260d95d0de
+      internalID: -957701242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_162
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1246bf42595bb42a56b8a2ead0fe5c
+      internalID: -459427075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_163
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143501bdc54691f4b96d0867a0d75ca8
+      internalID: 307515524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_164
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1853b2248a83d9e4ca6ee9e399bc84aa
+      internalID: 2124337904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_165
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10323367a2c4974e81312e9172bc840
+      internalID: 1822007478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_166
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5728e64ecdf38e843944cc6e15d5fdf1
+      internalID: -87247037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_167
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8658abe6f328a764bb881ccfd2d6115d
+      internalID: 246839133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbf73053ae27644182eb17d56e10067
+      internalID: -819882965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_169
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b91f8ea8c18eaa4897271c4f48db6ae
+      internalID: 1812743894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_170
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189452412038bc54896cfe048385cb88
+      internalID: 459410087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_171
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407810a0603f15640840b1e6d02d63ec
+      internalID: -2096270193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_172
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48218680c87594c4ba347e17a43ea173
+      internalID: -1487449827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_173
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650bb4da864faf44dabf51c2ff84e525
+      internalID: -705874808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_174
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e7aeaf0d0fa204bb6a118ff46e079d
+      internalID: 1589880151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_175
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aded194b9cef1244c999dd9b6780132a
+      internalID: 660681937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_176
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a788bb098fbf74f956a22924092eb7
+      internalID: 1848962174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Drill_53x53_177
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ec0acf2d1e0fd4e94a4883d47a061f
+      internalID: -913399852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BattleSkill_Drill_53x53_146: -1538607376
+      BattleSkill_Drill_53x53_150: 657632879
+      BattleSkill_Drill_53x53_88: 1295598014
+      BattleSkill_Drill_53x53_19: 261503419
+      BattleSkill_Drill_53x53_4: -2057729526
+      BattleSkill_Drill_53x53_135: 504929690
+      BattleSkill_Drill_53x53_104: 475131011
+      BattleSkill_Drill_53x53_50: -1789348464
+      BattleSkill_Drill_53x53_126: 1596515530
+      BattleSkill_Drill_53x53_121: -1525570138
+      BattleSkill_Drill_53x53_10: -1534725070
+      BattleSkill_Drill_53x53_83: -450781711
+      BattleSkill_Drill_53x53_29: 638898340
+      BattleSkill_Drill_53x53_115: -484737538
+      BattleSkill_Drill_53x53_30: 1221033636
+      BattleSkill_Drill_53x53_163: 307515524
+      BattleSkill_Drill_53x53_41: 1974738155
+      BattleSkill_Drill_53x53_57: -1010269520
+      BattleSkill_Drill_53x53_62: -294470355
+      BattleSkill_Drill_53x53_18: -1588755501
+      BattleSkill_Drill_53x53_97: 1225912569
+      BattleSkill_Drill_53x53_101: 1578404160
+      BattleSkill_Drill_53x53_114: -835968046
+      BattleSkill_Drill_53x53_13: 1335476735
+      BattleSkill_Drill_53x53_22: -2107479985
+      BattleSkill_Drill_53x53_73: 1378223264
+      BattleSkill_Drill_53x53_165: 1822007478
+      BattleSkill_Drill_53x53_21: 575203953
+      BattleSkill_Drill_53x53_154: -1101388266
+      BattleSkill_Drill_53x53_162: -459427075
+      BattleSkill_Drill_53x53_84: -1783833971
+      BattleSkill_Drill_53x53_136: 483682699
+      BattleSkill_Drill_53x53_76: 763477086
+      BattleSkill_Drill_53x53_80: 196518499
+      BattleSkill_Drill_53x53_169: 1812743894
+      BattleSkill_Drill_53x53_14: -277825855
+      BattleSkill_Drill_53x53_49: 2134474643
+      BattleSkill_Drill_53x53_53: 62194549
+      BattleSkill_Drill_53x53_89: 621317272
+      BattleSkill_Drill_53x53_74: -1501537377
+      BattleSkill_Drill_53x53_70: 961163569
+      BattleSkill_Drill_53x53_147: -756174659
+      BattleSkill_Drill_53x53_158: -1589931969
+      BattleSkill_Drill_53x53_11: 854326614
+      BattleSkill_Drill_53x53_39: -1965441047
+      BattleSkill_Drill_53x53_131: 809769360
+      BattleSkill_Drill_53x53_172: -1487449827
+      BattleSkill_Drill_53x53_174: 1589880151
+      BattleSkill_Drill_53x53_3: 1070065982
+      BattleSkill_Drill_53x53_90: -1846835124
+      BattleSkill_Drill_53x53_64: -315155053
+      BattleSkill_Drill_53x53_137: 1068834263
+      BattleSkill_Drill_53x53_164: 2124337904
+      BattleSkill_Drill_53x53_143: 1927205064
+      BattleSkill_Drill_53x53_119: 1017217341
+      BattleSkill_Drill_53x53_117: -310649278
+      BattleSkill_Drill_53x53_112: 1802975117
+      BattleSkill_Drill_53x53_66: -510743372
+      BattleSkill_Drill_53x53_24: 1484045862
+      BattleSkill_Drill_53x53_91: -1698436311
+      BattleSkill_Drill_53x53_40: 1250730124
+      BattleSkill_Drill_53x53_35: -422952105
+      BattleSkill_Drill_53x53_37: 1488848930
+      BattleSkill_Drill_53x53_15: 2130954025
+      BattleSkill_Drill_53x53_92: -244154191
+      BattleSkill_Drill_53x53_20: -1597726116
+      BattleSkill_Drill_53x53_173: -705874808
+      BattleSkill_Drill_53x53_129: 1857548653
+      BattleSkill_Drill_53x53_157: -888415095
+      BattleSkill_Drill_53x53_26: -948926865
+      BattleSkill_Drill_53x53_93: -1455666673
+      BattleSkill_Drill_53x53_168: -819882965
+      BattleSkill_Drill_53x53_124: -1133247721
+      BattleSkill_Drill_53x53_107: 1361263669
+      BattleSkill_Drill_53x53_118: 1284045286
+      BattleSkill_Drill_53x53_38: -1137323208
+      BattleSkill_Drill_53x53_7: 2068866353
+      BattleSkill_Drill_53x53_86: -923434372
+      BattleSkill_Drill_53x53_125: -1025003539
+      BattleSkill_Drill_53x53_78: -639032314
+      BattleSkill_Drill_53x53_139: -112080693
+      BattleSkill_Drill_53x53_8: 1565234351
+      BattleSkill_Drill_53x53_110: 1978578129
+      BattleSkill_Drill_53x53_59: 1170134214
+      BattleSkill_Drill_53x53_54: 1059788815
+      BattleSkill_Drill_53x53_58: -431803835
+      BattleSkill_Drill_53x53_36: 1800615897
+      BattleSkill_Drill_53x53_95: 1333446929
+      BattleSkill_Drill_53x53_56: 765796280
+      BattleSkill_Drill_53x53_105: -338138154
+      BattleSkill_Drill_53x53_122: -1181310911
+      BattleSkill_Drill_53x53_43: -578086315
+      BattleSkill_Drill_53x53_130: 309891711
+      BattleSkill_Drill_53x53_128: -107959288
+      BattleSkill_Drill_53x53_85: -1073943252
+      BattleSkill_Drill_53x53_151: -1312670863
+      BattleSkill_Drill_53x53_134: -224835280
+      BattleSkill_Drill_53x53_6: 318939345
+      BattleSkill_Drill_53x53_142: 287220055
+      BattleSkill_Drill_53x53_99: 1657102788
+      BattleSkill_Drill_53x53_109: 775152212
+      BattleSkill_Drill_53x53_68: -1806288242
+      BattleSkill_Drill_53x53_177: -913399852
+      BattleSkill_Drill_53x53_25: 1953480388
+      BattleSkill_Drill_53x53_27: -1439864881
+      BattleSkill_Drill_53x53_47: -784170412
+      BattleSkill_Drill_53x53_145: 2130886370
+      BattleSkill_Drill_53x53_138: 65680633
+      BattleSkill_Drill_53x53_111: -1536716108
+      BattleSkill_Drill_53x53_67: -509479077
+      BattleSkill_Drill_53x53_140: -2096212391
+      BattleSkill_Drill_53x53_63: 1776609498
+      BattleSkill_Drill_53x53_141: -42191627
+      BattleSkill_Drill_53x53_171: -2096270193
+      BattleSkill_Drill_53x53_148: -1718240660
+      BattleSkill_Drill_53x53_175: 660681937
+      BattleSkill_Drill_53x53_44: -263890487
+      BattleSkill_Drill_53x53_69: -1788763083
+      BattleSkill_Drill_53x53_116: 1816692430
+      BattleSkill_Drill_53x53_170: 459410087
+      BattleSkill_Drill_53x53_96: 1063078051
+      BattleSkill_Drill_53x53_159: 112909237
+      BattleSkill_Drill_53x53_9: -1549689352
+      BattleSkill_Drill_53x53_12: 1533382171
+      BattleSkill_Drill_53x53_120: -1686405672
+      BattleSkill_Drill_53x53_98: -449933929
+      BattleSkill_Drill_53x53_127: -1137893734
+      BattleSkill_Drill_53x53_72: 1147092062
+      BattleSkill_Drill_53x53_31: -374851208
+      BattleSkill_Drill_53x53_46: -1702292917
+      BattleSkill_Drill_53x53_152: -707018158
+      BattleSkill_Drill_53x53_82: -2044314937
+      BattleSkill_Drill_53x53_161: -957701242
+      BattleSkill_Drill_53x53_45: 1049454295
+      BattleSkill_Drill_53x53_113: 1296203809
+      BattleSkill_Drill_53x53_102: 1346679469
+      BattleSkill_Drill_53x53_1: -170356725
+      BattleSkill_Drill_53x53_123: 1464472748
+      BattleSkill_Drill_53x53_32: -1840865714
+      BattleSkill_Drill_53x53_160: -962520137
+      BattleSkill_Drill_53x53_167: 246839133
+      BattleSkill_Drill_53x53_55: 1091170753
+      BattleSkill_Drill_53x53_108: 1784024177
+      BattleSkill_Drill_53x53_133: -2004607716
+      BattleSkill_Drill_53x53_81: -20265091
+      BattleSkill_Drill_53x53_0: -569711259
+      BattleSkill_Drill_53x53_176: 1848962174
+      BattleSkill_Drill_53x53_94: -721500088
+      BattleSkill_Drill_53x53_155: -1527852609
+      BattleSkill_Drill_53x53_156: -60966669
+      BattleSkill_Drill_53x53_166: -87247037
+      BattleSkill_Drill_53x53_61: 698444695
+      BattleSkill_Drill_53x53_79: 1276365647
+      BattleSkill_Drill_53x53_2: 776916352
+      BattleSkill_Drill_53x53_60: -2146406129
+      BattleSkill_Drill_53x53_144: -439927002
+      BattleSkill_Drill_53x53_75: -1059478042
+      BattleSkill_Drill_53x53_33: -1245338947
+      BattleSkill_Drill_53x53_5: -834420284
+      BattleSkill_Drill_53x53_42: 1993820263
+      BattleSkill_Drill_53x53_48: -1909154067
+      BattleSkill_Drill_53x53_34: 449380964
+      BattleSkill_Drill_53x53_23: 1806895303
+      BattleSkill_Drill_53x53_132: -666075428
+      BattleSkill_Drill_53x53_100: 1647550774
+      BattleSkill_Drill_53x53_51: -552982943
+      BattleSkill_Drill_53x53_52: -1999047027
+      BattleSkill_Drill_53x53_106: -1674424464
+      BattleSkill_Drill_53x53_153: -310407288
+      BattleSkill_Drill_53x53_77: 2027396410
+      BattleSkill_Drill_53x53_103: -1910384305
+      BattleSkill_Drill_53x53_71: 1678128495
+      BattleSkill_Drill_53x53_87: -1830563017
+      BattleSkill_Drill_53x53_65: -1591425741
+      BattleSkill_Drill_53x53_16: 520431263
+      BattleSkill_Drill_53x53_17: -1753184231
+      BattleSkill_Drill_53x53_28: 1859851532
+      BattleSkill_Drill_53x53_149: -1507711053
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

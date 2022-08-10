@@ -30,6 +30,7 @@ namespace Assets.Scripts.Battle
         private Color _originalSceneLightColor;
 
         private BattleSequence _battleSequence;
+        private EnemyBattlerPoolManager _poolManager;
 
         protected override void OnAwake()
         {
@@ -40,7 +41,8 @@ namespace Assets.Scripts.Battle
             _drillBattler = SceneObject<DrillBattler>.Instance(true);
             _sceneLight = SceneObject<GlobalSceneLight>.Instance();
             _originalSceneLightColor = _sceneLight.Light.color;
-            _battleSequence = SceneObject<BattleSequence>.Instance();
+            _battleSequence = SceneObject<BattleSequence>.Instance(true);
+            _poolManager = SceneObject<EnemyBattlerPoolManager>.Instance(true);
             BattleFrame.transform.position = BattleFrameInitialPosition;
         }
 
@@ -64,13 +66,13 @@ namespace Assets.Scripts.Battle
             yield return ShowBattleFrame().AsCoroutine();
             GameRenderer.material = WhiteMaterial;
 
-            if (enemyBattler.Pool.TryGetFromPool(out var enemy))
+            var pool = _poolManager.GetEffect(enemyBattler);
+            if (pool.TryGetFromPool(out var enemy))
             {
                 enemy.Component.transform.position = EnemyPosition;
+                yield return TimeYields.WaitSeconds(UITimer, 2f);
+                _battleSequence.StartBattle(enemy);
             }
-
-            yield return TimeYields.WaitSeconds(UITimer, 2f);
-            _battleSequence.StartBattle();
         }
 
         private IEnumerable<IEnumerable<Action>> ShowBattleFrame()

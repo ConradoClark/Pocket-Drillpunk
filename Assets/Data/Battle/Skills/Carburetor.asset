@@ -27,3 +27,5 @@ MonoBehaviour:
   ScalesWithDrillPower: 0
   ScalesWithJetpackPower: 0
   ScalesWithMaxHP: 0
+  Animation: 
+  DurationInSeconds: 4

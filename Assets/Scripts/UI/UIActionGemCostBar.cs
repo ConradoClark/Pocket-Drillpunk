@@ -27,8 +27,9 @@ namespace Assets.Scripts.UI
 
         public IEnumerable<IEnumerable<Action>> Show((BattleElement element, int cost) info, bool quick)
         {
-            ElementSprite.sprite = GetSpriteByElement(info.element);
-            CostNumber.Number = info.cost;
+            var (element, cost) = info;
+            ElementSprite.sprite = GetSpriteByElement(element);
+            CostNumber.Number = cost;
 
             yield return transform.GetAccessor()
                 .Position
@@ -57,10 +58,10 @@ namespace Assets.Scripts.UI
             return element switch
             {
                 BattleElement.Neutral => UIElementGlyphs.NeutralSprite,
-                BattleElement.Fire => UIElementGlyphs.NeutralSprite,
-                BattleElement.Ice => UIElementGlyphs.NeutralSprite,
-                BattleElement.Bio => UIElementGlyphs.NeutralSprite,
-                BattleElement.Crystal => UIElementGlyphs.NeutralSprite,
+                BattleElement.Fire => UIElementGlyphs.FireSprite,
+                BattleElement.Ice => UIElementGlyphs.IceSprite,
+                BattleElement.Bio => UIElementGlyphs.BioSprite,
+                BattleElement.Crystal => UIElementGlyphs.CrystalSprite,
                 _ => UIElementGlyphs.NeutralSprite
             };
         }
