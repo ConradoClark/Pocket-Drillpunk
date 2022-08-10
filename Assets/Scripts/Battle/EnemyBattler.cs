@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Battle
 {
-    public class EnemyBattler : EffectPoolable
+    public class EnemyBattler : BaseBattler
     {
         public int HP;
         public Color HitColor;
@@ -19,7 +19,6 @@ namespace Assets.Scripts.Battle
         public event Action<int> OnHit;
 
         private BattleSequence _battleSequence;
-        private ITimer _uiTimer;
 
         private static readonly Color TransparentColor = new Color(0, 0, 0, 0);
 
@@ -27,7 +26,6 @@ namespace Assets.Scripts.Battle
         {
             base.OnAwake();
             _battleSequence = SceneObject<BattleSequence>.Instance(true);
-            _uiTimer = SceneObject<DefaultUITimer>.Instance().TimerRef.Timer;
         }
 
         public override void OnActivation()
@@ -55,7 +53,7 @@ namespace Assets.Scripts.Battle
                 .Build();
         }
 
-        public void Hit(int damage)
+        public override void Hit(int damage)
         {
             OnHit?.Invoke(damage);
             DefaultMachinery.AddBasicMachine(OnHitEffect(damage));
@@ -96,7 +94,7 @@ namespace Assets.Scripts.Battle
                 .SetTarget(2)
                 .Over(0.3f)
                 .Easing(EasingYields.EasingFunction.QuadraticEaseOut)
-                .UsingTimer(_uiTimer)
+                .UsingTimer(UITimer)
                 .Build();
 
             var damageNumberAnimScale2 = _battleSequence.DamageNumberRenderer
@@ -106,7 +104,7 @@ namespace Assets.Scripts.Battle
                 .SetTarget(1)
                 .Over(0.2f)
                 .Easing(EasingYields.EasingFunction.QuadraticEaseIn)
-                .UsingTimer(_uiTimer)
+                .UsingTimer(UITimer)
                 .Build();
 
             yield return blink.Combine(damageNumberAnim).Combine(damageNumberAnimScale1.Then(damageNumberAnimScale2));

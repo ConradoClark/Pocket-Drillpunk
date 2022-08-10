@@ -9,10 +9,12 @@ using Licht.Unity.Pooling;
 
 namespace Assets.Scripts.Battle
 {
-    public class HitEffect : EffectPoolable
+    public abstract class BaseBattler : EffectPoolable
     {
-        public BaseBattler Target;
         protected ITimer UITimer;
+
+        public abstract void Hit(int damage);
+
         protected override void OnAwake()
         {
             base.OnAwake();
@@ -21,7 +23,6 @@ namespace Assets.Scripts.Battle
 
         public override void OnActivation()
         {
-            
         }
     }
 }

@@ -35,7 +35,7 @@ namespace Assets.Scripts.Battle.Effects
         private IEnumerable<IEnumerable<Action>> PerformEffect()
         {
             yield return TimeYields.WaitOneFrameX;
-            if (Enemy == null) yield break;
+            if (Target == null) yield break;
             yield return TimeYields.WaitSeconds(UITimer, 1f);
             Animator.Play(State);
         }
@@ -43,11 +43,11 @@ namespace Assets.Scripts.Battle.Effects
         private IEnumerable<IEnumerable<Action>> HandleImpacts()
         {
             yield return TimeYields.WaitOneFrameX;
-            if (Enemy == null) yield break;
+            if (Target == null) yield break;
             foreach (var impact in DamageImpacts)
             {
                 yield return TimeYields.WaitSeconds(UITimer, impact.TimeInSeconds);
-                Enemy.Hit(impact.Damage);
+                Target.Hit(impact.Damage);
                 yield return MakeImpact(impact.ImpactSize).AsCoroutine();
             }
         }

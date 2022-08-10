@@ -12,7 +12,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Battle
 {
-    public class DrillBattler : BaseUIObject
+    public class DrillBattler : BaseBattler
     {
         public Vector3 BattlerPosition;
         public Animator Animator;
@@ -21,6 +21,11 @@ namespace Assets.Scripts.Battle
         private Camera _gameCamera;
         private Camera _uiCamera;
         private ITimer _gameTimer;
+
+        public override void Hit(int damage)
+        {
+            
+        }
 
         protected override void OnAwake()
         {
@@ -47,6 +52,25 @@ namespace Assets.Scripts.Battle
                 .UsingTimer(UITimer)
                 .Build();
 
+        }
+
+        public IEnumerable<IEnumerable<Action>> MoveBackAndDeactivate()
+        {
+            Animator.Play("DrillBattler_Intro");
+
+            var playerViewportPos = _gameCamera.WorldToViewportPoint(_player.transform.position);
+            var uiPos = _uiCamera.ViewportToWorldPoint(playerViewportPos);
+
+            transform.position = new Vector3(uiPos.x, uiPos.y, 0);
+            yield return transform.GetAccessor()
+                .Position
+                .ToPosition(uiPos)
+                .Over(4f)
+                .Easing(EasingYields.EasingFunction.BounceEaseOut)
+                .UsingTimer(UITimer)
+                .Build();
+
+            gameObject.SetActive(false);
         }
 
         public void PlayAnim(string anim)

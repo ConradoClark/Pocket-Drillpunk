@@ -22,12 +22,15 @@ namespace Assets.Scripts.Battle
         private HitEffectPoolManager _hitPoolManager;
         private EnemyBattler _enemy;
 
+        private BattleIntro _battleIntro;
+
         protected override void OnAwake()
         {
             base.OnAwake();
             _actionSelectorBar = SceneObject<UIActionSelectorBar>.Instance(true);
             _drillBattler = SceneObject<DrillBattler>.Instance(this);
             _hitPoolManager = SceneObject<HitEffectPoolManager>.Instance(true);
+            _battleIntro = SceneObject<BattleIntro>.Instance(true);
         }
 
         public void StartBattle(EnemyBattler enemy)
@@ -52,7 +55,14 @@ namespace Assets.Scripts.Battle
                 yield return DecisionPhase().AsCoroutine();
                 yield return ActionPhase().AsCoroutine();
                 yield return TimeYields.WaitOneFrameX;
+
+                if (EnemyHPCounter.Count <= 0)
+                {
+                    _battleOver = true;
+                }
             }
+
+            _battleIntro.ExitBattle();
         }
 
         private IEnumerable<IEnumerable<Action>> DecisionPhase()
@@ -84,7 +94,7 @@ namespace Assets.Scripts.Battle
                 var effectPool = _hitPoolManager.GetEffect(_actionSelectorBar.SelectedAction.SkillEffect);
                 if (effectPool.TryGetFromPool(out effect))
                 {
-                    effect.Enemy = _enemy;
+                    effect.Target = _enemy;
                 }
             }
 

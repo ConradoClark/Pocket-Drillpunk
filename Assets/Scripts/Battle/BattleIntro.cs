@@ -53,6 +53,28 @@ namespace Assets.Scripts.Battle
             DefaultMachinery.AddBasicMachine(ShowBattleIntro(enemyBattler));
         }
 
+        public void ExitBattle()
+        {
+            DefaultMachinery.AddBasicMachine(_drillBattler.MoveBackAndDeactivate());
+            DefaultMachinery.AddBasicMachine(ShowBattleOutro());
+        }
+
+        private IEnumerable<IEnumerable<Action>> ShowBattleOutro()
+        {
+            // spawn outro
+            EnemyIntro.Pool.TryGetFromPool(out _);
+            // spawn spinning player, enemy outline, then enemy
+
+            yield return HideBattleFrame().AsCoroutine();
+
+            _sceneLight.Light.color = _originalSceneLightColor;
+            //yield return TimeYields.WaitSeconds(UITimer, 1f); // wait intro
+            yield return ShowTopFrame().AsCoroutine();
+            GameRenderer.material = _originalGameRendererMaterial;
+
+            _player.gameObject.SetActive(true); // disables the player
+        }
+
         private IEnumerable<IEnumerable<Action>> ShowBattleIntro(ScriptPrefab enemyBattler)
         {
             // spawn intro
@@ -85,6 +107,38 @@ namespace Assets.Scripts.Battle
                 .UsingTimer(UITimer)
                 .Easing(EasingYields.EasingFunction.QuadraticEaseInOut)
                 .Build();
+        }
+
+        private IEnumerable<IEnumerable<Action>> ShowTopFrame()
+        {
+            yield return TopFrame.GetAccessor()
+                .Position
+                .ToPosition(_originalTopFramePos)
+                .Over(1f)
+                .UsingTimer(UITimer)
+                .Easing(EasingYields.EasingFunction.QuadraticEaseInOut)
+                .Build();
+        }
+
+        private IEnumerable<IEnumerable<Action>> HideBattleFrame()
+        {
+            yield return BattleFrame.GetAccessor()
+                .Position
+                .ToPosition(transform.position - (transform.position - BattleFrameInitialPosition) * 0.5f)
+                .Over(0.5f)
+                .UsingTimer(UITimer)
+                .Easing(EasingYields.EasingFunction.QuadraticEaseIn)
+                .Build();
+
+            yield return BattleFrame.GetAccessor()
+                .Position
+                .ToPosition(BattleFrameInitialPosition)
+                .Over(1.5f)
+                .UsingTimer(UITimer)
+                .Easing(EasingYields.EasingFunction.QuadraticEaseInOut)
+                .Build();
+
+            BattleFrame.gameObject.SetActive(false);
         }
 
         private IEnumerable<IEnumerable<Action>> HideTopFrame()
