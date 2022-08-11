@@ -77,6 +77,6 @@ public class MapGenerator : BaseGameObject
 
     public void Populate(Vector2Int pos)
     {
-        MainReference.Populate("XXX2", pos);
+        MainReference.Populate("XXX3", pos);
     }
 }

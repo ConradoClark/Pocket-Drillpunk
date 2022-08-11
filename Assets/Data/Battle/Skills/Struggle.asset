@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b972382fc10fc7444890eb085a8bd67d, type: 3}
   m_Name: Struggle
   m_EditorClassIdentifier: 
-  SkillEffect: {fileID: 0}
+  SkillEffect: {fileID: 11400000, guid: d0f17e687c8f8744c8d6e1fa681b7303, type: 2}
+  EffectDelayInSeconds: 0.4
   Element: 0
   Power: 1
   Shield: 0
@@ -27,5 +28,5 @@ MonoBehaviour:
   ScalesWithDrillPower: 0
   ScalesWithJetpackPower: 0
   ScalesWithMaxHP: 1
-  Animation: 
-  DurationInSeconds: 2
+  Animation: DrillBattler_Struggle
+  DurationInSeconds: 2.4

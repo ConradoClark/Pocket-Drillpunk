@@ -368,7 +368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Tile: {fileID: 2139523492}
   Name: DirtTileEnemies
-  OriginalWeight: 0.01
+  OriginalWeight: 0.02
   SpawnRates:
   - Enemy: {fileID: 11400000, guid: ef0932e2b792ec94199e1ff078ecd243, type: 2}
     SpawnWeight: 1

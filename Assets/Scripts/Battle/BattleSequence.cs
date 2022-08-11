@@ -68,7 +68,9 @@ namespace Assets.Scripts.Battle
             {
                 yield return DecisionPhase().AsCoroutine();
                 yield return ActionPhase().AsCoroutine();
-                yield return TimeYields.WaitOneFrameX;
+
+                yield return TimeYields.WaitSeconds(UITimer, 0.25);
+
 
                 if (EnemyHPCounter.Count <= 0)
                 {
@@ -160,6 +162,12 @@ namespace Assets.Scripts.Battle
             }
 
             yield return TimeYields.WaitSeconds(UITimer, _actionSelectorBar.SelectedAction.DurationInSeconds);
+
+            if (_actionSelectorBar.SelectedAction.SelfDamage > 0)
+            {
+                _drillBattler.Hit(1);
+                yield return TimeYields.WaitSeconds(UITimer, 1);
+            }
 
             if (effect != null)
             {

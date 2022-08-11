@@ -64,7 +64,7 @@ namespace Assets.Scripts.UI
             while (ExpGainedCounter.Count > 0)
             {
                 ExpGainedCounter.Count--;
-                ToNextLevelCounter.Count++;
+                ToNextLevelCounter.Count--;
                 yield return TimeYields.WaitMilliseconds(UITimer, 100);
             }
         }

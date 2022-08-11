@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b972382fc10fc7444890eb085a8bd67d, type: 3}
   m_Name: Carburetor
   m_EditorClassIdentifier: 
-  SkillEffect: {fileID: 0}
+  SkillEffect: {fileID: 11400000, guid: 39a4f1cde713b2445adaa74ceaab66ad, type: 2}
+  EffectDelayInSeconds: 1
   Element: 1
   Power: 2
   Shield: 0
@@ -20,12 +21,12 @@ MonoBehaviour:
   SelfDamage: 0
   Name: Carburetor
   NeutralCost: 20
-  FireCost: 10
+  FireCost: 5
   IceCost: 0
   BioCost: 0
   CrystalCost: 0
   ScalesWithDrillPower: 0
   ScalesWithJetpackPower: 0
   ScalesWithMaxHP: 0
-  Animation: 
-  DurationInSeconds: 4
+  Animation: DrillBattler_TurnBack
+  DurationInSeconds: 5

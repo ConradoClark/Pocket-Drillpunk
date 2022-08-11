@@ -1,0 +1,3787 @@
+fileFormatVersion: 2
+guid: 55761bae36f718e4c9fefe61d54a4d62
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb8917fcaa802646af6c6ef3bb3ea4d
+      internalID: -1977982821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9554181eaa77b874e9388c0ca5187c67
+      internalID: 1810858243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a77451a0311bd48ac671ffd0d0d2c4
+      internalID: -1555656155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133997d834f66584194e62e5122aa91a
+      internalID: -1688287638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ca2d1b610dba4897f938c12f7e4af
+      internalID: -1365659529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd060845aa5c834a8c4b08086d70364
+      internalID: 883317190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcecb46f0a12974c9a042d2d21b5aed
+      internalID: -1391938432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4184d257f5f72409a5f71b0f824ddf
+      internalID: 1553195402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a07cb9a14daecc4fbb105931b4e1ff8
+      internalID: -2005744357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65a7c93263e8014fadd3a26169718f2
+      internalID: 1776887585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01733af20112f9f4dbccd5e50bb8c38b
+      internalID: 1334759273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ecf148af0befe4b9a267d13ddfd4e1
+      internalID: 1080613478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 492
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b010b957b6a6b4c95d57d8386b2232
+      internalID: 707283135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a032bcda78523345b55bd087e160daf
+      internalID: -1202020710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65ffb8ac5651f0498e8ff7cc81f1d32
+      internalID: -603866102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9771ee49c7258419c479f294b767fd
+      internalID: 1887384361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa19177a79427ca4fbf400f45168e410
+      internalID: 1304072995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c0f80d8bedd7f41906afd92f1f3c33
+      internalID: -693468064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d82ec986fc30214085e38c170491e81
+      internalID: 1318323128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d196c05c578ec04b83745e8ed41de97
+      internalID: -109883345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d54cf93e1f80b4db4660bf6a98f764
+      internalID: 325969052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75abf8ea674f3347b2e8c6bf16bf03d
+      internalID: 553793456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db4410dba452214f8083a690b3cc041
+      internalID: 419573045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b391dc87470fda24e9957d68cca1619f
+      internalID: 1871405585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_24
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebafda68fad6e984b92572548a48ad99
+      internalID: -1679023554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_25
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 451
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b795f9a33d009774db48e206110b186c
+      internalID: 1432460636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e013f218265aa704196e3f8a1eb7a45e
+      internalID: 1430196016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de917f46e2fb294449c57c8800a2632f
+      internalID: 45006627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4d40a5ede45f248bcc26bfca343174
+      internalID: -1048598267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_29
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919b02c307f8bc74b97ee12353e7dc1e
+      internalID: 526945815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354c102cbeb3e134684695135f8683c2
+      internalID: -72557865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a600eda24ab4fd843811700077bc4d92
+      internalID: 1757200094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2125a574c2671994e821c82c1bd51b07
+      internalID: 1703174961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_33
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46a1aefa2ac33546a23accfb78a3ae5
+      internalID: -97519636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e951e6007176c44aa1003e512b8a701
+      internalID: -1303945943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfea56a61cee53142a582e58b2cc420a
+      internalID: -265727905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_36
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b9d0369192b464885cb0dd3700a183
+      internalID: -1088629929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_37
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42072d7eda6b5c8499a33f85a30e4dfb
+      internalID: -1834764490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 410
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8764fa547efd6c4896577190198903c
+      internalID: 947217643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7705387949c084d82e5fafce78ee1a
+      internalID: -282891226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_40
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ebf4e935ffced43a42e8ccec525f1f
+      internalID: -590198052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3446ec86149bec94a966a02b7a8496a0
+      internalID: 1757535171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f653437441703641a32a708d5c75779
+      internalID: -1559032740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a480fe4aa35e88448d32e6a86455aad
+      internalID: -1929727342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1779a2bce3997ee48aabd115221c7824
+      internalID: 332100961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e930cfb6c95eacb4680a08eee8f37eb6
+      internalID: -1144412470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_46
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f349eafff4d984eb18d5291751b4e4
+      internalID: -419945701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b264bbbeec8701c4484cb00087913c9e
+      internalID: -1282055635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_48
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132bfff2ea230ca44828bdbd97bab724
+      internalID: -612065426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_49
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581634a12b6de0d44bca9f3932b3efa6
+      internalID: -1879385692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_50
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb81056fed93e0489f22447b1e5ce8a
+      internalID: 1268364995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 369
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a8cf46921fb784ebca9a6a1380a04a
+      internalID: 45934867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb36d5867ae75d94eb0f51c277b74ce9
+      internalID: 141692000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_53
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe16133de2735e4ea3bf66e918adc01
+      internalID: 67427648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_54
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7d802cbd772ac47b8fa1140caaaf57
+      internalID: -630915014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_55
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260096ab9eb8c8348b5b9745f3e813db
+      internalID: 597869372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b33725d392335a4a8cf32dae7ddc23a
+      internalID: 1198980787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_57
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557327a5282d876499740b838a428e77
+      internalID: -1987095810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea972eb9656916e4dae133380c8f855b
+      internalID: 147063049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_59
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9225e5dcf13aae442a7210dbc8f9482a
+      internalID: -87411540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2f105634b9d1d4d8ce503e9defee33
+      internalID: 571498361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_61
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc4e1612fd410f4a93976b91a7b4428
+      internalID: 1180867993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_62
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124913b4c3081a1468b4a64c7c87f086
+      internalID: 1135202648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_63
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499f99e1c7f35d94bb39b52d482e3ac9
+      internalID: -1149496637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_64
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 328
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a956df67a2013eb4582012cbbcbc33d2
+      internalID: 1871790642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fb191f18c402041af8b9c72c2443df
+      internalID: 872434318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_66
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ffe58f800097d45a93e66f791ba499
+      internalID: 1470456378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e92a758f1264947a4c1df80c76553f
+      internalID: 1062855676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_68
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed15078dafdb1a478f5d6cbf1debe9d
+      internalID: -475149436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f039059a07ef40468561a9891f7e208
+      internalID: -254006275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_70
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6839999dc48fcad4aba5eb6aac43e902
+      internalID: 2075514474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18e06c9570a2404e9c9f19faf0df7af
+      internalID: -1651186737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_72
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3952300169613494c8e7076c1b62330f
+      internalID: -1293015972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_73
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225882ae0341e8846b6f3bcdea90cb8c
+      internalID: -2061909622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_74
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be646f2ef284b204b875e5fab41bf260
+      internalID: 1853005188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_75
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fc2cc4e3360e845a6aa24fe222fae0
+      internalID: 1354711121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_76
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d574326f0fcc4914985142aa943e0797
+      internalID: -640976059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_77
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 287
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e734eb6612e1c468c524aad8a1e403
+      internalID: -957849532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e226b2ed73a51ad4b8b5cc9f05814a89
+      internalID: 1424532222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_79
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b1064e9a0ad7346b3e06b50d6a5917
+      internalID: 1496549366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6e4a171d639c74fb323dc1be0e1319
+      internalID: 1327754597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_81
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1446ab2312ab23b489fa944f4e400f50
+      internalID: -973051920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe815b31032c0947a29d73c0989488f
+      internalID: -1120233063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_83
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ce8783e65fb1d4296d04631133bb78
+      internalID: -2130397409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f958f6c967156f43a2459f45f05d946
+      internalID: 216218922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_85
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e360742a166d314db5c0beefe93ded1
+      internalID: -609518752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94024f56aa9fe6143a3966d2b5fe0e8b
+      internalID: -1147864021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_87
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082f10dc1503a4340b0f7df82a45244b
+      internalID: 1985496299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_88
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646146bfe2bd99b40b51bb4ed85fe47b
+      internalID: 1125624541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_89
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6b9c4a49968434d8e532861aaca890
+      internalID: 1511473578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_90
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 246
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541314fdb6dbe904e82e7154fb95e7db
+      internalID: -900644541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76284f4526be694090eb5b1c36c7b7d
+      internalID: -1865298486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_92
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5e6be35199c094a8a93aa16eed715f
+      internalID: 1436434923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59c965264996544492ddfae459b4ab1
+      internalID: 1242489071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_94
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d553c0c0989c4148a08e6d54c4cc796
+      internalID: 1906166245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_95
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba320be50d0940a488a66e455fd381fc
+      internalID: -1230991414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_96
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b5cb977641a784989a9b8609357980
+      internalID: 1006729323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_97
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be0f203bc80d7040a9a1363dba50030
+      internalID: 1619252512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_98
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efe304a166605e4db8dc0841f987fe2
+      internalID: -757071564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_99
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9bc35d46f2d9c468c7f79da0cf14d2
+      internalID: 378395283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_100
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ad8f1efaf4b7c4eb40177cddc73d59
+      internalID: 668473125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_101
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396f494ce75de0043989457fc89333b5
+      internalID: -52265694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_102
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edac1086ad284fa4d98e6ad347484804
+      internalID: -82937783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_103
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda3ef7598b31c542974cc5c6ac8d855
+      internalID: 1899086577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b44d7d7fee7f6479eefa788f7f3e68
+      internalID: 827502746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_105
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015baab047ef16b4789d6bd3e49bd656
+      internalID: 665464441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_106
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbbfa835a64f9f478dd2ea2f2c9293c
+      internalID: -828353259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_107
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749cec03c107c3f4a9757c34f29a5e72
+      internalID: 1129819106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620cd82c8cbb8f444bd04a75fbbf6cb4
+      internalID: 9565741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_109
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16a7e76e7b2c4047a713f648b74541a
+      internalID: -891533615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_110
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e7c204ffdedcb48b8f17369d68bf46
+      internalID: -1343023460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_111
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bd58c7eb843554888f61e8152ad759
+      internalID: 119036181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_112
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a08fbb191e51c948a2511b7b12c3098
+      internalID: 1330118577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_113
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf36f00f163bb6f4b9a82e5f0e594a05
+      internalID: 1861126218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_114
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952663e17f3e92344938c287ffd04d80
+      internalID: -524298055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_115
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e61230cd0a80b43a416117146338ad
+      internalID: -286765191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_116
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 164
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac47ccee31448e408d943f0c7bac9b0
+      internalID: -2016986467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e0fa1fbe8b44140b796b71e565b30c
+      internalID: -1174660858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_118
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd322f54147df83488af016b95973c50
+      internalID: -1479800439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_119
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9903e95fc2d9d041a365f990955f8fd
+      internalID: 455286760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_120
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472884f6f58a531429bff784e96d027b
+      internalID: 692017303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_121
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46ff9ba056ea194e9e16222990d1596
+      internalID: 790818188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_122
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a539d33224bda4f9da9fc28b9e4dc8
+      internalID: -1313357906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_123
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e749b1cee0698b44ebba174879f4d73a
+      internalID: -1344060951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_124
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa10172622b17247bbc40958d0fcb3d
+      internalID: 1031720655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4835d0850e64ae54ebe09ed5f857cd78
+      internalID: -475473603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_126
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7a5ccb5b241ca42beda1dadc331859
+      internalID: 1117648978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_127
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a79651485229844a2b6c24c9b4eda1
+      internalID: 1096933911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_128
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5bdaa28ef9b9441bb26fcd1a1c81b3
+      internalID: 416457006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_129
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 123
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde6a0f496233ca4ca8184bec99604c7
+      internalID: -922829355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6aa8b39e7a0fb4eaa49619501ebb4f
+      internalID: 1879183016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_131
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49881a573d42404cadff7ede464020e
+      internalID: 839992873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_132
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b674a910fcb1ca4db52b25e6578e8ec
+      internalID: -110743214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_133
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eba772f6df756f45a2995a1c3125453
+      internalID: -44352978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb419ebd1bc3a44b09bc72e5812f7a
+      internalID: 1376755322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_135
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0473caac56789bc45840ed997522c97c
+      internalID: 1214480835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_136
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6c11094352052489806777214d600a
+      internalID: -2006391407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_137
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a276d09e4667949ad49a7e1824a273
+      internalID: -995119831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562b87e362febfb4fba1386b65505d76
+      internalID: -249050942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_139
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d1f44726ec26541ab42379ef6ff8cc
+      internalID: -1545370679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_140
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb86738568774641a87f9309d43e32f
+      internalID: -108892911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_141
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549610ab1879e32438bec51f931d21b9
+      internalID: -958871650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_142
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 82
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7ece100172a834ea0199068b104304
+      internalID: 2114923834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a725aee5ff654c04cb69d1f15f6df521
+      internalID: 835086628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_144
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994f5ad91c7433249af76247d2162c0c
+      internalID: 179068116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_145
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f1faaef326a6e4493304e179f7b3d4
+      internalID: -444372871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_146
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d770bbe73cedb42a498605d053adf6
+      internalID: -1096011418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_147
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5703142dfaab04188131e8bf3533bf
+      internalID: 728521783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_148
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1900a46b41397489e078a5677fc3db
+      internalID: -1391232111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_149
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76393c1ce09c06645a8481bc83dfb90e
+      internalID: -1815176388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_150
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7eccdb53a3d6e479f34a9e36783715
+      internalID: -199203376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542956779a07c8a4687eac923344414d
+      internalID: -2022937723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_152
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d5e706550bdac43b3d1b7294d1e0e0
+      internalID: 1353649878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_153
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174b849056a319d4490927730a7ffafc
+      internalID: 919478620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_154
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bb2b150fd7858419fc2e55d59496a2
+      internalID: -1995157550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_155
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 41
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3b2abd34f034e4680d36b0b49d0917
+      internalID: -500249356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5596dd08eda394e8c68f5747f3f385
+      internalID: 2015928151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_157
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4909e71c20179e24cac0875bfef280b4
+      internalID: 992228629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_158
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d395a3bae8a5b04f9f918c4aacf54bb
+      internalID: -191787655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_159
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602e01abe49e0a840997478efeb43c2a
+      internalID: 1153693119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_160
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b70c4239b1ab8c428b26cba43284acf
+      internalID: -1822170666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_161
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cd4407bcbb53e428edc773f883250f
+      internalID: -1202757974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_162
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76348b2a767ac744c8419b39e079f15b
+      internalID: 76611886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_163
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d500e1276d6f58243bc11051459db238
+      internalID: -367690364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80911b0684adf334ca0c632248f554c4
+      internalID: 1540410648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Carburetor_40x41_165
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b2342352bf214458b8bea538150b1d
+      internalID: -1434800124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BattleSkill_Carburetor_40x41_85: -609518752
+      BattleSkill_Carburetor_40x41_90: -900644541
+      BattleSkill_Carburetor_40x41_46: -419945701
+      BattleSkill_Carburetor_40x41_60: 571498361
+      BattleSkill_Carburetor_40x41_58: 147063049
+      BattleSkill_Carburetor_40x41_107: 1129819106
+      BattleSkill_Carburetor_40x41_150: -199203376
+      BattleSkill_Carburetor_40x41_147: 728521783
+      BattleSkill_Carburetor_40x41_127: 1096933911
+      BattleSkill_Carburetor_40x41_165: -1434800124
+      BattleSkill_Carburetor_40x41_146: -1096011418
+      BattleSkill_Carburetor_40x41_96: 1006729323
+      BattleSkill_Carburetor_40x41_35: -265727905
+      BattleSkill_Carburetor_40x41_36: -1088629929
+      BattleSkill_Carburetor_40x41_24: -1679023554
+      BattleSkill_Carburetor_40x41_54: -630915014
+      BattleSkill_Carburetor_40x41_160: -1822170666
+      BattleSkill_Carburetor_40x41_97: 1619252512
+      BattleSkill_Carburetor_40x41_69: -254006275
+      BattleSkill_Carburetor_40x41_91: -1865298486
+      BattleSkill_Carburetor_40x41_145: -444372871
+      BattleSkill_Carburetor_40x41_37: -1834764490
+      BattleSkill_Carburetor_40x41_110: -1343023460
+      BattleSkill_Carburetor_40x41_2: -1555656155
+      BattleSkill_Carburetor_40x41_117: -1174660858
+      BattleSkill_Carburetor_40x41_137: -995119831
+      BattleSkill_Carburetor_40x41_140: -108892911
+      BattleSkill_Carburetor_40x41_109: -891533615
+      BattleSkill_Carburetor_40x41_156: 2015928151
+      BattleSkill_Carburetor_40x41_12: 707283135
+      BattleSkill_Carburetor_40x41_34: -1303945943
+      BattleSkill_Carburetor_40x41_93: 1242489071
+      BattleSkill_Carburetor_40x41_139: -1545370679
+      BattleSkill_Carburetor_40x41_23: 1871405585
+      BattleSkill_Carburetor_40x41_28: -1048598267
+      BattleSkill_Carburetor_40x41_151: -2022937723
+      BattleSkill_Carburetor_40x41_16: 1304072995
+      BattleSkill_Carburetor_40x41_152: 1353649878
+      BattleSkill_Carburetor_40x41_83: -2130397409
+      BattleSkill_Carburetor_40x41_53: 67427648
+      BattleSkill_Carburetor_40x41_68: -475149436
+      BattleSkill_Carburetor_40x41_50: 1268364995
+      BattleSkill_Carburetor_40x41_66: 1470456378
+      BattleSkill_Carburetor_40x41_75: 1354711121
+      BattleSkill_Carburetor_40x41_126: 1117648978
+      BattleSkill_Carburetor_40x41_30: -72557865
+      BattleSkill_Carburetor_40x41_72: -1293015972
+      BattleSkill_Carburetor_40x41_26: 1430196016
+      BattleSkill_Carburetor_40x41_123: -1344060951
+      BattleSkill_Carburetor_40x41_78: 1424532222
+      BattleSkill_Carburetor_40x41_103: 1899086577
+      BattleSkill_Carburetor_40x41_116: -2016986467
+      BattleSkill_Carburetor_40x41_149: -1815176388
+      BattleSkill_Carburetor_40x41_162: 76611886
+      BattleSkill_Carburetor_40x41_161: -1202757974
+      BattleSkill_Carburetor_40x41_113: 1861126218
+      BattleSkill_Carburetor_40x41_100: 668473125
+      BattleSkill_Carburetor_40x41_115: -286765191
+      BattleSkill_Carburetor_40x41_84: 216218922
+      BattleSkill_Carburetor_40x41_42: -1559032740
+      BattleSkill_Carburetor_40x41_33: -97519636
+      BattleSkill_Carburetor_40x41_164: 1540410648
+      BattleSkill_Carburetor_40x41_49: -1879385692
+      BattleSkill_Carburetor_40x41_111: 119036181
+      BattleSkill_Carburetor_40x41_88: 1125624541
+      BattleSkill_Carburetor_40x41_99: 378395283
+      BattleSkill_Carburetor_40x41_112: 1330118577
+      BattleSkill_Carburetor_40x41_63: -1149496637
+      BattleSkill_Carburetor_40x41_155: -500249356
+      BattleSkill_Carburetor_40x41_22: 419573045
+      BattleSkill_Carburetor_40x41_138: -249050942
+      BattleSkill_Carburetor_40x41_77: -957849532
+      BattleSkill_Carburetor_40x41_70: 2075514474
+      BattleSkill_Carburetor_40x41_11: 1080613478
+      BattleSkill_Carburetor_40x41_104: 827502746
+      BattleSkill_Carburetor_40x41_102: -82937783
+      BattleSkill_Carburetor_40x41_101: -52265694
+      BattleSkill_Carburetor_40x41_3: -1688287638
+      BattleSkill_Carburetor_40x41_89: 1511473578
+      BattleSkill_Carburetor_40x41_130: 1879183016
+      BattleSkill_Carburetor_40x41_94: 1906166245
+      BattleSkill_Carburetor_40x41_56: 1198980787
+      BattleSkill_Carburetor_40x41_25: 1432460636
+      BattleSkill_Carburetor_40x41_153: 919478620
+      BattleSkill_Carburetor_40x41_157: 992228629
+      BattleSkill_Carburetor_40x41_154: -1995157550
+      BattleSkill_Carburetor_40x41_134: 1376755322
+      BattleSkill_Carburetor_40x41_17: -693468064
+      BattleSkill_Carburetor_40x41_98: -757071564
+      BattleSkill_Carburetor_40x41_79: 1496549366
+      BattleSkill_Carburetor_40x41_114: -524298055
+      BattleSkill_Carburetor_40x41_144: 179068116
+      BattleSkill_Carburetor_40x41_9: 1776887585
+      BattleSkill_Carburetor_40x41_122: -1313357906
+      BattleSkill_Carburetor_40x41_44: 332100961
+      BattleSkill_Carburetor_40x41_133: -44352978
+      BattleSkill_Carburetor_40x41_128: 416457006
+      BattleSkill_Carburetor_40x41_121: 790818188
+      BattleSkill_Carburetor_40x41_59: -87411540
+      BattleSkill_Carburetor_40x41_7: 1553195402
+      BattleSkill_Carburetor_40x41_148: -1391232111
+      BattleSkill_Carburetor_40x41_15: 1887384361
+      BattleSkill_Carburetor_40x41_82: -1120233063
+      BattleSkill_Carburetor_40x41_48: -612065426
+      BattleSkill_Carburetor_40x41_67: 1062855676
+      BattleSkill_Carburetor_40x41_124: 1031720655
+      BattleSkill_Carburetor_40x41_65: 872434318
+      BattleSkill_Carburetor_40x41_141: -958871650
+      BattleSkill_Carburetor_40x41_43: -1929727342
+      BattleSkill_Carburetor_40x41_142: 2114923834
+      BattleSkill_Carburetor_40x41_18: 1318323128
+      BattleSkill_Carburetor_40x41_32: 1703174961
+      BattleSkill_Carburetor_40x41_163: -367690364
+      BattleSkill_Carburetor_40x41_0: -1977982821
+      BattleSkill_Carburetor_40x41_29: 526945815
+      BattleSkill_Carburetor_40x41_95: -1230991414
+      BattleSkill_Carburetor_40x41_62: 1135202648
+      BattleSkill_Carburetor_40x41_131: 839992873
+      BattleSkill_Carburetor_40x41_13: -1202020710
+      BattleSkill_Carburetor_40x41_105: 665464441
+      BattleSkill_Carburetor_40x41_27: 45006627
+      BattleSkill_Carburetor_40x41_92: 1436434923
+      BattleSkill_Carburetor_40x41_47: -1282055635
+      BattleSkill_Carburetor_40x41_125: -475473603
+      BattleSkill_Carburetor_40x41_132: -110743214
+      BattleSkill_Carburetor_40x41_136: -2006391407
+      BattleSkill_Carburetor_40x41_14: -603866102
+      BattleSkill_Carburetor_40x41_38: 947217643
+      BattleSkill_Carburetor_40x41_4: -1365659529
+      BattleSkill_Carburetor_40x41_20: 325969052
+      BattleSkill_Carburetor_40x41_106: -828353259
+      BattleSkill_Carburetor_40x41_81: -973051920
+      BattleSkill_Carburetor_40x41_31: 1757200094
+      BattleSkill_Carburetor_40x41_57: -1987095810
+      BattleSkill_Carburetor_40x41_41: 1757535171
+      BattleSkill_Carburetor_40x41_86: -1147864021
+      BattleSkill_Carburetor_40x41_5: 883317190
+      BattleSkill_Carburetor_40x41_19: -109883345
+      BattleSkill_Carburetor_40x41_118: -1479800439
+      BattleSkill_Carburetor_40x41_8: -2005744357
+      BattleSkill_Carburetor_40x41_21: 553793456
+      BattleSkill_Carburetor_40x41_119: 455286760
+      BattleSkill_Carburetor_40x41_1: 1810858243
+      BattleSkill_Carburetor_40x41_87: 1985496299
+      BattleSkill_Carburetor_40x41_120: 692017303
+      BattleSkill_Carburetor_40x41_158: -191787655
+      BattleSkill_Carburetor_40x41_40: -590198052
+      BattleSkill_Carburetor_40x41_39: -282891226
+      BattleSkill_Carburetor_40x41_108: 9565741
+      BattleSkill_Carburetor_40x41_74: 1853005188
+      BattleSkill_Carburetor_40x41_45: -1144412470
+      BattleSkill_Carburetor_40x41_51: 45934867
+      BattleSkill_Carburetor_40x41_52: 141692000
+      BattleSkill_Carburetor_40x41_55: 597869372
+      BattleSkill_Carburetor_40x41_80: 1327754597
+      BattleSkill_Carburetor_40x41_73: -2061909622
+      BattleSkill_Carburetor_40x41_76: -640976059
+      BattleSkill_Carburetor_40x41_6: -1391938432
+      BattleSkill_Carburetor_40x41_61: 1180867993
+      BattleSkill_Carburetor_40x41_129: -922829355
+      BattleSkill_Carburetor_40x41_135: 1214480835
+      BattleSkill_Carburetor_40x41_159: 1153693119
+      BattleSkill_Carburetor_40x41_143: 835086628
+      BattleSkill_Carburetor_40x41_10: 1334759273
+      BattleSkill_Carburetor_40x41_71: -1651186737
+      BattleSkill_Carburetor_40x41_64: 1871790642
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
