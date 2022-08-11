@@ -11,7 +11,6 @@ namespace Assets.Scripts.Drill
 {
     public class PlayerStats : MonoBehaviour
     {
-        public int HP;
         public int MaxHP;
         public int DrillPower;
         public int JetpackBattery;
@@ -21,15 +20,30 @@ namespace Assets.Scripts.Drill
 
         public List<DrillSkill> Moves;
 
-        private void Awake()
+        public int Level;
+        public Counter ToNextLevel;
+
+        private void Start()
         {
-            HP = MaxHP = HPCounter.Count = MaxHPCounter.Count = 3;
+            MaxHP = HPCounter.Count = MaxHPCounter.Count = 3;
+            Level = 1;
+            ToNextLevel.Count = GetNextLevelExp();
+        }
+
+        private int GetNextLevelExp()
+        {
+            return (int) Math.Pow(Level + 1, 2) + 5 + (Level-1) * 3;
+        }
+
+        public void IncreaseHP(int value)
+        {
+            SetHP(HPCounter.Count + 1);
         }
 
         public void SetHP(int value)
         {
             if (value <= 0) value = 0;
-            HP = HPCounter.Count = Math.Max(value, MaxHP);
+            HPCounter.Count = Math.Min(value, MaxHP);
         }
 
         public void SetMaxHP(int value)

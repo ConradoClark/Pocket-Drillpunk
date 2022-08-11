@@ -60,7 +60,7 @@ public class DrillingController : LichtMovementController
     {
         while (_enabled)
         {
-            if (_drillAction.IsPressed())
+            if (_drillAction.IsPressed() && !IsBlocked)
             {
                 var dampeners = new[]
                 {
@@ -73,7 +73,7 @@ public class DrillingController : LichtMovementController
                 OnStartDrilling?.Invoke(direction);
                 CharacterController.SetMovementMultipliers(this, dampeners);
 
-                while (_drillAction.IsPressed())
+                while (_drillAction.IsPressed() && !IsBlocked)
                 {
                     direction = CharacterController.CurrentDirection;
                     var drillDirection = DrillDirections.FirstOrDefault(d => d.Direction == direction);

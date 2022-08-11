@@ -26,11 +26,17 @@ namespace Assets.Scripts.Battle
 
         public override void OnActivation()
         {
+            transform.localScale = Vector3.one;
         }
 
         public void PlayAnim(string anim)
         {
             Animator.Play(anim);
+        }
+
+        public virtual void Die()
+        {
+
         }
     }
 }

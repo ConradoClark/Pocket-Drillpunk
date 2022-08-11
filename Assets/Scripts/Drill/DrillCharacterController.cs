@@ -77,7 +77,7 @@ public class DrillCharacterController : LichtMovementController
 
     private bool IsTriggeringHover()
     {
-        return !JumpController.IsJumping && _jumpAction.IsPressed() &&
+        return !IsBlocked && !JumpController.IsJumping && _jumpAction.IsPressed() &&
                !PhysicsObject.GetPhysicsTrigger(GroundedIdentifier);
     }
 
@@ -153,7 +153,7 @@ public class DrillCharacterController : LichtMovementController
                 }
             }
 
-            if (direction == Vector2Int.left || direction == Vector2Int.right)
+            if (!IsBlocked && (direction == Vector2Int.left || direction == Vector2Int.right))
             {
                 yield return Move(direction).AsCoroutine();
             }
@@ -191,7 +191,7 @@ public class DrillCharacterController : LichtMovementController
             yield break;
         }
 
-        while (!directionChanged)
+        while (!directionChanged && !IsBlocked)
         {
             yield return TimeYields.WaitOneFrameX;
             targetSpeed = (Vector2)direction * GetMovementMultiplier(MaxSpeed, direction);

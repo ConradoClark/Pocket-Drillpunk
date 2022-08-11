@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Assets.Scripts.UI;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
@@ -31,6 +32,7 @@ namespace Assets.Scripts.Battle
 
         private BattleSequence _battleSequence;
         private EnemyBattlerPoolManager _poolManager;
+        private UIExpGainedPopup _expGainedPopup;
 
         protected override void OnAwake()
         {
@@ -43,6 +45,7 @@ namespace Assets.Scripts.Battle
             _originalSceneLightColor = _sceneLight.Light.color;
             _battleSequence = SceneObject<BattleSequence>.Instance(true);
             _poolManager = SceneObject<EnemyBattlerPoolManager>.Instance(true);
+            _expGainedPopup = SceneObject<UIExpGainedPopup>.Instance(true);
             BattleFrame.transform.position = BattleFrameInitialPosition;
         }
 
@@ -53,13 +56,13 @@ namespace Assets.Scripts.Battle
             DefaultMachinery.AddBasicMachine(ShowBattleIntro(enemyBattler));
         }
 
-        public void ExitBattle(EnemyBattler enemy)
+        public void ExitBattle(EnemyBattler enemy, bool result)
         {
             DefaultMachinery.AddBasicMachine(_drillBattler.MoveBackAndDeactivate());
-            DefaultMachinery.AddBasicMachine(ShowBattleOutro(enemy));
+            DefaultMachinery.AddBasicMachine(ShowBattleOutro(enemy, result));
         }
 
-        private IEnumerable<IEnumerable<Action>> ShowBattleOutro(EnemyBattler enemy)
+        private IEnumerable<IEnumerable<Action>> ShowBattleOutro(EnemyBattler enemy, bool result)
         {
             // spawn outro
             EnemyIntro.Pool.TryGetFromPool(out _);
@@ -74,6 +77,12 @@ namespace Assets.Scripts.Battle
 
             _player.gameObject.SetActive(true); // disables the player
             enemy.EndEffect();
+
+            if (result)
+            {
+                _expGainedPopup.ExpGainedCounter.Count = enemy.Experience;
+                yield return _expGainedPopup.Show().AsCoroutine();
+            }
         }
 
         private IEnumerable<IEnumerable<Action>> ShowBattleIntro(ScriptPrefab enemyBattler)

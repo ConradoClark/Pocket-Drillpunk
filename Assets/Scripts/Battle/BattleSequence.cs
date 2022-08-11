@@ -73,15 +73,19 @@ namespace Assets.Scripts.Battle
                 if (EnemyHPCounter.Count <= 0)
                 {
                     _battleOver = true;
+                    _enemy.Die();
                 }
 
                 if (PlayerHPCounter.Count <= 0)
                 {
                     _battleOver = true;
+                    _drillBattler.Die();
                 }
             }
 
-            _battleIntro.ExitBattle(_enemy);
+            _enemy.OnHit -= Enemy_OnHit;
+            _drillBattler.OnHit -= Player_OnHit;
+            _battleIntro.ExitBattle(_enemy, PlayerHPCounter.Count>0);
         }
 
         private IEnumerable<IEnumerable<Action>> DecisionPhase()

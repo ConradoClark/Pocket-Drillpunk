@@ -11,15 +11,18 @@ namespace Assets.Scripts.Battle
 {
     public class EnemyBattler : BaseBattler
     {
+        public int Experience;
         public int HP;
         public Color HitColor;
         public SpriteRenderer SpriteRenderer;
         public ScriptPrefab SpawnEffect;
+        public ScriptPrefab DeathEffect;
 
         public EnemySkill EnemyAttack; // Temporary
 
         private BattleSequence _battleSequence;
         private static readonly Color TransparentColor = new Color(0, 0, 0, 0);
+        private IPoolableComponent _currentDeathEffect;
 
         public EnemySkill SelectAction()
         {
@@ -34,7 +37,16 @@ namespace Assets.Scripts.Battle
 
         public override void OnActivation()
         {
+            base.OnActivation();
             DefaultMachinery.AddBasicMachine(Spawn());
+        }
+
+        private void OnDisable()
+        {
+            if (_currentDeathEffect is { IsActive: true })
+            {
+                DeathEffect.Pool.Release(_currentDeathEffect);
+            }
         }
 
         private IEnumerable<IEnumerable<Action>> Spawn()
@@ -127,6 +139,29 @@ namespace Assets.Scripts.Battle
             yield return damageNumberScale;
 
             _battleSequence.DamageNumberRenderer.enabled = false;
+        }
+
+        public override void Die()
+        {
+            base.Die();
+            DefaultMachinery.AddBasicMachine(ShowDeathEffect());
+        }
+
+        private IEnumerable<IEnumerable<Action>> ShowDeathEffect()
+        {
+            if (DeathEffect.Pool.TryGetFromPool(out _currentDeathEffect))
+            {
+                _currentDeathEffect.Component.transform.position = transform.position;
+                _currentDeathEffect.Component.transform.SetParent(transform);
+            }
+
+            yield return transform.GetAccessor()
+                .LocalScale
+                .Y
+                .SetTarget(0.01f)
+                .Over(2f)
+                .UsingTimer(GameTimer)
+                .Build();
         }
     }
 }

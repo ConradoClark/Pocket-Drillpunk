@@ -23,6 +23,7 @@ namespace Assets.Scripts.UI
         private void OnEnable()
         {
             Counters[Counter] = this;
+            NumberRenderer.Number = Counter.Count;
             Counter.OnChange += Counter_OnChange;
         }
 
