@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d64beae36f774645b64237ad3e71053, type: 3}
-  m_Name: RedGemCounter
+  m_Script: {fileID: -972327683, guid: afcd0d74df61bb5419a8bc14b0abcd9a, type: 3}
+  m_Name: EnemySkill_Fusillade_37x34_0
   m_EditorClassIdentifier: 
-  ResetOnPlay: 1
+  Prefab: {fileID: 3206831279026771476, guid: 919402dca0226e84bab2c76a0f29880e, type: 3}
+  DefaultPoolSize: 1
+  Type: 0

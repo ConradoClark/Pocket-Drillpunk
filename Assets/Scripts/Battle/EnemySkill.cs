@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Battle
 {
-    [CreateAssetMenu(fileName = "DrillSkill", menuName = "Drillpunk/Battle/DrillSkill", order = 1)]
+    [CreateAssetMenu(fileName = "EnemySkill", menuName = "Drillpunk/Battle/EnemySkill", order = 1)]
     public class EnemySkill : ScriptableObject
     {
         public ScriptPrefab SkillEffect;

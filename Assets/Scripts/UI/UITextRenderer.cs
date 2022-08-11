@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Assets.Scripts.UI;
 using Licht.Unity.Objects;
@@ -12,6 +13,7 @@ public class UITextRenderer : BaseUIObject
     public string Text;
     public int MaxLetters;
     public float DistanceBetweenLetters;
+    public bool AlignToRight;
 
     public SpriteRenderer[] Renderers { get; private set; }
 
@@ -119,17 +121,38 @@ public class UITextRenderer : BaseUIObject
             return;
         }
 
-        for (var i = 0; i < MaxLetters; i++)
+        if (!AlignToRight)
         {
-            if (i >= _currentText.Length || !_charMap.ContainsKey(_currentText[i]))
+            for (var i = 0; i < MaxLetters; i++)
             {
-                Renderers[i].enabled = false;
-                continue;
-            }
+                if (i >= _currentText.Length || !_charMap.ContainsKey(_currentText[i]))
+                {
+                    Renderers[i].enabled = false;
+                    continue;
+                }
 
-            var letter = Renderers[i];
-            letter.enabled = true;
-            letter.sprite = _charMap[_currentText[i]];
+                var letter = Renderers[i];
+                letter.enabled = true;
+                letter.sprite = _charMap[_currentText[i]];
+            }
+        }
+        else
+        {
+            var text = new string(_currentText.Reverse().ToArray());
+            var ix = 0;
+            for (var i = MaxLetters-1; i >=0; i--)
+            {
+                if (ix >= text.Length|| !_charMap.ContainsKey(text[ix]))
+                {
+                    Renderers[i].enabled = false;
+                    continue;
+                }
+
+                var letter = Renderers[i];
+                letter.enabled = true;
+                letter.sprite = _charMap[text[ix]];
+                ix++;
+            }
         }
     }
 

@@ -1,0 +1,2555 @@
+fileFormatVersion: 2
+guid: b827e101eda7c59459dcb55f32db2efb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1af60624d5ba4141a9003f846d5cc2a
+      internalID: 2064482795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7cc87ec53aae64bbcfd2fc4c9de4ea
+      internalID: -908935438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ce1c1aedcbdf9469b42e2f5cac9bdc
+      internalID: -980521209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a10f352630deaa48b4dc03b723a76bd
+      internalID: -1998102797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b404624f606a844be5ac8b77d81497
+      internalID: 1952541739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dbfbb7eafa6a14b82417027d6aea45
+      internalID: -976198445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7cae1ba5c617e4c87d7dca85b9c0ca
+      internalID: 1123700368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ce4059d1fa2704ba53da731ef0b2f4
+      internalID: 1418346743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6f38d91d95d364c82dda479ccd89a5
+      internalID: 292431141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7357164b634ef449c13309bff8d0e7
+      internalID: -803680814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 340
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ffb1952c19dd5409beb1b9c797fcde
+      internalID: -499927338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ee5b95fc3fa824ea1dfe0181348f43
+      internalID: -455313421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c836bbb9650094e42868b8a0a79ab611
+      internalID: -93024710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea5fe45919f59e48a3b23582899f871
+      internalID: 834845235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e51c1cc99cbec40a210eed0b857a33
+      internalID: -1178737208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5d3ac4a157b1e4da8a028de7044787
+      internalID: 139941967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e075927be8dd45949abba05d2e8c2ea2
+      internalID: -1159062561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db789e8a1a6de304f8933503795e85fa
+      internalID: 499598076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732fb149cfa40b7478b899557ffe2c74
+      internalID: -377200853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96af96297bb5fda4daa209c746a6f140
+      internalID: 1845157007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8aae2929af382344ae08e78c54d62a5
+      internalID: -1647853230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_21
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 306
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de2f1b594f253c4bb6c64520af374a3
+      internalID: -1018602983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41c5a91388bd7247b91747b136f647f
+      internalID: 347214048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cba8afd77d34d143b6437de41165803
+      internalID: -511071478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9107d2998fe4de498f24c9fc9983dfa
+      internalID: 816840569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd8a4e8defd6164ebf9d0910e1fdc44
+      internalID: 1754318666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b4449055f91c644b58e20404b49c9c
+      internalID: -96943419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807844c28b039b143a9c171e08e4ea53
+      internalID: -1267946089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_28
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59291b6dc60c9fe4b99624825d616c76
+      internalID: -162175089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_29
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92724f3dbc4faf48baa4ac8a19a750a
+      internalID: -285003519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_30
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57753e30ba7a2a64d99577f14157b0d1
+      internalID: 91010263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_31
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b1f6a61a7da02479713f22388d6ac0
+      internalID: -1292864750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_32
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 272
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94868df87e985eb4183aad1eba29db70
+      internalID: 1278669316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fc3be51b01d79429c307b8c0ab0799
+      internalID: -103194421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_34
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec2de442a137334f880944217261e25
+      internalID: -313632973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962dd6c71b385be45a15dc949fb5fcac
+      internalID: -1196994940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_36
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13eab8ebeeb4654e8859af8c21d812b
+      internalID: 765930109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_37
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3775d1c22d74db64f8bf41716a5a9ef0
+      internalID: 1400355792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_38
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a95042eabce2f842af1f8b6310c5656
+      internalID: 2020027817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_39
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339c8fc6712139f4fb8389faf632a718
+      internalID: 459486556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_40
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0c332c9ce3d4547a9ccbcad7bc94c5
+      internalID: -1262921996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_41
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cb7310e11cec64a9077f7f4a3d6b19
+      internalID: 424546740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_42
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb6765d3ede1f54181180a6320ad099
+      internalID: 1474794099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_43
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 238
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68519a309751f7a4cb131fad7b0e28d4
+      internalID: 1794453820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f292a8a4897754747afcf5f3a83a3724
+      internalID: -102421582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_45
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590562984d3944e419ee2b0f9839f8b2
+      internalID: 919000153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031bb7db37e7910469c75ed826080767
+      internalID: -2116100961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_47
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be725e488a0fc439d85aa989929cfc
+      internalID: -856761778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_48
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138b502ac80455643b13185ecfa3c253
+      internalID: 893652426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_49
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f79e6fd61763ec4cbe06fc276dbe171
+      internalID: 2042571109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_50
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95df7e28fd5273e4da24dac017b5a2f5
+      internalID: -1018382014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_51
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef35f1cd6250fe498725b5d6f5c8c0b
+      internalID: 1719052651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_52
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadd17bc43a5358478e8901f81215de5
+      internalID: -1350754460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_53
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c666a5fe37fa840b820d650e2e696a
+      internalID: -2135928869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_54
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 204
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd344f740c47a547b9f3de9062d417a
+      internalID: -438712798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac94ce099652c3488767ba22732295e
+      internalID: 1991058417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_56
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3760300cb3de38b4383908c671ca831c
+      internalID: 1443429988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23548a10dd21b54db13e38851074ca7
+      internalID: 476702424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_58
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36a89c89c10cfa40a77bb4ec9cdaf40
+      internalID: -1828191409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_59
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cbc4f8a225d6c48841caf81d2d1aca
+      internalID: -306693308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_60
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90f9781914fa4847af1bb81fc60ffee
+      internalID: 2086189713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_61
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09185be6858fd57458888ab86a1bd5b2
+      internalID: 1498519087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_62
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bd95a0dfbfd2845acfde3e8b0045f8
+      internalID: -138945379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_63
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39779f8200abc7743a4f3401fc071d1d
+      internalID: -144261305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_64
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb78468a0466241aa14f832d8328dd
+      internalID: 822885763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_65
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 170
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2341d3820a63ae4e810312bcffb75cf
+      internalID: 1017379774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b7fac2b2542894187ffc201b409516
+      internalID: 1184390660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_67
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67beedb5886858e4abc8ae7938645baf
+      internalID: 983982327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_68
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5aced5173befab4e930a494acbf7e94
+      internalID: 538056898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_69
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8390dbfe489c54ea2e4be48b7e9278
+      internalID: 1356198281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_70
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d59f8630a76fe4995ecd6cb3e26d6a
+      internalID: 286938525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_71
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d7d3c3b589f8a4cb173c28ffbae39f
+      internalID: -1835370218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_72
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9becc4fb4367304448e332e0334d94f3
+      internalID: -1943160458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_73
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8f9a3b5885d2a43a8dfff1f49d7126
+      internalID: 887861348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_74
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970442cb07d796b4b827ed8eda67320d
+      internalID: 1526317759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_75
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e223e8a726fb44eb8278986f653b4b
+      internalID: 580962072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_76
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 136
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b2888faae275d468ba2af24e22b2ed
+      internalID: 1286985481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3bbdec93216734fbf17fb38e4a1d25
+      internalID: 118342502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_78
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e27c8a5c803094980b3d13e1e121f1
+      internalID: 1782866159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936484d2aa750584e848b1882490c3cb
+      internalID: 1769653739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_80
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdac134c794e2ce4d9c53b5a3374e89e
+      internalID: -1337184666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_81
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b901604e39a6a284fb47c70183a7fc35
+      internalID: -906135489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_82
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6d7a2de6a9cdb488568b5bc1f9cc97
+      internalID: 1339515472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_83
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537bdc552c5268f4eaaddb3b607619cc
+      internalID: -1172186461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_84
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115855d0f459f5848b540d9205feff2b
+      internalID: -153899910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_85
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccb96243a41ef94d8c1c334ed675e37
+      internalID: 83932713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_86
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf6d256cffa20d429afd02cfa44f62e
+      internalID: 1368938128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_87
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 102
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a36fe4b9fcabc341aa624af8f575e64
+      internalID: 843167169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf0a5d979a69b24794891b2da525716
+      internalID: -369876562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_89
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257f203279f168a43a60935ef522facf
+      internalID: 1502261805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_90
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6d9ab37b6bc4444aaeedb9c41056c1
+      internalID: -169022851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_91
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c51cf57a9c41ed4fbd606d9e53cdb11
+      internalID: -2113980627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_92
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348d2aa79f336d64d9d16e022de8b8e9
+      internalID: -183731699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_93
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7c301db3149ab4d9d755421d528166
+      internalID: 253327759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_94
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee8c872ecfeaf54b8189983e42720c1
+      internalID: -762181750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_95
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f3c21edb0ea4741a64c82d8cd84e23
+      internalID: 826015297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_96
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaa29f136e19ff4bbceb088d8b31834
+      internalID: 1951502095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_97
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c870c9c0e83d854c9cabfecf1a21d78
+      internalID: -1270438637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_98
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 68
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02086b2cc9c72a743b65e9b348b5a723
+      internalID: -1428577353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d6f14f0983a744eb3cc71dd35397b2
+      internalID: 1580766239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_100
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735dac3adff426f458babfe58573f396
+      internalID: 349119143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_101
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d268871181695b74aacde2cfe925c2a5
+      internalID: 777351765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_102
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f442258f726a248bf4efb1c7bd2f4d
+      internalID: 28925920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_103
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae72a9925490e14481201d680c095f6
+      internalID: -848754921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_104
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e0a453b3c90f949a21b816a0c4065e
+      internalID: 1532025090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_105
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5febe82fb8021248bb3f683756b7df2
+      internalID: -1797828946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_106
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b012e6c45cadf46b54eee6a56bdb12
+      internalID: 35670641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_107
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18b9af08169881489a98b0304224980
+      internalID: 1782540870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_108
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7ac8d6ab59e9f4e92d511a55de30d5
+      internalID: 827384625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Fusillade_37x34_109
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 34
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3991efcf76fbe40822612839fb3d21
+      internalID: 673028350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemySkill_Fusillade_37x34_17: 499598076
+      EnemySkill_Fusillade_37x34_26: -96943419
+      EnemySkill_Fusillade_37x34_51: 1719052651
+      EnemySkill_Fusillade_37x34_95: 826015297
+      EnemySkill_Fusillade_37x34_76: 1286985481
+      EnemySkill_Fusillade_37x34_20: -1647853230
+      EnemySkill_Fusillade_37x34_100: 349119143
+      EnemySkill_Fusillade_37x34_30: 91010263
+      EnemySkill_Fusillade_37x34_57: 476702424
+      EnemySkill_Fusillade_37x34_73: 887861348
+      EnemySkill_Fusillade_37x34_68: 538056898
+      EnemySkill_Fusillade_37x34_36: 765930109
+      EnemySkill_Fusillade_37x34_65: 1017379774
+      EnemySkill_Fusillade_37x34_19: 1845157007
+      EnemySkill_Fusillade_37x34_58: -1828191409
+      EnemySkill_Fusillade_37x34_62: -138945379
+      EnemySkill_Fusillade_37x34_90: -169022851
+      EnemySkill_Fusillade_37x34_53: -2135928869
+      EnemySkill_Fusillade_37x34_14: -1178737208
+      EnemySkill_Fusillade_37x34_24: 816840569
+      EnemySkill_Fusillade_37x34_34: -313632973
+      EnemySkill_Fusillade_37x34_27: -1267946089
+      EnemySkill_Fusillade_37x34_75: 580962072
+      EnemySkill_Fusillade_37x34_64: 822885763
+      EnemySkill_Fusillade_37x34_72: -1943160458
+      EnemySkill_Fusillade_37x34_86: 1368938128
+      EnemySkill_Fusillade_37x34_108: 827384625
+      EnemySkill_Fusillade_37x34_40: -1262921996
+      EnemySkill_Fusillade_37x34_13: 834845235
+      EnemySkill_Fusillade_37x34_78: 1782866159
+      EnemySkill_Fusillade_37x34_31: -1292864750
+      EnemySkill_Fusillade_37x34_47: -856761778
+      EnemySkill_Fusillade_37x34_49: 2042571109
+      EnemySkill_Fusillade_37x34_80: -1337184666
+      EnemySkill_Fusillade_37x34_105: -1797828946
+      EnemySkill_Fusillade_37x34_9: -803680814
+      EnemySkill_Fusillade_37x34_15: 139941967
+      EnemySkill_Fusillade_37x34_1: -908935438
+      EnemySkill_Fusillade_37x34_59: -306693308
+      EnemySkill_Fusillade_37x34_93: 253327759
+      EnemySkill_Fusillade_37x34_77: 118342502
+      EnemySkill_Fusillade_37x34_82: 1339515472
+      EnemySkill_Fusillade_37x34_32: 1278669316
+      EnemySkill_Fusillade_37x34_28: -162175089
+      EnemySkill_Fusillade_37x34_22: 347214048
+      EnemySkill_Fusillade_37x34_21: -1018602983
+      EnemySkill_Fusillade_37x34_45: 919000153
+      EnemySkill_Fusillade_37x34_4: 1952541739
+      EnemySkill_Fusillade_37x34_44: -102421582
+      EnemySkill_Fusillade_37x34_60: 2086189713
+      EnemySkill_Fusillade_37x34_70: 286938525
+      EnemySkill_Fusillade_37x34_38: 2020027817
+      EnemySkill_Fusillade_37x34_69: 1356198281
+      EnemySkill_Fusillade_37x34_6: 1123700368
+      EnemySkill_Fusillade_37x34_79: 1769653739
+      EnemySkill_Fusillade_37x34_11: -455313421
+      EnemySkill_Fusillade_37x34_71: -1835370218
+      EnemySkill_Fusillade_37x34_101: 777351765
+      EnemySkill_Fusillade_37x34_2: -980521209
+      EnemySkill_Fusillade_37x34_52: -1350754460
+      EnemySkill_Fusillade_37x34_5: -976198445
+      EnemySkill_Fusillade_37x34_41: 424546740
+      EnemySkill_Fusillade_37x34_10: -499927338
+      EnemySkill_Fusillade_37x34_48: 893652426
+      EnemySkill_Fusillade_37x34_104: 1532025090
+      EnemySkill_Fusillade_37x34_18: -377200853
+      EnemySkill_Fusillade_37x34_97: -1270438637
+      EnemySkill_Fusillade_37x34_94: -762181750
+      EnemySkill_Fusillade_37x34_16: -1159062561
+      EnemySkill_Fusillade_37x34_67: 983982327
+      EnemySkill_Fusillade_37x34_37: 1400355792
+      EnemySkill_Fusillade_37x34_96: 1951502095
+      EnemySkill_Fusillade_37x34_55: 1991058417
+      EnemySkill_Fusillade_37x34_99: 1580766239
+      EnemySkill_Fusillade_37x34_87: 843167169
+      EnemySkill_Fusillade_37x34_39: 459486556
+      EnemySkill_Fusillade_37x34_54: -438712798
+      EnemySkill_Fusillade_37x34_25: 1754318666
+      EnemySkill_Fusillade_37x34_3: -1998102797
+      EnemySkill_Fusillade_37x34_103: -848754921
+      EnemySkill_Fusillade_37x34_107: 1782540870
+      EnemySkill_Fusillade_37x34_43: 1794453820
+      EnemySkill_Fusillade_37x34_46: -2116100961
+      EnemySkill_Fusillade_37x34_8: 292431141
+      EnemySkill_Fusillade_37x34_92: -183731699
+      EnemySkill_Fusillade_37x34_91: -2113980627
+      EnemySkill_Fusillade_37x34_102: 28925920
+      EnemySkill_Fusillade_37x34_29: -285003519
+      EnemySkill_Fusillade_37x34_66: 1184390660
+      EnemySkill_Fusillade_37x34_88: -369876562
+      EnemySkill_Fusillade_37x34_106: 35670641
+      EnemySkill_Fusillade_37x34_61: 1498519087
+      EnemySkill_Fusillade_37x34_81: -906135489
+      EnemySkill_Fusillade_37x34_33: -103194421
+      EnemySkill_Fusillade_37x34_85: 83932713
+      EnemySkill_Fusillade_37x34_63: -144261305
+      EnemySkill_Fusillade_37x34_0: 2064482795
+      EnemySkill_Fusillade_37x34_89: 1502261805
+      EnemySkill_Fusillade_37x34_109: 673028350
+      EnemySkill_Fusillade_37x34_42: 1474794099
+      EnemySkill_Fusillade_37x34_84: -153899910
+      EnemySkill_Fusillade_37x34_7: 1418346743
+      EnemySkill_Fusillade_37x34_12: -93024710
+      EnemySkill_Fusillade_37x34_35: -1196994940
+      EnemySkill_Fusillade_37x34_23: -511071478
+      EnemySkill_Fusillade_37x34_74: 1526317759
+      EnemySkill_Fusillade_37x34_98: -1428577353
+      EnemySkill_Fusillade_37x34_83: -1172186461
+      EnemySkill_Fusillade_37x34_56: 1443429988
+      EnemySkill_Fusillade_37x34_50: -1018382014
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

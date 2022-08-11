@@ -53,13 +53,13 @@ namespace Assets.Scripts.Battle
             DefaultMachinery.AddBasicMachine(ShowBattleIntro(enemyBattler));
         }
 
-        public void ExitBattle()
+        public void ExitBattle(EnemyBattler enemy)
         {
             DefaultMachinery.AddBasicMachine(_drillBattler.MoveBackAndDeactivate());
-            DefaultMachinery.AddBasicMachine(ShowBattleOutro());
+            DefaultMachinery.AddBasicMachine(ShowBattleOutro(enemy));
         }
 
-        private IEnumerable<IEnumerable<Action>> ShowBattleOutro()
+        private IEnumerable<IEnumerable<Action>> ShowBattleOutro(EnemyBattler enemy)
         {
             // spawn outro
             EnemyIntro.Pool.TryGetFromPool(out _);
@@ -73,6 +73,7 @@ namespace Assets.Scripts.Battle
             GameRenderer.material = _originalGameRendererMaterial;
 
             _player.gameObject.SetActive(true); // disables the player
+            enemy.EndEffect();
         }
 
         private IEnumerable<IEnumerable<Action>> ShowBattleIntro(ScriptPrefab enemyBattler)

@@ -16,11 +16,15 @@ namespace Assets.Scripts.Battle
         public SpriteRenderer SpriteRenderer;
         public ScriptPrefab SpawnEffect;
 
-        public event Action<int> OnHit;
+        public EnemySkill EnemyAttack; // Temporary
 
         private BattleSequence _battleSequence;
-
         private static readonly Color TransparentColor = new Color(0, 0, 0, 0);
+
+        public EnemySkill SelectAction()
+        {
+            return EnemyAttack;
+        }
 
         protected override void OnAwake()
         {
@@ -53,6 +57,8 @@ namespace Assets.Scripts.Battle
                 .Build();
         }
 
+        public override event Action<int> OnHit;
+
         public override void Hit(int damage)
         {
             OnHit?.Invoke(damage);
@@ -65,7 +71,7 @@ namespace Assets.Scripts.Battle
             _battleSequence.DamageNumberRenderer.transform.localScale = new Vector3(1, 0.1f, 1);
             _battleSequence.DamageNumberRenderer.enabled = true;
             _battleSequence.DamageNumberRenderer.Number = damage;
-            
+
             SpriteRenderer.material.SetColor("_Colorize", HitColor);
 
             var blink = SpriteRenderer.GetAccessor()

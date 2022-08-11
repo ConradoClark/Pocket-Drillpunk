@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Battle;
 using Assets.Scripts.Drill;
+using Assets.Scripts.Inventory;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
@@ -32,6 +33,13 @@ namespace Assets.Scripts.UI
         public Material IceActionMaterial;
         public Material BioActionMaterial;
         public Material CrystalActionMaterial;
+
+        [Header("Counters")] 
+        public Counter DirtCounter;
+        public Counter FireCounter;
+        public Counter IceCounter;
+        public Counter BioCounter;
+        public Counter CrystalCounter;
 
         public UIActionGemCostBar Cost1;
         public UIActionGemCostBar Cost2;
@@ -125,7 +133,8 @@ namespace Assets.Scripts.UI
 
             yield return main;
             yield return HandleInputs().AsCoroutine();
-            yield return Hide().AsCoroutine();
+
+            DefaultMachinery.AddBasicMachine(Hide());
         }
 
         private IEnumerable<IEnumerable<Action>> ReloadCosts(bool quick)
@@ -150,6 +159,7 @@ namespace Assets.Scripts.UI
 
         private IEnumerable<IEnumerable<Action>> HandleInputs()
         {
+            handle:
             while (!_confirmAction.WasPerformedThisFrame())
             {
                 if (_moveAction.WasPerformedThisFrame())
@@ -176,7 +186,27 @@ namespace Assets.Scripts.UI
                 yield return TimeYields.WaitOneFrameX;
             }
 
+            if (!CheckCosts())
+            {
+                yield return TimeYields.WaitOneFrameX;
+                goto handle;
+                // deny and go back
+            }
 
+            DirtCounter.Count -= SelectedAction.NeutralCost;
+            FireCounter.Count -= SelectedAction.FireCost;
+            IceCounter.Count -= SelectedAction.IceCost;
+            BioCounter.Count -= SelectedAction.BioCost;
+            CrystalCounter.Count -= SelectedAction.CrystalCost;
+        }
+
+        private bool CheckCosts()
+        {
+            return DirtCounter.Count >= SelectedAction.NeutralCost &&
+                   FireCounter.Count >= SelectedAction.FireCost &&
+                   IceCounter.Count >= SelectedAction.IceCost &&
+                   BioCounter.Count >= SelectedAction.BioCost &&
+                   CrystalCounter.Count >= SelectedAction.CrystalCost;
         }
 
         private List<(BattleElement element, int cost)> GetCosts()

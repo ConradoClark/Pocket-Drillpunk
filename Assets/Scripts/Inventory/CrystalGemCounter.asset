@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d64beae36f774645b64237ad3e71053, type: 3}
-  m_Name: RedGemCounter
+  m_Name: CrystalGemCounter
   m_EditorClassIdentifier: 
   ResetOnPlay: 1
