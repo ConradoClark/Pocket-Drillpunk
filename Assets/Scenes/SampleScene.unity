@@ -372,6 +372,89 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
+--- !u!1 &103505252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 103505253}
+  - component: {fileID: 103505256}
+  - component: {fileID: 103505255}
+  - component: {fileID: 103505254}
+  m_Layer: 5
+  m_Name: BioGemCounter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &103505253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103505252}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.053, y: -0.004000034, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 760627888}
+  m_Father: {fileID: 1813829103}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &103505254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103505252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c89291769c3db74ca14caa35ad7647d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumberRenderer: {fileID: 103505256}
+  Counter: {fileID: 11400000, guid: 84118f3110baf5b45b68968eda03b243, type: 2}
+--- !u!114 &103505255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103505252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd8184d513e3864a98a8934b292cdd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationSpeed: 3
+--- !u!114 &103505256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103505252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c195a8925b246f429a9dec71e76b2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Font: {fileID: 11400000, guid: 7acc17750dbf469448facd46dfbeaf61, type: 2}
+  DefaultMaterial: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  SortingOrder: 2
+  Number: 0
+  Digits: 2
+  AnimateNumberOnChange: 1
+  Animation: {fileID: 103505255}
+  DistanceBetweenNumbers: 0.04
+  Mockup: {fileID: 760627889}
 --- !u!1 &139769654
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,6 +1198,89 @@ MonoBehaviour:
   MaxLetters: 20
   DistanceBetweenLetters: 0.04
   AlignToRight: 1
+--- !u!1 &432871145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 432871146}
+  - component: {fileID: 432871149}
+  - component: {fileID: 432871148}
+  - component: {fileID: 432871147}
+  m_Layer: 5
+  m_Name: CrystalGemCounter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &432871146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432871145}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.057000004, y: -0.004000023, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1601626952}
+  m_Father: {fileID: 1807934247}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &432871147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432871145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c89291769c3db74ca14caa35ad7647d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumberRenderer: {fileID: 432871149}
+  Counter: {fileID: 11400000, guid: 2f2f415891628684196ff84048f1e5cb, type: 2}
+--- !u!114 &432871148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432871145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd8184d513e3864a98a8934b292cdd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationSpeed: 3
+--- !u!114 &432871149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432871145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c195a8925b246f429a9dec71e76b2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Font: {fileID: 11400000, guid: 9cab3d4f111e21b43924da57239b11e9, type: 2}
+  DefaultMaterial: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  SortingOrder: 2
+  Number: 0
+  Digits: 2
+  AnimateNumberOnChange: 1
+  Animation: {fileID: 432871148}
+  DistanceBetweenNumbers: 0.04
+  Mockup: {fileID: 1601626953}
 --- !u!1 &438405737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2186,11 +2352,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760627887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0641, y: -0.002100021, z: 0}
+  m_LocalPosition: {x: 0.013, y: 0.0019000173, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1813829103}
+  m_Father: {fileID: 103505253}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &760627889
@@ -2472,7 +2638,7 @@ GameObject:
   - component: {fileID: 812143996}
   - component: {fileID: 812143997}
   m_Layer: 5
-  m_Name: CrystalGem
+  m_Name: IceGem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2490,7 +2656,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2066608007}
+  - {fileID: 1732246592}
   m_Father: {fileID: 1836226659}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2657,7 +2823,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827398813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.06, y: -0.004, z: 0}
+  m_LocalPosition: {x: 0.051, y: -0.004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4789,11 +4955,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601626951}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0767, y: -0.002100021, z: 0}
+  m_LocalPosition: {x: 0.019, y: 0.0018999875, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1807934247}
+  m_Father: {fileID: 432871146}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1601626953
@@ -5558,6 +5724,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1732246591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1732246592}
+  - component: {fileID: 1732246595}
+  - component: {fileID: 1732246594}
+  - component: {fileID: 1732246593}
+  m_Layer: 5
+  m_Name: IceGemCounter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1732246592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732246591}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.051, y: -0.004000034, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2066608007}
+  m_Father: {fileID: 812143996}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1732246593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732246591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c89291769c3db74ca14caa35ad7647d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumberRenderer: {fileID: 1732246595}
+  Counter: {fileID: 11400000, guid: 27381cc1b6f65c54a9c1f7826a0ebabe, type: 2}
+--- !u!114 &1732246594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732246591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd8184d513e3864a98a8934b292cdd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationSpeed: 3
+--- !u!114 &1732246595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732246591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c195a8925b246f429a9dec71e76b2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Font: {fileID: 11400000, guid: b751f577d75b2b1458cc517c5bc6e6fe, type: 2}
+  DefaultMaterial: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  SortingOrder: 2
+  Number: 0
+  Digits: 2
+  AnimateNumberOnChange: 1
+  Animation: {fileID: 1732246594}
+  DistanceBetweenNumbers: 0.04
+  Mockup: {fileID: 2066608008}
 --- !u!1 &1738354853
 GameObject:
   m_ObjectHideFlags: 0
@@ -6024,7 +6273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807038529}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 0.002, z: 0}
+  m_LocalPosition: {x: 0.021, y: 0.002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6094,7 +6343,7 @@ GameObject:
   - component: {fileID: 1807934247}
   - component: {fileID: 1807934248}
   m_Layer: 5
-  m_Name: LightGem
+  m_Name: CrystalGem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6112,7 +6361,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1601626952}
+  - {fileID: 432871146}
   m_Father: {fileID: 1836226659}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6197,7 +6446,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 760627888}
+  - {fileID: 103505253}
   m_Father: {fileID: 1836226659}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7354,11 +7603,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066608006}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0641, y: -0.002100021, z: 0}
+  m_LocalPosition: {x: 0.019300008, y: 0.0019000173, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 812143996}
+  m_Father: {fileID: 1732246592}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2066608008
