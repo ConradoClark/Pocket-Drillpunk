@@ -26,7 +26,7 @@ public class SpriteVariation : MonoBehaviour
 
     private void BaseTile_OnSeedChanged(string obj)
     {
-        _spriteRenderer.sprite = Sprites[new Random(BaseTile.GeneratedBySeed.GetHashCode()).Next(0, Sprites.Length)];
+        _spriteRenderer.sprite = Sprites[new Random($"{BaseTile.GeneratedBySeed}_{Sprites[0].name}".GetHashCode()).Next(0, Sprites.Length)];
     }
 
     private void OnDisable()

@@ -48,11 +48,16 @@ public class DrillAnimator : BaseGameObject
     private bool _facingRight;
     private Vector3 _jetpackSmokeLocalPosition;
 
+    protected override void OnAwake()
+    {
+        base.OnAwake();
+        _jetpackSmokeLocalPosition = JetpackSmoke.transform.localPosition;
+        _facingRight = true;
+    }
+
     private void OnEnable()
     {
         _enabled = true;
-        _facingRight = true;
-        _jetpackSmokeLocalPosition = JetpackSmoke.transform.localPosition;
         CharacterController.OnTurn += CharacterController_OnTurn;
         CharacterController.OnStartMoving += CharacterController_OnStartMoving;
         CharacterController.OnStopMoving += CharacterController_OnStopMoving;
