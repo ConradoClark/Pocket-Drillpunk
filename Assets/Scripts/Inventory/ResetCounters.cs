@@ -13,6 +13,11 @@ namespace Assets.Scripts.Inventory
 
         private void OnEnable()
         {
+            ResetGems();
+        }
+
+        public void ResetGems()
+        {
             foreach (var counter in Counters)
             {
                 counter.Count = 0;

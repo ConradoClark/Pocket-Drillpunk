@@ -11,7 +11,7 @@ using UnityEngine.InputSystem;
 
 namespace Assets.Scripts.UI
 {
-    public class UICheckpointPopup : BaseUIObject
+    public class UIGameOverPopup : BaseUIObject
     {
         private Player _player;
         private bool _initialized;

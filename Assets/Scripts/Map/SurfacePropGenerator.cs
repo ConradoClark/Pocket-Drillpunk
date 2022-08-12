@@ -15,6 +15,7 @@ namespace Assets.Scripts.Map
         public float OriginalWeight;
         public float Weight { get; set; }
         public ScriptPrefab Prefab;
+        public bool Force;
 
         public Vector2Int[] AllowedDirections;
 
@@ -41,7 +42,7 @@ namespace Assets.Scripts.Map
                 (Vector2Int.left,GetAdjacentTile(Vector2Int.left)),
                 (Vector2Int.up,GetAdjacentTile(Vector2Int.up)),
                 (Vector2Int.down,GetAdjacentTile(Vector2Int.down))
-            }.Where(s => !Tile.IsOccupiedByProp(s.Item1) && AllowedDirections.Contains(s.Item1) && s.Item2 == null).ToArray();
+            }.Where(s => AllowedDirections.Contains(s.Item1) && (Force || !Tile.IsOccupiedByProp(s.Item1) &&  s.Item2 == null)).ToArray();
 
             if (sides.Length == 0) return;
 

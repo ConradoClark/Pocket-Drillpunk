@@ -50,11 +50,12 @@ namespace Assets.Scripts.Map
                 if (Vector2.Distance(_player.transform.position, transform.position) <= ActivationDistance)
                 {
                     Marker.gameObject.SetActive(true);
-                    while (Vector2.Distance(_player.transform.position, transform.position) <= ActivationDistance)
+                    while (_enabled && Vector2.Distance(_player.transform.position, transform.position) <= ActivationDistance)
                     {
                         if (_confirmAction.WasPerformedThisFrame())
                         {
-                            _player.CheckpointPosition = transform.position + CheckpointOffset;
+                            var checkpointPos = transform.position + CheckpointOffset;
+                            _player.CheckpointPosition = new Vector3(checkpointPos.x, checkpointPos.y);
                             yield return _checkpointPopup.Show().AsCoroutine();
                         }
                         yield return TimeYields.WaitOneFrameX;
@@ -63,7 +64,7 @@ namespace Assets.Scripts.Map
                 else
                 {
                     Marker.gameObject.SetActive(false);
-                    while (Vector2.Distance(_player.transform.position, transform.position) > ActivationDistance)
+                    while (_enabled && Vector2.Distance(_player.transform.position, transform.position) > ActivationDistance)
                     {
                         yield return TimeYields.WaitOneFrameX;
                     }

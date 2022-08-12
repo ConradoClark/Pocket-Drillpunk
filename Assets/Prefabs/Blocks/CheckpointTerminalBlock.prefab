@@ -435,7 +435,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Tile: {fileID: 6593650579589854336}
   Name: CheckpointTerminal
-  OriginalWeight: 1
+  OriginalWeight: 9999
   Prefab: {fileID: 11400000, guid: 778c0b83527b3cf44a87ffcad3ee1460, type: 2}
+  Force: 1
   AllowedDirections:
   - {x: 0, y: 1}

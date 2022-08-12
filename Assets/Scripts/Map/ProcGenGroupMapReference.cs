@@ -34,7 +34,7 @@ public class ProcGenGroupMapReference : ProcGenMapReference
                 if (rule.HasMaxXLimit && position.x > rule.MaxXLimit) continue;
 
                 if (rule.HasMinDepthLimit && position.y < rule.MinDepthLimit) continue;
-                if (rule.HasMaxDepthLimit && position.y > rule.MinDepthLimit) continue;
+                if (rule.HasMaxDepthLimit && position.y > rule.MaxDepthLimit) continue;
                 if (rule.ForceTile != null)
                 {
                     forcedTile = rule.ForceTile;

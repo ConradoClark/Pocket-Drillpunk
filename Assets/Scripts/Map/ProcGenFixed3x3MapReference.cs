@@ -21,6 +21,14 @@ namespace Assets.Scripts.Map
         public ScriptIdentifier Cell_3_3;
         public override Vector2Int RefSize => new (3, 3);
 
+        public float OriginalWeight;
+
+        protected override void OnAwake()
+        {
+            base.OnAwake();
+            Weight = OriginalWeight;
+        }
+
         public override void Populate(string seed, Vector2Int position)
         {
             PopulatedPositions.Add(position);

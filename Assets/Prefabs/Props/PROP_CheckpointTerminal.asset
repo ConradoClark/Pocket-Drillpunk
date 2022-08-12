@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PROP_CheckpointTerminal
   m_EditorClassIdentifier: 
   Prefab: {fileID: 6040582583196108258, guid: 6c7ac3b52e87ece48b7650548b4ca412, type: 3}
-  DefaultPoolSize: 50
+  DefaultPoolSize: 500
   Type: 0

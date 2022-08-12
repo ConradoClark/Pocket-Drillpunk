@@ -83,6 +83,10 @@ namespace Assets.Scripts.Battle
                 _expGainedPopup.ExpGainedCounter.Count = enemy.Experience;
                 yield return _expGainedPopup.Show().AsCoroutine();
             }
+            else
+            {
+                _player.GameOver();
+            }
         }
 
         private IEnumerable<IEnumerable<Action>> ShowBattleIntro(ScriptPrefab enemyBattler)

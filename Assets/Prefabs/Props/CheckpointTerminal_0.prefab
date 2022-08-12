@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c7d8d5aec277c1408eb351c802a2b01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CheckpointOffset: {x: 0, y: 0.02, z: 0}
+  CheckpointOffset: {x: 0, y: 0.04, z: 0}
   ActivationDistance: 0.08
   Marker: {fileID: 6040582581939879433}
   ConfirmInput: {fileID: 11400000, guid: a709a4039ca811e4082f956abff0fff6, type: 2}

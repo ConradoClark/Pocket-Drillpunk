@@ -114,6 +114,7 @@ public abstract class BaseTile : EffectPoolable
     {
         OnBreak = null;
         PhysicsObject.RemoveCustomObject<BaseTile>();
+        _mapGenerator.OnPopulate -= OnPopulate;
         if (_mapManager!= null && _mapManager.ActiveTiles!=null) _mapManager.ActiveTiles.Remove(Position);
     }
 
