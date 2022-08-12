@@ -10,6 +10,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public Vector3 CheckpointPosition;
     public DrillingController DrillController;
     public DrillCharacterController CharacterController;
     public LichtPlatformerJumpController JumpController;

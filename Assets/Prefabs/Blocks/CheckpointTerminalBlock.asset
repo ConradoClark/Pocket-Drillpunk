@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -972327683, guid: afcd0d74df61bb5419a8bc14b0abcd9a, type: 3}
+  m_Name: CheckpointTerminalBlock
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4785354124378487748, guid: 0771709c0b768d74ea7c657ba57e5a09, type: 3}
+  DefaultPoolSize: 200
+  Type: 0

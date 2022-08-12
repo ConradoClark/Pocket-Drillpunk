@@ -1,0 +1,2027 @@
+fileFormatVersion: 2
+guid: 775c26c760bd91648adb38a69aedd509
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076a55807a3412442ac484e844486acc
+      internalID: -507904847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 378
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc752c31ca5cfd4b82c2dd6284676f1
+      internalID: -631070953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 378
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f1fb3a9db0038449237a47c8b48ca7
+      internalID: -1426943942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 378
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be1b3db66451954e820d5545bc50ea7
+      internalID: 1999013181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_4
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 378
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b83802b319e37243b85e345822f7525
+      internalID: 195967500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 378
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece87d088b8977f478748a7f8a88d6cf
+      internalID: -821841899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 378
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7ae3c6cb7842c49af0542fcbd78db9
+      internalID: 1485202984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 378
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a96d163af3d2224293dc9ae5f95af4f
+      internalID: -2067785222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d0f7521707cae419d88265311d10a9
+      internalID: -1899742998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 336
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c4a78e8c88f054ea6c4fcf04ef4cca
+      internalID: 386355477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 336
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8462d6c5697e163499aa98fcab0b3fab
+      internalID: -2100236151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 336
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fd622f1b18da748a9a877b0a87416f
+      internalID: -410755338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 336
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959e9873687fc6c408c32f718265274c
+      internalID: -1198001197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 336
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a553a6fd76a1dd46be490a4dfcd58d5
+      internalID: 1397556507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 336
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c041ae1ae6ca8c4c943a12f578c3292
+      internalID: -520819166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_15
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 336
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bfdc7cd0f509d4dae029d898f32be4
+      internalID: -1468453038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_16
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 336
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834c64c5ed38acb45bf09c2baf3aadc4
+      internalID: 56926661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_17
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 336
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a147295081cb4e45b9c730c60baa3a3
+      internalID: -431448750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ee9dc91a480694da61d280f006f7e8
+      internalID: -2031310242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 294
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43b684265e4aec4594fa4bca94f820e
+      internalID: -233570444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 294
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f374018d3033f0c4ab115400ea1ada2f
+      internalID: 1389276524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 294
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cde5deeb619c449bc9186bf1751b4e
+      internalID: -2008635396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 294
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1dfae3e3fe75f4b8347671a829ee29
+      internalID: -75434171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 294
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840e74b6eff8b5d468c9cf6e66a1365a
+      internalID: -948418146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_24
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 294
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40f5032b886f994584c94cb0e46254a
+      internalID: -2072903920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_25
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 294
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7c3c7166463f545afa83a1ac4108fb
+      internalID: 647868412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_26
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 294
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b7f56d32fb79949bc6b5871bfee214
+      internalID: 1990705785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 294
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d71713aa6e02a46b5a03660820939a
+      internalID: -780791150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b6a208337f39640acbdfc2ce5da095
+      internalID: 894831818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 252
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfda69ec8656ce41b169504e77a494d
+      internalID: -2104426713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 252
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f901473111e7b04b97f25e4b0728dd7
+      internalID: -726662728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 252
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548568a34d198b4429b591075a65de5a
+      internalID: 1651894210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_32
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 252
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98361fd053746874e8bfb54902992dc7
+      internalID: -652576170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 252
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69ff211028685f44b4f139836532be5
+      internalID: -2129982130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_34
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 252
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7469dfa1002d8b6458451f028114dc5f
+      internalID: 1045842826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_35
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 252
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc4da4d465e85048b44ceca5fe09c84
+      internalID: 700588928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_36
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 252
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4b66c57ce9a68438f8cda2b8d1cdf0
+      internalID: -750267832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_37
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 252
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e5f5980916ebd4f894b274d32e4555
+      internalID: 1656593487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdccdb7574f7a143bf12b2993ddb738
+      internalID: 1905779315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 210
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a443846eaeb9e5344aa80affc5368b6a
+      internalID: -761040672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_40
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 210
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c89247f608230a42aa2788036d015f6
+      internalID: -1803078059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_41
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 210
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4642ee3c53e10154d9291b5f51945ef6
+      internalID: 2025243621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 210
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8170c29468ab55d449a574d49df3a402
+      internalID: -1287448493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_43
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 210
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4f135962c0251408e9287d0ad5a01c
+      internalID: -1674664733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_44
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 210
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44887dc117d6a84f937c81c5234a7dc
+      internalID: -971387731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_45
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 210
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd2dea8f48ad2c4ab8fb714835264b1
+      internalID: -1755913463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_46
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 210
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7e555013536e14f9c81bdaa4c57eba
+      internalID: -2068660286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_47
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 210
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94585d5dfd1d6994b97d56cde0a35021
+      internalID: 1150849963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba795abb8564e147afcc8510b55cf7f
+      internalID: 1691152267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_49
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 168
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c16ed5d297cbe14f983d0e46de876cc
+      internalID: 1498232606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_50
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 168
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2f481f415786c44ad447bc1e0a79dc
+      internalID: -489534522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_51
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 168
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d0d08522fcd8441b22a78495d0c5d5
+      internalID: -2118254881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 168
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdf8fd4577007a408453f42beaf40b4
+      internalID: 219173307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_53
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 168
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38386ed08c67db04898f2304af7e3fb7
+      internalID: 1484473989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_54
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 168
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4951bb04f9b9b754dabaf4f0324887e8
+      internalID: -150146583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_55
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 168
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e841381342c6b458da1840c98ea76a
+      internalID: -190365649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_56
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 168
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f476737e422a3864c9c578d8f9d43e16
+      internalID: 556831012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_57
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 168
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796c634140f556040b3888f9935cc94f
+      internalID: -772700786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7932365ca99bf77428fe33dc14eae821
+      internalID: -1223183822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_59
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 126
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb93fe5a43566e408af498a299dcd5d
+      internalID: 1851282696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_60
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 126
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c758d520080afd54585dd7cfca4a420d
+      internalID: 229832745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_61
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 126
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22ab4853215f35408e3b9957d2c6943
+      internalID: 2127740717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 126
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5751d869eefb28540a6b447d55a0923d
+      internalID: -1257860542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_63
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 126
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ddc26f3d8d7f0439a3071ec85d47fe
+      internalID: 1078278459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_64
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 126
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19290d14a424f0f43b52b5d7a977618b
+      internalID: 566559010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_65
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 126
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c0d5a28763c11498a2befe6c921ba7
+      internalID: -87040155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_66
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 126
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734cd65ee2e76a54bbd7a6f26087dca3
+      internalID: 1262846548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_67
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 126
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c63b19af0e491343b6d0d4f1839567a
+      internalID: -1304371799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5407c205834fc42a584ced4a276380
+      internalID: -1087144488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 84
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13214c9fee86951449d9c1358cd9ba36
+      internalID: 1550496463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_70
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 84
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbd2f4b2f260724da11a42b48d8b23e
+      internalID: -798252768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_71
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 84
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9479d6ca4eb7e14ebefe6cf68f4f45d
+      internalID: 1095000825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_72
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 84
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defe83cedbe0d42408711afc5fd4a325
+      internalID: -436983007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_73
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 84
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb7638a7732d6644afdc196d5eaf71b
+      internalID: 1242795393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_74
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 84
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdc591826f3624439138c5ef507b32b
+      internalID: 1068368947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_75
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 84
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369db475d36d8464598339d429a3c964
+      internalID: -1044960087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_76
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 84
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502d86a0814c97246bf3cd578e8b95c7
+      internalID: 482446847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_77
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 84
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f648a1f8943036e44a1c3b1170be7223
+      internalID: -971309559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f32e55113095241a2856a1adcddacf
+      internalID: -1376321895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_79
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 42
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fddf5d9ba44eef4389fb953e06c9179
+      internalID: 84453154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_80
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 42
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56603816fe5b414e879acbb40622fcc
+      internalID: -208695326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_81
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 42
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a8e4d13a21d1447a77f8a38427b09f
+      internalID: -1902593799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 42
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30de4326e865e4845b1ad32a5729aad8
+      internalID: 1139324629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_83
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 42
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ee9258d8e6a594ab96d8a03af82163
+      internalID: 1917525895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_84
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 42
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f9de8342a9e6e4c9be982c6afac836
+      internalID: -2052427019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatteryTileExplosion_51x42_85
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 42
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52af8a0929dd5a04e91a38401a4b03f6
+      internalID: 1648502932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BatteryTileExplosion_51x42_10: -2100236151
+      BatteryTileExplosion_51x42_7: -2067785222
+      BatteryTileExplosion_51x42_38: 1905779315
+      BatteryTileExplosion_51x42_32: -652576170
+      BatteryTileExplosion_51x42_75: -1044960087
+      BatteryTileExplosion_51x42_83: 1917525895
+      BatteryTileExplosion_51x42_2: -1426943942
+      BatteryTileExplosion_51x42_63: 1078278459
+      BatteryTileExplosion_51x42_54: -150146583
+      BatteryTileExplosion_51x42_42: -1287448493
+      BatteryTileExplosion_51x42_19: -233570444
+      BatteryTileExplosion_51x42_53: 1484473989
+      BatteryTileExplosion_51x42_33: -2129982130
+      BatteryTileExplosion_51x42_69: 1550496463
+      BatteryTileExplosion_51x42_9: 386355477
+      BatteryTileExplosion_51x42_12: -1198001197
+      BatteryTileExplosion_51x42_39: -761040672
+      BatteryTileExplosion_51x42_48: 1691152267
+      BatteryTileExplosion_51x42_52: 219173307
+      BatteryTileExplosion_51x42_35: 700588928
+      BatteryTileExplosion_51x42_84: -2052427019
+      BatteryTileExplosion_51x42_14: -520819166
+      BatteryTileExplosion_51x42_25: 647868412
+      BatteryTileExplosion_51x42_43: -1674664733
+      BatteryTileExplosion_51x42_20: 1389276524
+      BatteryTileExplosion_51x42_68: -1087144488
+      BatteryTileExplosion_51x42_72: -436983007
+      BatteryTileExplosion_51x42_71: 1095000825
+      BatteryTileExplosion_51x42_4: 195967500
+      BatteryTileExplosion_51x42_74: 1068368947
+      BatteryTileExplosion_51x42_21: -2008635396
+      BatteryTileExplosion_51x42_37: 1656593487
+      BatteryTileExplosion_51x42_17: -431448750
+      BatteryTileExplosion_51x42_50: -489534522
+      BatteryTileExplosion_51x42_58: -1223183822
+      BatteryTileExplosion_51x42_40: -1803078059
+      BatteryTileExplosion_51x42_79: 84453154
+      BatteryTileExplosion_51x42_29: -2104426713
+      BatteryTileExplosion_51x42_70: -798252768
+      BatteryTileExplosion_51x42_13: 1397556507
+      BatteryTileExplosion_51x42_24: -2072903920
+      BatteryTileExplosion_51x42_34: 1045842826
+      BatteryTileExplosion_51x42_62: -1257860542
+      BatteryTileExplosion_51x42_61: 2127740717
+      BatteryTileExplosion_51x42_60: 229832745
+      BatteryTileExplosion_51x42_31: 1651894210
+      BatteryTileExplosion_51x42_78: -1376321895
+      BatteryTileExplosion_51x42_27: -780791150
+      BatteryTileExplosion_51x42_11: -410755338
+      BatteryTileExplosion_51x42_80: -208695326
+      BatteryTileExplosion_51x42_76: 482446847
+      BatteryTileExplosion_51x42_59: 1851282696
+      BatteryTileExplosion_51x42_22: -75434171
+      BatteryTileExplosion_51x42_6: 1485202984
+      BatteryTileExplosion_51x42_49: 1498232606
+      BatteryTileExplosion_51x42_44: -971387731
+      BatteryTileExplosion_51x42_81: -1902593799
+      BatteryTileExplosion_51x42_55: -190365649
+      BatteryTileExplosion_51x42_3: 1999013181
+      BatteryTileExplosion_51x42_28: 894831818
+      BatteryTileExplosion_51x42_23: -948418146
+      BatteryTileExplosion_51x42_85: 1648502932
+      BatteryTileExplosion_51x42_65: -87040155
+      BatteryTileExplosion_51x42_73: 1242795393
+      BatteryTileExplosion_51x42_15: -1468453038
+      BatteryTileExplosion_51x42_1: -631070953
+      BatteryTileExplosion_51x42_77: -971309559
+      BatteryTileExplosion_51x42_66: 1262846548
+      BatteryTileExplosion_51x42_64: 566559010
+      BatteryTileExplosion_51x42_41: 2025243621
+      BatteryTileExplosion_51x42_46: -2068660286
+      BatteryTileExplosion_51x42_57: -772700786
+      BatteryTileExplosion_51x42_45: -1755913463
+      BatteryTileExplosion_51x42_56: 556831012
+      BatteryTileExplosion_51x42_67: -1304371799
+      BatteryTileExplosion_51x42_18: -2031310242
+      BatteryTileExplosion_51x42_36: -750267832
+      BatteryTileExplosion_51x42_0: -507904847
+      BatteryTileExplosion_51x42_30: -726662728
+      BatteryTileExplosion_51x42_5: -821841899
+      BatteryTileExplosion_51x42_51: -2118254881
+      BatteryTileExplosion_51x42_82: 1139324629
+      BatteryTileExplosion_51x42_16: 56926661
+      BatteryTileExplosion_51x42_26: 1990705785
+      BatteryTileExplosion_51x42_47: 1150849963
+      BatteryTileExplosion_51x42_8: -1899742998
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

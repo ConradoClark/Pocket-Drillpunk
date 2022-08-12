@@ -9,12 +9,19 @@ using UnityEngine;
 [Serializable]
 public class MapRules : MonoBehaviour
 {
+    public bool HasMinXLimit;
+    public int MinXLimit;
+    public bool HasMaxXLimit;
+    public int MaxXLimit;
+
     public bool HasMinDepthLimit;
     public int MinDepthLimit;
     public bool HasMaxDepthLimit;
     public int MaxDepthLimit;
 
     public ScriptIdentifier ForceTile;
+    public bool ForceInOffsets;
+    public Vector2Int[] ForcedOffsets;
     public WeightRule[] WeightRules;
 
     [Serializable]

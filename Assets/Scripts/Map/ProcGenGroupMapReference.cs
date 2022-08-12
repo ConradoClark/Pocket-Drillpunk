@@ -6,9 +6,16 @@ using UnityEngine;
 
 public class ProcGenGroupMapReference : ProcGenMapReference
 {
+    public int DefaultWeight;
     public Vector2Int Size;
     public override Vector2Int RefSize => Size;
     public ScriptIdentifier[] References;
+
+    protected override void OnAwake()
+    {
+        base.OnAwake();
+        Weight = DefaultWeight;
+    }
 
     public override void Populate(string seed, Vector2Int position)
     {
@@ -16,14 +23,25 @@ public class ProcGenGroupMapReference : ProcGenMapReference
 
         var rules = MapGenerator.GlobalRules;
         ScriptIdentifier forcedTile = null;
+        var forceInOffsets = false;
+        Vector2Int[] forcedOffsets = Array.Empty<Vector2Int>();
 
         foreach (var @ref in References)
         {
             foreach (var rule in rules)
             {
+                if (rule.HasMinXLimit && position.x < rule.MinXLimit) continue;
+                if (rule.HasMaxXLimit && position.x > rule.MaxXLimit) continue;
+
                 if (rule.HasMinDepthLimit && position.y < rule.MinDepthLimit) continue;
                 if (rule.HasMaxDepthLimit && position.y > rule.MinDepthLimit) continue;
-                if (rule.ForceTile != null) forcedTile = rule.ForceTile;
+                if (rule.ForceTile != null)
+                {
+                    forcedTile = rule.ForceTile;
+                    forceInOffsets = rule.ForceInOffsets;
+                    forcedOffsets = rule.ForcedOffsets;
+                    break;
+                }
                 foreach (var weightRule in rule.WeightRules)
                 {
                     if (weightRule.TileIdentifier == @ref)
@@ -38,9 +56,15 @@ public class ProcGenGroupMapReference : ProcGenMapReference
         {
             for (var j = 0; j < Size.y; j++)
             {
+                var useForcedTile = true;
+                if (forceInOffsets)
+                {
+                    useForcedTile = forcedOffsets.Contains(new Vector2Int(j, i));
+                }
+
                 var newSeed = $"{seed}_group_X{position.x + i}_Y{position.y + j}";
                 Seed = newSeed.GetHashCode();
-                var reference = forcedTile != null
+                var reference = useForcedTile && forcedTile != null
                     ? GameTilemap.TileDefinitionsDictionary[forcedTile].Reference
                     : GetReference();
 

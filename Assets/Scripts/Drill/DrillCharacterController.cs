@@ -55,6 +55,7 @@ public class DrillCharacterController : LichtMovementController
     private InputAction _jumpAction;
     private LichtPhysics _physics;
     private PlayerStats _playerStats;
+    private JetpackBattery _jetpackBattery;
 
     protected override void OnAwake()
     {
@@ -65,6 +66,7 @@ public class DrillCharacterController : LichtMovementController
         _jumpAction = playerInput.actions[JumpInput.ActionName];
         _physics = this.GetLichtPhysics();
         _playerStats = SceneObject<PlayerStats>.Instance();
+        _jetpackBattery = SceneObject<JetpackBattery>.Instance();
     }
 
     private void OnEnable()
@@ -81,7 +83,7 @@ public class DrillCharacterController : LichtMovementController
     private bool IsTriggeringHover()
     {
         return !IsBlocked && !JumpController.IsJumping && _jumpAction.IsPressed() &&
-               !PhysicsObject.GetPhysicsTrigger(GroundedIdentifier);
+               !PhysicsObject.GetPhysicsTrigger(GroundedIdentifier) && _jetpackBattery.SpendBattery();
     }
 
     private IEnumerable<IEnumerable<Action>> SpawnHoverParticles()

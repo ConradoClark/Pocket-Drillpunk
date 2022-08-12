@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Battle;
 using Assets.Scripts.Inventory;
+using Licht.Unity.Objects;
 using UnityEngine;
 
 namespace Assets.Scripts.Drill
@@ -22,6 +23,8 @@ namespace Assets.Scripts.Drill
 
         public Counter ToNextLevel;
 
+        private JetpackBattery _jetpack;
+
         [Serializable]
         public struct LearnableMove
         {
@@ -33,6 +36,7 @@ namespace Assets.Scripts.Drill
 
         private void Start()
         {
+            _jetpack = SceneObject<JetpackBattery>.Instance(true);
             DrillPower = JetpackBattery = 1;
             MaxHP = HPCounter.Count = MaxHPCounter.Count = 3;
             LevelCounter.Count = 1;
@@ -67,6 +71,7 @@ namespace Assets.Scripts.Drill
                     break;
                 case LevelUpOption.JetpackFuel:
                     JetpackBattery++;
+                    _jetpack.Refill(10000);
                     break;
                 case LevelUpOption.HealthUp:
                     MaxHP++;

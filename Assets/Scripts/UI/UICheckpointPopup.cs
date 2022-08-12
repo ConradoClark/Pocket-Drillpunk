@@ -1,28 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using Assets.Scripts.Inventory;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using TimeYields = Licht.Impl.Orchestration.TimeYields;
 
 namespace Assets.Scripts.UI
 {
-    public class UIExpGainedPopup : BaseUIObject
+    public class UICheckpointPopup : BaseUIObject
     {
-        public ScriptInput ConfirmInput;
-        private InputAction _confirmAction;
         private Player _player;
-
-        public UINumberRenderer NextLevelNumberRenderer;
-
-        public Counter ExpGainedCounter;
-        public Counter ToNextLevelCounter;
-
         private bool _initialized;
-        private UILevelUpMenu _levelUpMenu;
 
         protected override void OnAwake()
         {
@@ -30,9 +22,7 @@ namespace Assets.Scripts.UI
             _initialized = true;
             base.OnAwake();
             var playerInput = PlayerInput.GetPlayerByIndex(0);
-            _confirmAction = playerInput.actions[ConfirmInput.ActionName];
             _player = SceneObject<Player>.Instance(true);
-            _levelUpMenu = SceneObject<UILevelUpMenu>.Instance(true);
         }
 
         public IEnumerable<IEnumerable<Action>> Show()
@@ -49,42 +39,25 @@ namespace Assets.Scripts.UI
                 .LocalScale
                 .Y
                 .SetTarget(1f)
-                .Over(0.5f)
+                .Over(0.25f)
                 .Easing(EasingYields.EasingFunction.QuadraticEaseInOut)
                 .UsingTimer(UITimer)
                 .Build();
 
-            yield return TimeYields.WaitSeconds(UITimer, 2);
-            yield return Calculate().AsCoroutine();
+            yield return TimeYields.WaitSeconds(UITimer, 0.5f);
 
-            if (ToNextLevelCounter.Count <= 0)
-            {
-                yield return NextLevelNumberRenderer.Blink(100, 5).AsCoroutine();
-                yield return Hide().AsCoroutine();
-                DefaultMachinery.AddBasicMachine(_levelUpMenu.Show());
-            }
-            else yield return Hide().AsCoroutine();
-        }
-
-        public IEnumerable<IEnumerable<Action>> Calculate()
-        {
-            while (ExpGainedCounter.Count > 0)
-            {
-                ExpGainedCounter.Count--;
-                ToNextLevelCounter.Count--;
-                yield return TimeYields.WaitMilliseconds(UITimer, 100);
-            }
+            yield return Hide().AsCoroutine();
         }
 
         public IEnumerable<IEnumerable<Action>> Hide()
         {
-            _player.Unblock();
             yield return TimeYields.WaitSeconds(UITimer, 1);
+            _player.Unblock();
             yield return transform.GetAccessor()
                 .LocalScale
                 .Y
                 .SetTarget(0.1f)
-                .Over(0.5f)
+                .Over(0.25f)
                 .Easing(EasingYields.EasingFunction.QuadraticEaseInOut)
                 .UsingTimer(UITimer)
                 .Build();
