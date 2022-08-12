@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Assets.Scripts.Drill;
 using Licht.Impl.Orchestration;
 using Licht.Unity.CharacterControllers;
 using Licht.Unity.Extensions;
@@ -53,6 +54,7 @@ public class DrillCharacterController : LichtMovementController
     private InputAction _moveAction;
     private InputAction _jumpAction;
     private LichtPhysics _physics;
+    private PlayerStats _playerStats;
 
     protected override void OnAwake()
     {
@@ -62,6 +64,7 @@ public class DrillCharacterController : LichtMovementController
         _moveAction = playerInput.actions[MoveInput.ActionName];
         _jumpAction = playerInput.actions[JumpInput.ActionName];
         _physics = this.GetLichtPhysics();
+        _playerStats = SceneObject<PlayerStats>.Instance();
     }
 
     private void OnEnable()
@@ -110,7 +113,7 @@ public class DrillCharacterController : LichtMovementController
                 DefaultMachinery.AddBasicMachine(SpawnHoverParticles());
                 do
                 {
-                    PhysicsObject.ApplySpeed(new Vector2(0, HoverSpeed));
+                    PhysicsObject.ApplySpeed(new Vector2(0, HoverSpeed + (_playerStats.JetpackBattery-1) * 0.1f));
                     yield return TimeYields.WaitOneFrameX;
                 } while (IsTriggeringHover());
 

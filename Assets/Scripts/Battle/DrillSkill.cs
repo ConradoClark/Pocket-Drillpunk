@@ -28,5 +28,21 @@ namespace Assets.Scripts.Battle
 
         public string Animation;
         public float DurationInSeconds;
+
+        public int CalculateDamage(int drillPower, int jetpackPower, int maxHP, BattleElement enemyElement)
+        {
+            return Power +
+                   (ScalesWithDrillPower ? (drillPower - 1) : 0) +
+                   (ScalesWithJetpackPower ? (jetpackPower - 1) : 0) +
+                   (ScalesWithMaxHP ? (maxHP - 3) : 0);
+        }
+
+        public int CalculateShield(int drillPower, int jetpackPower, int maxHP)
+        {
+            return Shield +
+                   (ScalesWithDrillPower ? (drillPower - 1) : 0) +
+                   (ScalesWithJetpackPower ? (jetpackPower - 1) : 0) +
+                   (ScalesWithMaxHP ? (maxHP - 3) : 0);
+        }
     }
 }

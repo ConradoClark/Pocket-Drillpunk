@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Assets.Scripts.Drill;
 using Assets.Scripts.Inventory;
 using Assets.Scripts.UI;
 using Licht.Impl.Orchestration;
@@ -27,7 +28,8 @@ namespace Assets.Scripts.Battle
         private UIEnemyActionBar _enemyActionBar;
         private DrillBattler _drillBattler;
         private HitEffectPoolManager _hitPoolManager;
-        private EnemyBattler _enemy;
+        public EnemyBattler Enemy { get; private set; }
+        private PlayerStats _playerStats;
 
         private BattleIntro _battleIntro;
 
@@ -39,13 +41,14 @@ namespace Assets.Scripts.Battle
             _drillBattler = SceneObject<DrillBattler>.Instance(this);
             _hitPoolManager = SceneObject<HitEffectPoolManager>.Instance(true);
             _battleIntro = SceneObject<BattleIntro>.Instance(true);
+            _playerStats = SceneObject<PlayerStats>.Instance(true);
         }
 
         public void StartBattle(EnemyBattler enemy)
         {
-            _enemy = enemy;
-            EnemyHPCounter.Count = _enemy.HP;
-            _enemy.OnHit += Enemy_OnHit;
+            Enemy = enemy;
+            EnemyHPCounter.Count = Enemy.HP;
+            Enemy.OnHit += Enemy_OnHit;
             _drillBattler.OnHit += Player_OnHit;
 
             _battleOver = false;
@@ -75,7 +78,7 @@ namespace Assets.Scripts.Battle
                 if (EnemyHPCounter.Count <= 0)
                 {
                     _battleOver = true;
-                    _enemy.Die();
+                    Enemy.Die();
                 }
 
                 if (PlayerHPCounter.Count <= 0)
@@ -85,15 +88,15 @@ namespace Assets.Scripts.Battle
                 }
             }
 
-            _enemy.OnHit -= Enemy_OnHit;
+            Enemy.OnHit -= Enemy_OnHit;
             _drillBattler.OnHit -= Player_OnHit;
-            _battleIntro.ExitBattle(_enemy, PlayerHPCounter.Count>0);
+            _battleIntro.ExitBattle(Enemy, PlayerHPCounter.Count>0);
         }
 
         private IEnumerable<IEnumerable<Action>> DecisionPhase()
         {
             var showActionBar = _actionSelectorBar.Show().AsCoroutine();
-            var showEnemyBar = _enemyActionBar.Show(_enemy).AsCoroutine();
+            var showEnemyBar = _enemyActionBar.Show(Enemy).AsCoroutine();
 
             yield return showActionBar.Combine(showEnemyBar); // show and wait for decision
             DefaultMachinery.AddBasicMachine(_enemyActionBar.Hide()); // hide and go to action phase
@@ -125,7 +128,7 @@ namespace Assets.Scripts.Battle
 
         private IEnumerable<IEnumerable<Action>> PlayEnemyAction()
         {
-            if (!string.IsNullOrWhiteSpace(_enemyActionBar.SelectedAction.Animation)) _enemy.PlayAnim(_enemyActionBar.SelectedAction.Animation);
+            if (!string.IsNullOrWhiteSpace(_enemyActionBar.SelectedAction.Animation)) Enemy.PlayAnim(_enemyActionBar.SelectedAction.Animation);
 
             HitEffect effect = null;
             if (_enemyActionBar.SelectedAction.SkillEffect != null)
@@ -135,6 +138,7 @@ namespace Assets.Scripts.Battle
                 if (effectPool.TryGetFromPool(out effect))
                 {
                     effect.Target = _drillBattler;
+                    effect.TotalDamage = _enemyActionBar.SelectedAction.Power;
                 }
             }
 
@@ -157,7 +161,9 @@ namespace Assets.Scripts.Battle
                 var effectPool = _hitPoolManager.GetEffect(_actionSelectorBar.SelectedAction.SkillEffect);
                 if (effectPool.TryGetFromPool(out effect))
                 {
-                    effect.Target = _enemy;
+                    effect.Target = Enemy;
+                    effect.TotalDamage = _actionSelectorBar.SelectedAction.CalculateDamage(_playerStats.DrillPower,
+                        _playerStats.JetpackBattery, _playerStats.MaxHP, Enemy.Element);
                 }
             }
 

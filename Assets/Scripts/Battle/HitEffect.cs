@@ -11,6 +11,7 @@ namespace Assets.Scripts.Battle
 {
     public class HitEffect : EffectPoolable
     {
+        public int TotalDamage;
         public BaseBattler Target;
         protected ITimer UITimer;
         protected override void OnAwake()

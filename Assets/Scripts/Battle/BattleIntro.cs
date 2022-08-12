@@ -51,7 +51,7 @@ namespace Assets.Scripts.Battle
 
         public void EnterBattle(ScriptPrefab enemyBattler)
         {
-            _player.gameObject.SetActive(false); // disables the player
+            _player.Block();
             DefaultMachinery.AddBasicMachine(_drillBattler.ActivateAndMoveToPosition());
             DefaultMachinery.AddBasicMachine(ShowBattleIntro(enemyBattler));
         }
@@ -75,7 +75,7 @@ namespace Assets.Scripts.Battle
             yield return ShowTopFrame().AsCoroutine();
             GameRenderer.material = _originalGameRendererMaterial;
 
-            _player.gameObject.SetActive(true); // disables the player
+            _player.Unblock();
             enemy.EndEffect();
 
             if (result)

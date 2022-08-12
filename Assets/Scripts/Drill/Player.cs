@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Assets.Scripts.Drill;
 using Licht.Unity.CharacterControllers;
+using Licht.Unity.Objects;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -11,6 +13,12 @@ public class Player : MonoBehaviour
     public DrillingController DrillController;
     public DrillCharacterController CharacterController;
     public LichtPlatformerJumpController JumpController;
+    private PlayerStats _playerStats;
+
+    private void Awake()
+    {
+        _playerStats = SceneObject<PlayerStats>.Instance();
+    }
 
     public void Block()
     {
@@ -24,5 +32,10 @@ public class Player : MonoBehaviour
         DrillController.UnblockMovement(this);
         CharacterController.UnblockMovement(this);
         JumpController.UnblockMovement(this);
+    }
+
+    public void LevelUp(LevelUpOption option)
+    {
+        _playerStats.LevelUp(option);
     }
 }

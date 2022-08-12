@@ -62,6 +62,7 @@ namespace Assets.Scripts.UI
 
         private InputAction _moveAction;
         private InputAction _confirmAction;
+        private BattleSequence _battleSequence;
 
         protected override void OnAwake()
         {
@@ -73,6 +74,7 @@ namespace Assets.Scripts.UI
             var playerInput = PlayerInput.GetPlayerByIndex(0);
             _moveAction = playerInput.actions[MoveInput.ActionName];
             _confirmAction = playerInput.actions[ConfirmInput.ActionName];
+            _battleSequence = SceneObject<BattleSequence>.Instance(true);
         }
 
         public Material GetActionMaterial()
@@ -112,7 +114,10 @@ namespace Assets.Scripts.UI
                 SelectedAction.Shield > 0 ? ShieldIcon : StunIcon;
 
             ActionValueRenderer.enabled = SelectedAction.Power > 0 || SelectedAction.Shield > 0;
-            ActionValueRenderer.Number = SelectedAction.Power > 0 ? SelectedAction.Power : SelectedAction.Shield;
+            ActionValueRenderer.Number = SelectedAction.Power > 0 ? 
+                SelectedAction.CalculateDamage(_playerStats.DrillPower, _playerStats.JetpackBattery, _playerStats.MaxHP,
+                    _battleSequence.Enemy.Element) 
+                : SelectedAction.CalculateShield(_playerStats.DrillPower, _playerStats.JetpackBattery, _playerStats.MaxHP);
         }
 
         public IEnumerable<IEnumerable<Action>> Show()

@@ -46,7 +46,6 @@ namespace Assets.Scripts.Map.Enemies
 
         private void Tile_OnBreak()
         {
-            Debug.Log($"Tile with enemy broken! {Tile.gameObject.name}");
             _battleIntro.EnterBattle(EnemyBattler);
 
             Tile.OnBreak -= Tile_OnBreak;

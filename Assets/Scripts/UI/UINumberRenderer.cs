@@ -63,6 +63,26 @@ public class UINumberRenderer : BaseUIObject
         };
     }
 
+    public IEnumerable<IEnumerable<Action>> Blink(float frequency, int times)
+    {
+        for (var i = 0; i < times; i++)
+        {
+            foreach (var sprRenderer in Renderers)
+            {
+                sprRenderer.enabled = false;
+            }
+
+            yield return TimeYields.WaitMilliseconds(UITimer, frequency * 0.5);
+
+            foreach (var sprRenderer in Renderers)
+            {
+                sprRenderer.enabled = true;
+            }
+
+            yield return TimeYields.WaitMilliseconds(UITimer, frequency * 0.5);
+        }
+    }
+
     private void OnEnable()
     {
         _currentNumber = Number;
@@ -100,7 +120,7 @@ public class UINumberRenderer : BaseUIObject
 
     private void RenderNumber()
     {
-        var value = GetStringValue(Math.Clamp(_currentNumber, 0, Math.Max(_currentNumber,0)));
+        var value = GetStringValue(Math.Clamp(_currentNumber, 0, Math.Max(_currentNumber, 0)));
 
         for (var i = 0; i < Digits; i++)
         {

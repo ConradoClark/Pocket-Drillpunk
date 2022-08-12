@@ -11,6 +11,7 @@ namespace Assets.Scripts.Battle
 {
     public class EnemyBattler : BaseBattler
     {
+        public BattleElement Element;
         public int Experience;
         public int HP;
         public Color HitColor;

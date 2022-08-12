@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Assets.Scripts.Inventory;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TimeYields = Licht.Impl.Orchestration.TimeYields;
@@ -20,10 +16,13 @@ namespace Assets.Scripts.UI
         private InputAction _confirmAction;
         private Player _player;
 
+        public UINumberRenderer NextLevelNumberRenderer;
+
         public Counter ExpGainedCounter;
         public Counter ToNextLevelCounter;
 
         private bool _initialized;
+        private UILevelUpMenu _levelUpMenu;
 
         protected override void OnAwake()
         {
@@ -33,6 +32,7 @@ namespace Assets.Scripts.UI
             var playerInput = PlayerInput.GetPlayerByIndex(0);
             _confirmAction = playerInput.actions[ConfirmInput.ActionName];
             _player = SceneObject<Player>.Instance(true);
+            _levelUpMenu = SceneObject<UILevelUpMenu>.Instance(true);
         }
 
         public IEnumerable<IEnumerable<Action>> Show()
@@ -56,6 +56,13 @@ namespace Assets.Scripts.UI
 
             yield return TimeYields.WaitSeconds(UITimer, 2);
             yield return Calculate().AsCoroutine();
+
+            if (ToNextLevelCounter.Count <= 0)
+            {
+                yield return NextLevelNumberRenderer.Blink(100, 5).AsCoroutine();
+                DefaultMachinery.AddBasicMachine(_levelUpMenu.Show());
+            }
+            
             yield return Hide().AsCoroutine();
         }
 

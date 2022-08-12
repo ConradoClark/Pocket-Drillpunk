@@ -44,10 +44,16 @@ namespace Assets.Scripts.Battle.Effects
         {
             yield return TimeYields.WaitOneFrameX;
             if (Target == null) yield break;
-            foreach (var impact in DamageImpacts)
+
+            var damageSum = 0;
+            for (var index = 0; index < DamageImpacts.Length; index++)
             {
+                var impact = DamageImpacts[index];
                 yield return TimeYields.WaitSeconds(UITimer, impact.TimeInSeconds);
-                Target.Hit(impact.Damage);
+                
+                Target.Hit(index == DamageImpacts.Length-1 ? Math.Clamp(TotalDamage - damageSum, 0, int.MaxValue) : impact.Damage);
+                damageSum += impact.Damage;
+
                 yield return MakeImpact(impact.ImpactSize).AsCoroutine();
             }
         }

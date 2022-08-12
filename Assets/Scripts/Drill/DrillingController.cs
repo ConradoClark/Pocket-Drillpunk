@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Assets.Scripts.Drill;
 using Licht.Impl.Orchestration;
 using Licht.Unity.CharacterControllers;
 using Licht.Unity.Extensions;
@@ -31,6 +32,7 @@ public class DrillingController : LichtMovementController
     private bool _enabled;
     private Grid _grid;
     private LichtPhysics _physics;
+    private PlayerStats _playerStats;
 
     public event Action<Vector2Int> OnStartDrilling;
     public event Action<Vector2Int> OnStopDrilling;
@@ -43,6 +45,7 @@ public class DrillingController : LichtMovementController
         _drillAction = playerInput.actions[DrillInput.ActionName];
         _grid = SceneObject<Grid>.Instance();
         _physics = this.GetLichtPhysics();
+        _playerStats = SceneObject<PlayerStats>.Instance();
     }
 
     private void OnEnable()
@@ -88,7 +91,7 @@ public class DrillingController : LichtMovementController
                         targetTile.TryGetCustomObject(out BaseTile tile))
                     {
 
-                        tile.Hit(1, direction);
+                        tile.Hit(_playerStats.DrillPower, direction);
                         OnDrillImpact?.Invoke(direction);
 
                         yield return TimeYields.WaitMilliseconds(GameTimer, DrillImpactInMs);
