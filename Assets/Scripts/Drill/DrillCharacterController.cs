@@ -50,6 +50,8 @@ public class DrillCharacterController : LichtMovementController
     public event Action<Vector2Int> OnStartMoving;
     public event Action<Vector2Int> OnStopMoving;
 
+    public AudioSource JetpackSound;
+
     private bool _enabled;
     private InputAction _moveAction;
     private InputAction _jumpAction;
@@ -110,6 +112,7 @@ public class DrillCharacterController : LichtMovementController
         {
             if (IsTriggeringHover())
             {
+                JetpackSound.Play();
                 _physics.BlockCustomPhysicsForceForObject(this, PhysicsObject, JumpController.GravityIdentifier.Name);
                 IsHovering = true;
                 DefaultMachinery.AddBasicMachine(SpawnHoverParticles());
@@ -118,6 +121,8 @@ public class DrillCharacterController : LichtMovementController
                     PhysicsObject.ApplySpeed(new Vector2(0, HoverSpeed + (_playerStats.JetpackBattery-1) * 0.1f));
                     yield return TimeYields.WaitOneFrameX;
                 } while (IsTriggeringHover());
+
+                JetpackSound.Stop();
 
                 _physics.UnblockCustomPhysicsForceForObject(this, PhysicsObject, JumpController.GravityIdentifier.Name);
                 IsHovering = false;

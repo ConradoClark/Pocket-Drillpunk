@@ -10,6 +10,7 @@ using Licht.Unity.Objects;
 using Licht.Unity.Physics;
 using Licht.Unity.Physics.CollisionDetection;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Assets.Scripts.Drill
 {
@@ -20,6 +21,8 @@ namespace Assets.Scripts.Drill
         public LichtPhysicsCollisionDetector CollisionDetector;
         private LichtPhysics _physics;
         private bool _enabled;
+
+        public AudioSource CollectSound;
 
         protected override void OnAwake()
         {
@@ -48,6 +51,8 @@ namespace Assets.Scripts.Drill
 
                 if (trigger.TriggeredHit && !collectable.Collected)
                 {
+                    CollectSound.pitch = 0.9f + Random.value * 0.2f;
+                    CollectSound.Play();
                     collectable.Collect();
                     DefaultMachinery.AddUniqueMachine("collectFlashEffect",
                         UniqueMachine.UniqueMachineBehaviour.Replace, CollectFlashEffect());

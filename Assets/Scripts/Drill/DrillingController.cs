@@ -38,6 +38,8 @@ public class DrillingController : LichtMovementController
     public event Action<Vector2Int> OnStopDrilling;
     public event Action<Vector2Int> OnDrillImpact;
 
+    public AudioSource DrillingSound;
+
     protected override void OnAwake()
     {
         base.OnAwake();
@@ -76,6 +78,8 @@ public class DrillingController : LichtMovementController
                 OnStartDrilling?.Invoke(direction);
                 CharacterController.SetMovementMultipliers(this, dampeners);
 
+                DrillingSound.Play();
+
                 while (_drillAction.IsPressed() && !IsBlocked)
                 {
                     direction = CharacterController.CurrentDirection;
@@ -91,14 +95,21 @@ public class DrillingController : LichtMovementController
                         targetTile.TryGetCustomObject(out BaseTile tile))
                     {
 
+                        DrillingSound.volume = 0.6f;
+                        DrillingSound.pitch = 1f;
+
                         tile.Hit(_playerStats.DrillPower, direction);
                         OnDrillImpact?.Invoke(direction);
 
                         yield return TimeYields.WaitMilliseconds(GameTimer, DrillImpactInMs);
                     }
+                    DrillingSound.volume = 0.2f;
+                    DrillingSound.pitch = 1.15f;
 
                     yield return TimeYields.WaitOneFrameX;
                 }
+
+                DrillingSound.Stop();
 
                 IsDrilling = false;
                 CharacterController.RemoveMovementMultipliers(this, dampeners);
