@@ -1,0 +1,4095 @@
+fileFormatVersion: 2
+guid: 0163e4ac4f505504c808c21b98c61335
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbbe97872853204a8fd406ee03c9930
+      internalID: -1080838572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d461242259936438776768d146e244
+      internalID: 1123491401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0a2697c83ea57469a188492add9554
+      internalID: -746978012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ed2fece68a6414c949b073f3ae3dd6
+      internalID: -2039614474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52633aeee8a7da34298f836e890f9182
+      internalID: 300589669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fefc0854ca7c5941a36420037a45cbb
+      internalID: 1147116786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af5b309c424dfc4e90759ae2d992aaa
+      internalID: 911357317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bbcfeabbc39e14b857f4b92df66309
+      internalID: 138409717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770296d580ce4d24abd415209a4d7d5d
+      internalID: -656868912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_9
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4e9d35d74c8a648aa9488110256916
+      internalID: -810456168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_10
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ac49d92c0b41d4c89fc0044b937c90
+      internalID: 369818719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_11
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2838d577ebf539c4b852d6ab6475694e
+      internalID: -1316646635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_12
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd959a4a15ff294ea36547cb57a88f6
+      internalID: 566535138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_13
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 897
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863055069954b004bb7269dd529275ba
+      internalID: 1673325131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9a5a7b56ed167439a79f9c19681635
+      internalID: 1470407224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5913183a18091b548aab1f57afc8b5c3
+      internalID: -1841452702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df85daf08e73c1c429b67fc66284b4e8
+      internalID: 1281390725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863a60e81554d40429a53936769f2945
+      internalID: 931909260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb86fd8b40fbc643b4f95418de93b87
+      internalID: 957473092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_19
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82aa95b0b2bd600478615ef0d1851628
+      internalID: 800368861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_20
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6599dc5e3fd49404f873a3e66489f3fd
+      internalID: 2028985160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_21
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59a9ec87bde82a46b3facb86008d1f2
+      internalID: 1756326509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8672c0091e68ddb4d8bef80aff5b8d1a
+      internalID: -1227573433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_23
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099499860c4424245b9b20019b443ea4
+      internalID: 491423128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_24
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d9a6aa51d73da47973641fc14fb095
+      internalID: -23006226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_25
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e7b2b1ee62336489362832f2f772df
+      internalID: -1296714341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_26
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46690878f3497b647897e81c02f5af11
+      internalID: 56219432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_27
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 828
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3776988d9aeb845ae96829ac3f1e16
+      internalID: 507154266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c01123b07ab0b40a259505d217c476
+      internalID: 583656914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_29
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b026666134b44c48b6a79ee7d36809f
+      internalID: 805640168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c0af0f6d0a8a94bac0af6667a3c041
+      internalID: -1647372759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_31
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d153daad6a0169546a1ec256d1b3da1d
+      internalID: -421048340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b4a4ecb727b014a875c5f7e9782f1e
+      internalID: 1099018777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_33
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcada6b433fd41b4ab280f2499fad794
+      internalID: -168065433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_34
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9719f0f0fba27c449bd3b4ac0918ddc3
+      internalID: 519384831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_35
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b1e1392f968c0468020af4dfdbe922
+      internalID: -293933897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_36
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b9d7954ecc55541a15c1e5f0927232
+      internalID: 435441362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_37
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619ce8defa5134f469f4880e4e352046
+      internalID: -821075829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_38
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05160e542f9bcbe4bba3a7f5cdd0f39e
+      internalID: 1824219793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_39
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8207a0031ff570544a491b6e31c13839
+      internalID: 1707846430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_40
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0991767eba41ec541ae343e0fa225f52
+      internalID: -1101896023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_41
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 759
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3265466cb3184714aa185bb2afd0621b
+      internalID: 745601364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3f513c189b68f44a1e7cc5ebc15159
+      internalID: 1554188709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_43
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91478f6f91143124994cddd15b881fd6
+      internalID: -203984892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_44
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7f72a0e6e4cc04b9ffcd7ef3a0df1a
+      internalID: -887112525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_45
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76645f6a77135904ea716a205cd4e34f
+      internalID: 593291151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_46
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5311238b86c4e9646bb004cc7058ff45
+      internalID: -1507433840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_47
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fc7e2e974f947439389756a3ceb52a
+      internalID: 660860295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_48
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa56d454fb3cea94dbd2dd7a1a347ad4
+      internalID: 1854694613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_49
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed017338a294744f813c9f9a97edbc9
+      internalID: 141993090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_50
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def1499423deaab46a9df975029e14e5
+      internalID: 939977253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_51
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897c0571239ab4e4a962d934a5815796
+      internalID: -242981150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_52
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d22e032a54c4d541aeb4bc2b5a6d588
+      internalID: -2035387958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_53
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406ec2d5b0f610e4abd52a097bbf9e57
+      internalID: 1237237058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_54
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1721df05e3dd96e4a829b0776c201baa
+      internalID: 352331023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_55
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 690
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb69ff1f1d59e645b873cdfbda2dd08
+      internalID: -468304104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffcc57ca1ad34c47ad495e08f1df63a
+      internalID: 642406646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_57
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8081ef8fca83ecb4cbc573bf6da051ea
+      internalID: 800645246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957dd1001584aea42a2923c69092593b
+      internalID: 768831655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fe4e5c479095344873d539b145bc0b
+      internalID: -1592503691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_60
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94828cec47de9f47859441d6f26c518
+      internalID: 2020587255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_61
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a3e4dc42221aa4eaeb3b2138e8183b
+      internalID: 1507931593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_62
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378927ea15e90c44b81a4a31458b3a88
+      internalID: 2060072405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_63
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694c79c0b2f9f084b8610e4dacc1b138
+      internalID: -1755401672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_64
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efcf3f542b3e7b4c9e04b2ad9f820c7
+      internalID: 519884552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_65
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c54d3338d3c6f74fb9e57e44abe2ef9
+      internalID: 1525466181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_66
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db8117973114aa4193dda5a88354538
+      internalID: 963174673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_67
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a09f46013bbaec41b39d26aee717673
+      internalID: 359119786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_68
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786b94da15059664c8ed9ca3887a3d2c
+      internalID: 519243326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_69
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 621
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b104b570b413745bb5e043576e582b
+      internalID: 1412589629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cd5b9db70b0a545987ee2bd37f9770
+      internalID: -1012608634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_71
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058b92acdd7ea0948b73317d666029d5
+      internalID: -66387205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_72
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccc2f224cf1d434897220ce372b1716
+      internalID: -339137945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_73
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddfb367277742c4bbef6910bc091dd5
+      internalID: -1801523903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_74
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2091952f372be8f4696cf74dd3d3d864
+      internalID: -1434161958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_75
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1838e8f934852e44793461edd21e0478
+      internalID: 1987147584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_76
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019253eaca86cd148b3067b58df1d1b2
+      internalID: -1073558596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_77
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926480a2ef7deb248bc564b263296fd5
+      internalID: 294856669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_78
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7279fdd03f1f594c90b800aa5fef58d
+      internalID: -333996049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_79
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de0886ca35e89b4ea5e6c04df0c3a66
+      internalID: -58406629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_80
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df3eb42598fc464dacefb8fd4e910a9
+      internalID: -987551177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_81
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad6f61e8aa287e40baa679f72bf1784
+      internalID: 1516839014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_82
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4308088efa230e740a67c63b672a701f
+      internalID: -810628587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_83
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 552
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e343ce279a72a46bc72966879c09d9
+      internalID: 1816761390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0633ae4485d32048bf00970807c569a
+      internalID: -323194289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_85
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6855e4b9330ff945bf9ee5fb23dbd38
+      internalID: 903768457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_86
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c061103a10c5d9844aa071c2603b8cab
+      internalID: 154551487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_87
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c891ac3f609fe21439b1d5096227ae70
+      internalID: -1051283093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_88
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ed57a120206b54395a6d5a2804969a
+      internalID: 2000147594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_89
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0937c5bd9318207458b6eecd79cb4038
+      internalID: 386692743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_90
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f192ac82f8cb40142b0aeb6a4d413725
+      internalID: -498574574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_91
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d1be4a32832d14abfe5c676aaa1635
+      internalID: 1077808050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_92
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2e5fd61921c2741a70e2fe87816529
+      internalID: -1108274713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_93
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b024fb02b07802e40813aefa25d373a1
+      internalID: -167636106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_94
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b643c37892b17d469bbedbaf2f5f76e
+      internalID: -1658075523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_95
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae591c25b9e23af429ebb2cc21effa2b
+      internalID: -1158864551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_96
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8a7259b0b7c1e40ace32a6b323d3a0
+      internalID: -864640947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_97
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 483
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6588c92d028df409e121c521b0750e
+      internalID: 1584086018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3b0b34db02d4e49a33bcc772d3051c
+      internalID: 1548788674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_99
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fe2fefca73a2d46b2db7b3eeb82db2
+      internalID: -1027235994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_100
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493c636936467274b82eacb664b31ea7
+      internalID: -121104458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_101
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64b1e1f5aa7866498c502c95ff2c23b
+      internalID: 1140910276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_102
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89e85c0808ab344686e6039fc743f01
+      internalID: 1529715318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_103
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d3576db26340542945afbffad7ff3f
+      internalID: -1430491127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_104
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ad56ec24c4edc4488911859c09ef95
+      internalID: -1885345589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_105
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1b8b256d6ebfa4fbb806806a6fd465
+      internalID: 528203013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_106
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7824ebba68faece4cb4be2cb4a405c9b
+      internalID: 1942006117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_107
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8664995d31bfab244bb3bff554f0bf7f
+      internalID: 916218986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_108
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5af51070717544cb652a03c89c0e15
+      internalID: -2122403362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_109
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1953b8ae570179a4d941b7fdbeac3d77
+      internalID: -1276793990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_110
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9c81858ce5fd540b3cc3285091915f
+      internalID: -942251849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_111
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 414
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d793656a2aa3f34bae9494bd67fb859
+      internalID: -597322391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d704230c330fdc4e91d68af02c32f3e
+      internalID: 1340110161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_113
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a09f6305a3f10949bf72d8f44dc2bd6
+      internalID: -1715381065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_114
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e016f98b694e7554ebce896328f77238
+      internalID: 539408900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_115
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3616d2c47f857cc48b58c56fd2c08fe7
+      internalID: 375555653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_116
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8942523c8eb8df54b974e225d1d09623
+      internalID: -1199136878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_117
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe78e66dd5c49e4baf0ce0193215af9
+      internalID: -1777197103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_118
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ff96493da2350488e676ea419038cc
+      internalID: -96943805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_119
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e315545ae21a0bc4685d2cda6cd733c3
+      internalID: -2138372144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_120
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9e32bbfee9f384dbc2015f1b5c174f
+      internalID: 1865374193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_121
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1980368ba89e5bd44989f113181fc918
+      internalID: -1786969486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_122
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838f563b64131f14da6cb4a666322492
+      internalID: 1266785353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_123
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac40711685a13eb4eb124eab02946db1
+      internalID: 364289756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_124
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95b12cc003ebf840b62d98f92eaafe9
+      internalID: -734200136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_125
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b97d65b97993b7438e3d7b1d3669a39
+      internalID: 366506998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809e36c051a3a8e4dbe650facd86a333
+      internalID: 1618262472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_127
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e013855ed58f2f04497f64fd35900839
+      internalID: -1977851028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_128
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2d72d7e31aa294ab00c5e176bc4652
+      internalID: -1740567262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_129
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db27aa594c1755c49b676b9bc6c1511a
+      internalID: -794935700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_130
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5c8a910a41fc148bbdd73c96230727
+      internalID: -1257356145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_131
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48285c398d6ef044196eeec9d1acd691
+      internalID: -149916012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_132
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1225e94b2fe48f74d97da010c7bb566b
+      internalID: -536745846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_133
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc7078d7c8a9eb4fb987e1045f4f4f2
+      internalID: -1052860247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_134
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527eec292d82aa744ba4d7f1f9f28072
+      internalID: -284169512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_135
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78787b41496e4142aee697e64a79fef
+      internalID: -826029618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_136
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37c1a53c40f057419937d287f93a6b6
+      internalID: 1983571388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_137
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bd5147019cebb40932916e16e54145
+      internalID: -1131023129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_138
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042767916bea92845bccbb8edf8d9aef
+      internalID: -513385934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_139
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d82f9ec76a568441a74676279f1edc2
+      internalID: -573760327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f332f6b7b95c33f4fa2a363547caffd5
+      internalID: -1722577009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_141
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe1ebdbdf777b143b46808741f0ec08
+      internalID: 87958519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_142
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7731bba79a2d64287ece08a8f5b044
+      internalID: -1301846139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_143
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424f2079cad50c0448a3c5924a23b38d
+      internalID: -551810744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_144
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61888465613eb940b6abe585b8b3781
+      internalID: 2012555497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_145
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5b640f9909c2d4ca64e75ee24d3eaf
+      internalID: 1354940484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_146
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394e53d7a11ac6945b1bc856021e21a6
+      internalID: 1970391084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_147
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8995cac1003a8aa42a392aafa6137243
+      internalID: -1232621608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_148
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f9d50c72d57274a96ff90be327386a
+      internalID: -380531633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_149
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257bddda2742b76428825092da252766
+      internalID: -1199893729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_150
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042e693a2e2c0e5479922bbd86843027
+      internalID: -1776038111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_151
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1db85e3a68afe41b07a459cf875d9e
+      internalID: 1422710711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_152
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1283e9e8b97d94580572f06d752b88
+      internalID: -1040199583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_153
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152a7e38431b57e4c88c36bd6b623798
+      internalID: 640679923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bde00f9159ee241af55f0f15f4dc8f
+      internalID: 1388487457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_155
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0569b19fe5ec4d945af532ec993c0165
+      internalID: 1529398318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_156
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b17ca3e4b55b754bb726f3195a8f1e2
+      internalID: 1921699477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_157
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b2ddf2af8624646a3f7bbbf0fff8a0
+      internalID: -1322296659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_158
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8335672e021986149bbe8910137e871c
+      internalID: -1704498916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_159
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230ec0d108935d14dbbf712052218ed1
+      internalID: -1570653290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_160
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc7e499e70c2fa478223aec512d0bc6
+      internalID: 1007290959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_161
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579e1833e3666d04c88694b2fc059922
+      internalID: 142036364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_162
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d4d4547c9b40c41a07bd5faabfa26b
+      internalID: 1061560958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_163
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a912765925c22743b7a762ba27b84f3
+      internalID: 1061269195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_164
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7b7165459ded34ea61c85649b4d972
+      internalID: -1944216072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_165
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5bea1759e481542b895d4eff28c45e
+      internalID: -189660482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_166
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9586e69f1639fe4fa299951c95a9ba7
+      internalID: 1901664530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_167
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942938333285dbe4cafbf2bbe55211ca
+      internalID: 1714403156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c661eab82d639746bbb135de4faf909
+      internalID: -171178871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_169
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2085b8504f8c274b9934c7ef8090729
+      internalID: 207962199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_170
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62633c2dde7b846499cdf081e6bf103f
+      internalID: 794657864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_171
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9048506d90f2cba46844a5605d3fae74
+      internalID: -781543145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_172
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b86658cecd4a5d44aaf22f908f7ba35
+      internalID: 1540007706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_173
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c83ac4dee2ca6f4c97805692f73169d
+      internalID: 1878900693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_174
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abb906d8f32ad44484aa3aea666172c
+      internalID: 1758709793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_175
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dc11a8dd1d1604c997bf7b60ecd724
+      internalID: -200770718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_176
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4149ff3c71e0bab428eb98b62cc426fc
+      internalID: -657440973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_177
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e78bf7d96ebcc247b82c59a4f5d99f5
+      internalID: 978422867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_178
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7080201a32ff39544ad66e443ed66ba4
+      internalID: -688997137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIntroLoop_69x69_179
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55a2f21e625c284aa67833f3051da14
+      internalID: 1974510893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GameIntroLoop_69x69_81: 1516839014
+      GameIntroLoop_69x69_40: -1101896023
+      GameIntroLoop_69x69_79: -58406629
+      GameIntroLoop_69x69_54: 352331023
+      GameIntroLoop_69x69_24: -23006226
+      GameIntroLoop_69x69_164: -1944216072
+      GameIntroLoop_69x69_25: -1296714341
+      GameIntroLoop_69x69_49: 141993090
+      GameIntroLoop_69x69_9: -810456168
+      GameIntroLoop_69x69_78: -333996049
+      GameIntroLoop_69x69_90: -498574574
+      GameIntroLoop_69x69_58: 768831655
+      GameIntroLoop_69x69_121: -1786969486
+      GameIntroLoop_69x69_161: 142036364
+      GameIntroLoop_69x69_56: 642406646
+      GameIntroLoop_69x69_168: -171178871
+      GameIntroLoop_69x69_17: 931909260
+      GameIntroLoop_69x69_111: -597322391
+      GameIntroLoop_69x69_85: 903768457
+      GameIntroLoop_69x69_140: -1722577009
+      GameIntroLoop_69x69_66: 963174673
+      GameIntroLoop_69x69_100: -121104458
+      GameIntroLoop_69x69_36: 435441362
+      GameIntroLoop_69x69_32: 1099018777
+      GameIntroLoop_69x69_59: -1592503691
+      GameIntroLoop_69x69_123: 364289756
+      GameIntroLoop_69x69_147: -1232621608
+      GameIntroLoop_69x69_44: -887112525
+      GameIntroLoop_69x69_115: 375555653
+      GameIntroLoop_69x69_15: -1841452702
+      GameIntroLoop_69x69_76: -1073558596
+      GameIntroLoop_69x69_27: 507154266
+      GameIntroLoop_69x69_55: -468304104
+      GameIntroLoop_69x69_13: 1673325131
+      GameIntroLoop_69x69_53: 1237237058
+      GameIntroLoop_69x69_169: 207962199
+      GameIntroLoop_69x69_43: -203984892
+      GameIntroLoop_69x69_125: 366506998
+      GameIntroLoop_69x69_141: 87958519
+      GameIntroLoop_69x69_74: -1434161958
+      GameIntroLoop_69x69_175: -200770718
+      GameIntroLoop_69x69_28: 583656914
+      GameIntroLoop_69x69_153: 640679923
+      GameIntroLoop_69x69_65: 1525466181
+      GameIntroLoop_69x69_107: 916218986
+      GameIntroLoop_69x69_71: -66387205
+      GameIntroLoop_69x69_97: 1584086018
+      GameIntroLoop_69x69_11: -1316646635
+      GameIntroLoop_69x69_3: -2039614474
+      GameIntroLoop_69x69_95: -1158864551
+      GameIntroLoop_69x69_57: 800645246
+      GameIntroLoop_69x69_176: -657440973
+      GameIntroLoop_69x69_93: -167636106
+      GameIntroLoop_69x69_144: 2012555497
+      GameIntroLoop_69x69_72: -339137945
+      GameIntroLoop_69x69_21: 1756326509
+      GameIntroLoop_69x69_110: -942251849
+      GameIntroLoop_69x69_113: -1715381065
+      GameIntroLoop_69x69_150: -1776038111
+      GameIntroLoop_69x69_22: -1227573433
+      GameIntroLoop_69x69_88: 2000147594
+      GameIntroLoop_69x69_178: -688997137
+      GameIntroLoop_69x69_139: -573760327
+      GameIntroLoop_69x69_103: -1430491127
+      GameIntroLoop_69x69_73: -1801523903
+      GameIntroLoop_69x69_156: 1921699477
+      GameIntroLoop_69x69_98: 1548788674
+      GameIntroLoop_69x69_45: 593291151
+      GameIntroLoop_69x69_173: 1878900693
+      GameIntroLoop_69x69_38: 1824219793
+      GameIntroLoop_69x69_23: 491423128
+      GameIntroLoop_69x69_48: 1854694613
+      GameIntroLoop_69x69_89: 386692743
+      GameIntroLoop_69x69_158: -1704498916
+      GameIntroLoop_69x69_160: 1007290959
+      GameIntroLoop_69x69_174: 1758709793
+      GameIntroLoop_69x69_18: 957473092
+      GameIntroLoop_69x69_118: -96943805
+      GameIntroLoop_69x69_149: -1199893729
+      GameIntroLoop_69x69_12: 566535138
+      GameIntroLoop_69x69_75: 1987147584
+      GameIntroLoop_69x69_171: -781543145
+      GameIntroLoop_69x69_163: 1061269195
+      GameIntroLoop_69x69_108: -2122403362
+      GameIntroLoop_69x69_114: 539408900
+      GameIntroLoop_69x69_94: -1658075523
+      GameIntroLoop_69x69_1: 1123491401
+      GameIntroLoop_69x69_146: 1970391084
+      GameIntroLoop_69x69_91: 1077808050
+      GameIntroLoop_69x69_131: -149916012
+      GameIntroLoop_69x69_152: -1040199583
+      GameIntroLoop_69x69_47: 660860295
+      GameIntroLoop_69x69_83: 1816761390
+      GameIntroLoop_69x69_19: 800368861
+      GameIntroLoop_69x69_143: -551810744
+      GameIntroLoop_69x69_154: 1388487457
+      GameIntroLoop_69x69_70: -1012608634
+      GameIntroLoop_69x69_8: -656868912
+      GameIntroLoop_69x69_132: -536745846
+      GameIntroLoop_69x69_34: 519384831
+      GameIntroLoop_69x69_109: -1276793990
+      GameIntroLoop_69x69_84: -323194289
+      GameIntroLoop_69x69_42: 1554188709
+      GameIntroLoop_69x69_77: 294856669
+      GameIntroLoop_69x69_145: 1354940484
+      GameIntroLoop_69x69_37: -821075829
+      GameIntroLoop_69x69_120: 1865374193
+      GameIntroLoop_69x69_130: -1257356145
+      GameIntroLoop_69x69_39: 1707846430
+      GameIntroLoop_69x69_159: -1570653290
+      GameIntroLoop_69x69_7: 138409717
+      GameIntroLoop_69x69_179: 1974510893
+      GameIntroLoop_69x69_31: -421048340
+      GameIntroLoop_69x69_52: -2035387958
+      GameIntroLoop_69x69_134: -284169512
+      GameIntroLoop_69x69_166: 1901664530
+      GameIntroLoop_69x69_170: 794657864
+      GameIntroLoop_69x69_4: 300589669
+      GameIntroLoop_69x69_50: 939977253
+      GameIntroLoop_69x69_124: -734200136
+      GameIntroLoop_69x69_14: 1470407224
+      GameIntroLoop_69x69_30: -1647372759
+      GameIntroLoop_69x69_41: 745601364
+      GameIntroLoop_69x69_16: 1281390725
+      GameIntroLoop_69x69_6: 911357317
+      GameIntroLoop_69x69_119: -2138372144
+      GameIntroLoop_69x69_105: 528203013
+      GameIntroLoop_69x69_80: -987551177
+      GameIntroLoop_69x69_138: -513385934
+      GameIntroLoop_69x69_87: -1051283093
+      GameIntroLoop_69x69_112: 1340110161
+      GameIntroLoop_69x69_126: 1618262472
+      GameIntroLoop_69x69_128: -1740567262
+      GameIntroLoop_69x69_96: -864640947
+      GameIntroLoop_69x69_61: 1507931593
+      GameIntroLoop_69x69_136: 1983571388
+      GameIntroLoop_69x69_151: 1422710711
+      GameIntroLoop_69x69_20: 2028985160
+      GameIntroLoop_69x69_10: 369818719
+      GameIntroLoop_69x69_69: 1412589629
+      GameIntroLoop_69x69_67: 359119786
+      GameIntroLoop_69x69_51: -242981150
+      GameIntroLoop_69x69_101: 1140910276
+      GameIntroLoop_69x69_62: 2060072405
+      GameIntroLoop_69x69_104: -1885345589
+      GameIntroLoop_69x69_162: 1061560958
+      GameIntroLoop_69x69_133: -1052860247
+      GameIntroLoop_69x69_157: -1322296659
+      GameIntroLoop_69x69_86: 154551487
+      GameIntroLoop_69x69_106: 1942006117
+      GameIntroLoop_69x69_2: -746978012
+      GameIntroLoop_69x69_172: 1540007706
+      GameIntroLoop_69x69_5: 1147116786
+      GameIntroLoop_69x69_68: 519243326
+      GameIntroLoop_69x69_137: -1131023129
+      GameIntroLoop_69x69_82: -810628587
+      GameIntroLoop_69x69_142: -1301846139
+      GameIntroLoop_69x69_46: -1507433840
+      GameIntroLoop_69x69_92: -1108274713
+      GameIntroLoop_69x69_177: 978422867
+      GameIntroLoop_69x69_60: 2020587255
+      GameIntroLoop_69x69_117: -1777197103
+      GameIntroLoop_69x69_63: -1755401672
+      GameIntroLoop_69x69_116: -1199136878
+      GameIntroLoop_69x69_129: -794935700
+      GameIntroLoop_69x69_26: 56219432
+      GameIntroLoop_69x69_165: -189660482
+      GameIntroLoop_69x69_148: -380531633
+      GameIntroLoop_69x69_64: 519884552
+      GameIntroLoop_69x69_135: -826029618
+      GameIntroLoop_69x69_29: 805640168
+      GameIntroLoop_69x69_99: -1027235994
+      GameIntroLoop_69x69_167: 1714403156
+      GameIntroLoop_69x69_33: -168065433
+      GameIntroLoop_69x69_122: 1266785353
+      GameIntroLoop_69x69_155: 1529398318
+      GameIntroLoop_69x69_102: 1529715318
+      GameIntroLoop_69x69_127: -1977851028
+      GameIntroLoop_69x69_0: -1080838572
+      GameIntroLoop_69x69_35: -293933897
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -437,9 +437,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tile: {fileID: 2139523492}
-  Name: Plant1
+  Identifier: {fileID: 11400000, guid: 8b8251da50994f74fb63e40ef3a4b8a1, type: 2}
   OriginalWeight: 0.45
   Prefab: {fileID: 11400000, guid: 326b56b2048b12c44bbe2869cbf8f382, type: 2}
+  Force: 0
   AllowedDirections:
   - {x: 0, y: 1}
   - {x: 0, y: -1}

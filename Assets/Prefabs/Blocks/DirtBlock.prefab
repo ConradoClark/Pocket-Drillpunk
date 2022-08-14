@@ -328,9 +328,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tile: {fileID: 2139523492}
-  Name: Plant1
+  Identifier: {fileID: 11400000, guid: 8b8251da50994f74fb63e40ef3a4b8a1, type: 2}
   OriginalWeight: 0.15
   Prefab: {fileID: 11400000, guid: 326b56b2048b12c44bbe2869cbf8f382, type: 2}
+  Force: 0
   AllowedDirections:
   - {x: 0, y: 1}
 --- !u!114 &6672731400442182310
@@ -346,9 +347,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tile: {fileID: 2139523492}
-  Name: Torch
+  Identifier: {fileID: 0}
   OriginalWeight: 0.1
   Prefab: {fileID: 11400000, guid: dd6c5608c056ce74188f980387bb8644, type: 2}
+  Force: 0
   AllowedDirections:
   - {x: 0, y: 1}
   - {x: 1, y: 0}
@@ -367,7 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tile: {fileID: 2139523492}
-  Name: DirtTileEnemies
+  Name: {fileID: 0}
   OriginalWeight: 0.04
   SpawnRates:
   - Enemy: {fileID: 11400000, guid: ef0932e2b792ec94199e1ff078ecd243, type: 2}

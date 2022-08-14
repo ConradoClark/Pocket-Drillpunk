@@ -38,7 +38,7 @@ namespace Assets.Scripts.Drill
         {
             _jetpack = SceneObject<JetpackBattery>.Instance(true);
             DrillPower = JetpackBattery = 1;
-            MaxHP = HPCounter.Count = MaxHPCounter.Count = 3;
+            MaxHP = HPCounter.Count = MaxHPCounter.Count = 4;
             LevelCounter.Count = 1;
             ToNextLevel.Count = GetNextLevelExp();
         }

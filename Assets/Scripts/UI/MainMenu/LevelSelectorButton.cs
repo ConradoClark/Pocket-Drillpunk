@@ -16,7 +16,6 @@ namespace Assets.Scripts.UI.MainMenu
         public UITextRenderer LevelNameRenderer;
         public UITextRenderer LevelDifficultyRenderer;
 
-
         public override void Select()
         {
             base.Select();

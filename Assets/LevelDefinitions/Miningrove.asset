@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3653f8369ae979f4d89e985f74a230fa, type: 3}
+  m_Name: Miningrove
+  m_EditorClassIdentifier: 
+  Rules:
+  - TileIdentifier: {fileID: 11400000, guid: 3262655602424a448b1f0e760fb9c77f, type: 2}
+    Weight: 0.25
+  - TileIdentifier: {fileID: 11400000, guid: b75792b1faf54d74ca87566f0b16ab4a, type: 2}
+    Weight: 0.1
+  - TileIdentifier: {fileID: 11400000, guid: 1960c0d39cb3302469fda26ad7616867, type: 2}
+    Weight: 0
+  - TileIdentifier: {fileID: 11400000, guid: d83becac071f52c419a7b84e26ef4f42, type: 2}
+    Weight: 0.5
+  - TileIdentifier: {fileID: 11400000, guid: bcdb79c823e67bd4eb9c67d2fd1b9d2f, type: 2}
+    Weight: 0.09
+  - TileIdentifier: {fileID: 11400000, guid: 8b8251da50994f74fb63e40ef3a4b8a1, type: 2}
+    Weight: 0.5
+  BackgroundColor: {r: 0.21960784, g: 0.22745098, b: 0.17254902, a: 1}
+  GlobalLightColor: {r: 0.31198826, g: 0.38679248, b: 0.31733143, a: 1}

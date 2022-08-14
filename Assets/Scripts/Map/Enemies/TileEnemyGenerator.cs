@@ -19,27 +19,38 @@ namespace Assets.Scripts.Map.Enemies
         }
 
         public BaseTile Tile;
-        public string Name;
+        public ScriptIdentifier Name;
         public float OriginalWeight;
         public float Weight { get; set; }
         public SpawnRate[] SpawnRates;
         private Dictionary<SpawnRate, TileEnemyPool> _pools;
         private System.Random _rng;
+        private MapGenerator _mapGenerator;
 
         private void Awake()
         {
             Weight = OriginalWeight;
             var poolManager = SceneObject<TileEnemyPoolManager>.Instance();
             _pools = new Dictionary<SpawnRate, TileEnemyPool>();
+            _mapGenerator = SceneObject<MapGenerator>.Instance();
             foreach (var spawn in SpawnRates)
             {
                 _pools[spawn] = poolManager.GetEffect(spawn.Enemy);
             }
         }
 
+        private void ManipulateWeight()
+        {
+            var rule = _mapGenerator.CurrentLevelDefinition.Rules.FirstOrDefault(r => r.TileIdentifier == Name);
+            if (rule.Equals(default(MapRules.WeightRule))) return;
+
+            Weight = rule.Weight;
+        }
+
         public void Populate(string seed)
         {
-            if (Tile.IsOccupiedByProp(Vector2Int.one)) return;
+            ManipulateWeight();
+            if (Tile.IsOccupiedByProp(Vector2Int.one) || Weight == 0) return;
             if (_pools.Count == 0) return;
 
             Seed = $"{seed}_{Name}".GetHashCode();

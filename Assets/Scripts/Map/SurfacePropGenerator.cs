@@ -11,7 +11,7 @@ namespace Assets.Scripts.Map
     public class SurfacePropGenerator : MonoBehaviour, ITilePropGenerator
     {
         public BaseTile Tile;
-        public string Name;
+        public ScriptIdentifier Identifier;
         public float OriginalWeight;
         public float Weight { get; set; }
         public ScriptPrefab Prefab;
@@ -20,19 +20,31 @@ namespace Assets.Scripts.Map
         public Vector2Int[] AllowedDirections;
 
         private MapManager _manager;
+        private MapGenerator _mapGenerator;
         private SurfacePropPool _pool;
 
         private void Awake()
         {
             Weight = OriginalWeight;
             _manager = SceneObject<MapManager>.Instance();
+            _mapGenerator = SceneObject<MapGenerator>.Instance();
             var poolManager = SceneObject<SurfacePropPoolManager>.Instance();
             _pool = poolManager.GetEffect(Prefab);
         }
 
+        private void ManipulateWeight()
+        {
+            var rule = _mapGenerator.CurrentLevelDefinition.Rules.FirstOrDefault(r => r.TileIdentifier == Identifier);
+            if (rule.Equals(default(MapRules.WeightRule))) return;
+
+            Weight = rule.Weight;
+        }
+
+
         public void Populate(string seed)
         {
-            var rng = new System.Random($"{seed}_{Name}".GetHashCode());
+            ManipulateWeight();
+            var rng = new System.Random($"{seed}_{(Identifier == null ? gameObject.name : Identifier.Name)}".GetHashCode());
 
             if (rng.NextDouble() > Weight) return;
 

@@ -34,7 +34,7 @@ namespace Assets.Scripts.Battle
             return Power +
                    (ScalesWithDrillPower ? (drillPower - 1) : 0) +
                    (ScalesWithJetpackPower ? (jetpackPower - 1) : 0) +
-                   (ScalesWithMaxHP ? (maxHP - 3) : 0);
+                   (ScalesWithMaxHP ? (maxHP - 4) : 0);
         }
 
         public int CalculateShield(int drillPower, int jetpackPower, int maxHP)
@@ -42,7 +42,7 @@ namespace Assets.Scripts.Battle
             return Shield +
                    (ScalesWithDrillPower ? (drillPower - 1) : 0) +
                    (ScalesWithJetpackPower ? (jetpackPower - 1) : 0) +
-                   (ScalesWithMaxHP ? (maxHP - 3) : 0);
+                   (ScalesWithMaxHP ? (maxHP - 4) : 0);
         }
     }
 }

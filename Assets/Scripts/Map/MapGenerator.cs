@@ -1,8 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Objects;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
+using Random = UnityEngine.Random;
 
 public class MapGenerator : BaseGameObject
 {
@@ -14,6 +18,12 @@ public class MapGenerator : BaseGameObject
     private Vector3Int _referencePosition;
 
     public event Action OnPopulate;
+    public MapRules RulesToManipulate;
+    public LevelDefinition CurrentLevelDefinition;
+    public Light2D GlobalLight;
+
+    private string _seed;
+
     protected override void OnAwake()
     {
         base.OnAwake();
@@ -22,10 +32,52 @@ public class MapGenerator : BaseGameObject
     }
     private void OnEnable()
     {
+        const string glyphs = "abcdefghijklmnopqrstuvwxyz0123456789";
+        var charAmount = Random.Range(10, 20); //set those to the minimum and maximum length of your string
+        var sb = new StringBuilder();
+        for (var i = 0; i < charAmount; i++)
+        {
+            sb.Append(glyphs[Random.Range(0, glyphs.Length)]);
+        }
+
+        _seed = sb.ToString();
         DefaultMachinery.AddBasicMachine(Initialize());
     }
+
+    private void ManipulateRules()
+    {
+        Camera.main.backgroundColor = CurrentLevelDefinition.BackgroundColor;
+        GlobalLight.color = CurrentLevelDefinition.GlobalLightColor;
+        var rulesToAdd = new List<MapRules.WeightRule>();
+        foreach (var rule in CurrentLevelDefinition.Rules)
+        {
+            var matched = false;
+            var matchedRuleIndex = 0;
+            for (var i = 0; i < RulesToManipulate.WeightRules.Length; i++)
+            {
+                if (RulesToManipulate.WeightRules[i].TileIdentifier != rule.TileIdentifier) continue;
+                matched = true;
+                matchedRuleIndex = i;
+                break;
+            }
+
+            if (matched)
+            {
+                RulesToManipulate.WeightRules[matchedRuleIndex] = rule;
+            }
+            else
+            {
+                rulesToAdd.Add(rule);
+            }
+        }
+
+        RulesToManipulate.WeightRules = RulesToManipulate.WeightRules.Concat(rulesToAdd).ToArray();
+    }
+
     private IEnumerable<IEnumerable<Action>> Initialize()
     {
+        ManipulateRules();
+
         yield return TimeYields.WaitOneFrameX;
         Populate(new Vector2Int(-9, 0));
         Populate(new Vector2Int(-9, -9));
@@ -77,6 +129,6 @@ public class MapGenerator : BaseGameObject
 
     public void Populate(Vector2Int pos)
     {
-        MainReference.Populate("XXX3", pos);
+        MainReference.Populate(_seed, pos);
     }
 }
