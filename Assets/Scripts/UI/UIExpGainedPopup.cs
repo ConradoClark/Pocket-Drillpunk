@@ -24,6 +24,8 @@ namespace Assets.Scripts.UI
         private bool _initialized;
         private UILevelUpMenu _levelUpMenu;
 
+        public AudioSource ExpSound;
+
         protected override void OnAwake()
         {
             if (_initialized) return;
@@ -72,6 +74,7 @@ namespace Assets.Scripts.UI
             {
                 ExpGainedCounter.Count--;
                 ToNextLevelCounter.Count--;
+                ExpSound.Play();
                 yield return TimeYields.WaitMilliseconds(UITimer, 100);
             }
         }

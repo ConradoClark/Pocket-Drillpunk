@@ -64,6 +64,10 @@ namespace Assets.Scripts.UI
         private InputAction _confirmAction;
         private BattleSequence _battleSequence;
 
+        public AudioSource SelectSound;
+        public AudioSource ConfirmSound;
+        public AudioSource DenySound;
+
         protected override void OnAwake()
         {
             base.OnAwake();
@@ -177,11 +181,13 @@ namespace Assets.Scripts.UI
                             _selectedActionIndex--;
                             SelectedAction = _playerStats.Moves[_selectedActionIndex];
                             DefaultMachinery.AddUniqueMachine("costs", UniqueMachine.UniqueMachineBehaviour.Wait, ReloadCosts(true));
+                            SelectSound.Play();
                             break;
                         case < 0 when _selectedActionIndex != _playerStats.Moves.Count - 1:
                             _selectedActionIndex++;
                             SelectedAction = _playerStats.Moves[_selectedActionIndex];
                             DefaultMachinery.AddUniqueMachine("costs", UniqueMachine.UniqueMachineBehaviour.Wait, ReloadCosts(true));
+                            SelectSound.Play();
                             break;
                     }
 
@@ -193,11 +199,12 @@ namespace Assets.Scripts.UI
 
             if (!CheckCosts())
             {
+                DenySound.Play();
                 yield return TimeYields.WaitOneFrameX;
                 goto handle;
-                // deny and go back
             }
 
+            ConfirmSound.Play();
             DirtCounter.Count -= SelectedAction.NeutralCost;
             FireCounter.Count -= SelectedAction.FireCost;
             IceCounter.Count -= SelectedAction.IceCost;

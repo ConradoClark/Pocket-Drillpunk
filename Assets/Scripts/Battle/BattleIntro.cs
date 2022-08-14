@@ -34,6 +34,9 @@ namespace Assets.Scripts.Battle
         private EnemyBattlerPoolManager _poolManager;
         private UIExpGainedPopup _expGainedPopup;
 
+        public AudioSource MainSong;
+        public AudioSource BattleSong;
+
         protected override void OnAwake()
         {
             base.OnAwake();
@@ -51,6 +54,8 @@ namespace Assets.Scripts.Battle
 
         public void EnterBattle(ScriptPrefab enemyBattler)
         {
+            MainSong.Pause();
+            BattleSong.Play();
             _player.Block();
             DefaultMachinery.AddBasicMachine(_drillBattler.ActivateAndMoveToPosition());
             DefaultMachinery.AddBasicMachine(ShowBattleIntro(enemyBattler));
@@ -64,6 +69,8 @@ namespace Assets.Scripts.Battle
 
         private IEnumerable<IEnumerable<Action>> ShowBattleOutro(EnemyBattler enemy, bool result)
         {
+            BattleSong.Stop();
+
             // spawn outro
             EnemyIntro.Pool.TryGetFromPool(out _);
             // spawn spinning player, enemy outline, then enemy
@@ -82,6 +89,7 @@ namespace Assets.Scripts.Battle
             {
                 _expGainedPopup.ExpGainedCounter.Count = enemy.Experience;
                 yield return _expGainedPopup.Show().AsCoroutine();
+                MainSong.UnPause();
             }
             else
             {

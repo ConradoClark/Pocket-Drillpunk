@@ -13,6 +13,8 @@ public class LevelDefinition : ScriptableObject
     public void CopyFrom(LevelDefinition definition)
     {
         Rules = new MapRules.WeightRule[definition.Rules.Length];
+        BackgroundColor = definition.BackgroundColor;
+        GlobalLightColor = definition.GlobalLightColor;
         definition.Rules.CopyTo(Rules,0);
     }
 }

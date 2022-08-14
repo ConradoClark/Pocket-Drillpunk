@@ -13,6 +13,7 @@ namespace Assets.Scripts.UI
 {
     public class UICheckpointPopup : BaseUIObject
     {
+        public AudioSource CheckpointSound;
         private Player _player;
         private bool _initialized;
 
@@ -34,6 +35,7 @@ namespace Assets.Scripts.UI
 
             _player.Block();
             gameObject.SetActive(true);
+            CheckpointSound.Play();
             transform.localScale = new Vector3(1, 0.1f, 1);
             yield return transform.GetAccessor()
                 .LocalScale
