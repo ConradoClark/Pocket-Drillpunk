@@ -35,6 +35,7 @@ public class UITextRenderer : BaseUIObject
             var number = sprRenderer.AddComponent<SpriteRenderer>();
             number.material = DefaultMaterial;
             number.transform.SetParent(transform);
+            number.transform.localScale = Vector3.one;
             number.sortingOrder = SortingOrder;
             number.transform.localPosition = new Vector3(i * DistanceBetweenLetters, 0);
             renderers.Add(number);
