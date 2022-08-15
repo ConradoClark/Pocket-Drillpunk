@@ -2934,6 +2934,8 @@ MonoBehaviour:
   BattleFrame: {fileID: 1669401625}
   BattleFrameInitialPosition: {x: 0, y: 0.42, z: 0}
   BattleFrameTargetPosition: {x: 0, y: 0.21, z: 0}
+  EnemyHPCounter: {fileID: 11400000, guid: b1508364ca95adb41a93e063b03beff0, type: 2}
+  EnemyNameSpriteRenderer: {fileID: 816838424}
   MainSong: {fileID: 946653205}
   BattleSong: {fileID: 1296796814}
 --- !u!114 &645019609
@@ -3310,6 +3312,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &776890334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 776890335}
+  - component: {fileID: 776890337}
+  - component: {fileID: 776890338}
+  m_Layer: 5
+  m_Name: DepthNumberRenderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &776890335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776890334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.223, y: 0.023999993, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1482760762}
+  m_Father: {fileID: 806093467}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &776890337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776890334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c195a8925b246f429a9dec71e76b2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Font: {fileID: 11400000, guid: 5f34944b61180ce44ae88b4be3a9d856, type: 2}
+  DefaultMaterial: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  SortingOrder: 2
+  Number: 0
+  Digits: 3
+  AnimateNumberOnChange: 0
+  Animation: {fileID: 0}
+  DistanceBetweenNumbers: 0.04
+  Mockup: {fileID: 1482760763}
+--- !u!114 &776890338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776890334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c89291769c3db74ca14caa35ad7647d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumberRenderer: {fileID: 776890337}
+  Counter: {fileID: 11400000, guid: 322687ef2fea2414897bcbfcc078782d, type: 2}
 --- !u!1 &778512892
 GameObject:
   m_ObjectHideFlags: 0
@@ -3557,7 +3628,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1159882322}
-  - {fileID: 1482760762}
+  - {fileID: 776890335}
   m_Father: {fileID: 1207642251}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6798,11 +6869,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482760761}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.133, y: 0.024, z: 0}
+  m_LocalPosition: {x: 0.079, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 806093467}
+  m_Father: {fileID: 776890335}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1482760763
@@ -8748,6 +8819,7 @@ MonoBehaviour:
   PreloadEffects:
   - {fileID: 11400000, guid: 6dc93e46218b2be4ca4193146b752e40, type: 2}
   - {fileID: 11400000, guid: a88399444e4fda0479dc9c1e6a0cd50b, type: 2}
+  - {fileID: 11400000, guid: 341461078dab1274fa55e23d546a4a3a, type: 2}
   Name: HitEffect
 --- !u!1 &1700085175
 GameObject:
@@ -11627,6 +11699,10 @@ PrefabInstance:
       propertyPath: CollectSound
       value: 
       objectReference: {fileID: 1469775861}
+    - target: {fileID: 1117905913, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: DepthCounter
+      value: 
+      objectReference: {fileID: 11400000, guid: 322687ef2fea2414897bcbfcc078782d, type: 2}
     - target: {fileID: 1117905913, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
       propertyPath: PhysicsObject
       value: 

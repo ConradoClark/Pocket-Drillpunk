@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MAP_EN_TileGhost
   m_EditorClassIdentifier: 
   Prefab: {fileID: 1206090200149518826, guid: 17b029f00b49e7c4185e828183e536e9, type: 3}
-  DefaultPoolSize: 80
+  DefaultPoolSize: 200
   Type: 0

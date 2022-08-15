@@ -25,6 +25,9 @@ public class Player : BaseGameObject
     private PlayerStats _playerStats;
     private bool _spinning;
 
+    public AudioSource GameSong;
+
+    public Counter DepthCounter;
     public SpriteRenderer SpriteRenderer;
     private UIGameOverPopup _gameOverPopup;
     private ResetCounters _resetCounters;
@@ -34,6 +37,11 @@ public class Player : BaseGameObject
         _playerStats = SceneObject<PlayerStats>.Instance();
         _gameOverPopup = SceneObject<UIGameOverPopup>.Instance(true);
         _resetCounters = SceneObject<ResetCounters>.Instance(true);
+    }
+
+    private void Update()
+    {
+        DepthCounter.Count = Math.Clamp((int) (-transform.position.y * 6), 0, int.MaxValue);
     }
 
     public void Block()
@@ -78,13 +86,15 @@ public class Player : BaseGameObject
         yield return transform.GetAccessor()
             .Position
             .ToPosition(CheckpointPosition)
-            .Over(Vector2.Distance(transform.position, CheckpointPosition) * 4f)
+            .Over(Vector2.Distance(transform.position, CheckpointPosition) * 2f)
             .UsingTimer(GameTimer)
             .Build();
 
         _resetCounters.ResetGems();
-        _playerStats.IncreaseHP(1);
+        _playerStats.SetHP(1);
 
+        GameSong.UnPause();
+        
         yield return _gameOverPopup.Show().AsCoroutine();
 
         _spinning = false;

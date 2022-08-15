@@ -18,8 +18,10 @@ namespace Assets.Scripts.Battle
         public SpriteRenderer SpriteRenderer;
         public ScriptPrefab SpawnEffect;
         public ScriptPrefab DeathEffect;
+        public Sprite NameSprite;
 
         public EnemySkill EnemyAttack; // Temporary
+        public EnemyAttackSelector AttackSelector;
 
         private BattleSequence _battleSequence;
         private static readonly Color TransparentColor = new Color(0, 0, 0, 0);
@@ -27,7 +29,7 @@ namespace Assets.Scripts.Battle
 
         public EnemySkill SelectAction()
         {
-            return EnemyAttack;
+            return AttackSelector == null ? EnemyAttack : AttackSelector.SelectAction();
         }
 
         protected override void OnAwake()

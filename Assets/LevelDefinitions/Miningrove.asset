@@ -25,5 +25,7 @@ MonoBehaviour:
     Weight: 0.09
   - TileIdentifier: {fileID: 11400000, guid: 8b8251da50994f74fb63e40ef3a4b8a1, type: 2}
     Weight: 0.5
+  - TileIdentifier: {fileID: 11400000, guid: 85484152affeaea4bb83d0eaf889904d, type: 2}
+    Weight: 0.1
   BackgroundColor: {r: 0.21960784, g: 0.22745098, b: 0.17254902, a: 1}
   GlobalLightColor: {r: 0.31198826, g: 0.38679248, b: 0.31733143, a: 1}

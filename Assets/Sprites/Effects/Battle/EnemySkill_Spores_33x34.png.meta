@@ -1,0 +1,2225 @@
+fileFormatVersion: 2
+guid: 15beb7b5d97cb8a42ab684e8f621bc5b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3648c8932c9e1439bed447f0f5f492
+      internalID: -433370575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 306
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74efd05e9dde33b4c90ac59ce4f18e45
+      internalID: 137819840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 306
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f682fcda6010c48b9b8c9d8f77e282
+      internalID: 1836680516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 306
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff69929e1691314898a80368e10bc57
+      internalID: -701094761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 306
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414b29d2ed46c0143a070461cd6e8bdd
+      internalID: -1372795487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 306
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f3fda630265694297a83fe144d081f
+      internalID: -648403878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 306
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7380513d3c75f304fa43102f17238f91
+      internalID: -907879318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 306
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cebef925fd43594a89e3bc5ab8eeb8c
+      internalID: 1078513196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 306
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eba1eb50305b4c4a9c353834f4ae1ae
+      internalID: 1709709797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 306
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e892f4c762e67148818dc608a463bb6
+      internalID: 229262250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50b588100835e8438090716d3026616
+      internalID: -1148333159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 272
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b8f7873c04e054e938119984f744ad
+      internalID: -1525068690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 272
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c91cd8bff35c44f993d51670021f59
+      internalID: 1002900615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 272
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc99da221b17df409a5357c41e3c8a8
+      internalID: 530978286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 272
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4babc68b312042646a82fed076c8b7b8
+      internalID: 714033134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_15
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 272
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481793a7d899bf24ab9e1468da216aa7
+      internalID: 1294742654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_16
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 272
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67a2c36208256143bf8d0d7956e00ed
+      internalID: 1491662574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_17
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 272
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97373befd2b8634a9a1f62c7bd780c8
+      internalID: 1331345209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 272
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eceef7e163a4dd4591acf45f5c7edc7
+      internalID: 899466538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_19
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 272
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5531893c2fe663419b5230352df3d3c
+      internalID: -124242907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 238
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f367e3c5a2a334b95ce1338e1ecf4c
+      internalID: -930494352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 238
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caf675c2031a2544a065e5c3b156e50
+      internalID: -1966924639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 238
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfb20a9ab821e84095901d467318c21
+      internalID: 435293774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 238
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48833903ba7c2840ba23908c4cc5e48
+      internalID: 1358055936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 238
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f03555809691224eac2594b5d3378e3
+      internalID: -563648152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 238
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceec263eeaaa9ae45a5fbcfc4a38e138
+      internalID: -1389221529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_26
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 238
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ad2f7a12e1a9c46bd1dd6a373c7b04
+      internalID: -1435477179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_27
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 238
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84781a0473279de47b209168ee9d4eb2
+      internalID: -1114453446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 238
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7c2922cc908ca438f1d3f0b11df2e2
+      internalID: 1648042518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_29
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 238
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05404fb048273542ac4a82244009617
+      internalID: 1133240197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8914a68145ef0e24cafe9bfa1db948fb
+      internalID: -1187505215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 204
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ca76f4b11cc9444a69c6ec2515cb54
+      internalID: 812290295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_32
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 204
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d1fadc1c884de4f95f636b5401430b
+      internalID: -293628113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_33
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 204
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b510638b5781b84da7969c7a40a546a
+      internalID: -1287236027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 204
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3976934123bf5f41ae1deeb10bf05a2
+      internalID: -1653204786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 204
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aa83c9472d2b542a7c937c87b38da8
+      internalID: 2087625180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_36
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 204
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8837c90d0a39ba04280faa94d41da966
+      internalID: -1037414545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_37
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 204
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02181c1b1e1cd4a4da60048ead72eda5
+      internalID: 1425380922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 204
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c4806041f9e6140ab8de2222e9d7e4
+      internalID: -1208772476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_39
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 204
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edeb4bfb01f3b424caad655f373213c9
+      internalID: -187171783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5e6364c262c274fa7c7591cb94e23d
+      internalID: -1577268080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43e89e7f94f08148a345e9bbc4eb74d
+      internalID: 590931519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_42
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00ceb5748ad00149a00a9c6fc97b0d1
+      internalID: 1951727496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_43
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6a68bbc6bd3a04181a629b20df7d8e
+      internalID: -1683012771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332b5dbbdcffed541b5a924e0ad99ab7
+      internalID: -1559494553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_45
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64802f68798f6f347ac74cb0c7af520c
+      internalID: -1586829434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_46
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e067e5fc58a6045a3cff0363bb264f
+      internalID: 767457390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_47
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c876e07404bcd3b47a3c32893f36fa47
+      internalID: 1297000700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_48
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a281630dc4279045ab942a33422bcae
+      internalID: 765689154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_49
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e7157d5f29cc44ca05a9fda12e9a6f
+      internalID: 980009382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b477893a49f56f40a408fdcc61d704f
+      internalID: -693688539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_51
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 136
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e92bd14cce7bf47ad257cc2dd221dd
+      internalID: 1719944776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_52
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 136
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19248517ab0fbff4cb1a2584d273b1de
+      internalID: 128810486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_53
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 136
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e47a391a0bb8d6458a8971046cda9ae
+      internalID: -1078061483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_54
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 136
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b50826d8f5bb54583c566f9bb621c0
+      internalID: -1172408150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_55
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 136
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e64ef8a8f777b4e97a5648e134f5f3
+      internalID: -114326751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_56
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 136
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925ec146eae95534994a3ad509c84ca5
+      internalID: -1810691778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_57
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 136
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3273fad57c2bf48aee71983c4dea66
+      internalID: -1692495067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 136
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0c10ba891a2bb48a07328e79c0a874
+      internalID: 1255414800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_59
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 136
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3723781adbcb7e24c8c0ce858711cac3
+      internalID: 78531054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2e175abed36bc4e954b362d636956a
+      internalID: 1321926642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_61
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 102
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb50167c374f0445b559d2e943d4767
+      internalID: -1068723033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_62
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 102
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c912dd44a7af22f4aa5a547fe62f61aa
+      internalID: -1125767222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_63
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 102
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e600b7132df0fec48bf4eca6c6b65dc1
+      internalID: -828664272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_64
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 102
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e391f4dc09388c44857d979edc6d7f9
+      internalID: -1840256186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_65
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 102
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff870ab0eddbf4d9d75ce46ce775b2
+      internalID: -2076183716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_66
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 102
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf03749aa106564faffb5cbafccca39
+      internalID: 1722373612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_67
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 102
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eae359f2f84d7d4eb299e89729527a1
+      internalID: -1100500186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_68
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 102
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14da994884de2043985789d51f7d7c6
+      internalID: -1425150696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_69
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 102
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ddded2ffc3cf94c840d56deef26d45
+      internalID: -2119487083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1864b605b621d254c9e53934d7f4360e
+      internalID: 846839671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_71
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9020112559c3f41ad72295d52dcd6a
+      internalID: -2139553299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_72
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87778a916f738b3478530687df5ea449
+      internalID: 1252750112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_73
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f99889181cfdf478f8f8407390e6a2
+      internalID: -732835040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_74
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daee9aad17eb352469728b444714e297
+      internalID: 729634946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_75
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fbd93a937738e4381a7ba9d35fc35b
+      internalID: 652769489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_76
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061b21476e1e5004799f71e2125acba3
+      internalID: 498513316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_77
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd441b251ced814cb3d5b7b25a337dc
+      internalID: -1394279286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_78
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a702cbcf8042c4342982b763ab92390d
+      internalID: 237067098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_79
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 68
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759687b3904f26e4fb0d86971028f0cb
+      internalID: -713356160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b0c829a5498234a82e74016b869e67
+      internalID: -1345540647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_81
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c7a4648606a684384c0bec7e3ead8a
+      internalID: 804009222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_82
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e744d32e202d4a4e9f7170b6cbc5ffe
+      internalID: -2126590150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_83
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca122605a770d3f49a913da48c9ac527
+      internalID: 1998773555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_84
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234476ce53442254689a1ecadaa19f5e
+      internalID: 722453020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_85
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3bc8d0d26d1d748a5ed19bc3a802a4
+      internalID: 322279214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_86
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082da675c5b14064fac508fbe191de48
+      internalID: 985668153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_87
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615b1bc305679494d8bc22b15a494b05
+      internalID: 690863130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_88
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d55f0d55d8d15f4bb36f5d0a5b11a4a
+      internalID: 1078690804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_89
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b89fcdda6f48f4d9dc1d91340d1b13
+      internalID: -2061621921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42f23edd9f6cbd4993b44aa75bc723f
+      internalID: 1239033001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_91
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df90da1806cc5c46ade522cb9d4a84c
+      internalID: -98583523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_92
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c39de6625038a741b19030bb6e3b693
+      internalID: 1217812370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_93
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be5d4477f7fe174091a531946ce4fb0
+      internalID: 1896705715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Spores_33x34_94
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889ff507206e15f459fdef2fc383970c
+      internalID: 559663287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemySkill_Spores_33x34_21: -1966924639
+      EnemySkill_Spores_33x34_50: -693688539
+      EnemySkill_Spores_33x34_28: 1648042518
+      EnemySkill_Spores_33x34_46: 767457390
+      EnemySkill_Spores_33x34_47: 1297000700
+      EnemySkill_Spores_33x34_87: 690863130
+      EnemySkill_Spores_33x34_18: 899466538
+      EnemySkill_Spores_33x34_35: 2087625180
+      EnemySkill_Spores_33x34_13: 530978286
+      EnemySkill_Spores_33x34_54: -1172408150
+      EnemySkill_Spores_33x34_65: -2076183716
+      EnemySkill_Spores_33x34_91: -98583523
+      EnemySkill_Spores_33x34_26: -1435477179
+      EnemySkill_Spores_33x34_79: -713356160
+      EnemySkill_Spores_33x34_34: -1653204786
+      EnemySkill_Spores_33x34_74: 729634946
+      EnemySkill_Spores_33x34_25: -1389221529
+      EnemySkill_Spores_33x34_60: 1321926642
+      EnemySkill_Spores_33x34_64: -1840256186
+      EnemySkill_Spores_33x34_38: -1208772476
+      EnemySkill_Spores_33x34_69: -2119487083
+      EnemySkill_Spores_33x34_93: 1896705715
+      EnemySkill_Spores_33x34_84: 722453020
+      EnemySkill_Spores_33x34_20: -930494352
+      EnemySkill_Spores_33x34_72: 1252750112
+      EnemySkill_Spores_33x34_3: -701094761
+      EnemySkill_Spores_33x34_33: -1287236027
+      EnemySkill_Spores_33x34_24: -563648152
+      EnemySkill_Spores_33x34_83: 1998773555
+      EnemySkill_Spores_33x34_45: -1586829434
+      EnemySkill_Spores_33x34_51: 1719944776
+      EnemySkill_Spores_33x34_30: -1187505215
+      EnemySkill_Spores_33x34_9: 229262250
+      EnemySkill_Spores_33x34_49: 980009382
+      EnemySkill_Spores_33x34_1: 137819840
+      EnemySkill_Spores_33x34_7: 1078513196
+      EnemySkill_Spores_33x34_22: 435293774
+      EnemySkill_Spores_33x34_14: 714033134
+      EnemySkill_Spores_33x34_55: -114326751
+      EnemySkill_Spores_33x34_16: 1491662574
+      EnemySkill_Spores_33x34_78: 237067098
+      EnemySkill_Spores_33x34_76: 498513316
+      EnemySkill_Spores_33x34_56: -1810691778
+      EnemySkill_Spores_33x34_15: 1294742654
+      EnemySkill_Spores_33x34_70: 846839671
+      EnemySkill_Spores_33x34_42: 1951727496
+      EnemySkill_Spores_33x34_17: 1331345209
+      EnemySkill_Spores_33x34_32: -293628113
+      EnemySkill_Spores_33x34_8: 1709709797
+      EnemySkill_Spores_33x34_11: -1525068690
+      EnemySkill_Spores_33x34_39: -187171783
+      EnemySkill_Spores_33x34_27: -1114453446
+      EnemySkill_Spores_33x34_63: -828664272
+      EnemySkill_Spores_33x34_71: -2139553299
+      EnemySkill_Spores_33x34_0: -433370575
+      EnemySkill_Spores_33x34_89: -2061621921
+      EnemySkill_Spores_33x34_48: 765689154
+      EnemySkill_Spores_33x34_6: -907879318
+      EnemySkill_Spores_33x34_31: 812290295
+      EnemySkill_Spores_33x34_88: 1078690804
+      EnemySkill_Spores_33x34_73: -732835040
+      EnemySkill_Spores_33x34_4: -1372795487
+      EnemySkill_Spores_33x34_19: -124242907
+      EnemySkill_Spores_33x34_23: 1358055936
+      EnemySkill_Spores_33x34_53: -1078061483
+      EnemySkill_Spores_33x34_92: 1217812370
+      EnemySkill_Spores_33x34_36: -1037414545
+      EnemySkill_Spores_33x34_40: -1577268080
+      EnemySkill_Spores_33x34_81: 804009222
+      EnemySkill_Spores_33x34_80: -1345540647
+      EnemySkill_Spores_33x34_94: 559663287
+      EnemySkill_Spores_33x34_10: -1148333159
+      EnemySkill_Spores_33x34_52: 128810486
+      EnemySkill_Spores_33x34_77: -1394279286
+      EnemySkill_Spores_33x34_85: 322279214
+      EnemySkill_Spores_33x34_82: -2126590150
+      EnemySkill_Spores_33x34_29: 1133240197
+      EnemySkill_Spores_33x34_66: 1722373612
+      EnemySkill_Spores_33x34_12: 1002900615
+      EnemySkill_Spores_33x34_90: 1239033001
+      EnemySkill_Spores_33x34_68: -1425150696
+      EnemySkill_Spores_33x34_61: -1068723033
+      EnemySkill_Spores_33x34_2: 1836680516
+      EnemySkill_Spores_33x34_5: -648403878
+      EnemySkill_Spores_33x34_41: 590931519
+      EnemySkill_Spores_33x34_44: -1559494553
+      EnemySkill_Spores_33x34_62: -1125767222
+      EnemySkill_Spores_33x34_43: -1683012771
+      EnemySkill_Spores_33x34_86: 985668153
+      EnemySkill_Spores_33x34_58: 1255414800
+      EnemySkill_Spores_33x34_59: 78531054
+      EnemySkill_Spores_33x34_75: 652769489
+      EnemySkill_Spores_33x34_37: 1425380922
+      EnemySkill_Spores_33x34_57: -1692495067
+      EnemySkill_Spores_33x34_67: -1100500186
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

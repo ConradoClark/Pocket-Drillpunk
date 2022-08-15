@@ -47,7 +47,6 @@ namespace Assets.Scripts.Battle
         public void StartBattle(EnemyBattler enemy)
         {
             Enemy = enemy;
-            EnemyHPCounter.Count = Enemy.HP;
             Enemy.OnHit += Enemy_OnHit;
             _drillBattler.OnHit += Player_OnHit;
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Assets.Scripts.Inventory;
 using Assets.Scripts.UI;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Extensions;
@@ -34,8 +35,12 @@ namespace Assets.Scripts.Battle
         private EnemyBattlerPoolManager _poolManager;
         private UIExpGainedPopup _expGainedPopup;
 
+        public Counter EnemyHPCounter;
+        public SpriteRenderer EnemyNameSpriteRenderer;
+
         public AudioSource MainSong;
         public AudioSource BattleSong;
+
 
         protected override void OnAwake()
         {
@@ -54,6 +59,7 @@ namespace Assets.Scripts.Battle
 
         public void EnterBattle(ScriptPrefab enemyBattler)
         {
+            EnemyNameSpriteRenderer.sprite = null;
             MainSong.Pause();
             BattleSong.Play();
             _player.Block();
@@ -113,6 +119,8 @@ namespace Assets.Scripts.Battle
             var pool = _poolManager.GetEffect(enemyBattler);
             if (pool.TryGetFromPool(out var enemy))
             {
+                EnemyHPCounter.Count = enemy.HP;
+                EnemyNameSpriteRenderer.sprite = enemy.NameSprite;
                 enemy.Component.transform.position = EnemyPosition;
                 yield return TimeYields.WaitSeconds(UITimer, 2f);
                 _battleSequence.StartBattle(enemy);

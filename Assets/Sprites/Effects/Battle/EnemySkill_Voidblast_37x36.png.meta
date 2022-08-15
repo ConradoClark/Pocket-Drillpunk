@@ -1,0 +1,2753 @@
+fileFormatVersion: 2
+guid: 34a796e360ca3da408f7a080f9be628f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d235e44813e38b488e36e5264ff3082
+      internalID: 645672328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c44d15f9027f043b956d09339236d5
+      internalID: -1201388296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c821ef120cf41e439d91e99705c1388
+      internalID: 401563263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085a09ba83e93494a8413b0a22216425
+      internalID: -80285304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f34b01a4ad6a964182546448a720f44
+      internalID: 818915429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dce87f5a66e8f14abf19467f6c6f672
+      internalID: 1618087240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de3f554940bb1b4494ec65b95c75fe4
+      internalID: -465677549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18a66ccecb8cf34cac28c41e45fcaec
+      internalID: -1901736075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3818bd0d6d6df5643bc557851cd16ad6
+      internalID: 2049752439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9612b8f943beb4f876dfefccab2a6a
+      internalID: -1788916247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 360
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6929b415314634d419171aedec99d465
+      internalID: 563360278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6550424bf268774bb7c000c6308dd71
+      internalID: -1941160955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd0114259457834a9f6b19a293dd858
+      internalID: 2111870983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bd8b54c28c7a742a3991acaa7b19b2
+      internalID: 1295656181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58034399d9e731449125f5cc128f280
+      internalID: 290920142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8549ba3e6ba1948815ec86121a7f7d
+      internalID: 1808502654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7945d683fcb5224188e9934b018fbea
+      internalID: -303374030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd3fe3b614c18c40be85239f8fc24cb
+      internalID: 1631302213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b156104a7a64a2141b8a1c0fb25a264b
+      internalID: 301189438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6b489411003914cb501dd6d7de4347
+      internalID: 1016290966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522f302072ebbb94986779025997e8b2
+      internalID: 345184334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_21
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 324
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d107f3fb47fbd9f4d978082033d19cd3
+      internalID: 1450369943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d7fb852a510d5428500a543b0365cc
+      internalID: -1392976871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb94eed1a02b45540bec4767be80840b
+      internalID: 1376970615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41ff1b02277f524b90bc45417e68c8f
+      internalID: -1378282718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b7e422ae584a44ca13390ffe2f5668
+      internalID: 1643880684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d31d2b26a0b5a74c9351d48f0d5560b
+      internalID: 982655614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b216db18d21f2b48818e7acbf1e9c04
+      internalID: -1325001407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_28
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ad7465549de274da9125dadd01fa1a
+      internalID: -1410138072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_29
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea362fee8f16a1949a221d5d7d3abac2
+      internalID: -1687454044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_30
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1535990266a338d44bf27db16a9e88e7
+      internalID: -810929623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_31
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77f1428f125cd540929d0c40cc816bd
+      internalID: 1698212038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_32
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 288
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17da4e31b04022441a746f99aee75034
+      internalID: 1173804793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b703f8122a10c12448870d7fe8edf632
+      internalID: -307260841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_34
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e51db94bc5c6184f9e83b73a0493a06
+      internalID: 1165119597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b05a5371875ad745a92086b1e5c984f
+      internalID: 961213077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_36
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d89bd0663db2a489a7bd68986953c6
+      internalID: -62521647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_37
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a21ba57d8d18e45b2441a1e0a6e6bc
+      internalID: -996598807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_38
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eac3ae1fb238a74da9738f94d496720
+      internalID: 91896804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_39
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23eec89edcdbfa845a684a9e6c534440
+      internalID: 1455981920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_40
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1238b71b86921664aaae13fc80bf808f
+      internalID: -788010457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_41
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2827bb5f7ce853d43b2555e0a36a209f
+      internalID: -674114760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_42
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a74706d145f8e4eb725f9bac7b1207
+      internalID: -2022240767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_43
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 252
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d302b4b0d88dd143b69ce722752ae31
+      internalID: 1928171744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c016e60b22254a40bd6bd8e06b303fd
+      internalID: -226141814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_45
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c56852d84aafc40b567b9b6bdfcd04
+      internalID: 1379243596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a4be1931805d5479eba4578d89870f
+      internalID: 1458485609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_47
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a64028a26fecfa44ba56b95e9acfc32
+      internalID: -101708650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_48
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173efd54fd2eead4d9e5fa4fd7aa8aa1
+      internalID: -862480314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_49
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8415f181e040642b307f24b472c3df
+      internalID: -74792438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_50
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c5fbd7a1a16854a9d2af25b2f9da4e
+      internalID: -1884300875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_51
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcc2250d26716c4f9ad4cb46df4a86e
+      internalID: -185283555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_52
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b89bb07d6d41a49b05b75c8f48d678
+      internalID: -1949142110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_53
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996ffa3076468d74db7827e4294c027b
+      internalID: -1844773303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_54
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 216
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80030baa7fd0f4749b0b08c9096638c4
+      internalID: -2063921486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77526c198852e3a49b8898f70e3040a9
+      internalID: -1634605722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_56
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45be7cac337005241b5d392fc7b2a3c9
+      internalID: -249017458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30be48debba985947873a6a06cac953a
+      internalID: 534117801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_58
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e60a416f9044fd42bc4fa0d8845e258
+      internalID: -331970376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_59
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0d059f942779f49831f038294ebb77
+      internalID: 1647944097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_60
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ae73b7e6cb90a478613329079d0b90
+      internalID: 815803237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_61
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9ae60b3cd6711409790ad4873a8c77
+      internalID: 274904661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_62
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8980394e88a4384390b153db5288f10
+      internalID: 1243639704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_63
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47fe5f058a5dfe4e83635691757b813
+      internalID: 771398752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_64
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6882bde5686415d44a971d67f82fd7f5
+      internalID: 1827909907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_65
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 180
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef5a98fbb43340498326ae5bd68ed5f
+      internalID: -90280272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7562d11bf1e4f9e4989ba4c3d543e78b
+      internalID: 1618343124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_67
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0088f27459b7b914a95d8de6ad0e6f9f
+      internalID: 8193621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_68
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407d7725b7b96374b94e3d0746db3afc
+      internalID: 1910816860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_69
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f179a1f91141a0429c8e88ec0eff3c7
+      internalID: -980291625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_70
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a968556155d5c448c8048cf2f84222
+      internalID: 676594382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_71
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084faf4d7b6bbea449637cfa4b7caccd
+      internalID: -979491993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_72
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435e7f61fa3dd7e48aa12b64f50967ba
+      internalID: 1497894820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_73
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fa65a6123af6749abd587362871b0e
+      internalID: -1022798739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_74
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dd5f8b5431c2d428887bb0ca96ad07
+      internalID: 1558506090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_75
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a309ec794de037c458693034964d269e
+      internalID: -2145011578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_76
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 144
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3b2482f91c86a42a460b03498c5847
+      internalID: -422203428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef331b55ddbf7e54b8fc27a892c7d107
+      internalID: -926001331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_78
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036a2894ae4031f4c806484672ed274a
+      internalID: 1466056161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbfe0a6ed208264ead2c0dbcaaf323d
+      internalID: 968550431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_80
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26b666c2e9aa7c40aeec7e01c983125
+      internalID: -309446540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_81
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ffcbd0cb0b5154c8139e765e9735de
+      internalID: 9071725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_82
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d471ccfc08232af4093a5d67ca2e9e6d
+      internalID: -1164648147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_83
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd176d00c0d249f4fb85071864fc2318
+      internalID: 761990384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_84
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9150e2d33af6d744eae14b2c92e5a9fc
+      internalID: 1713184937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_85
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096b7400f7d846345a1cf975ef5cb1c1
+      internalID: 1144239216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_86
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a00baab97a89a48adc201617a3a8c1
+      internalID: -1857438146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_87
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 108
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2439fe21693d4640be3a552bff3ddf8
+      internalID: -146083824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c1e3222c934384385bed6575b6faad
+      internalID: -454792470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_89
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91acf8c49c9cfce428574db16a70c5aa
+      internalID: 1047623456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_90
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e738f9bad4eb7d468276169749c3862
+      internalID: -1120751319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_91
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bf289d11954a640a56fef36a1d4b34
+      internalID: 442770686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_92
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0ad63a658e86a46a4bbbbb12a52643
+      internalID: -534750949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_93
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98c01f0c08b4284f82081da2b49eac3
+      internalID: -489159574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_94
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b520d7ea19307dd419cf1ebba4c35427
+      internalID: 1956995761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_95
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dcadc08ad17fc499b685f2d6a795e1
+      internalID: 210877036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_96
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8020bf0373ab1b348873991232f83908
+      internalID: -1710000964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_97
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20376e934ad7bba4a9ce5275b8d450cc
+      internalID: -90600569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_98
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 72
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d1c3b1f559e9d44bfd0e4ad383abf2
+      internalID: 264341568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd065e6cd828d84ba51ecd5e239b94e
+      internalID: -1795280966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_100
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743d1ee9a8bd9f7489380f02b5a48dce
+      internalID: -1632459174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_101
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba00664a18dbff469c4cd41a6eeb82b
+      internalID: -1980542759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_102
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30787ffd5e3274b43ae4df2dabb418df
+      internalID: -1987902049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_103
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290ade57692c4864bae4f4dc481594fc
+      internalID: -1266526657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_104
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd81db58cea13454fad07845c43b8598
+      internalID: 1301935658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_105
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36a873fda98f5d479e1fc399da78aac
+      internalID: -591284181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_106
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2167256968b9d4fb264d6a2345704b
+      internalID: -1482449497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_107
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da27525a6d485104c8f4686e36fd198d
+      internalID: 1811188848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_108
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a40ae0ca20871b46b1be98663f7fa1e
+      internalID: -875027220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_109
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 36
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ed62e5113de1948a74f4f2cef74f86
+      internalID: 1284278301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fa7d624f504f843b3848180ba6db8f
+      internalID: 634269618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_111
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22303e250f237d54fb72205aa42fd3eb
+      internalID: 163238803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_112
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a78c8249853294bb9383d7316fb07f
+      internalID: 1128305173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_113
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cce1fbee0f03004c9e2baae5dca0f7a
+      internalID: 215831164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_114
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f029ca5e51aa0e4e821ec3fb4ec61f4
+      internalID: 1092130998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_115
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a3ba89318a00c478a935c78eb27db1
+      internalID: 1677394105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_116
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef750b6ba399554d85a4fd68ff056b8
+      internalID: -767571038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_117
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bd398c833ceb941aee32018f8b6a32
+      internalID: -533991386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Voidblast_37x36_118
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c38eb142f826fd4dbaca956ee72997a
+      internalID: 1176914048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemySkill_Voidblast_37x36_92: -534750949
+      EnemySkill_Voidblast_37x36_21: 1450369943
+      EnemySkill_Voidblast_37x36_45: 1379243596
+      EnemySkill_Voidblast_37x36_107: 1811188848
+      EnemySkill_Voidblast_37x36_68: 1910816860
+      EnemySkill_Voidblast_37x36_56: -249017458
+      EnemySkill_Voidblast_37x36_65: -90280272
+      EnemySkill_Voidblast_37x36_9: -1788916247
+      EnemySkill_Voidblast_37x36_49: -74792438
+      EnemySkill_Voidblast_37x36_42: -2022240767
+      EnemySkill_Voidblast_37x36_22: -1392976871
+      EnemySkill_Voidblast_37x36_101: -1980542759
+      EnemySkill_Voidblast_37x36_36: -62521647
+      EnemySkill_Voidblast_37x36_82: -1164648147
+      EnemySkill_Voidblast_37x36_100: -1632459174
+      EnemySkill_Voidblast_37x36_66: 1618343124
+      EnemySkill_Voidblast_37x36_43: 1928171744
+      EnemySkill_Voidblast_37x36_95: 210877036
+      EnemySkill_Voidblast_37x36_90: -1120751319
+      EnemySkill_Voidblast_37x36_111: 163238803
+      EnemySkill_Voidblast_37x36_40: -788010457
+      EnemySkill_Voidblast_37x36_48: -862480314
+      EnemySkill_Voidblast_37x36_20: 345184334
+      EnemySkill_Voidblast_37x36_2: 401563263
+      EnemySkill_Voidblast_37x36_89: 1047623456
+      EnemySkill_Voidblast_37x36_80: -309446540
+      EnemySkill_Voidblast_37x36_10: 563360278
+      EnemySkill_Voidblast_37x36_41: -674114760
+      EnemySkill_Voidblast_37x36_61: 274904661
+      EnemySkill_Voidblast_37x36_108: -875027220
+      EnemySkill_Voidblast_37x36_98: 264341568
+      EnemySkill_Voidblast_37x36_103: -1266526657
+      EnemySkill_Voidblast_37x36_74: 1558506090
+      EnemySkill_Voidblast_37x36_37: -996598807
+      EnemySkill_Voidblast_37x36_113: 215831164
+      EnemySkill_Voidblast_37x36_5: 1618087240
+      EnemySkill_Voidblast_37x36_81: 9071725
+      EnemySkill_Voidblast_37x36_33: -307260841
+      EnemySkill_Voidblast_37x36_84: 1713184937
+      EnemySkill_Voidblast_37x36_93: -489159574
+      EnemySkill_Voidblast_37x36_47: -101708650
+      EnemySkill_Voidblast_37x36_102: -1987902049
+      EnemySkill_Voidblast_37x36_50: -1884300875
+      EnemySkill_Voidblast_37x36_110: 634269618
+      EnemySkill_Voidblast_37x36_77: -926001331
+      EnemySkill_Voidblast_37x36_26: 982655614
+      EnemySkill_Voidblast_37x36_97: -90600569
+      EnemySkill_Voidblast_37x36_114: 1092130998
+      EnemySkill_Voidblast_37x36_58: -331970376
+      EnemySkill_Voidblast_37x36_63: 771398752
+      EnemySkill_Voidblast_37x36_106: -1482449497
+      EnemySkill_Voidblast_37x36_79: 968550431
+      EnemySkill_Voidblast_37x36_3: -80285304
+      EnemySkill_Voidblast_37x36_30: -810929623
+      EnemySkill_Voidblast_37x36_72: 1497894820
+      EnemySkill_Voidblast_37x36_60: 815803237
+      EnemySkill_Voidblast_37x36_6: -465677549
+      EnemySkill_Voidblast_37x36_14: 290920142
+      EnemySkill_Voidblast_37x36_54: -2063921486
+      EnemySkill_Voidblast_37x36_0: 645672328
+      EnemySkill_Voidblast_37x36_1: -1201388296
+      EnemySkill_Voidblast_37x36_44: -226141814
+      EnemySkill_Voidblast_37x36_112: 1128305173
+      EnemySkill_Voidblast_37x36_17: 1631302213
+      EnemySkill_Voidblast_37x36_34: 1165119597
+      EnemySkill_Voidblast_37x36_118: 1176914048
+      EnemySkill_Voidblast_37x36_32: 1173804793
+      EnemySkill_Voidblast_37x36_19: 1016290966
+      EnemySkill_Voidblast_37x36_38: 91896804
+      EnemySkill_Voidblast_37x36_27: -1325001407
+      EnemySkill_Voidblast_37x36_105: -591284181
+      EnemySkill_Voidblast_37x36_85: 1144239216
+      EnemySkill_Voidblast_37x36_59: 1647944097
+      EnemySkill_Voidblast_37x36_24: -1378282718
+      EnemySkill_Voidblast_37x36_117: -533991386
+      EnemySkill_Voidblast_37x36_109: 1284278301
+      EnemySkill_Voidblast_37x36_29: -1687454044
+      EnemySkill_Voidblast_37x36_116: -767571038
+      EnemySkill_Voidblast_37x36_69: -980291625
+      EnemySkill_Voidblast_37x36_83: 761990384
+      EnemySkill_Voidblast_37x36_73: -1022798739
+      EnemySkill_Voidblast_37x36_87: -146083824
+      EnemySkill_Voidblast_37x36_18: 301189438
+      EnemySkill_Voidblast_37x36_31: 1698212038
+      EnemySkill_Voidblast_37x36_76: -422203428
+      EnemySkill_Voidblast_37x36_55: -1634605722
+      EnemySkill_Voidblast_37x36_16: -303374030
+      EnemySkill_Voidblast_37x36_8: 2049752439
+      EnemySkill_Voidblast_37x36_39: 1455981920
+      EnemySkill_Voidblast_37x36_71: -979491993
+      EnemySkill_Voidblast_37x36_15: 1808502654
+      EnemySkill_Voidblast_37x36_28: -1410138072
+      EnemySkill_Voidblast_37x36_53: -1844773303
+      EnemySkill_Voidblast_37x36_67: 8193621
+      EnemySkill_Voidblast_37x36_75: -2145011578
+      EnemySkill_Voidblast_37x36_7: -1901736075
+      EnemySkill_Voidblast_37x36_70: 676594382
+      EnemySkill_Voidblast_37x36_25: 1643880684
+      EnemySkill_Voidblast_37x36_115: 1677394105
+      EnemySkill_Voidblast_37x36_35: 961213077
+      EnemySkill_Voidblast_37x36_57: 534117801
+      EnemySkill_Voidblast_37x36_94: 1956995761
+      EnemySkill_Voidblast_37x36_12: 2111870983
+      EnemySkill_Voidblast_37x36_23: 1376970615
+      EnemySkill_Voidblast_37x36_13: 1295656181
+      EnemySkill_Voidblast_37x36_4: 818915429
+      EnemySkill_Voidblast_37x36_51: -185283555
+      EnemySkill_Voidblast_37x36_52: -1949142110
+      EnemySkill_Voidblast_37x36_64: 1827909907
+      EnemySkill_Voidblast_37x36_91: 442770686
+      EnemySkill_Voidblast_37x36_78: 1466056161
+      EnemySkill_Voidblast_37x36_99: -1795280966
+      EnemySkill_Voidblast_37x36_11: -1941160955
+      EnemySkill_Voidblast_37x36_104: 1301935658
+      EnemySkill_Voidblast_37x36_46: 1458485609
+      EnemySkill_Voidblast_37x36_96: -1710000964
+      EnemySkill_Voidblast_37x36_62: 1243639704
+      EnemySkill_Voidblast_37x36_88: -454792470
+      EnemySkill_Voidblast_37x36_86: -1857438146
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

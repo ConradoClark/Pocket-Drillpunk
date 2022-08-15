@@ -27,6 +27,12 @@ namespace Assets.Scripts.Map.Enemies
         private System.Random _rng;
         private MapGenerator _mapGenerator;
 
+        public bool HasMinDepth;
+        public float MinDepth;
+
+        public bool HasMaxDepth;
+        public float MaxDepth;
+
         private void Awake()
         {
             Weight = OriginalWeight;
@@ -51,6 +57,8 @@ namespace Assets.Scripts.Map.Enemies
         {
             ManipulateWeight();
             if (Tile.IsOccupiedByProp(Vector2Int.one) || Weight == 0) return;
+            if (HasMaxDepth && Tile.Position.y < MaxDepth) return;
+            if (HasMinDepth && Tile.Position.y > MinDepth) return;
             if (_pools.Count == 0) return;
 
             Seed = $"{seed}_{Name}".GetHashCode();

@@ -1,0 +1,2775 @@
+fileFormatVersion: 2
+guid: 30cb81491f41b37479b4fadb7ce188b5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e744ce2e4b4d044ae0b4da507a2211
+      internalID: 998917227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddd39d9cfff5ba44a5f8d9a15cb1988
+      internalID: -2120883748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45ac701950127945a3205f409183a4b
+      internalID: 1768285889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfac60b9925d5f449f14da659f9b041
+      internalID: 343599782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0986d55435179ee44b78dcfad52722c1
+      internalID: 2015317034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffb6074a530f8b4795930c1e68197f7
+      internalID: -1983734625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd3cd4b2a6441e46aac0d5cacb0084a
+      internalID: -1421324940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f42e8d54a2bf964381746ea2218201f
+      internalID: 433103667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8461b9de9f177d7459f5eaaa8f9a1a59
+      internalID: 1473282960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9f9716dffd5b64b80d632bf83587f0
+      internalID: 1289058614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 480
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd50495529a9634cb585eaafbd58c7b
+      internalID: -33634836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c788324f0d1c94289e6feeeadc7644
+      internalID: -517000022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642737f2a4510f84db18cbfead79590c
+      internalID: -2008814609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dd4a6ead52e7c4c9e9bdc738fbec5f
+      internalID: 1911551452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58a93cc174920440913130024db1fa8
+      internalID: 202205708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa78cfee59a24954882fb1880dc9acac
+      internalID: -416223817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda4a4f9abec7254cb635d17193b773a
+      internalID: -1185522098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0857715fe11234b49b9cf87e7250338f
+      internalID: -2125578476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_18
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104547c75f61d0a41b1c0300697915ea
+      internalID: 33579395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266a6edfc9d17dd478792445e4b32990
+      internalID: -1139939237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_20
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a5ec5a98ee4fb468d7ad15bba33c74
+      internalID: 1849181590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_21
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927efcf0fcf4db843824863224ba1f3c
+      internalID: -503207137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d00a7c66b44464989b70236b49badf
+      internalID: 1502754232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_23
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e0f68c18ad2c84b8b3be4808540eb1
+      internalID: -1419704525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953e8a1540c9a1d42abbddfc978e61c1
+      internalID: 18795930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79023f7605bd6094c89a3ef4afa8bdf9
+      internalID: -152431635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e674e03b5b4324c974fe5329ba448d
+      internalID: -1043512962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_27
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd39a44fcfa6b624796f9f68370bfb7b
+      internalID: 1064545187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c557bd933352b54c8858a1579d54fbe
+      internalID: 1091937699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_29
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a11e61f04ccc9409f956f3877a8045
+      internalID: 1459588783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8173dae604873854cadf1cd7b8c2f25f
+      internalID: 869975727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_31
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c71934714622364d810658f59787c28
+      internalID: 43288127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_32
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 384
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a049bc44cebe6ec49ace34de5c41fbca
+      internalID: 1593680758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5200412fc1ac2cc46a12bee3db2db3a3
+      internalID: -308249778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_34
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b7c2afbb05d6f4dbc40af03a1728f9
+      internalID: 562494841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab7bc69d66335c4fad3247a9d1b70e6
+      internalID: -273307693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_36
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b6282c7097c3c4f90ac4b8ada2ecac
+      internalID: 28789765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4dfcf9d04969c48b7a7d3f52d61809
+      internalID: 783731915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_38
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bd52561e8035b4ebe22289a955c5e9
+      internalID: 1682442124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_39
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33d632afdfc44b419d3642785302376
+      internalID: -1283871451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_40
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3763c6e51a547a74a89883948902814f
+      internalID: -1342974468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f07222f350e624c99f6488ed4c22c5
+      internalID: 812632028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_42
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76990f6ebdb84f9469b305218a75c905
+      internalID: -1796569770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 336
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60c752544ef3814c98418adb9664ce3
+      internalID: 1539457617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b21c4d8f6ad8544809cc9f3971f0b5
+      internalID: -383346651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cb3a54a63f1c343856a088a3ad2c00
+      internalID: 407967040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_46
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9318a333fe941714da1ebda220c6280f
+      internalID: -1073837471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_47
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e792ff93e1b483145bfdc026f175a2f5
+      internalID: -432704170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_48
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c90099e78e6cb4dbde1c8f1766f93e
+      internalID: -699547396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_49
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725c32b3364805c4f941460268cc2461
+      internalID: -2123840387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d11b1a39fb764b488fcf8357604e973
+      internalID: 1782448769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_51
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc6d916987d91f4e94873328bbc7f2e
+      internalID: -730009287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_52
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ff29ebd99163c478d28497bf921ceb
+      internalID: -1716415280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_53
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f158a483da0b64d96a0f5b65d83a1a
+      internalID: 1346288662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_54
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 288
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bf6a936a83f634b832d3acc86726b0
+      internalID: -950262779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4373a47d69e9d684891e877f447f8d2e
+      internalID: -1055635026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_56
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69208e687f5a230478874cef68b20421
+      internalID: 443321260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_57
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103fd3f4504a6e94eabde0d2cb826fd8
+      internalID: 1207813426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_58
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80042285b1520d4ab38d87654813f93
+      internalID: -1279861779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_59
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f535c4996749b4ca67c73a05a8927e
+      internalID: -553001204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_60
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb390c4726ebc914987ca90ceafcd266
+      internalID: -119707734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_61
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ce54d0b415c094b8347db65f6aa2f2
+      internalID: 576555035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_62
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7492738a10a1282458db342d95163e48
+      internalID: 1528183858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_63
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da2bfdb12d0c6343b14651e80a0ed99
+      internalID: -678142925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_64
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6043e03c40bcfbf419f9b6c1f92c2dc2
+      internalID: 905507112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_65
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 240
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569c323a2cb8a0446befd85e93823c90
+      internalID: 1807299780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809636a5c3e4ac9408647d622e53bd4f
+      internalID: -191773930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_67
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bf69cdfe9f2fa42ba04efe11f392b2
+      internalID: -1924392800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_68
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfccce8150815d4f96939c23096d19d
+      internalID: -2096649400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_69
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3749c54672eb044eadf3e63acd57e3f
+      internalID: -1330031403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_70
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d8c9c17bafeb9498d3eeba57191f1c
+      internalID: -1149989937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_71
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd77c14eed7b3104f81a1838a39216d7
+      internalID: 1695143326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_72
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5394c8d6357df2a47af3fa4ed2e82ec7
+      internalID: -1638676972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_73
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b8657560a1b07428d974b497d6644a
+      internalID: 288315348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_74
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa77c90ce74c8746aa1763b306c1ec1
+      internalID: 699871198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_75
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3721c78d08d4fa04cb6dbb138b1a715b
+      internalID: -279676717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_76
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 192
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e86119538188de4b9b7f004fb9073f9
+      internalID: -1064479793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e10b0c3cebfd3408926e337518796e
+      internalID: -15970720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_78
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108467d9ff3abff48b8147332ad1cfc7
+      internalID: 1722797928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_79
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c984a73897a1c49aa941b2dabb846f
+      internalID: -105175111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_80
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfbfad0f898dec4a80a0e38f05804e9
+      internalID: 2005696062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_81
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5500e2b7dc1306f40a3282b7b902de48
+      internalID: 1228438215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_82
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568242eafb526c84b96a7ac0bc2e6544
+      internalID: -1493940430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_83
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f39833af27a5549a4a786c731982cd
+      internalID: -2064422172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_84
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9f9cf89f7c93b46a26337f1c593828
+      internalID: -805838747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caadddeb5ce6f94ca01580c52350465
+      internalID: -52154232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_86
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1bd7e513d2fc44e95ef8764ee68e34
+      internalID: 600034829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_87
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 144
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c8eeeeaaa237b4c9054c3e1cb90f27
+      internalID: -44127817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1700dbd439030c24a99abd97e576008b
+      internalID: 2131299714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_89
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b941b130f530553488e9e83d4ca6b30d
+      internalID: 213682476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_90
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edba205dcaa50284ba4f6288629372ca
+      internalID: 1556669715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_91
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7408001b6a7f1274ea8960fab6a885cb
+      internalID: 446525344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_92
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916afbecd62feb847b4cccc0a2245190
+      internalID: 445881753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_93
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39703d7ad220c15418c3b8dce5c5e8b4
+      internalID: -62783063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_94
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22d7aa58e257ae41bf53bbf65f08b2f
+      internalID: 812403495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_95
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09ac53613a3c5d4c8153ae9b39b4cbf
+      internalID: 1553024693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_96
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b0aa2d4fbcacc47ab6d4d5281bfed1
+      internalID: 255991957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30829e90a44f40449866d8715203877
+      internalID: -58143252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_98
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 96
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3914c6028c8e2414c98184ca16ef822e
+      internalID: -1523684478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3ba08922b2dcd4b80f328df81187d5
+      internalID: 1821050077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_100
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89beb4ed5b3cdd344bb2632e21e8aed6
+      internalID: -54054037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_101
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1884921654fdf714585f46c6b4a6d7a7
+      internalID: 1843440258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_102
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1df8fc32dc81240bd79fb0b0790c5b
+      internalID: 1623233357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_103
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae501c63f8d91dd41a732e1d2cb2a517
+      internalID: -2026586294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_104
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2166b5a2ece51b64f9d77deae1ab9d31
+      internalID: 1155972433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_105
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b8422f6ef0823459dbcbaaae7f592e
+      internalID: 60564533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_106
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01194fc483c1da741be08af82fe66e35
+      internalID: -2040943785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_107
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1cf284bdbd38b41856a88cf825b2f5
+      internalID: 1632891559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_108
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da61ac7379d83ee4da8c67f38bfcc89b
+      internalID: 1908999383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_109
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 48
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad323a7a0e024c4caea3540d6956d9e
+      internalID: 334969032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf054997ecd2d249b7934f98005f88a
+      internalID: 98556925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_111
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdb3a561aa941543b7d5cb3374c7d40
+      internalID: 647850299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_112
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211e090eff618754f9df89a47e2ac514
+      internalID: 1922340433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_113
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e86d3ea9d1c71045be7bc5d34a1881c
+      internalID: -718992554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_114
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f7aa18cbfcf8847887559c9b90501c
+      internalID: -1511376187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_115
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c4c2d0db88b2e46b5f69c8da94a112
+      internalID: 1973477603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_116
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae737658d4145449b08d36c3412ce49
+      internalID: -1826755501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_117
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc1478869937c64882a1fd5f924b532
+      internalID: -1978183357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_118
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6566b3926f24f43bae71a7dc854d9b
+      internalID: 350283243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_Carnajra_50x48_119
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8124ee89d12cf9f418c20fe7cca64823
+      internalID: 544517036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemySkill_Carnajra_50x48_112: 1922340433
+      EnemySkill_Carnajra_50x48_44: -383346651
+      EnemySkill_Carnajra_50x48_22: 1502754232
+      EnemySkill_Carnajra_50x48_58: -1279861779
+      EnemySkill_Carnajra_50x48_77: -15970720
+      EnemySkill_Carnajra_50x48_13: 1911551452
+      EnemySkill_Carnajra_50x48_51: -730009287
+      EnemySkill_Carnajra_50x48_0: 998917227
+      EnemySkill_Carnajra_50x48_114: -1511376187
+      EnemySkill_Carnajra_50x48_49: -2123840387
+      EnemySkill_Carnajra_50x48_64: 905507112
+      EnemySkill_Carnajra_50x48_95: 1553024693
+      EnemySkill_Carnajra_50x48_20: 1849181590
+      EnemySkill_Carnajra_50x48_113: -718992554
+      EnemySkill_Carnajra_50x48_5: -1983734625
+      EnemySkill_Carnajra_50x48_91: 446525344
+      EnemySkill_Carnajra_50x48_103: -2026586294
+      EnemySkill_Carnajra_50x48_56: 443321260
+      EnemySkill_Carnajra_50x48_74: 699871198
+      EnemySkill_Carnajra_50x48_96: 255991957
+      EnemySkill_Carnajra_50x48_70: -1149989937
+      EnemySkill_Carnajra_50x48_9: 1289058614
+      EnemySkill_Carnajra_50x48_39: -1283871451
+      EnemySkill_Carnajra_50x48_26: -1043512962
+      EnemySkill_Carnajra_50x48_86: 600034829
+      EnemySkill_Carnajra_50x48_41: 812632028
+      EnemySkill_Carnajra_50x48_14: 202205708
+      EnemySkill_Carnajra_50x48_62: 1528183858
+      EnemySkill_Carnajra_50x48_71: 1695143326
+      EnemySkill_Carnajra_50x48_75: -279676717
+      EnemySkill_Carnajra_50x48_7: 433103667
+      EnemySkill_Carnajra_50x48_60: -119707734
+      EnemySkill_Carnajra_50x48_108: 1908999383
+      EnemySkill_Carnajra_50x48_72: -1638676972
+      EnemySkill_Carnajra_50x48_87: -44127817
+      EnemySkill_Carnajra_50x48_79: -105175111
+      EnemySkill_Carnajra_50x48_6: -1421324940
+      EnemySkill_Carnajra_50x48_110: 98556925
+      EnemySkill_Carnajra_50x48_92: 445881753
+      EnemySkill_Carnajra_50x48_19: -1139939237
+      EnemySkill_Carnajra_50x48_54: -950262779
+      EnemySkill_Carnajra_50x48_50: 1782448769
+      EnemySkill_Carnajra_50x48_107: 1632891559
+      EnemySkill_Carnajra_50x48_15: -416223817
+      EnemySkill_Carnajra_50x48_97: -58143252
+      EnemySkill_Carnajra_50x48_53: 1346288662
+      EnemySkill_Carnajra_50x48_73: 288315348
+      EnemySkill_Carnajra_50x48_68: -2096649400
+      EnemySkill_Carnajra_50x48_2: 1768285889
+      EnemySkill_Carnajra_50x48_61: 576555035
+      EnemySkill_Carnajra_50x48_1: -2120883748
+      EnemySkill_Carnajra_50x48_55: -1055635026
+      EnemySkill_Carnajra_50x48_28: 1091937699
+      EnemySkill_Carnajra_50x48_30: 869975727
+      EnemySkill_Carnajra_50x48_99: 1821050077
+      EnemySkill_Carnajra_50x48_78: 1722797928
+      EnemySkill_Carnajra_50x48_111: 647850299
+      EnemySkill_Carnajra_50x48_88: 2131299714
+      EnemySkill_Carnajra_50x48_83: -2064422172
+      EnemySkill_Carnajra_50x48_37: 783731915
+      EnemySkill_Carnajra_50x48_43: 1539457617
+      EnemySkill_Carnajra_50x48_102: 1623233357
+      EnemySkill_Carnajra_50x48_104: 1155972433
+      EnemySkill_Carnajra_50x48_18: 33579395
+      EnemySkill_Carnajra_50x48_35: -273307693
+      EnemySkill_Carnajra_50x48_52: -1716415280
+      EnemySkill_Carnajra_50x48_94: 812403495
+      EnemySkill_Carnajra_50x48_76: -1064479793
+      EnemySkill_Carnajra_50x48_11: -517000022
+      EnemySkill_Carnajra_50x48_80: 2005696062
+      EnemySkill_Carnajra_50x48_33: -308249778
+      EnemySkill_Carnajra_50x48_38: 1682442124
+      EnemySkill_Carnajra_50x48_89: 213682476
+      EnemySkill_Carnajra_50x48_47: -432704170
+      EnemySkill_Carnajra_50x48_23: -1419704525
+      EnemySkill_Carnajra_50x48_27: 1064545187
+      EnemySkill_Carnajra_50x48_98: -1523684478
+      EnemySkill_Carnajra_50x48_101: 1843440258
+      EnemySkill_Carnajra_50x48_116: -1826755501
+      EnemySkill_Carnajra_50x48_46: -1073837471
+      EnemySkill_Carnajra_50x48_65: 1807299780
+      EnemySkill_Carnajra_50x48_25: -152431635
+      EnemySkill_Carnajra_50x48_42: -1796569770
+      EnemySkill_Carnajra_50x48_8: 1473282960
+      EnemySkill_Carnajra_50x48_105: 60564533
+      EnemySkill_Carnajra_50x48_67: -1924392800
+      EnemySkill_Carnajra_50x48_66: -191773930
+      EnemySkill_Carnajra_50x48_36: 28789765
+      EnemySkill_Carnajra_50x48_82: -1493940430
+      EnemySkill_Carnajra_50x48_40: -1342974468
+      EnemySkill_Carnajra_50x48_45: 407967040
+      EnemySkill_Carnajra_50x48_100: -54054037
+      EnemySkill_Carnajra_50x48_21: -503207137
+      EnemySkill_Carnajra_50x48_24: 18795930
+      EnemySkill_Carnajra_50x48_34: 562494841
+      EnemySkill_Carnajra_50x48_90: 1556669715
+      EnemySkill_Carnajra_50x48_32: 1593680758
+      EnemySkill_Carnajra_50x48_84: -805838747
+      EnemySkill_Carnajra_50x48_117: -1978183357
+      EnemySkill_Carnajra_50x48_115: 1973477603
+      EnemySkill_Carnajra_50x48_109: 334969032
+      EnemySkill_Carnajra_50x48_85: -52154232
+      EnemySkill_Carnajra_50x48_10: -33634836
+      EnemySkill_Carnajra_50x48_63: -678142925
+      EnemySkill_Carnajra_50x48_106: -2040943785
+      EnemySkill_Carnajra_50x48_16: -1185522098
+      EnemySkill_Carnajra_50x48_48: -699547396
+      EnemySkill_Carnajra_50x48_57: 1207813426
+      EnemySkill_Carnajra_50x48_31: 43288127
+      EnemySkill_Carnajra_50x48_93: -62783063
+      EnemySkill_Carnajra_50x48_4: 2015317034
+      EnemySkill_Carnajra_50x48_118: 350283243
+      EnemySkill_Carnajra_50x48_59: -553001204
+      EnemySkill_Carnajra_50x48_17: -2125578476
+      EnemySkill_Carnajra_50x48_12: -2008814609
+      EnemySkill_Carnajra_50x48_69: -1330031403
+      EnemySkill_Carnajra_50x48_81: 1228438215
+      EnemySkill_Carnajra_50x48_3: 343599782
+      EnemySkill_Carnajra_50x48_119: 544517036
+      EnemySkill_Carnajra_50x48_29: 1459588783
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

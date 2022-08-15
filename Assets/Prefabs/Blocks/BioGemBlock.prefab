@@ -334,6 +334,7 @@ GameObject:
   - component: {fileID: 2139523492}
   - component: {fileID: 2139523493}
   - component: {fileID: 6108495101611459355}
+  - component: {fileID: 3185895146242049877}
   m_Layer: 6
   m_Name: BioGemBlock
   m_TagString: Untagged
@@ -446,3 +447,21 @@ MonoBehaviour:
   - {x: 0, y: -1}
   - {x: 1, y: 0}
   - {x: -1, y: 0}
+--- !u!114 &3185895146242049877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785354124378487748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df15719cae1196419ed79a2d59496bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tile: {fileID: 2139523492}
+  Name: {fileID: 11400000, guid: 85484152affeaea4bb83d0eaf889904d, type: 2}
+  OriginalWeight: 0.035
+  SpawnRates:
+  - Enemy: {fileID: 11400000, guid: 056130b34f31f794e9172262ac1a48da, type: 2}
+    SpawnWeight: 1

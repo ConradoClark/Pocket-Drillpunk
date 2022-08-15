@@ -120,10 +120,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
   Animator: {fileID: 0}
+  Element: 0
   Experience: 3
   HP: 2
   HitColor: {r: 0.8039216, g: 0.8352941, b: 0.64705884, a: 1}
   SpriteRenderer: {fileID: 7638883952403532745}
   SpawnEffect: {fileID: 11400000, guid: 11af720e5d7e4ea4687e287de9b93da8, type: 2}
   DeathEffect: {fileID: 11400000, guid: db7c3123e0362f04ab69e49f49a41ce4, type: 2}
+  NameSprite: {fileID: 21300000, guid: 48a58c02ca1800145b4dd4216ad0c973, type: 3}
   EnemyAttack: {fileID: 11400000, guid: 804f8ffc1de49c54c8c2d3d79347c9e1, type: 2}
+  AttackSelector: {fileID: 0}
