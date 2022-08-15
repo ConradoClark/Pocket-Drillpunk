@@ -15,3 +15,5 @@ MonoBehaviour:
   Rules: []
   BackgroundColor: {r: 0.18039216, g: 0.14901961, b: 0.19607845, a: 1}
   GlobalLightColor: {r: 0.24705882, g: 0.24705882, b: 0.24705882, a: 1}
+  BossBattler: {fileID: 11400000, guid: 0c493b433301df842bc2616571d16ea3, type: 2}
+  BossDepth: -120

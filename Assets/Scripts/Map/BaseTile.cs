@@ -26,7 +26,7 @@ public abstract class BaseTile : EffectPoolable
     private string _generatedBySeed;
     private List<ITileStateExtension> _extensions;
     private ITilePropGenerator[] _tileProps;
-    private MapGenerator _mapGenerator;
+    protected MapGenerator MapGenerator;
     private Vector2Int[] _occupiedPropPositions = new Vector2Int[5];
 
     public string GeneratedBySeed
@@ -70,7 +70,7 @@ public abstract class BaseTile : EffectPoolable
         _mapManager = SceneObject<MapManager>.Instance();
         _extensions = new List<ITileStateExtension>();
         _tileProps = GetComponentsInChildren<ITilePropGenerator>();
-        _mapGenerator = SceneObject<MapGenerator>.Instance();
+        MapGenerator = SceneObject<MapGenerator>.Instance();
     }
 
     private void Update()
@@ -90,7 +90,7 @@ public abstract class BaseTile : EffectPoolable
     {
         CurrentDurability = Durability;
         PhysicsObject.AddCustomObject(this);
-        _mapGenerator.OnPopulate += OnPopulate;
+        MapGenerator.OnPopulate += OnPopulate;
     }
 
     private void OnPopulate()
@@ -107,14 +107,14 @@ public abstract class BaseTile : EffectPoolable
                 extension.LoadState(CustomProperties);
             }
         }
-        _mapGenerator.OnPopulate -= OnPopulate;
+        MapGenerator.OnPopulate -= OnPopulate;
     }
 
     private void OnDisable()
     {
         OnBreak = null;
         PhysicsObject.RemoveCustomObject<BaseTile>();
-        _mapGenerator.OnPopulate -= OnPopulate;
+        MapGenerator.OnPopulate -= OnPopulate;
         if (_mapManager!= null && _mapManager.ActiveTiles!=null) _mapManager.ActiveTiles.Remove(Position);
     }
 

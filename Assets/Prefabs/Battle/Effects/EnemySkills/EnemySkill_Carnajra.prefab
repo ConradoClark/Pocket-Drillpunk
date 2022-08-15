@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: -730009287, guid: 30cb81491f41b37479b4fadb7ce188b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   ActiveOnInitialization: 0
   TotalDamage: 0
   Target: {fileID: 0}
-  Position: {x: 0.038, y: -0.07, z: 0}
+  Position: {x: -0.02, y: -0.11, z: 0}
   Animator: {fileID: 3780096192466222478}
   State: EnemySkill_Carnajra
   DamageImpacts:

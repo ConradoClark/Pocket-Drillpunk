@@ -1,0 +1,2885 @@
+fileFormatVersion: 2
+guid: eb0cc64197c4ea7498bcdc9dd2344c6e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 407
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9476f0adb7c83714cb2a6cbd41de80af
+      internalID: 1234733526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 407
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442aa15388110d84683eab69f52d37a2
+      internalID: -752542819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 407
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef78684d363bb514e99b99d3079f8099
+      internalID: -1688428381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 407
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eff3f2a78fea842a59067e3fc1e5e2
+      internalID: 216528354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 407
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cabc99923a26c347979440417180003
+      internalID: 1141398728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 407
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dcb75959ceb3d40bf1f2ff674e18ed
+      internalID: 1363017814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 407
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e12d36818e5f047b51d74ed8d338aa
+      internalID: -955078533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9196be2e4769940acfbaddcfbbe857
+      internalID: -1201582324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc307a44cba8ba943bd5523e0b15aa6a
+      internalID: 1098340938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bef1dc2173251641aae7b183a8de23b
+      internalID: -190239725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506db0e75c54a084798e430575787900
+      internalID: 2010903952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9f44d1cbd44314f8f69e3b91adae54
+      internalID: 1882665395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_12
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c781bf37eb58ce4ab077f8c5607367c
+      internalID: -1542421120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83856871c03c56e439e909d66303b59b
+      internalID: 346298845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_14
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b8c51e2ad36784ab274c1da402b40f
+      internalID: -1794868373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631924d5f5fd635428e81d1ad7509a64
+      internalID: -441324450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_16
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b1d1716f628d44c95ff7a932784edb
+      internalID: -2083958829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548d9e0b41db5e84bbb6e9f3c1124e73
+      internalID: 1928809278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_18
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 370
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3138d9858cd38c14bb612ec27f787211
+      internalID: -2141063649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e600ba9ee96e2f44ca3dce4d42acad4e
+      internalID: -487824176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c37b2b2963f6ae429024c189f1e14a0
+      internalID: 956844962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07db784bcc8eb6040a0aa2e72e929e46
+      internalID: -595754466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_22
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809e132cbd1874244a1f41be208cf2d7
+      internalID: 1734986517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d2da94023145a4eb0c1e9128c4f15e
+      internalID: 405123350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_24
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44401cd834afa274c86c5850013f63d3
+      internalID: 1413210507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_25
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc004dec830bffc49bbc47ab107df83a
+      internalID: 112147285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_26
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207303ed74da8664cb393d80f1372452
+      internalID: -512003746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05533a4528e65446843cea199292627
+      internalID: -828754927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_28
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284101dbc76a6b348b6e31fe17acccae
+      internalID: -1031333521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_29
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17476cb8dae8a549b350986c788e38e
+      internalID: -1121540474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_30
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c17bd4ea95a0484e8cb7b86255c71ef
+      internalID: -1723463706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47901fa50e82a2c44b82c6469c548282
+      internalID: -1429612215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba61245bdcc5bf04b98e9e4ca48effaa
+      internalID: 1053271463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde255849be285849acb1ff5d304a8ac
+      internalID: 1357464358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_34
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04c037b8ed430d48b021875c096c521
+      internalID: 1764928798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_35
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1ace4684ff42d4e96a3214672ed17b
+      internalID: -1668734117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_36
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50183ce0c7d3373438457a3161e5ef18
+      internalID: -1723901244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_37
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf11cc5ecd8018f43aab8e9c285ed45c
+      internalID: 1960211414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_38
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172070152a827e940b16633fdadb0528
+      internalID: -444764694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a4d2237cf9ff142a6a24dafcccfcb7
+      internalID: -878953994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_40
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a951fa888ff3196419db765364d489a5
+      internalID: 919432401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_41
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1613aa18f2305d541ab21397f6d1996e
+      internalID: -879828144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_42
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40534b3cdc9765149bc779199c1c12b2
+      internalID: -1785600987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b38e36db328a1643ab00b9f06872c69
+      internalID: -1604717107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_44
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217e5e86f17261d48b15ff76d5a04d84
+      internalID: -1880634264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_45
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12ffb758fa558345885048eab32fc5d
+      internalID: 26505783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_46
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9059825baed2e4dbe8465e136e4fc5
+      internalID: -2026368346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_47
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e58d235789cd1e44aaac690eb3811a5
+      internalID: 340122364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_48
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5b997100487a24094215786eb9c6f0
+      internalID: 2100730572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_49
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7297f35847f46b47ada3393f8d09668
+      internalID: -1422701922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_50
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed7990f4e230904c98ba58c16a0522c
+      internalID: 1589282653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_51
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdd85a421409a44a94058c96fc16392
+      internalID: -2015977228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_52
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ed0294198f2f44485215add79a0bd3
+      internalID: 2143600020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_53
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8441ebebd31a341b750b2821380576
+      internalID: -480353845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_54
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7c354b709b53f448596f32d41af87e
+      internalID: -923400353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0d9c9b501c1ca4eafe6df6e2ce05b4
+      internalID: 10639617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_56
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4ce9c375843574fae619c30f4e71b2
+      internalID: -1975885319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9c35f9a6b595e40bcb703a028d4411
+      internalID: -1985888100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_58
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c9a1dac4477004abf86cd65ac94fcf
+      internalID: 1376286873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_59
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3706bb3076516646b0386436ae130c3
+      internalID: -1992446188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_60
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6a2f0143a900448ab8e218330259aa
+      internalID: -1229527018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_61
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c239bf94ecb6e48b03f23ca5b537c6
+      internalID: -336149243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_62
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3605067be259d0d4da3189be490895d0
+      internalID: -271570228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_63
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d127560d174b8d4084322f90f62a208
+      internalID: -1000063395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_64
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00524c2c17c050042b36eb7976e0a9e1
+      internalID: 1561162404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_65
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076e5657876b09d45b2b9715a47f1ba0
+      internalID: 1125247795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_66
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285a07fd94dbb8f4a99ef27f23fca988
+      internalID: 1339827323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87e54c69c843cc498c6ad7d0f35a584
+      internalID: -549752706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_68
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a09b9565db16d4bbebf34a4da9af11
+      internalID: 1636654392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_69
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae554ec103a06fa469afe786f0c59428
+      internalID: 1360718083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_70
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7fe8d84ce8f3d4c975b24dc08e2c09
+      internalID: 348986612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_71
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b2dc61842a11b4da4738069c9fdcfc
+      internalID: 249152567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_72
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db04212962b1a544fac0069ec07c63bc
+      internalID: 520306016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_73
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d591f890eae04a147b53efd4df136953
+      internalID: 1662635025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_74
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07d9931394d05b4bb2d0415159382cd
+      internalID: 7943678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_75
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64406655d69ad6449b4b09983ce818f
+      internalID: 1578502767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_76
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d429e17f4662643ac469b9d55b5e64
+      internalID: -565442525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_77
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ea0f55c03a2384d9a2676a67fc6afa
+      internalID: -1591087209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_78
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b461b0828c5e8488582f711c0ad01b
+      internalID: -330587493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06799712d8d7afd418bd2ea1dfe5d955
+      internalID: -985132011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_80
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063c04314a2d25142a2170959414ea8a
+      internalID: -572193129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_81
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4febc6c1b223a34aa29ceda8d502fcd
+      internalID: -1403281800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_82
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bf37815fc04944c9e9787f8b101d6b
+      internalID: 413414996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_83
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349795fab781db747a14e88c9fab5a2a
+      internalID: -1533205834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_84
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b94c970e7a0eed43a05c1e230d9ccf6
+      internalID: -1109132593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_85
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e97a7e5e0044f4bbb119dcf4b46bd7
+      internalID: -924203658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_86
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e75663afa8fc8644a92c9cfe6f2785c
+      internalID: 306730877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_87
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df916a86553b4841add59c65fe77794
+      internalID: 1687104126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_88
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73bf6cb59442aa42b8c5c2f2dd417e3
+      internalID: -399470873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_89
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83fd43d9bb90fc439a6d1177366101a
+      internalID: -1067368885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_90
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c348570c1b44741abee0d624ef26c3
+      internalID: 1331648812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedeb12981c388c4a8852885b4f64a00
+      internalID: 47448781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_92
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5594da9513179b143a441c76d0287bfe
+      internalID: 302510186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_93
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60fdb496c39dc74da4615af7417aa57
+      internalID: -66715045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_94
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79150aa1ec9f1a847960091944f2793a
+      internalID: 1407857274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_95
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9e3d628d733a44e82681649afac0e1
+      internalID: 781527354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_96
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c916fe398ad7e5e49888749d8a2ad7ce
+      internalID: -1090731279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60851b71f29e47043b016aebd9e4da00
+      internalID: 1794474203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_98
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc36e1a20d19e1041a21b1e49bbfce09
+      internalID: 1826126240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_99
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d675dfe0ee774c64d86500b97f1dc71c
+      internalID: 1441876169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_100
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee2c7db2f74bdd458c432224e81ffd8
+      internalID: -1888371765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_101
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6c49ac18d5c2346b7bff6b7674087f
+      internalID: 1294803880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_102
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434b714880fad64438f0360186d811c3
+      internalID: 2043953883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a5bf5351a9f0b4ca73201064f46616
+      internalID: 1783880483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_104
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7b5aaf0ab5c0a45b08d6d80b4b9257
+      internalID: -1263226772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_105
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a086294a286d3174896349bd46330886
+      internalID: 1717590492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_106
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc31a64dc8507c45881968610e502fc
+      internalID: 1943612551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_107
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d10f505514e06409da17a7e380b15b
+      internalID: 638243264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_108
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1e297160d0c7a4f981917701f7144a
+      internalID: 456800728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_109
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb5d07be25caca48aee9c013a544707
+      internalID: 1525143397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_110
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70aa2816a6dc5e4db1a56fcb4c5025e
+      internalID: -1147354797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_111
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e7d07dd6788a44ebb087344c94a193
+      internalID: -1784832721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_112
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3871b5af146b3b4b891b54c06d176d7
+      internalID: 220255610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_113
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc89c363e4c078a4b9ca8d64789f963c
+      internalID: -1456063558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_114
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec071b088c458947a5ff5485c8795fb
+      internalID: 1894908144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb5354446dbd3242a282dfd156c3529
+      internalID: -1640612723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_116
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283361812dfbc7d4e8c066a56b8e67d5
+      internalID: 564877400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_117
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922c5a488f4a51e45b07ab0ce5ab5c30
+      internalID: -897673262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_118
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b508caf1b0e9e7e4892427c82e25d388
+      internalID: -2076481778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_119
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e922d2b027ae04d91ff71bee3e5deb
+      internalID: 847155208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_120
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1c948de92b15c41bc7801613b7d7d4
+      internalID: 944561840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_121
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f980319c6f28b4cac57b96cdabd11e
+      internalID: -1394311225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_122
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eff4349028a9242a470dbeb840a408
+      internalID: -1618225869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_123
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855a45180e9094147bea772e52b83a1b
+      internalID: -554552474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_GaiaBomb_37x37_124
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dde6ef0a685a04fbb96e42be3ea519
+      internalID: 2038196854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BattleSkill_GaiaBomb_37x37_80: -572193129
+      BattleSkill_GaiaBomb_37x37_36: -1723901244
+      BattleSkill_GaiaBomb_37x37_46: -2026368346
+      BattleSkill_GaiaBomb_37x37_63: -1000063395
+      BattleSkill_GaiaBomb_37x37_29: -1121540474
+      BattleSkill_GaiaBomb_37x37_102: 2043953883
+      BattleSkill_GaiaBomb_37x37_30: -1723463706
+      BattleSkill_GaiaBomb_37x37_31: -1429612215
+      BattleSkill_GaiaBomb_37x37_0: 1234733526
+      BattleSkill_GaiaBomb_37x37_65: 1125247795
+      BattleSkill_GaiaBomb_37x37_19: -487824176
+      BattleSkill_GaiaBomb_37x37_32: 1053271463
+      BattleSkill_GaiaBomb_37x37_86: 306730877
+      BattleSkill_GaiaBomb_37x37_121: -1394311225
+      BattleSkill_GaiaBomb_37x37_97: 1794474203
+      BattleSkill_GaiaBomb_37x37_9: -190239725
+      BattleSkill_GaiaBomb_37x37_5: 1363017814
+      BattleSkill_GaiaBomb_37x37_67: -549752706
+      BattleSkill_GaiaBomb_37x37_27: -828754927
+      BattleSkill_GaiaBomb_37x37_85: -924203658
+      BattleSkill_GaiaBomb_37x37_109: 1525143397
+      BattleSkill_GaiaBomb_37x37_122: -1618225869
+      BattleSkill_GaiaBomb_37x37_93: -66715045
+      BattleSkill_GaiaBomb_37x37_35: -1668734117
+      BattleSkill_GaiaBomb_37x37_117: -897673262
+      BattleSkill_GaiaBomb_37x37_24: 1413210507
+      BattleSkill_GaiaBomb_37x37_48: 2100730572
+      BattleSkill_GaiaBomb_37x37_95: 781527354
+      BattleSkill_GaiaBomb_37x37_59: -1992446188
+      BattleSkill_GaiaBomb_37x37_61: -336149243
+      BattleSkill_GaiaBomb_37x37_116: 564877400
+      BattleSkill_GaiaBomb_37x37_110: -1147354797
+      BattleSkill_GaiaBomb_37x37_44: -1880634264
+      BattleSkill_GaiaBomb_37x37_51: -2015977228
+      BattleSkill_GaiaBomb_37x37_68: 1636654392
+      BattleSkill_GaiaBomb_37x37_47: 340122364
+      BattleSkill_GaiaBomb_37x37_54: -923400353
+      BattleSkill_GaiaBomb_37x37_84: -1109132593
+      BattleSkill_GaiaBomb_37x37_16: -2083958829
+      BattleSkill_GaiaBomb_37x37_45: 26505783
+      BattleSkill_GaiaBomb_37x37_106: 1943612551
+      BattleSkill_GaiaBomb_37x37_78: -330587493
+      BattleSkill_GaiaBomb_37x37_43: -1604717107
+      BattleSkill_GaiaBomb_37x37_96: -1090731279
+      BattleSkill_GaiaBomb_37x37_107: 638243264
+      BattleSkill_GaiaBomb_37x37_72: 520306016
+      BattleSkill_GaiaBomb_37x37_17: 1928809278
+      BattleSkill_GaiaBomb_37x37_104: -1263226772
+      BattleSkill_GaiaBomb_37x37_34: 1764928798
+      BattleSkill_GaiaBomb_37x37_73: 1662635025
+      BattleSkill_GaiaBomb_37x37_113: -1456063558
+      BattleSkill_GaiaBomb_37x37_52: 2143600020
+      BattleSkill_GaiaBomb_37x37_55: 10639617
+      BattleSkill_GaiaBomb_37x37_8: 1098340938
+      BattleSkill_GaiaBomb_37x37_14: -1794868373
+      BattleSkill_GaiaBomb_37x37_23: 405123350
+      BattleSkill_GaiaBomb_37x37_70: 348986612
+      BattleSkill_GaiaBomb_37x37_114: 1894908144
+      BattleSkill_GaiaBomb_37x37_28: -1031333521
+      BattleSkill_GaiaBomb_37x37_81: -1403281800
+      BattleSkill_GaiaBomb_37x37_10: 2010903952
+      BattleSkill_GaiaBomb_37x37_53: -480353845
+      BattleSkill_GaiaBomb_37x37_120: 944561840
+      BattleSkill_GaiaBomb_37x37_57: -1985888100
+      BattleSkill_GaiaBomb_37x37_18: -2141063649
+      BattleSkill_GaiaBomb_37x37_123: -554552474
+      BattleSkill_GaiaBomb_37x37_6: -955078533
+      BattleSkill_GaiaBomb_37x37_58: 1376286873
+      BattleSkill_GaiaBomb_37x37_15: -441324450
+      BattleSkill_GaiaBomb_37x37_74: 7943678
+      BattleSkill_GaiaBomb_37x37_99: 1441876169
+      BattleSkill_GaiaBomb_37x37_118: -2076481778
+      BattleSkill_GaiaBomb_37x37_76: -565442525
+      BattleSkill_GaiaBomb_37x37_40: 919432401
+      BattleSkill_GaiaBomb_37x37_105: 1717590492
+      BattleSkill_GaiaBomb_37x37_77: -1591087209
+      BattleSkill_GaiaBomb_37x37_79: -985132011
+      BattleSkill_GaiaBomb_37x37_22: 1734986517
+      BattleSkill_GaiaBomb_37x37_119: 847155208
+      BattleSkill_GaiaBomb_37x37_13: 346298845
+      BattleSkill_GaiaBomb_37x37_60: -1229527018
+      BattleSkill_GaiaBomb_37x37_2: -1688428381
+      BattleSkill_GaiaBomb_37x37_4: 1141398728
+      BattleSkill_GaiaBomb_37x37_90: 1331648812
+      BattleSkill_GaiaBomb_37x37_7: -1201582324
+      BattleSkill_GaiaBomb_37x37_50: 1589282653
+      BattleSkill_GaiaBomb_37x37_89: -1067368885
+      BattleSkill_GaiaBomb_37x37_87: 1687104126
+      BattleSkill_GaiaBomb_37x37_69: 1360718083
+      BattleSkill_GaiaBomb_37x37_21: -595754466
+      BattleSkill_GaiaBomb_37x37_33: 1357464358
+      BattleSkill_GaiaBomb_37x37_111: -1784832721
+      BattleSkill_GaiaBomb_37x37_37: 1960211414
+      BattleSkill_GaiaBomb_37x37_88: -399470873
+      BattleSkill_GaiaBomb_37x37_92: 302510186
+      BattleSkill_GaiaBomb_37x37_108: 456800728
+      BattleSkill_GaiaBomb_37x37_3: 216528354
+      BattleSkill_GaiaBomb_37x37_112: 220255610
+      BattleSkill_GaiaBomb_37x37_64: 1561162404
+      BattleSkill_GaiaBomb_37x37_39: -878953994
+      BattleSkill_GaiaBomb_37x37_71: 249152567
+      BattleSkill_GaiaBomb_37x37_124: 2038196854
+      BattleSkill_GaiaBomb_37x37_26: -512003746
+      BattleSkill_GaiaBomb_37x37_1: -752542819
+      BattleSkill_GaiaBomb_37x37_25: 112147285
+      BattleSkill_GaiaBomb_37x37_66: 1339827323
+      BattleSkill_GaiaBomb_37x37_101: 1294803880
+      BattleSkill_GaiaBomb_37x37_49: -1422701922
+      BattleSkill_GaiaBomb_37x37_41: -879828144
+      BattleSkill_GaiaBomb_37x37_56: -1975885319
+      BattleSkill_GaiaBomb_37x37_91: 47448781
+      BattleSkill_GaiaBomb_37x37_38: -444764694
+      BattleSkill_GaiaBomb_37x37_94: 1407857274
+      BattleSkill_GaiaBomb_37x37_115: -1640612723
+      BattleSkill_GaiaBomb_37x37_83: -1533205834
+      BattleSkill_GaiaBomb_37x37_42: -1785600987
+      BattleSkill_GaiaBomb_37x37_11: 1882665395
+      BattleSkill_GaiaBomb_37x37_82: 413414996
+      BattleSkill_GaiaBomb_37x37_103: 1783880483
+      BattleSkill_GaiaBomb_37x37_98: 1826126240
+      BattleSkill_GaiaBomb_37x37_75: 1578502767
+      BattleSkill_GaiaBomb_37x37_20: 956844962
+      BattleSkill_GaiaBomb_37x37_100: -1888371765
+      BattleSkill_GaiaBomb_37x37_12: -1542421120
+      BattleSkill_GaiaBomb_37x37_62: -271570228
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

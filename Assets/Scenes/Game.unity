@@ -803,6 +803,7 @@ Transform:
   - {fileID: 1256999827}
   - {fileID: 1029490564}
   - {fileID: 1956628308}
+  - {fileID: 1633244901}
   - {fileID: 1239901223}
   m_Father: {fileID: 1206019504}
   m_RootOrder: -1
@@ -4106,8 +4107,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b331314fac9db044495402685639dd95, type: 2}
   - {fileID: 11400000, guid: e72649335c0eec644830efd26f2ccaf6, type: 2}
   - {fileID: 11400000, guid: f24bb495205ca4b47bb8bf0b2d6df062, type: 2}
+  - {fileID: 11400000, guid: 5a6e2c5126833b241b250dad1819a7e0, type: 2}
+  - {fileID: 11400000, guid: d036b48e9e10a2b47a3be3a8f2c4d298, type: 2}
+  - {fileID: 11400000, guid: 628b5dcf520a632438e464bc93056d03, type: 2}
   ToNextLevel: {fileID: 11400000, guid: 0b1d870ecb9c04147bd412ce1f3cd2e0, type: 2}
-  LearnableMoves: []
+  LearnableMoves:
+  - Level: 2
+    Skill: {fileID: 11400000, guid: b110c616488efb443ad5e97e405cf882, type: 2}
+  - Level: 2
+    Skill: {fileID: 11400000, guid: fc503b7f5a83cea448e87ecefa66a61c, type: 2}
+  - Level: 3
+    Skill: {fileID: 11400000, guid: 1e039d7fb3661a04b8345aa687cbe7af, type: 2}
 --- !u!114 &947449151 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3654241303787557189, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
@@ -5464,8 +5474,10 @@ MonoBehaviour:
   - {fileID: 1256999828}
   - {fileID: 1029490565}
   - {fileID: 1956628309}
+  - {fileID: 1633244902}
   - {fileID: 1239901224}
   RulesToManipulate: {fileID: 1239901224}
+  BossRule: {fileID: 1633244902}
   CurrentLevelDefinition: {fileID: 11400000, guid: 5f5ca9d1154f4b54998f953d2a806218, type: 2}
   GlobalLight: {fileID: 619394801}
 --- !u!4 &1206019504
@@ -8229,6 +8241,62 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1633244900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1633244901}
+  - component: {fileID: 1633244902}
+  m_Layer: 0
+  m_Name: BossRule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1633244901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633244900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 173005595}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1633244902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633244900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0eaabd5887d814285df63c24079bda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HasMinXLimit: 0
+  MinXLimit: 0
+  HasMaxXLimit: 0
+  MaxXLimit: 0
+  HasMinDepthLimit: 0
+  MinDepthLimit: 0
+  HasMaxDepthLimit: 1
+  MaxDepthLimit: -20
+  ForceTile: {fileID: 11400000, guid: 4fc3a8f88c1c6d64fbcd97e16c3625b8, type: 2}
+  ForceInOffsets: 0
+  ForcedOffsets: []
+  WeightRules: []
 --- !u!1 &1642663113
 GameObject:
   m_ObjectHideFlags: 0
@@ -9274,6 +9342,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af4fabfd31759874688079dee0ac394a, type: 2}
   - {fileID: 11400000, guid: c929ce8dd033253489424cbf0106e04b, type: 2}
   - {fileID: 11400000, guid: d30afa2815e15ea4baa7c5c59cebea27, type: 2}
+  - {fileID: 11400000, guid: 57f01f2143596804ca2a0f5df037b68f, type: 2}
   Name: tiles
 --- !u!1 &1755741188
 GameObject:
@@ -10064,6 +10133,7 @@ Transform:
   - {fileID: 58255023}
   - {fileID: 1976861568}
   - {fileID: 2051154722}
+  - {fileID: 2080131167}
   m_Father: {fileID: 1206019504}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10110,6 +10180,8 @@ MonoBehaviour:
     Reference: {fileID: 2051154723}
   - Identifier: {fileID: 11400000, guid: 1261329ae68216a4fae8d9843dfe300f, type: 2}
     Reference: {fileID: 1996910923}
+  - Identifier: {fileID: 11400000, guid: 4fc3a8f88c1c6d64fbcd97e16c3625b8, type: 2}
+    Reference: {fileID: 2080131168}
 --- !u!1 &1852694825
 GameObject:
   m_ObjectHideFlags: 0
@@ -11439,6 +11511,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0.01, z: 0}
+--- !u!1 &2080131166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080131167}
+  - component: {fileID: 2080131168}
+  m_Layer: 0
+  m_Name: 1x1-BossBlock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2080131167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080131166}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1842657711}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2080131168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080131166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f2d58d8053ea3469df7094070b40a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GizmoColor: {r: 0.57394904, g: 0.7264151, b: 0.4557227, a: 1}
+  BaseTile: {fileID: 11400000, guid: 57f01f2143596804ca2a0f5df037b68f, type: 2}
 --- !u!1 &2095206690
 GameObject:
   m_ObjectHideFlags: 0
@@ -11699,6 +11817,10 @@ PrefabInstance:
       propertyPath: CollectSound
       value: 
       objectReference: {fileID: 1469775861}
+    - target: {fileID: 1117905913, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
+      propertyPath: GameSong
+      value: 
+      objectReference: {fileID: 946653205}
     - target: {fileID: 1117905913, guid: 63afe8d6e895fe8489786cc60cf813b2, type: 3}
       propertyPath: DepthCounter
       value: 

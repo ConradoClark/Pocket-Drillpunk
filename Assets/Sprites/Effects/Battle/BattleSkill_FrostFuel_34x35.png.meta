@@ -1,0 +1,1983 @@
+fileFormatVersion: 2
+guid: 9510cf6501d616648b7662c1d64238e0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf28faf0a240dc4d97643f188e30dc3
+      internalID: -797312829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 315
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55df5493c5ff16240a791d1318c1c114
+      internalID: 711743348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 315
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdda34e391ffa14f9463124cff733ce
+      internalID: 1039187411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 315
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd0998f9a8403c449db0b81fffb17b6
+      internalID: -1957773484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 315
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91caa5de42193f40ad689522246f0c7
+      internalID: -222567184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd320d0a773b7e4ab08e5850cb3c1d7
+      internalID: -1142785289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 315
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e1c1bdc8452654fbc8b7564dccfba9
+      internalID: 1694379682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 315
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb6afc2d4ff35c4f8b611df0b883f65
+      internalID: -1201710268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 315
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e3278ff40296f40a5ef11794b8aa48
+      internalID: 1869126067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 315
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f47237b0c3a0e448546e8463c09164
+      internalID: 1246556170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2349b230ad98f05488d06156419ae723
+      internalID: 121551276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 280
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f860cdf6321006b4287799d7bf0697b7
+      internalID: 1041006721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 280
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed041fef4fbce541b4e7e25d0140ddb
+      internalID: 834446416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 280
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1351fe16739ab3f4b8ac554ef21046e2
+      internalID: 1964054170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 280
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabb285f7e2caee4eb74f0de410f7d7e
+      internalID: 786240092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_15
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 280
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7070738927503e247842a643babb88ad
+      internalID: -870348863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 280
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fa7c6b910a8f74eb98b7c1987fd3b9
+      internalID: 1191977687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_17
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 280
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daac48be5d556c4389c7c6298f598d7
+      internalID: 282745720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_18
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 280
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ec1f83df081464b8f5eeb688d08759
+      internalID: 1965645980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_19
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 280
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593f12b5a9046734a820d39772b7fccb
+      internalID: -93568538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1716aa9e53b926e45bb5f213cc2037e9
+      internalID: 356671605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 245
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9699e3a97ed53af40aa052a5be046cdb
+      internalID: 982495945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 245
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2117512e3155a3943a699ca426c30c64
+      internalID: -480947028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 245
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcb3990b53ff5247923c6389891efa1
+      internalID: -1847183950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 245
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34288e95ac6a1c645996aa7bfcba87d1
+      internalID: 1768458339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 245
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcfae66059b7d74a91abfffe8676cb1
+      internalID: 1959533594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 245
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d297c6fa2fefee4a925dccb65c3f899
+      internalID: 1439124810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_27
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 245
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7502f2837f2f43846a2056ded52db17f
+      internalID: 1499140127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 245
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16eec3a4acf45314982b366645c18e02
+      internalID: -580078690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_29
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 245
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d385af23dec0f542bfc827751cd72de
+      internalID: 1981071084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8e0e5ab92589943bbcc5e04d209cc4
+      internalID: 1099398505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_31
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 210
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064bae60b761f054996e697be278f794
+      internalID: -923053024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 210
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a733544e3a4afa34cbcd8d12d7c1aed4
+      internalID: -1435406832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_33
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 210
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92715dd154cb2fa45a8a11f060d610b6
+      internalID: -972237001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 210
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1999092643f1650449dc10ffc9706c67
+      internalID: 1860554449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_35
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 210
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f946dae90c42e1c4ebefc081ed9f0268
+      internalID: 190901291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_36
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 210
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44d1859f50c9fa4e86a4de9c3ff174b
+      internalID: -2030920919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_37
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 210
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d587f8806b7e446bdc574d732069e8
+      internalID: 1795694224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_38
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 210
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5f53c44c5dc0a429a50f9a9db7e7d4
+      internalID: -295968436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_39
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 210
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4483b9a8255278f4f9a9c96985c6dba7
+      internalID: -1530912923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b24c7a2a2fd8f46ac6cb228d86e588
+      internalID: -1150733499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 175
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82cd47f254998446ac6b59a3c3f083f
+      internalID: -722742906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_42
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 175
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5adcbd39a8251848a522b7a19b0afb2
+      internalID: 824764922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 175
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe10a2bb765d8634fbf6d9e3f3af05c1
+      internalID: 248995952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 175
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a1581342ec3f0468c041f900107f59
+      internalID: -637553304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_45
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 175
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a7c5e8af887064999251db4bf02de3
+      internalID: -1186470161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_46
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 175
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d5b66884e1dca479d31424cc2b496a
+      internalID: -1766837213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_47
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 175
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5c3fbcb1851534f93e7cb026cc248f
+      internalID: 269462790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 175
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17df547f9caf7a344afb0027aa261f4b
+      internalID: 511543914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_49
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 175
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9eca3f3b0e33b4abad6ef846db85c7
+      internalID: -693821848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b656cf50048324192c75c2a458da4d
+      internalID: 1723596743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_51
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 140
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6744fa4da9beb4e821b9b92bfbd18d
+      internalID: -1908022888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_52
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 140
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a213b712f5c87e409f8bf237de7ee56
+      internalID: 1380270072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_53
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 140
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52861db36d77ce5488b7204dcae885bc
+      internalID: 274231115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_54
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 140
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48af58d181e5b25409e417f2e3f4b1a0
+      internalID: -2132961534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_55
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 140
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a961ce68ad994c84bb76566530716d27
+      internalID: -2079101388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_56
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 140
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02884f5ce87a9bf428c013562627965b
+      internalID: -1307687002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_57
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 140
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdea3d4b28460e479d4fb0c20c0c67f
+      internalID: -750134928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_58
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 140
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6617d338ce405a14a854a52736277a18
+      internalID: 1151507571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_59
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 140
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90963a5d98ee224f81b9d15bcc18a58
+      internalID: 1509422766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4a67ab74b117c45b84477529467df5
+      internalID: 1671969215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_61
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 105
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5c8082e2dadc04287e9bd7813feda4
+      internalID: -481467181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_62
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 105
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0286a9c8b8165a41a06f6370619ab4f
+      internalID: -1269813289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 105
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8162226e35fba9443ba1b52cac1d27c7
+      internalID: 1195547750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_64
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 105
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef03de3b5527aa44b69105e568b23a2
+      internalID: 2071424898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_65
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 105
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76de8aec8e7a684cb244c7fb7f7abad
+      internalID: -1574700040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_66
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 105
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bccf50ade335da4b83b06827bdae838
+      internalID: 897735495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_67
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 105
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5269f9cec0e29fb4d92ac328a72457e7
+      internalID: -1589828610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_68
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 105
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9449ac2aae1c247a8bbedd0f4a06e0
+      internalID: -603792241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_69
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 105
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cd69c14f214834480705c7fd6bc55f
+      internalID: 933826502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8158254b7888a68479c01c4021825d81
+      internalID: -1819107258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_71
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 70
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e38919c8d860bd498b852b76e248306
+      internalID: 150394714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 70
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b7f6e79497b8c4ebdc1193391a7c8b
+      internalID: -1559429992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_73
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 70
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6146d3a3301f5e4699e409d220ac56a
+      internalID: 924482483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_74
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 70
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1157e150309b3b4dbd75e37cc619ad7
+      internalID: 49183614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_75
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 70
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc9f3699f9af9d4cb575314a96df9a4
+      internalID: 1096584731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 70
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c07245599647a240ae60f98fe74bb0d
+      internalID: 183977302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_77
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 70
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d86c6fa3df92e24b802f4b3e13f700f
+      internalID: 1892472135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_78
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 70
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ac22bb097e82e47b7d609e185d203a
+      internalID: 1251163089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_79
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 70
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e91fbfc6a83b940af0b704f42ececa
+      internalID: 1563555718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5602d7d280d5984582b79dde61ba6dc
+      internalID: 1817692066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_81
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 35
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa57007cd1602f4a9ca8bf5f25592cb
+      internalID: 1206371343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_82
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 35
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60c28f9c8bc0db4aae25d96dc8e0814
+      internalID: 1635842564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_FrostFuel_34x35_83
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 35
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8299b9a0436361459571c9426617567
+      internalID: 1642662140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BattleSkill_FrostFuel_34x35_9: 1246556170
+      BattleSkill_FrostFuel_34x35_71: 150394714
+      BattleSkill_FrostFuel_34x35_36: -2030920919
+      BattleSkill_FrostFuel_34x35_75: 1096584731
+      BattleSkill_FrostFuel_34x35_41: -722742906
+      BattleSkill_FrostFuel_34x35_78: 1251163089
+      BattleSkill_FrostFuel_34x35_80: 1817692066
+      BattleSkill_FrostFuel_34x35_1: 711743348
+      BattleSkill_FrostFuel_34x35_76: 183977302
+      BattleSkill_FrostFuel_34x35_34: 1860554449
+      BattleSkill_FrostFuel_34x35_40: -1150733499
+      BattleSkill_FrostFuel_34x35_2: 1039187411
+      BattleSkill_FrostFuel_34x35_63: 1195547750
+      BattleSkill_FrostFuel_34x35_48: 511543914
+      BattleSkill_FrostFuel_34x35_6: 1694379682
+      BattleSkill_FrostFuel_34x35_67: -1589828610
+      BattleSkill_FrostFuel_34x35_44: -637553304
+      BattleSkill_FrostFuel_34x35_11: 1041006721
+      BattleSkill_FrostFuel_34x35_79: 1563555718
+      BattleSkill_FrostFuel_34x35_22: -480947028
+      BattleSkill_FrostFuel_34x35_27: 1499140127
+      BattleSkill_FrostFuel_34x35_57: -750134928
+      BattleSkill_FrostFuel_34x35_37: 1795694224
+      BattleSkill_FrostFuel_34x35_16: 1191977687
+      BattleSkill_FrostFuel_34x35_25: 1959533594
+      BattleSkill_FrostFuel_34x35_59: 1509422766
+      BattleSkill_FrostFuel_34x35_77: 1892472135
+      BattleSkill_FrostFuel_34x35_49: -693821848
+      BattleSkill_FrostFuel_34x35_83: 1642662140
+      BattleSkill_FrostFuel_34x35_45: -1186470161
+      BattleSkill_FrostFuel_34x35_29: 1981071084
+      BattleSkill_FrostFuel_34x35_52: 1380270072
+      BattleSkill_FrostFuel_34x35_15: -870348863
+      BattleSkill_FrostFuel_34x35_13: 1964054170
+      BattleSkill_FrostFuel_34x35_43: 248995952
+      BattleSkill_FrostFuel_34x35_50: 1723596743
+      BattleSkill_FrostFuel_34x35_54: -2132961534
+      BattleSkill_FrostFuel_34x35_56: -1307687002
+      BattleSkill_FrostFuel_34x35_12: 834446416
+      BattleSkill_FrostFuel_34x35_21: 982495945
+      BattleSkill_FrostFuel_34x35_28: -580078690
+      BattleSkill_FrostFuel_34x35_51: -1908022888
+      BattleSkill_FrostFuel_34x35_18: 1965645980
+      BattleSkill_FrostFuel_34x35_4: -222567184
+      BattleSkill_FrostFuel_34x35_46: -1766837213
+      BattleSkill_FrostFuel_34x35_19: -93568538
+      BattleSkill_FrostFuel_34x35_38: -295968436
+      BattleSkill_FrostFuel_34x35_72: -1559429992
+      BattleSkill_FrostFuel_34x35_64: 2071424898
+      BattleSkill_FrostFuel_34x35_69: 933826502
+      BattleSkill_FrostFuel_34x35_81: 1206371343
+      BattleSkill_FrostFuel_34x35_7: -1201710268
+      BattleSkill_FrostFuel_34x35_58: 1151507571
+      BattleSkill_FrostFuel_34x35_70: -1819107258
+      BattleSkill_FrostFuel_34x35_0: -797312829
+      BattleSkill_FrostFuel_34x35_17: 282745720
+      BattleSkill_FrostFuel_34x35_73: 924482483
+      BattleSkill_FrostFuel_34x35_26: 1439124810
+      BattleSkill_FrostFuel_34x35_5: -1142785289
+      BattleSkill_FrostFuel_34x35_8: 1869126067
+      BattleSkill_FrostFuel_34x35_10: 121551276
+      BattleSkill_FrostFuel_34x35_35: 190901291
+      BattleSkill_FrostFuel_34x35_33: -972237001
+      BattleSkill_FrostFuel_34x35_65: -1574700040
+      BattleSkill_FrostFuel_34x35_31: -923053024
+      BattleSkill_FrostFuel_34x35_82: 1635842564
+      BattleSkill_FrostFuel_34x35_20: 356671605
+      BattleSkill_FrostFuel_34x35_66: 897735495
+      BattleSkill_FrostFuel_34x35_74: 49183614
+      BattleSkill_FrostFuel_34x35_60: 1671969215
+      BattleSkill_FrostFuel_34x35_24: 1768458339
+      BattleSkill_FrostFuel_34x35_53: 274231115
+      BattleSkill_FrostFuel_34x35_32: -1435406832
+      BattleSkill_FrostFuel_34x35_68: -603792241
+      BattleSkill_FrostFuel_34x35_23: -1847183950
+      BattleSkill_FrostFuel_34x35_47: 269462790
+      BattleSkill_FrostFuel_34x35_61: -481467181
+      BattleSkill_FrostFuel_34x35_42: 824764922
+      BattleSkill_FrostFuel_34x35_14: 786240092
+      BattleSkill_FrostFuel_34x35_39: -1530912923
+      BattleSkill_FrostFuel_34x35_55: -2079101388
+      BattleSkill_FrostFuel_34x35_30: 1099398505
+      BattleSkill_FrostFuel_34x35_62: -1269813289
+      BattleSkill_FrostFuel_34x35_3: -1957773484
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

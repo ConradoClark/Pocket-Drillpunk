@@ -17,6 +17,9 @@ namespace Assets.Scripts.Battle
         public abstract event Action<int> OnHit;
 
         public abstract void Hit(int damage);
+        public abstract void Shield(int shield);
+
+        public int CurrentShield { get; set; }
 
         protected override void OnAwake()
         {

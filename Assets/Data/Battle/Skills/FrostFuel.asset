@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b972382fc10fc7444890eb085a8bd67d, type: 3}
+  m_Name: FrostFuel
+  m_EditorClassIdentifier: 
+  SkillEffect: {fileID: 11400000, guid: 730e1d4560f9f9d4a8b23218dd56def2, type: 2}
+  EffectDelayInSeconds: 1
+  Element: 2
+  Power: 2
+  Shield: 0
+  Stun: 0
+  SelfDamage: 0
+  Name: Frost Fuel
+  NeutralCost: 15
+  FireCost: 0
+  IceCost: 10
+  BioCost: 0
+  CrystalCost: 0
+  ScalesWithDrillPower: 0
+  ScalesWithJetpackPower: 1
+  ScalesWithMaxHP: 0
+  Animation: DrillBattler_TurnBack
+  DurationInSeconds: 4

@@ -1,0 +1,1939 @@
+fileFormatVersion: 2
+guid: de6b204718e949d488dc9de0d7a502cc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5705a9b15cae6438f5a23a5f0f632c
+      internalID: -1579074540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5229cbcd60d1140459c5ca5c5359679a
+      internalID: 2112067939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aee9e4260238a9459f66f83544ea6a4
+      internalID: 1712433043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f797bbcbce90824a918f775bb4dbf57
+      internalID: -1220406882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbb08d91d5757c4794101ce803bda7c
+      internalID: -1603736687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9717538d1c2fed48a8628bdfb92c7d2
+      internalID: -516399058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83357f2721e8bd48942a6eff6efa48f
+      internalID: -2111722412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb558d2b334b0d4e94497202b5d9e0d
+      internalID: 689023953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5706874cfdafa49ae456a20c860599
+      internalID: -967801837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ee0b14a53493b4b8ef9f564d4c1c1d
+      internalID: -328675897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9e3b51a2343004a978ba9dc5632078
+      internalID: 1465645976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd8057a4df29f64789f9d1ad294d5af
+      internalID: -1154418496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c9706629b40a04895e5e695c5d91cf
+      internalID: 1922262655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445d7824f12f70b4197f6405ad2eaa5f
+      internalID: -390604868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efe32be681e23442939dfed83703ba5
+      internalID: 54982196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_15
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2d44faaa96d3e438cdcd4b3e45b937
+      internalID: 550666518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91aa9e34340ce46468fed33f71d6dc6c
+      internalID: -1386476865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_17
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbf84ced8bd52d499dc10d4b651ecc8
+      internalID: -2109970792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e46e2487df9fd04f9fd6abad92536b3
+      internalID: 1725414511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_19
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41cb38e9e8f68542a8563d367fd582e
+      internalID: -826480180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1216cfb2405a99b40a25ffb4e233cd6b
+      internalID: 403394335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9529587da796054ea94f039f4d14fec
+      internalID: 128207048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbd17b12b018f048a446c458bd69dcf
+      internalID: 1120386285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_23
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7af1cab9fc99784ab0b69ef7487e806
+      internalID: -274648861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_24
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53ea105ebfd690449ef7ce7063656b4
+      internalID: -281676539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e1627f4d7ead04690f98a1128f991b
+      internalID: 13927334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_26
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e78973f1f0cf48479a5eaadfba0a6d8
+      internalID: 448609518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ceda98662173c458e823ccc39580ee
+      internalID: 1141496176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_28
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7debf69a132939341b54c5cd2d885a00
+      internalID: 166053781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_29
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 259
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aca065181238484aa719798ff2b9711
+      internalID: -1327019594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6e51b4a88b0634c9accbc7d75ce007
+      internalID: 968572578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba79269f7c8dae4db19d65f491042bb
+      internalID: -1219719250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_32
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7e5bff23ea193488e219f4e2e5efe6
+      internalID: 1218192015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_33
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c285ccaa640bc1469b5ff338745f4b7
+      internalID: 1047678806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5ca21ee8afb86429b6ad125582846c
+      internalID: -412590885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_35
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5763b38abc03d084bae8e52ce0bbbfd7
+      internalID: 174685835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_36
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40557577927791844a7755b145b5bf27
+      internalID: 784421997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_37
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b354c26cb7d28a14e89a5c409f387ce5
+      internalID: 108036491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_38
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b30e5f16ae6656449fba79a6de4c80b
+      internalID: 495297684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_39
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 222
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e882ce6fe7fa0e44957b8f06710bd0e
+      internalID: -1886282023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2c416343083824e8e1bd022fc9dfb2
+      internalID: 317762794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34f474d0e9bb564aa395810fc1fdc94
+      internalID: 814625450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_42
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcedbaa866b08543b60f2848d08b1c4
+      internalID: 308450876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_43
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113293ef16a5df547b23b3b2f7a43c0d
+      internalID: -1010860672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_44
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae76e6684c618041a84e6d7e07bdccd
+      internalID: 1424555619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_45
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a82803d8c27f484d8fba8d7c406b2b1
+      internalID: -439189190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_46
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73eed40436c16fc4ab51c7bc1aebd788
+      internalID: -750518613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_47
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784cbb9c74cc0204bab7b0bce51f911a
+      internalID: 1631167173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_48
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce05fbd04e8b42744afac11672e8f838
+      internalID: 615278795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_49
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 185
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999d4a0f942af2843b972f9dcfbda6c5
+      internalID: 922434591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4817006627a8343810ce1dcf617a3e
+      internalID: 179693482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_51
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efc255df20eecc42bd17c4481b35968
+      internalID: -821985683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_52
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b287110499c74344bae4332acb409afe
+      internalID: 1849517869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_53
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874cadfd1a0a89a4ab5547cf1486b134
+      internalID: 1517275154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_54
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be272d80b250ab04ebb5b187f627d622
+      internalID: -1569740243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_55
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849e74a5f6826dc4894baf7c09aff386
+      internalID: -1737735625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_56
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424a2e3dc88b313468ec18fdb6b83a6d
+      internalID: -435049075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_57
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03118ee6bd07654e970a2833ba28a66
+      internalID: 773421889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_58
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12136c7a5999ef48ae70672e3be19d7
+      internalID: 1925747744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_59
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 148
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a33a219a6c3534596ff9b37d4d9d64
+      internalID: -123888510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6feaea1f51cd004581d42c2c2110c64
+      internalID: -862459811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_61
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1dc058d49c1fc4e8f5cbf01abbe136
+      internalID: 1386538569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_62
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cea9f780ce8b4048b233a881b4af2d3
+      internalID: -1224310442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_63
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b4528d9e22fb04d86ff5c0873fd622
+      internalID: 1769704055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_64
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e077b6c44c152b24c85adec44fa50c75
+      internalID: 366530170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_65
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a184b0d6bae52994cae666306444fa31
+      internalID: 80803379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_66
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a37e5efde2e020468b8d5f7d8f28341
+      internalID: -874151420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_67
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a0654affda58b4bab5e7d3b1dad836
+      internalID: 668921852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_68
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8666e0f590fcc479a3aca037303407
+      internalID: -1347502511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_69
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 111
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958ff399250a513408d56774e7dd862f
+      internalID: 463971217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1286683f007e9ad44b7b5ad187c1dd2e
+      internalID: -311651423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_71
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ed8af91a98827479b083ad8b69f34e
+      internalID: 1112550515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_72
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cd90b6699d8bb499719e1e94375d1d
+      internalID: 1551850032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_73
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3575b9b2c38cf4793f9aa7cedbfc0f
+      internalID: -569241816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_74
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3ce566314aa0f4b939d0d438b5a05c
+      internalID: -1212262425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_75
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be7a16914ef6ab499da21359f1e89dc
+      internalID: -1515774309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_76
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c631477f84b9c1418b8c29ad2bc6b7e
+      internalID: 982432031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_77
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff654d635f4f074d924a48162f6eb6e
+      internalID: -53094818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_78
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03097000669dda4e850188a19b9ff8b
+      internalID: -934403339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_79
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 74
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cb7c5452279d54ba791a47f5091846
+      internalID: 459404685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a381f45fabe97b54ba0921190e5e5003
+      internalID: 839473991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_EtherDrill_37x37_81
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 37
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a554ef57bad2d945b9d9b769c03a568
+      internalID: -28407879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BattleSkill_EtherDrill_37x37_7: 689023953
+      BattleSkill_EtherDrill_37x37_3: -1220406882
+      BattleSkill_EtherDrill_37x37_67: 668921852
+      BattleSkill_EtherDrill_37x37_5: -516399058
+      BattleSkill_EtherDrill_37x37_8: -967801837
+      BattleSkill_EtherDrill_37x37_34: -412590885
+      BattleSkill_EtherDrill_37x37_54: -1569740243
+      BattleSkill_EtherDrill_37x37_31: -1219719250
+      BattleSkill_EtherDrill_37x37_1: 2112067939
+      BattleSkill_EtherDrill_37x37_76: 982432031
+      BattleSkill_EtherDrill_37x37_49: 922434591
+      BattleSkill_EtherDrill_37x37_57: 773421889
+      BattleSkill_EtherDrill_37x37_61: 1386538569
+      BattleSkill_EtherDrill_37x37_63: 1769704055
+      BattleSkill_EtherDrill_37x37_60: -862459811
+      BattleSkill_EtherDrill_37x37_6: -2111722412
+      BattleSkill_EtherDrill_37x37_43: -1010860672
+      BattleSkill_EtherDrill_37x37_72: 1551850032
+      BattleSkill_EtherDrill_37x37_68: -1347502511
+      BattleSkill_EtherDrill_37x37_12: 1922262655
+      BattleSkill_EtherDrill_37x37_20: 403394335
+      BattleSkill_EtherDrill_37x37_29: -1327019594
+      BattleSkill_EtherDrill_37x37_23: -274648861
+      BattleSkill_EtherDrill_37x37_56: -435049075
+      BattleSkill_EtherDrill_37x37_39: -1886282023
+      BattleSkill_EtherDrill_37x37_69: 463971217
+      BattleSkill_EtherDrill_37x37_30: 968572578
+      BattleSkill_EtherDrill_37x37_53: 1517275154
+      BattleSkill_EtherDrill_37x37_77: -53094818
+      BattleSkill_EtherDrill_37x37_15: 550666518
+      BattleSkill_EtherDrill_37x37_24: -281676539
+      BattleSkill_EtherDrill_37x37_10: 1465645976
+      BattleSkill_EtherDrill_37x37_14: 54982196
+      BattleSkill_EtherDrill_37x37_28: 166053781
+      BattleSkill_EtherDrill_37x37_58: 1925747744
+      BattleSkill_EtherDrill_37x37_22: 1120386285
+      BattleSkill_EtherDrill_37x37_45: -439189190
+      BattleSkill_EtherDrill_37x37_9: -328675897
+      BattleSkill_EtherDrill_37x37_79: 459404685
+      BattleSkill_EtherDrill_37x37_64: 366530170
+      BattleSkill_EtherDrill_37x37_55: -1737735625
+      BattleSkill_EtherDrill_37x37_19: -826480180
+      BattleSkill_EtherDrill_37x37_52: 1849517869
+      BattleSkill_EtherDrill_37x37_25: 13927334
+      BattleSkill_EtherDrill_37x37_59: -123888510
+      BattleSkill_EtherDrill_37x37_13: -390604868
+      BattleSkill_EtherDrill_37x37_42: 308450876
+      BattleSkill_EtherDrill_37x37_46: -750518613
+      BattleSkill_EtherDrill_37x37_44: 1424555619
+      BattleSkill_EtherDrill_37x37_18: 1725414511
+      BattleSkill_EtherDrill_37x37_66: -874151420
+      BattleSkill_EtherDrill_37x37_0: -1579074540
+      BattleSkill_EtherDrill_37x37_26: 448609518
+      BattleSkill_EtherDrill_37x37_48: 615278795
+      BattleSkill_EtherDrill_37x37_75: -1515774309
+      BattleSkill_EtherDrill_37x37_80: 839473991
+      BattleSkill_EtherDrill_37x37_41: 814625450
+      BattleSkill_EtherDrill_37x37_51: -821985683
+      BattleSkill_EtherDrill_37x37_37: 108036491
+      BattleSkill_EtherDrill_37x37_36: 784421997
+      BattleSkill_EtherDrill_37x37_16: -1386476865
+      BattleSkill_EtherDrill_37x37_71: 1112550515
+      BattleSkill_EtherDrill_37x37_11: -1154418496
+      BattleSkill_EtherDrill_37x37_4: -1603736687
+      BattleSkill_EtherDrill_37x37_21: 128207048
+      BattleSkill_EtherDrill_37x37_38: 495297684
+      BattleSkill_EtherDrill_37x37_50: 179693482
+      BattleSkill_EtherDrill_37x37_32: 1218192015
+      BattleSkill_EtherDrill_37x37_70: -311651423
+      BattleSkill_EtherDrill_37x37_65: 80803379
+      BattleSkill_EtherDrill_37x37_17: -2109970792
+      BattleSkill_EtherDrill_37x37_74: -1212262425
+      BattleSkill_EtherDrill_37x37_62: -1224310442
+      BattleSkill_EtherDrill_37x37_27: 1141496176
+      BattleSkill_EtherDrill_37x37_2: 1712433043
+      BattleSkill_EtherDrill_37x37_40: 317762794
+      BattleSkill_EtherDrill_37x37_33: 1047678806
+      BattleSkill_EtherDrill_37x37_47: 1631167173
+      BattleSkill_EtherDrill_37x37_78: -934403339
+      BattleSkill_EtherDrill_37x37_73: -569241816
+      BattleSkill_EtherDrill_37x37_35: 174685835
+      BattleSkill_EtherDrill_37x37_81: -28407879
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

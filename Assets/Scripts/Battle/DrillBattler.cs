@@ -24,6 +24,10 @@ namespace Assets.Scripts.Battle
 
         public override event Action<int> OnHit;
 
+        public override void Shield(int shield)
+        {
+            CurrentShield = shield;
+        }
         protected override void OnAwake()
         {
             base.OnAwake();

@@ -58,7 +58,6 @@ namespace Assets.Scripts.UI
                 .UsingTimer(UITimer)
                 .Build();
 
-            yield return TimeYields.WaitSeconds(UITimer, 1);
             yield return Choose().AsCoroutine();
             yield return Hide().AsCoroutine();
         }

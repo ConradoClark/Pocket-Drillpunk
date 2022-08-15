@@ -374,7 +374,9 @@ MonoBehaviour:
   OriginalWeight: 0.065
   SpawnRates:
   - Enemy: {fileID: 11400000, guid: ef0932e2b792ec94199e1ff078ecd243, type: 2}
-    SpawnWeight: 1
+    SpawnWeight: 0.5
+  - Enemy: {fileID: 11400000, guid: f357d942d74bd5a43b9cc14ec230079d, type: 2}
+    SpawnWeight: 0.5
   HasMinDepth: 0
   MinDepth: 0
   HasMaxDepth: 1

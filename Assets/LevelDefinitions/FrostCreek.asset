@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3653f8369ae979f4d89e985f74a230fa, type: 3}
   m_Name: FrostCreek
   m_EditorClassIdentifier: 
-  Rules: []
+  Rules:
+  - TileIdentifier: {fileID: 11400000, guid: 5d30623c3a235754a890d0d893364ed2, type: 2}
+    Weight: 0.1
   BackgroundColor: {r: 0.23188858, g: 0.24457103, b: 0.254717, a: 1}
   GlobalLightColor: {r: 0.24705882, g: 0.24705882, b: 0.24705882, a: 1}
+  BossBattler: {fileID: 11400000, guid: 84a50605a73c2f34d9edb287f455987d, type: 2}
+  BossDepth: -180

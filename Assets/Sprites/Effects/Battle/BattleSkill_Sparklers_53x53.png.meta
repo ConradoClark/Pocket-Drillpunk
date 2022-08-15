@@ -1,0 +1,2137 @@
+fileFormatVersion: 2
+guid: 38a62dbffc1349642b443141be861c47
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7beb31ba18c1d44cb649c9618864310
+      internalID: -814295368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cfdeb716cb3e645b8d4a1e2db6bcfa
+      internalID: 532352022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c04da28a2fc7cf4ba5de90f10f0ce0a
+      internalID: 269067388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f594997a91240341bc021e5e05ae36b
+      internalID: 1133371762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4fec14369b1e44a9f2d307addf2029
+      internalID: -48716633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fde896676e0884419b9e94bcaf1cfd4
+      internalID: 1636929042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effc766415a4bd24eb382fbbd417fdf5
+      internalID: -1253628356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8617d4d8f49a4a408415e5e1635d6c2
+      internalID: 1421000210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065b11efbe5f4f94e887f23eb9e52053
+      internalID: -1619905642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_9
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 477
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239389792f950ce4e9bd04930ac87c0d
+      internalID: -1286171282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4224b64b75d1d4b42ae481b1eeccd18d
+      internalID: -823775313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f366f7fd27eba649b6e1b0b906c61ef
+      internalID: 572736703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8096a9421a9da0c4b91ace435e6bb1b7
+      internalID: -249320525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ba9cd204c7cbe49ab4de52a06ee32e
+      internalID: 1955825680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68dc53e0fd8726429d8cdf330fc0cc5
+      internalID: 1156083855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b58684ef441f9409d656f523993fd6
+      internalID: -1162280663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464712404385d584cbc6c10265ace6a0
+      internalID: 1032003898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_17
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966d9a20ab6a4754ab027b65a9c3a401
+      internalID: -1448451105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_18
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1816e5a6e98056b459b423fffd054e17
+      internalID: 150123045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_19
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 424
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6018bc586ce0fe243aa6327619ff3b2e
+      internalID: 1782426590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66962b9b3fd12e34fa708e42c580ead1
+      internalID: -187393726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_21
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612542bfd4dcf8945bc006befe422c37
+      internalID: 1166947573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8406ce404a4d784db29933504e4c252
+      internalID: -1929955417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_23
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef33a7c4d83469444a690ea0d4ac0ff6
+      internalID: 1811852290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_24
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7dff632f03e9141a6d52e8da7bcead
+      internalID: 160583892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_25
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842f4c02550b53541b6e64e5020338cd
+      internalID: -278137112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_26
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc63359782004814c974575309beda06
+      internalID: -547655033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_27
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0020fb90e6a446e42b73fb9720a0dadb
+      internalID: 389212886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_28
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504c8e72fe73c024cb38de971b068ce2
+      internalID: -2078709165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_29
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 371
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bc8b834ada132488c29a48855f780b
+      internalID: -652791514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b1c9c413517e64ebc455cd9c7d42c7
+      internalID: 911131816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82829750319b2c43b26662ab987b587
+      internalID: -1879201538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_32
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d0522f62e96844e9c160cba0b67435
+      internalID: 716011722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_33
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d10d55b8e50b24199898afd19525a8
+      internalID: 908061704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74aa993ccda6e349859abd6c07ed644
+      internalID: -1927161437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_35
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff062451ab43bad4d960a9cf2c0454b8
+      internalID: 1814764234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_36
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe239cc9b418d6f4a94646ca6bd0e3b0
+      internalID: 401563292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_37
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5153602f26ec5a45ae2f59bbfc40cc3
+      internalID: -174424406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cccd43c122dbc1479afeebd745f8eb9
+      internalID: 895391677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_39
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 318
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa9a6ca884013542a1840935a1cf3b5
+      internalID: -1434575848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299d4afd46953c047a0e4d96707c66c3
+      internalID: -981238182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_41
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5701f841249cbe7409ca25d7b5ad38dc
+      internalID: 1196094976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800755dd50a3225418de66127fc02676
+      internalID: -1876711393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dfd03573b0b2c4b8233cc72d006f6b
+      internalID: -1414158380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_44
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918e73b18d583f049b9982a5394ed882
+      internalID: -2124080685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_45
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bc6ef4147dabf428e5c36ca220a60d
+      internalID: 2085836249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_46
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2141321d94364fa4783af15afabc9bb0
+      internalID: 1890130415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_47
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463f3390eecd3ce4d87a3ed5ebbe5bf3
+      internalID: 475966477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_48
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1571f8e233e4348b22375e2d40692e
+      internalID: -1887385428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_49
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 265
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e7a37c3837ebc45ba8f05725c73b81
+      internalID: -535376196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c8be680186ad44b82c77b3076c8d57
+      internalID: -1632630654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_51
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c73322b67968b4fae9ea13ae6c7ac1
+      internalID: 1557303977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_52
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03705e34af452c45b2d188fee29c8a8
+      internalID: -1546841667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_53
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbc5339f6320294ab435314dd8d9ebd
+      internalID: 460537033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_54
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba5b7d7c3b0e194c9879b12c5264ebf
+      internalID: -556335214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_55
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faafd3e827eb7442813fa5ae1aced80
+      internalID: 186911907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_56
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257591fec2d7dcb45988c81a1c0c3e12
+      internalID: 638164830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_57
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1ea7735e1aaf7419fd878ad9097298
+      internalID: -736642630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_58
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37f142fee803a64584816a505c53f66
+      internalID: -605315354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_59
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 212
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54701e1021ea8849971dc8816e16490
+      internalID: -1911487850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81ed9ee1b4b31b4083b1c25c4316b18
+      internalID: 1077555988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_61
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ec57d90d9b31d4b936a5422e352e42
+      internalID: -1117969893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88d52c6f365d38488467a73951da409
+      internalID: 1406626631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_63
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83b7416cde0fb1498391850a88ec541
+      internalID: -1706494583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_64
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52f39ce58f825441bc22cbdd7cd263c
+      internalID: 1645972196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_65
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b87e188e591f634ab94286597932670
+      internalID: -580377156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_66
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46b7f2e104bdad4293a4162ebeb6a1a
+      internalID: -85716463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_67
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847f037aed8c8e04cb0b9e5284451d85
+      internalID: 221069842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_68
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35a2e513e355df46843e5d130fdd5ec
+      internalID: 1156230813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_69
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 159
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce929f9a9eb8c04489962e32f1521bc3
+      internalID: -2114192150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df376d08fec2e7d458d55db34a2059da
+      internalID: 123068251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_71
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6956ec3cacc49b145918ac447e2b257f
+      internalID: -1912443654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_72
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5367261fd21bb84797f79a040fb32d3
+      internalID: -629248722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_73
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ef1cd3751546441ad2cc49f6666e17
+      internalID: -904773037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_74
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d63465b8edde124681ff2fc0563f497
+      internalID: -325764062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_75
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9546e11bb9bee7d45b455d896d99d2ad
+      internalID: -1068038591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_76
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f494cf85bd6b946b3d7bbd2bda2896
+      internalID: 1668141157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_77
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70144456acc3b2842a6189cc00bc8e0d
+      internalID: 1551881587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_78
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a2ceb67b45c9e43b651a0f18a07980
+      internalID: 1260321647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_79
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 106
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183d6dd7a1068f94e89ff8de5c41022b
+      internalID: -281368412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a4a230398924f4985fbfbd0fca9dd7
+      internalID: -1415004236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_81
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b93252bdd1ba1d48aea5bb7743749ea
+      internalID: 1052726308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_82
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2165a30eefd892949a565ce676c899bd
+      internalID: -666946002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_83
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6270fcb488b5c114a9b7e15bcd4a52aa
+      internalID: 1969823480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_84
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218ebc18e96a28e4a89f146a8774fbc3
+      internalID: -1085188882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_85
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4d5bec03830744ca2f3bc37839adc5
+      internalID: 15821373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_86
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f06d25cf870dbd40ac7fdf702cb1d44
+      internalID: 154070018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_87
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28415756821ca7a46bd58a4b13ac6fee
+      internalID: 1700751037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_88
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a0b2f61f13bae418b76a74041bb704
+      internalID: 247767624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_89
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 53
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b63d3b96052374298d6a08a5a5b38e
+      internalID: 564022205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sparklers_53x53_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da0941c822c2e5459c7def205d559dd
+      internalID: -1384532551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BattleSkill_Sparklers_53x53_56: 638164830
+      BattleSkill_Sparklers_53x53_65: -580377156
+      BattleSkill_Sparklers_53x53_25: -278137112
+      BattleSkill_Sparklers_53x53_16: 1032003898
+      BattleSkill_Sparklers_53x53_75: -1068038591
+      BattleSkill_Sparklers_53x53_11: 572736703
+      BattleSkill_Sparklers_53x53_3: 1133371762
+      BattleSkill_Sparklers_53x53_69: -2114192150
+      BattleSkill_Sparklers_53x53_76: 1668141157
+      BattleSkill_Sparklers_53x53_24: 160583892
+      BattleSkill_Sparklers_53x53_1: 532352022
+      BattleSkill_Sparklers_53x53_55: 186911907
+      BattleSkill_Sparklers_53x53_20: -187393726
+      BattleSkill_Sparklers_53x53_59: -1911487850
+      BattleSkill_Sparklers_53x53_2: 269067388
+      BattleSkill_Sparklers_53x53_23: 1811852290
+      BattleSkill_Sparklers_53x53_30: 911131816
+      BattleSkill_Sparklers_53x53_81: 1052726308
+      BattleSkill_Sparklers_53x53_28: -2078709165
+      BattleSkill_Sparklers_53x53_58: -605315354
+      BattleSkill_Sparklers_53x53_63: -1706494583
+      BattleSkill_Sparklers_53x53_22: -1929955417
+      BattleSkill_Sparklers_53x53_46: 1890130415
+      BattleSkill_Sparklers_53x53_38: 895391677
+      BattleSkill_Sparklers_53x53_42: -1876711393
+      BattleSkill_Sparklers_53x53_67: 221069842
+      BattleSkill_Sparklers_53x53_0: -814295368
+      BattleSkill_Sparklers_53x53_18: 150123045
+      BattleSkill_Sparklers_53x53_66: -85716463
+      BattleSkill_Sparklers_53x53_12: -249320525
+      BattleSkill_Sparklers_53x53_10: -823775313
+      BattleSkill_Sparklers_53x53_40: -981238182
+      BattleSkill_Sparklers_53x53_90: -1384532551
+      BattleSkill_Sparklers_53x53_4: -48716633
+      BattleSkill_Sparklers_53x53_45: 2085836249
+      BattleSkill_Sparklers_53x53_26: -547655033
+      BattleSkill_Sparklers_53x53_51: 1557303977
+      BattleSkill_Sparklers_53x53_35: 1814764234
+      BattleSkill_Sparklers_53x53_27: 389212886
+      BattleSkill_Sparklers_53x53_37: -174424406
+      BattleSkill_Sparklers_53x53_85: 15821373
+      BattleSkill_Sparklers_53x53_31: -1879201538
+      BattleSkill_Sparklers_53x53_60: 1077555988
+      BattleSkill_Sparklers_53x53_8: -1619905642
+      BattleSkill_Sparklers_53x53_14: 1156083855
+      BattleSkill_Sparklers_53x53_15: -1162280663
+      BattleSkill_Sparklers_53x53_80: -1415004236
+      BattleSkill_Sparklers_53x53_32: 716011722
+      BattleSkill_Sparklers_53x53_47: 475966477
+      BattleSkill_Sparklers_53x53_39: -1434575848
+      BattleSkill_Sparklers_53x53_44: -2124080685
+      BattleSkill_Sparklers_53x53_54: -556335214
+      BattleSkill_Sparklers_53x53_61: -1117969893
+      BattleSkill_Sparklers_53x53_86: 154070018
+      BattleSkill_Sparklers_53x53_41: 1196094976
+      BattleSkill_Sparklers_53x53_43: -1414158380
+      BattleSkill_Sparklers_53x53_34: -1927161437
+      BattleSkill_Sparklers_53x53_82: -666946002
+      BattleSkill_Sparklers_53x53_74: -325764062
+      BattleSkill_Sparklers_53x53_49: -535376196
+      BattleSkill_Sparklers_53x53_57: -736642630
+      BattleSkill_Sparklers_53x53_79: -281368412
+      BattleSkill_Sparklers_53x53_48: -1887385428
+      BattleSkill_Sparklers_53x53_5: 1636929042
+      BattleSkill_Sparklers_53x53_71: -1912443654
+      BattleSkill_Sparklers_53x53_52: -1546841667
+      BattleSkill_Sparklers_53x53_68: 1156230813
+      BattleSkill_Sparklers_53x53_33: 908061704
+      BattleSkill_Sparklers_53x53_70: 123068251
+      BattleSkill_Sparklers_53x53_17: -1448451105
+      BattleSkill_Sparklers_53x53_21: 1166947573
+      BattleSkill_Sparklers_53x53_36: 401563292
+      BattleSkill_Sparklers_53x53_6: -1253628356
+      BattleSkill_Sparklers_53x53_62: 1406626631
+      BattleSkill_Sparklers_53x53_83: 1969823480
+      BattleSkill_Sparklers_53x53_78: 1260321647
+      BattleSkill_Sparklers_53x53_53: 460537033
+      BattleSkill_Sparklers_53x53_88: 247767624
+      BattleSkill_Sparklers_53x53_13: 1955825680
+      BattleSkill_Sparklers_53x53_29: -652791514
+      BattleSkill_Sparklers_53x53_7: 1421000210
+      BattleSkill_Sparklers_53x53_64: 1645972196
+      BattleSkill_Sparklers_53x53_50: -1632630654
+      BattleSkill_Sparklers_53x53_87: 1700751037
+      BattleSkill_Sparklers_53x53_77: 1551881587
+      BattleSkill_Sparklers_53x53_89: 564022205
+      BattleSkill_Sparklers_53x53_19: 1782426590
+      BattleSkill_Sparklers_53x53_72: -629248722
+      BattleSkill_Sparklers_53x53_9: -1286171282
+      BattleSkill_Sparklers_53x53_73: -904773037
+      BattleSkill_Sparklers_53x53_84: -1085188882
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

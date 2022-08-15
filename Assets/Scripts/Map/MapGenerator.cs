@@ -19,6 +19,7 @@ public class MapGenerator : BaseGameObject
 
     public event Action OnPopulate;
     public MapRules RulesToManipulate;
+    public MapRules BossRule;
     public LevelDefinition CurrentLevelDefinition;
     public Light2D GlobalLight;
 
@@ -48,6 +49,7 @@ public class MapGenerator : BaseGameObject
     {
         Camera.main.backgroundColor = CurrentLevelDefinition.BackgroundColor;
         GlobalLight.color = CurrentLevelDefinition.GlobalLightColor;
+        BossRule.MaxDepthLimit = CurrentLevelDefinition.BossDepth;
         var rulesToAdd = new List<MapRules.WeightRule>();
         foreach (var rule in CurrentLevelDefinition.Rules)
         {

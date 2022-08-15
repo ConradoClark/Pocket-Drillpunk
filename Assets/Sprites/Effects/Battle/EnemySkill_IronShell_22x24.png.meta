@@ -1,0 +1,2137 @@
+fileFormatVersion: 2
+guid: 21245924a2e1f8b45a4c8fec20226451
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618de691b096b9f46b4a3134b6208e99
+      internalID: 801009936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 216
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee90bb2741695c42acc296d87442c7c
+      internalID: -1562327811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 216
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3940d9f26c3bfea43bac2f90aa18ea98
+      internalID: 504744028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 216
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f9f77d4b414a247b513ad825ffc9e5
+      internalID: -2097019570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 216
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf165f9dc30304c48ba7b028d7ca0645
+      internalID: 439429230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 216
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938e031790dd44f4495fc72f77333a39
+      internalID: -925799489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 216
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f76be5f9d91fd46a74bf531bcda9fb
+      internalID: -546660858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 216
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05117a93fc57dea4c91b49cae9d0524e
+      internalID: -1840528611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 216
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6524d8661a6474ab26c0806d323558
+      internalID: -207693492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 216
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82969dbbca954be458de44038b701b63
+      internalID: -459863387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea774b00ac8d5ed449567d7b8b015393
+      internalID: 220603936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 192
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc38350a445c9884f8c0da1cd41466f7
+      internalID: -483659898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 192
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95159ffbd149f3545bc1672dcad998b5
+      internalID: 755656453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 192
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e615477175c7be142a601619f77649e6
+      internalID: -1905767972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 192
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68885978230303246b89a89484d7f889
+      internalID: -1264115846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 192
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3386a0cfbd4aff458c9db884c5b4e98
+      internalID: -1063461887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 192
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400da804c8be8a94c8151baf4496ac4d
+      internalID: 1519200896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 192
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877f95bac63b6574ab5ffcbf477c49e1
+      internalID: 1020576434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_18
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f6c356ad3591549a3539c611c25766
+      internalID: 207417149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 192
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cfbb898dd12454f9c735b54c1b5daf
+      internalID: -1715264717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bb91cd373d511488da66d1d610d1a9
+      internalID: -1070316441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_21
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0239764f1bcf344a7fd85173418515
+      internalID: -509760352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_22
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bd3475d5702324396f4c8ad16fef1f
+      internalID: 273962241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_23
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebd43bb1703f7a48b78d57398c6f4de
+      internalID: -1101070917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_24
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa0a9f4809fd3a48a0faeed1391ee8e
+      internalID: 1912871413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_25
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4796d3946f209d4f88cd3deb5b4aa5d
+      internalID: -2089600715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_26
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8eca4f3dda44c944994f8d5cde01416
+      internalID: -966884554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_27
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2903c83021801ce4e93be26de9dc7dfe
+      internalID: 411537232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_28
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4da460cbcc3eaf48b3b890fa58b2f0a
+      internalID: -350900685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_29
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6168d2f72594cfb41aea4b3923654a5a
+      internalID: 1718776811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c142a596abdb7e4fa12702ab4840190
+      internalID: 283883765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_31
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 144
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de179bf90e437f49a710595d6d6efea
+      internalID: -262510547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_32
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 144
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cccbd0ef50fed44dac995c5399f5664
+      internalID: -1096849739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_33
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 144
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c0dc46e682d68418278a5c4988f0af
+      internalID: 1980736754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_34
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 144
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914b5811324298b4baec11807d96071c
+      internalID: -1700412906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_35
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 144
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5de02db103fd12488d0144bb30987ff
+      internalID: -1025819349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 144
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f942dc1c8a7e52c408ec22c8e9fbd944
+      internalID: 377082605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_37
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 144
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5274de74bf16d5544ab3368cff0858c8
+      internalID: 1314064897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_38
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff1f4ddf1c5c7d4d914ac9c7025b9c2
+      internalID: 1760967560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_39
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 144
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af73cc9d6840ab9419a5a4c379bc3a7b
+      internalID: -1794723418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3548947c5f722aa4687284973a38d321
+      internalID: 181109903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_41
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 120
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9473645e5b3abd45baaca81150bcbdd
+      internalID: -8817224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_42
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 120
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114f53e5e764c014a84d0a70603bc506
+      internalID: -1530790673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 120
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d5b60de383d8b47bc7e8865cad1043
+      internalID: 1131251166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 120
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9095f24aabb494494361d72862a79a
+      internalID: 853742063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_45
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 120
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b817424bd02b4d469466730ae27e3e3
+      internalID: -1656620905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_46
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 120
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4cdf033150bdd43820bef71c87312a
+      internalID: 1102808807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_47
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 120
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859c6d0197eb88349ad68938b57f3565
+      internalID: 536072079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_48
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 120
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9805f6ee50f15f409a92e2ce7b33461
+      internalID: -1944217465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_49
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 120
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf7ff8b332f16f4daf627465c25e28b
+      internalID: -1589905161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fa699d11a56824291795f9fa1a1177
+      internalID: -154663406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_51
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1d02422c634be4b900ee5f91a0911b
+      internalID: 1670088593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_52
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612541648a9447b48b6d5e7038647a52
+      internalID: -1170882995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_53
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b4e139ccdd1804398b023958fcd49e
+      internalID: -1698262771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_54
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca98d1d20c823f1468caef0153a2c2a0
+      internalID: 1082015351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_55
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9882d7ca5795c1b4394a7f073d2bab24
+      internalID: -1908623836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_56
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddeda1222e70424abdff32c28d0dc74
+      internalID: 1934572357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_57
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32503bd317b05a040a5c5761b3306f4c
+      internalID: -1872804931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_58
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a80f3fdd878914ea21258e0afd85e7
+      internalID: 1834294304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_59
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c3320231b55404d81db1f04bfa98f1
+      internalID: -1176062085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7f51899b9292c48b1bc739293bea3e
+      internalID: -610971085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_61
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 72
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5413e3f8ad3116b43bef67225ab301b2
+      internalID: -248808551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_62
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 72
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f4a1bb821536343a3739c806fbc7f2
+      internalID: -1073927114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_63
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 72
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3793c516ad89584daebaf8ada8183df
+      internalID: -1897581659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_64
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 72
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611418242f20e0d4dbbbb348d8089a6c
+      internalID: 1464225088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_65
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 72
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ca01c986d97b74f8c0d047f3863ea5
+      internalID: 1027587936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_66
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 72
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5918a2239a933846a4d32dfebc0eceb
+      internalID: -1551532596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_67
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 72
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc2b28bf7f689a4184e683282809cfa
+      internalID: 750335732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_68
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 72
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce8aaeb1dc751e4eb3c737d87d4dd6f
+      internalID: -1316825217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_69
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 72
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454884c797ad0bb4d8aefe2665f2a711
+      internalID: 1164648530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac976ff44802fb4fbd891b5b290b29a
+      internalID: 1392353106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_71
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 48
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2caba378511c94b961ca68a11fbb96
+      internalID: 1583821324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_72
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 48
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369ce6bb86d30ee4e991739243cfb2b7
+      internalID: 692261549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 48
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeb5531655ab70418e2a8ed71d8223b
+      internalID: 2037432433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_74
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 48
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f899438f18cc744bbd694c654657230
+      internalID: 1443148144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_75
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 48
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ada497c063640c40be411726511e523
+      internalID: -1371665639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_76
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 48
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d783b929a3e10d47b0bed6c2844e51c
+      internalID: -828621685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_77
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 48
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316a81b16ef0a9b4a9b7c37b94cac2d7
+      internalID: 81247570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_78
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5ee78b6e41bc44c9f3fdc54a01ac2b
+      internalID: -673090325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_79
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 48
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819977b2eea0aeb4c8d9fc4dc6a87a00
+      internalID: 683292486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdf04ea8fdde7b47ac56aa253c49049
+      internalID: -1613776909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_81
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 24
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce459a1b671ce8043937a69bf3094d66
+      internalID: 339624418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_82
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 24
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e246ef56138834d9dafca395d7efc7
+      internalID: 1023067365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_83
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 24
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1471714235e304ab8dbb2e1ed06678
+      internalID: -349258395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_84
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 24
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ace7db699f89848af3e01f7225f48a
+      internalID: 1777950717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_85
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 24
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e26c6d6ce8d6a49bd60ca4cdd0e42a
+      internalID: -1400547875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_86
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 24
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e95a992ee181244895f8e4b86f6e3f
+      internalID: 709855389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_87
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 24
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fab0c41317af5a42885d02ad1933da4
+      internalID: 761420264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_88
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 24
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b000b3f8557b54dbca0536438d6815
+      internalID: -469183276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_89
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 24
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa081c8a1af04c43bdf30a57830a93e
+      internalID: 1932136089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkill_IronShell_22x24_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e758c112950d944a1e84aa2b62c869
+      internalID: -2112870462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemySkill_IronShell_22x24_38: 1760967560
+      EnemySkill_IronShell_22x24_90: -2112870462
+      EnemySkill_IronShell_22x24_73: 2037432433
+      EnemySkill_IronShell_22x24_44: 853742063
+      EnemySkill_IronShell_22x24_68: -1316825217
+      EnemySkill_IronShell_22x24_30: 283883765
+      EnemySkill_IronShell_22x24_76: -828621685
+      EnemySkill_IronShell_22x24_66: -1551532596
+      EnemySkill_IronShell_22x24_20: -1070316441
+      EnemySkill_IronShell_22x24_81: 339624418
+      EnemySkill_IronShell_22x24_18: 207417149
+      EnemySkill_IronShell_22x24_54: 1082015351
+      EnemySkill_IronShell_22x24_78: -673090325
+      EnemySkill_IronShell_22x24_36: 377082605
+      EnemySkill_IronShell_22x24_43: 1131251166
+      EnemySkill_IronShell_22x24_55: -1908623836
+      EnemySkill_IronShell_22x24_77: 81247570
+      EnemySkill_IronShell_22x24_88: -469183276
+      EnemySkill_IronShell_22x24_0: 801009936
+      EnemySkill_IronShell_22x24_71: 1583821324
+      EnemySkill_IronShell_22x24_64: 1464225088
+      EnemySkill_IronShell_22x24_35: -1025819349
+      EnemySkill_IronShell_22x24_32: -1096849739
+      EnemySkill_IronShell_22x24_63: -1897581659
+      EnemySkill_IronShell_22x24_17: 1020576434
+      EnemySkill_IronShell_22x24_33: 1980736754
+      EnemySkill_IronShell_22x24_3: -2097019570
+      EnemySkill_IronShell_22x24_4: 439429230
+      EnemySkill_IronShell_22x24_22: 273962241
+      EnemySkill_IronShell_22x24_74: 1443148144
+      EnemySkill_IronShell_22x24_52: -1170882995
+      EnemySkill_IronShell_22x24_75: -1371665639
+      EnemySkill_IronShell_22x24_67: 750335732
+      EnemySkill_IronShell_22x24_14: -1264115846
+      EnemySkill_IronShell_22x24_87: 761420264
+      EnemySkill_IronShell_22x24_50: -154663406
+      EnemySkill_IronShell_22x24_12: 755656453
+      EnemySkill_IronShell_22x24_34: -1700412906
+      EnemySkill_IronShell_22x24_15: -1063461887
+      EnemySkill_IronShell_22x24_40: 181109903
+      EnemySkill_IronShell_22x24_41: -8817224
+      EnemySkill_IronShell_22x24_46: 1102808807
+      EnemySkill_IronShell_22x24_5: -925799489
+      EnemySkill_IronShell_22x24_86: 709855389
+      EnemySkill_IronShell_22x24_69: 1164648530
+      EnemySkill_IronShell_22x24_9: -459863387
+      EnemySkill_IronShell_22x24_62: -1073927114
+      EnemySkill_IronShell_22x24_45: -1656620905
+      EnemySkill_IronShell_22x24_1: -1562327811
+      EnemySkill_IronShell_22x24_39: -1794723418
+      EnemySkill_IronShell_22x24_57: -1872804931
+      EnemySkill_IronShell_22x24_61: -248808551
+      EnemySkill_IronShell_22x24_56: 1934572357
+      EnemySkill_IronShell_22x24_65: 1027587936
+      EnemySkill_IronShell_22x24_2: 504744028
+      EnemySkill_IronShell_22x24_37: 1314064897
+      EnemySkill_IronShell_22x24_29: 1718776811
+      EnemySkill_IronShell_22x24_26: -966884554
+      EnemySkill_IronShell_22x24_51: 1670088593
+      EnemySkill_IronShell_22x24_31: -262510547
+      EnemySkill_IronShell_22x24_59: -1176062085
+      EnemySkill_IronShell_22x24_10: 220603936
+      EnemySkill_IronShell_22x24_84: 1777950717
+      EnemySkill_IronShell_22x24_85: -1400547875
+      EnemySkill_IronShell_22x24_24: 1912871413
+      EnemySkill_IronShell_22x24_16: 1519200896
+      EnemySkill_IronShell_22x24_82: 1023067365
+      EnemySkill_IronShell_22x24_80: -1613776909
+      EnemySkill_IronShell_22x24_7: -1840528611
+      EnemySkill_IronShell_22x24_8: -207693492
+      EnemySkill_IronShell_22x24_28: -350900685
+      EnemySkill_IronShell_22x24_60: -610971085
+      EnemySkill_IronShell_22x24_72: 692261549
+      EnemySkill_IronShell_22x24_27: 411537232
+      EnemySkill_IronShell_22x24_49: -1589905161
+      EnemySkill_IronShell_22x24_13: -1905767972
+      EnemySkill_IronShell_22x24_19: -1715264717
+      EnemySkill_IronShell_22x24_47: 536072079
+      EnemySkill_IronShell_22x24_6: -546660858
+      EnemySkill_IronShell_22x24_70: 1392353106
+      EnemySkill_IronShell_22x24_89: 1932136089
+      EnemySkill_IronShell_22x24_53: -1698262771
+      EnemySkill_IronShell_22x24_25: -2089600715
+      EnemySkill_IronShell_22x24_48: -1944217465
+      EnemySkill_IronShell_22x24_21: -509760352
+      EnemySkill_IronShell_22x24_79: 683292486
+      EnemySkill_IronShell_22x24_58: 1834294304
+      EnemySkill_IronShell_22x24_23: -1101070917
+      EnemySkill_IronShell_22x24_42: -1530790673
+      EnemySkill_IronShell_22x24_11: -483659898
+      EnemySkill_IronShell_22x24_83: -349258395
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

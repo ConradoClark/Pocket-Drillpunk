@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b972382fc10fc7444890eb085a8bd67d, type: 3}
+  m_Name: GuardMix
+  m_EditorClassIdentifier: 
+  SkillEffect: {fileID: 11400000, guid: 8826b55ebe641cb43b164d0e4714566c, type: 2}
+  EffectDelayInSeconds: 1
+  Element: 4
+  Power: 0
+  Shield: 2
+  Stun: 0
+  SelfDamage: 0
+  Name: Guard Mix
+  NeutralCost: 0
+  FireCost: 3
+  IceCost: 3
+  BioCost: 3
+  CrystalCost: 0
+  ScalesWithDrillPower: 0
+  ScalesWithJetpackPower: 0
+  ScalesWithMaxHP: 0
+  Animation: 
+  DurationInSeconds: 2.8

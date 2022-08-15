@@ -13,3 +13,7 @@ MonoBehaviour:
   m_Name: CurrentLevelDefinition
   m_EditorClassIdentifier: 
   Rules: []
+  BackgroundColor: {r: 0.21960784, g: 0.22745098, b: 0.17254902, a: 1}
+  GlobalLightColor: {r: 0.31198826, g: 0.38679248, b: 0.31733143, a: 1}
+  BossBattler: {fileID: 11400000, guid: d9fe058e7856f8744a5bea4cdc882091, type: 2}
+  BossDepth: -20

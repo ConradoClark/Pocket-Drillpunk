@@ -32,6 +32,10 @@ namespace Assets.Scripts.Battle
             return AttackSelector == null ? EnemyAttack : AttackSelector.SelectAction();
         }
 
+        public override void Shield(int shield)
+        {
+        }
+
         protected override void OnAwake()
         {
             base.OnAwake();

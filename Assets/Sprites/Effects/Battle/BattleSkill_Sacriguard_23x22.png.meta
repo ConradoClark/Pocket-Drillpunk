@@ -1,0 +1,2137 @@
+fileFormatVersion: 2
+guid: 1e8cc0f2def3c254f834dd144dc1ba85
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e45ab2004a71de4f90f9b294d260f45
+      internalID: -188614297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 198
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50ce313279009a47b8c01887fcdb256
+      internalID: -1655168512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 198
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2560b9729bfcf469fe1862e75b04ce
+      internalID: 1370558699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 198
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a0f719c85cc6e48bc605097c39ad1b
+      internalID: 1869441241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 198
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6238febacf7b9e4aafd2fadef3dc00f
+      internalID: 1676151601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 198
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24daab61695bee49b8c76676d953f67
+      internalID: 384788752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 198
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a85267f6ce9ee34d84dc608df3f7fe2
+      internalID: 1035820866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 198
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532abdc274139db4881c180b4ccf9cdd
+      internalID: -277442502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 198
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e87c346c958f154aa2aee42e126df09
+      internalID: -1385330449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 198
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbd6af0d0a3ece4791d75d37081431f
+      internalID: -1034507990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8fe4596d14dd641b8c95317df5480b
+      internalID: 2141451494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 176
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3657933420ea7d54e83c5756177bae55
+      internalID: -228681358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_12
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 176
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37a25dddf742534b91f5756e754b7fe
+      internalID: -982046221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 176
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1db413f8ee3f97489b877951085c081
+      internalID: -985105693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_14
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 176
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70588917b469ce34a9abad2d301b4899
+      internalID: 1933066817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 176
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3a645aee48ef8498f042ae75e938f2
+      internalID: -1924803670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 176
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1645871660e9f0b40a957383d609a708
+      internalID: 356854510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_17
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 176
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9829539088658641974239be00e86db
+      internalID: 1559600212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 176
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05eff5bdabbffb14abe444eee68527c3
+      internalID: 449668950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 176
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361bff201a40b5d41aa945f882274243
+      internalID: -1089449301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d51778813b0f6448bb6de2e9ed6dce
+      internalID: 790117673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 154
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6381359e82236446bfd9d2fca3a5a7b
+      internalID: -1081941664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 154
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49350d14f21bb24999f4162da2b5d0d
+      internalID: -56419891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 154
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d682ab42879d44abb1238705fcfcf
+      internalID: 1643613092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 154
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe4d638df265e84080071b53b295e4d
+      internalID: 2066808759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 154
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66a69882fdd42b448a4672ddf8209e7
+      internalID: 1178181924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 154
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d64c118632ac214e956686069e2c865
+      internalID: -1658425501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_27
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 154
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b0fa78facaf434c92f24a2fb0e8abd
+      internalID: 1204571356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_28
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 154
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633e71dc481ee6043ab4920849966a25
+      internalID: -1285972727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_29
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 154
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b3d5ae1619cf44b9fb9c1828a293c2
+      internalID: -1571956758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6236f6f9863067c449c0d23eb20c62ff
+      internalID: -830690119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_31
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 132
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e009d7221c5bdb0458f38668e7576631
+      internalID: -1940728376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_32
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 132
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385a337162726bc44b0ab27877119675
+      internalID: 1053088018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_33
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 132
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58292894a540ea14792e5b67457b1803
+      internalID: -1543803396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_34
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 132
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a37da30bac3184aadf62f32cacbe86
+      internalID: -1208507951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_35
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 132
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b38ae1625b0484491f189d8fdb8ecd
+      internalID: -547697906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_36
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 132
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5b5528d38c92745b0d24437a7ffc4f
+      internalID: 1465143915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_37
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 132
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51d63dc55769df41a5c8f6f3c712c5f
+      internalID: 385791025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_38
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 132
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cad34d364257c14fb9cd59eafbfc045
+      internalID: 1424728401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_39
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 132
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f6b9c1e70acb74bb1d8ddf76e7f4f4
+      internalID: 905616490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9219e61eb9b7b934eb5e6da38233a2c5
+      internalID: -1634660800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_41
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc57091d88aae2a45b3cf33e7c52fbad
+      internalID: 656838709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d24613690b37f4f830eb4a2a631823
+      internalID: 504837834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_43
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f354ed4b0b4e43f47afaebe4208076a0
+      internalID: -1661939454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_44
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178f69455035c5e4186140fd06651f87
+      internalID: 1449209957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_45
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5934031fd637d22498f16cdc29bfe029
+      internalID: 1221248019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_46
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b3d46dad1eee944868492b7d5c50e0
+      internalID: -1553126298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_47
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28c1337d9f56f848924318700205128
+      internalID: 2030577130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_48
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6603c13563f4ebd42b89902fc75b27b2
+      internalID: -2000188034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_49
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b32da0e4cdba045ae15b20c41b68c7
+      internalID: 1529659508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda86cf2a25e6384d8a9219d9b7445b0
+      internalID: -375787004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_51
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8780634ad638964d9d50ef654a0a952
+      internalID: -542531779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_52
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98efc191a104ab740abeccf0b488390c
+      internalID: -1119423380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_53
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0361445954d7ed44d8805348cac61807
+      internalID: -1773666784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_54
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b32bf0f0cd21d4cbfa15cae9130fdf
+      internalID: 1630767457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_55
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944bad72108898149876779c1db25b65
+      internalID: 1921822744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_56
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c93f285fb71154f868ef5e4e897b0c
+      internalID: -131336052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_57
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da89376288b93f144b10a1e8fe97bf68
+      internalID: -298382134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_58
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e9da388d60a124b9c73ceea1a21005
+      internalID: 777714809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232cd8083913df842b39e3bd68af176a
+      internalID: -880748275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad15184e2a29254ea49a72dd5e15c39
+      internalID: 562639435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_61
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c686ce7a494f3b340a7c9cb9f3b31435
+      internalID: -382626441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_62
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9bcf21d35c0b04abdd339fcd8c3bf7
+      internalID: -1272835291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_63
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc77643b8045d11459863d55ab2206d4
+      internalID: 1269873000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_64
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dca78bb4f1d994c974ed1f1ed36cce
+      internalID: -553579301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_65
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659b2c1aefe33d04bbdce1b36e25a0c3
+      internalID: 394264505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_66
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4fe513284d31c4f825876d2ea33b46
+      internalID: -740990440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_67
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528d86511f6e2b141b4b6b5e5994b08b
+      internalID: -1386542216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_68
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4ab45dea224814586f12eaf9d61a76
+      internalID: 947934230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_69
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eafa4cfab251444c86f8c1c9ebc853e
+      internalID: 1842752821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724011d4cbdfd2e479a692753028be27
+      internalID: -1067950177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_71
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 44
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ca8ada5c0434740a1e3190151f83dd
+      internalID: -1887386236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_72
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 44
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ec5b90bc750a54ebbc8f59db99f91f
+      internalID: 1273418031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_73
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 44
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29a1fcbe535e674796acc47fd86987c
+      internalID: 1311825385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_74
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 44
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbf08eed58046942851908f9137223f
+      internalID: -1435448246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_75
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 44
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfee9368cef6a2d4abd6db6e02fb111f
+      internalID: 737596975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_76
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 44
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d62ea7fb45f2fe4e87f76ab692c24bd
+      internalID: 160026641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_77
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 44
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a25f25cac602f4aa635ffffc8aa814
+      internalID: 1908758565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_78
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 44
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94937e2f264cedb4688406d6939d51a0
+      internalID: 141383728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_79
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 44
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9f1bf06a44d65489e0955e3facd4b0
+      internalID: 1229732626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18588b18da59cf24298ff9fe64ccd890
+      internalID: 711937100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_81
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0a9c21233533a46bf8788e11eeb1cf
+      internalID: 1878320699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_82
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9f3abf51e16834c9d2395ff857afa7
+      internalID: 489448195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_83
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5960c26b7a8b1b4a91f9f3b71d35b88
+      internalID: 872348887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_84
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00276c3cee640ae439a46f5b3b6a534e
+      internalID: -1813590030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_85
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7945ff48f4f8b2c408e55eefb72f9872
+      internalID: -1308036609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_86
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99393860721d1d64da952be2ad850313
+      internalID: -309380303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_87
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29059701341a4e6419949350338e3ac8
+      internalID: 430166279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_88
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd03c2c98e4b7584793a953f5931e0a1
+      internalID: -1205495559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_89
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 22
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b3d05dbee580245ae6412eb8080e4d
+      internalID: 1673076307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleSkill_Sacriguard_23x22_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700facdcb16f7dc4280ea8dbdc518750
+      internalID: 138744471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BattleSkill_Sacriguard_23x22_63: 1269873000
+      BattleSkill_Sacriguard_23x22_69: 1842752821
+      BattleSkill_Sacriguard_23x22_22: -56419891
+      BattleSkill_Sacriguard_23x22_24: 2066808759
+      BattleSkill_Sacriguard_23x22_46: -1553126298
+      BattleSkill_Sacriguard_23x22_9: -1034507990
+      BattleSkill_Sacriguard_23x22_17: 1559600212
+      BattleSkill_Sacriguard_23x22_78: 141383728
+      BattleSkill_Sacriguard_23x22_18: 449668950
+      BattleSkill_Sacriguard_23x22_90: 138744471
+      BattleSkill_Sacriguard_23x22_73: 1311825385
+      BattleSkill_Sacriguard_23x22_75: 737596975
+      BattleSkill_Sacriguard_23x22_19: -1089449301
+      BattleSkill_Sacriguard_23x22_72: 1273418031
+      BattleSkill_Sacriguard_23x22_44: 1449209957
+      BattleSkill_Sacriguard_23x22_4: 1676151601
+      BattleSkill_Sacriguard_23x22_87: 430166279
+      BattleSkill_Sacriguard_23x22_16: 356854510
+      BattleSkill_Sacriguard_23x22_30: -830690119
+      BattleSkill_Sacriguard_23x22_6: 1035820866
+      BattleSkill_Sacriguard_23x22_64: -553579301
+      BattleSkill_Sacriguard_23x22_70: -1067950177
+      BattleSkill_Sacriguard_23x22_20: 790117673
+      BattleSkill_Sacriguard_23x22_0: -188614297
+      BattleSkill_Sacriguard_23x22_82: 489448195
+      BattleSkill_Sacriguard_23x22_52: -1119423380
+      BattleSkill_Sacriguard_23x22_48: -2000188034
+      BattleSkill_Sacriguard_23x22_29: -1571956758
+      BattleSkill_Sacriguard_23x22_85: -1308036609
+      BattleSkill_Sacriguard_23x22_34: -1208507951
+      BattleSkill_Sacriguard_23x22_37: 385791025
+      BattleSkill_Sacriguard_23x22_49: 1529659508
+      BattleSkill_Sacriguard_23x22_58: 777714809
+      BattleSkill_Sacriguard_23x22_81: 1878320699
+      BattleSkill_Sacriguard_23x22_56: -131336052
+      BattleSkill_Sacriguard_23x22_88: -1205495559
+      BattleSkill_Sacriguard_23x22_41: 656838709
+      BattleSkill_Sacriguard_23x22_36: 1465143915
+      BattleSkill_Sacriguard_23x22_53: -1773666784
+      BattleSkill_Sacriguard_23x22_54: 1630767457
+      BattleSkill_Sacriguard_23x22_38: 1424728401
+      BattleSkill_Sacriguard_23x22_77: 1908758565
+      BattleSkill_Sacriguard_23x22_31: -1940728376
+      BattleSkill_Sacriguard_23x22_57: -298382134
+      BattleSkill_Sacriguard_23x22_45: 1221248019
+      BattleSkill_Sacriguard_23x22_62: -1272835291
+      BattleSkill_Sacriguard_23x22_59: -880748275
+      BattleSkill_Sacriguard_23x22_3: 1869441241
+      BattleSkill_Sacriguard_23x22_71: -1887386236
+      BattleSkill_Sacriguard_23x22_8: -1385330449
+      BattleSkill_Sacriguard_23x22_39: 905616490
+      BattleSkill_Sacriguard_23x22_43: -1661939454
+      BattleSkill_Sacriguard_23x22_14: 1933066817
+      BattleSkill_Sacriguard_23x22_86: -309380303
+      BattleSkill_Sacriguard_23x22_66: -740990440
+      BattleSkill_Sacriguard_23x22_76: 160026641
+      BattleSkill_Sacriguard_23x22_74: -1435448246
+      BattleSkill_Sacriguard_23x22_28: -1285972727
+      BattleSkill_Sacriguard_23x22_21: -1081941664
+      BattleSkill_Sacriguard_23x22_42: 504837834
+      BattleSkill_Sacriguard_23x22_5: 384788752
+      BattleSkill_Sacriguard_23x22_32: 1053088018
+      BattleSkill_Sacriguard_23x22_47: 2030577130
+      BattleSkill_Sacriguard_23x22_27: 1204571356
+      BattleSkill_Sacriguard_23x22_10: 2141451494
+      BattleSkill_Sacriguard_23x22_68: 947934230
+      BattleSkill_Sacriguard_23x22_11: -228681358
+      BattleSkill_Sacriguard_23x22_12: -982046221
+      BattleSkill_Sacriguard_23x22_33: -1543803396
+      BattleSkill_Sacriguard_23x22_50: -375787004
+      BattleSkill_Sacriguard_23x22_80: 711937100
+      BattleSkill_Sacriguard_23x22_13: -985105693
+      BattleSkill_Sacriguard_23x22_40: -1634660800
+      BattleSkill_Sacriguard_23x22_1: -1655168512
+      BattleSkill_Sacriguard_23x22_61: -382626441
+      BattleSkill_Sacriguard_23x22_79: 1229732626
+      BattleSkill_Sacriguard_23x22_23: 1643613092
+      BattleSkill_Sacriguard_23x22_15: -1924803670
+      BattleSkill_Sacriguard_23x22_35: -547697906
+      BattleSkill_Sacriguard_23x22_26: -1658425501
+      BattleSkill_Sacriguard_23x22_65: 394264505
+      BattleSkill_Sacriguard_23x22_60: 562639435
+      BattleSkill_Sacriguard_23x22_25: 1178181924
+      BattleSkill_Sacriguard_23x22_2: 1370558699
+      BattleSkill_Sacriguard_23x22_83: 872348887
+      BattleSkill_Sacriguard_23x22_84: -1813590030
+      BattleSkill_Sacriguard_23x22_51: -542531779
+      BattleSkill_Sacriguard_23x22_55: 1921822744
+      BattleSkill_Sacriguard_23x22_89: 1673076307
+      BattleSkill_Sacriguard_23x22_7: -277442502
+      BattleSkill_Sacriguard_23x22_67: -1386542216
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
