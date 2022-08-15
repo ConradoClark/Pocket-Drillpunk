@@ -42,6 +42,7 @@ public class UINumberRenderer : BaseUIObject
             number.material = DefaultMaterial;
             number.transform.SetParent(transform);
             number.sortingOrder = SortingOrder;
+            number.transform.localScale = Vector3.one;
             number.transform.localPosition = new Vector3(i * DistanceBetweenNumbers, 0);
             renderers.Add(number);
         }

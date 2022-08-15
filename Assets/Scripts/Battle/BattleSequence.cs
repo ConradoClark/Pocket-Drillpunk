@@ -143,8 +143,10 @@ namespace Assets.Scripts.Battle
                 var effectPool = _hitPoolManager.GetEffect(_enemyActionBar.SelectedAction.SkillEffect);
                 if (effectPool.TryGetFromPool(out effect))
                 {
-                    effect.Target = _drillBattler;
-                    effect.TotalDamage = Math.Clamp(_enemyActionBar.SelectedAction.Power - _drillBattler.CurrentShield, 0, int.MaxValue);
+                    effect.Target = _enemyActionBar.SelectedAction.Shield > 0 ? Enemy : _drillBattler;
+                    effect.TotalDamage =
+                        _enemyActionBar.SelectedAction.Shield > 0 ? _enemyActionBar.SelectedAction.Shield :
+                        Math.Clamp(_enemyActionBar.SelectedAction.Power - _drillBattler.CurrentShield, 0, int.MaxValue);
                 }
             }
 
@@ -173,9 +175,9 @@ namespace Assets.Scripts.Battle
                     effect.Target = _actionSelectorBar.SelectedAction.Shield > 0 ? _drillBattler : Enemy;
                     effect.TotalDamage = _actionSelectorBar.SelectedAction.Shield > 0 ? _actionSelectorBar.SelectedAction.CalculateShield(
                             _playerStats.DrillPower,
-                            _playerStats.JetpackBattery, _playerStats.MaxHP)
+                            _playerStats.JetpackBattery, _playerStats.MaxHP) 
                         : _actionSelectorBar.SelectedAction.CalculateDamage(_playerStats.DrillPower,
-                        _playerStats.JetpackBattery, _playerStats.MaxHP, Enemy.Element);
+                        _playerStats.JetpackBattery, _playerStats.MaxHP, Enemy.Element, Enemy.CurrentShield);
                 }
             }
 

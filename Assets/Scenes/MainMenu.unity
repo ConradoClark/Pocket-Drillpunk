@@ -382,7 +382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &472252742
 Transform:
   m_ObjectHideFlags: 0
@@ -709,6 +709,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &632266916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 632266917}
+  - component: {fileID: 632266918}
+  m_Layer: 0
+  m_Name: Boss At
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &632266917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632266916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.21, y: -3.99, z: 0}
+  m_LocalScale: {x: 16.66, y: 16.66, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1696422947}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &632266918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632266916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a89f80084db5648ac9651f022aa25b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Font: {fileID: 11400000, guid: 39f9aa53c33674341a667bc172dff9f6, type: 2}
+  DefaultMaterial: {fileID: 2100000, guid: a0d5a2bd18cfa28419ba1cb2d5fb5226, type: 2}
+  SortingOrder: 2
+  Text: Boss At
+  MaxLetters: 20
+  DistanceBetweenLetters: 0.04
+  AlignToRight: 0
 --- !u!1 &641398710
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,7 +946,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &880482174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1133,9 +1184,11 @@ MonoBehaviour:
   ButtonGroup: {fileID: 1696422948}
   LevelName: Cavernalia
   LevelDifficulty: Normal
+  BossDepth: 83
   DifficultyTextMaterial: {fileID: 2100000, guid: 8fba4870972b49845b8c00ef0f068f28, type: 2}
   LevelNameRenderer: {fileID: 1402345413}
   LevelDifficultyRenderer: {fileID: 438988310}
+  BossDepthRenderer: {fileID: 1637607670}
 --- !u!61 &1049997243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1459,9 +1512,11 @@ MonoBehaviour:
   ButtonGroup: {fileID: 1696422948}
   LevelName: Miningrove
   LevelDifficulty: ' easy  '
+  BossDepth: 38
   DifficultyTextMaterial: {fileID: 2100000, guid: 87cf30e11a49c8142a7a24e9c1eb3f9f, type: 2}
   LevelNameRenderer: {fileID: 1402345413}
   LevelDifficultyRenderer: {fileID: 438988310}
+  BossDepthRenderer: {fileID: 1637607670}
 --- !u!212 &1384675539
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1629,6 +1684,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1637607668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637607669}
+  - component: {fileID: 1637607670}
+  m_Layer: 0
+  m_Name: BossAtNumber
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1637607669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637607668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: -3.99, z: 0}
+  m_LocalScale: {x: 16.66, y: 16.66, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1696422947}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1637607670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637607668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c195a8925b246f429a9dec71e76b2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Font: {fileID: 11400000, guid: 5f34944b61180ce44ae88b4be3a9d856, type: 2}
+  DefaultMaterial: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  SortingOrder: 2
+  Number: 0
+  Digits: 3
+  AnimateNumberOnChange: 0
+  Animation: {fileID: 0}
+  DistanceBetweenNumbers: 0.04
+  Mockup: {fileID: 0}
 --- !u!1 &1696422946
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,6 +1773,9 @@ Transform:
   - {fileID: 1997772147}
   - {fileID: 1402345412}
   - {fileID: 438988309}
+  - {fileID: 632266917}
+  - {fileID: 1637607669}
+  - {fileID: 1739772282}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1681,6 +1792,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveInput: {fileID: 11400000, guid: 1a4fc6754bd120647b366709a1d781ee, type: 2}
+--- !u!1 &1739772281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1739772282}
+  - component: {fileID: 1739772283}
+  m_Layer: 0
+  m_Name: FT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1739772282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739772281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: -3.99, z: 0}
+  m_LocalScale: {x: 16.66, y: 16.66, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1696422947}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1739772283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739772281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a89f80084db5648ac9651f022aa25b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Font: {fileID: 11400000, guid: 39f9aa53c33674341a667bc172dff9f6, type: 2}
+  DefaultMaterial: {fileID: 2100000, guid: a0d5a2bd18cfa28419ba1cb2d5fb5226, type: 2}
+  SortingOrder: 2
+  Text: FT
+  MaxLetters: 20
+  DistanceBetweenLetters: 0.04
+  AlignToRight: 0
 --- !u!1 &1769564647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1971,7 +2133,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966613249}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.99, y: -1.95, z: 0}
+  m_LocalPosition: {x: 2.99, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2123,7 +2285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Horizontal: 1
-  Index: 1
+  Index: 2
   MouseClickInput: {fileID: 11400000, guid: 89bdb75e4545e364baebea7823740e3f, type: 2}
   ConfirmInput: {fileID: 11400000, guid: e58a79351213ff44bb998f82d3288b4e, type: 2}
   MousePosInput: {fileID: 11400000, guid: 6a1a7b6f45eddb84fb1023b30a39eeb2, type: 2}
@@ -2139,9 +2301,11 @@ MonoBehaviour:
   ButtonGroup: {fileID: 1696422948}
   LevelName: Frostcreek
   LevelDifficulty: ' hard  '
+  BossDepth: 121
   DifficultyTextMaterial: {fileID: 2100000, guid: 276bf37e91d3c7d4d940166b326186c3, type: 2}
   LevelNameRenderer: {fileID: 1402345413}
   LevelDifficultyRenderer: {fileID: 438988310}
+  BossDepthRenderer: {fileID: 1637607670}
 --- !u!212 &1997772150
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2463,10 +2627,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 8.5625
     y: 0
-    width: 1
-    height: 1
+    width: 6
+    height: 6
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

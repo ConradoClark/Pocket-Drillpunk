@@ -11,10 +11,12 @@ namespace Assets.Scripts.UI.MainMenu
     {
         public string LevelName;
         public string LevelDifficulty;
+        public int BossDepth;
         public Material DifficultyTextMaterial;
 
         public UITextRenderer LevelNameRenderer;
         public UITextRenderer LevelDifficultyRenderer;
+        public UINumberRenderer BossDepthRenderer;
 
         public override void Select()
         {
@@ -22,6 +24,7 @@ namespace Assets.Scripts.UI.MainMenu
             LevelNameRenderer.Text = LevelName;
             LevelDifficultyRenderer.Text = LevelDifficulty;
             LevelDifficultyRenderer.DefaultMaterial = DifficultyTextMaterial;
+            BossDepthRenderer.Number = BossDepth;
         }
 
     }

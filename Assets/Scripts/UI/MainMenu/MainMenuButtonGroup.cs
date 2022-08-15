@@ -20,6 +20,9 @@ namespace Assets.Scripts.UI.MainMenu
         private InputAction _moveAction;
         private int _latestHorizontalSelected;
 
+        private Dictionary<int, MainMenuButton> _dict;
+
+
         public bool IsExecutingAction { get; set; }
 
         protected override void OnAwake()
@@ -31,8 +34,10 @@ namespace Assets.Scripts.UI.MainMenu
 
         public void AddButton(MainMenuButton button, int index)
         {
-            _buttons ??= new List<MainMenuButton>();
-            _buttons.Insert(Math.Clamp(index, 0, _buttons.Count), button);
+            _dict ??= new Dictionary<int, MainMenuButton>();
+            _dict[index] = button;
+
+            _buttons = _dict.OrderBy(d => d.Key).Select(d => d.Value).ToList();
         }
 
         public void RemoveButton(MainMenuButton button)

@@ -34,6 +34,7 @@ namespace Assets.Scripts.Battle
         private BattleSequence _battleSequence;
         private EnemyBattlerPoolManager _poolManager;
         private UIExpGainedPopup _expGainedPopup;
+        private MapGenerator _mapGenerator;
 
         public Counter EnemyHPCounter;
         public SpriteRenderer EnemyNameSpriteRenderer;
@@ -41,6 +42,8 @@ namespace Assets.Scripts.Battle
         public AudioSource MainSong;
         public AudioSource BattleSong;
 
+        private bool _isBossBattle;
+        private UIVictoryPopup _victoryPopup;
 
         protected override void OnAwake()
         {
@@ -54,6 +57,8 @@ namespace Assets.Scripts.Battle
             _battleSequence = SceneObject<BattleSequence>.Instance(true);
             _poolManager = SceneObject<EnemyBattlerPoolManager>.Instance(true);
             _expGainedPopup = SceneObject<UIExpGainedPopup>.Instance(true);
+            _mapGenerator = SceneObject<MapGenerator>.Instance(true);
+            _victoryPopup = SceneObject<UIVictoryPopup>.Instance(true);
             BattleFrame.transform.position = BattleFrameInitialPosition;
         }
 
@@ -93,6 +98,11 @@ namespace Assets.Scripts.Battle
 
             if (result)
             {
+                if (_isBossBattle)
+                {
+                    yield return _victoryPopup.Show().AsCoroutine();
+                }
+
                 _expGainedPopup.ExpGainedCounter.Count = enemy.Experience;
                 yield return _expGainedPopup.Show().AsCoroutine();
                 MainSong.UnPause();
@@ -115,6 +125,8 @@ namespace Assets.Scripts.Battle
             //yield return TimeYields.WaitSeconds(UITimer, 1f); // wait intro
             yield return ShowBattleFrame().AsCoroutine();
             GameRenderer.material = WhiteMaterial;
+
+            _isBossBattle = _mapGenerator.CurrentLevelDefinition.BossBattler == enemyBattler;
 
             var pool = _poolManager.GetEffect(enemyBattler);
             if (pool.TryGetFromPool(out var enemy))

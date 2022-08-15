@@ -1,4 +1,5 @@
-﻿using Licht.Unity.Objects;
+﻿using System;
+using Licht.Unity.Objects;
 using UnityEngine;
 
 namespace Assets.Scripts.Battle
@@ -29,12 +30,15 @@ namespace Assets.Scripts.Battle
         public string Animation;
         public float DurationInSeconds;
 
-        public int CalculateDamage(int drillPower, int jetpackPower, int maxHP, BattleElement enemyElement)
+        public int CalculateDamage(int drillPower, int jetpackPower, int maxHP, BattleElement enemyElement, int enemyShield)
         {
-            return Power +
+            var dmg = Power +
                    (ScalesWithDrillPower ? (drillPower - 1) : 0) +
                    (ScalesWithJetpackPower ? (jetpackPower - 1) : 0) +
-                   (ScalesWithMaxHP ? (maxHP - 4) : 0);
+                   (ScalesWithMaxHP ? (maxHP - 4) : 0)
+                   - enemyShield;
+
+            return Math.Clamp(dmg, 0, int.MaxValue);
         }
 
         public int CalculateShield(int drillPower, int jetpackPower, int maxHP)

@@ -6,6 +6,7 @@ using Assets.Scripts.Drill;
 using Assets.Scripts.Inventory;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Extensions;
+using Licht.Unity.Mixins;
 using Licht.Unity.Objects;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -16,8 +17,9 @@ namespace Assets.Scripts.UI
     {
         [Header("Input")]
         public ScriptInput MoveInput;
-
         public ScriptInput ConfirmInput;
+        public ScriptInput MousePosInput;
+        public ScriptInput ClickInput;
 
         [Header("Animation")]
         public float HiddenPosition;
@@ -68,6 +70,7 @@ namespace Assets.Scripts.UI
         public AudioSource ConfirmSound;
         public AudioSource DenySound;
 
+        private ClickableObjectMixin _clickable;
         protected override void OnAwake()
         {
             base.OnAwake();
@@ -79,6 +82,9 @@ namespace Assets.Scripts.UI
             _moveAction = playerInput.actions[MoveInput.ActionName];
             _confirmAction = playerInput.actions[ConfirmInput.ActionName];
             _battleSequence = SceneObject<BattleSequence>.Instance(true);
+            _clickable = new ClickableObjectMixinBuilder(this, MousePosInput, ClickInput)
+                .WithCamera(SceneObject<UICamera>.Instance().Camera)
+                .Build();
         }
 
         public Material GetActionMaterial()
@@ -120,7 +126,7 @@ namespace Assets.Scripts.UI
             ActionValueRenderer.enabled = SelectedAction.Power > 0 || SelectedAction.Shield > 0;
             ActionValueRenderer.Number = SelectedAction.Power > 0 ? 
                 SelectedAction.CalculateDamage(_playerStats.DrillPower, _playerStats.JetpackBattery, _playerStats.MaxHP,
-                    _battleSequence.Enemy.Element) 
+                    _battleSequence.Enemy.Element, 0) 
                 : SelectedAction.CalculateShield(_playerStats.DrillPower, _playerStats.JetpackBattery, _playerStats.MaxHP);
         }
 
@@ -169,7 +175,7 @@ namespace Assets.Scripts.UI
         private IEnumerable<IEnumerable<Action>> HandleInputs()
         {
             handle:
-            while (!_confirmAction.WasPerformedThisFrame())
+            while (!_confirmAction.WasPerformedThisFrame() && !_clickable.WasClickedThisFrame())
             {
                 if (_moveAction.WasPerformedThisFrame())
                 {
